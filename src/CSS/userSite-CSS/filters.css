@@ -1,0 +1,9 @@
+.filters{
+    border: 1px solid black;
+    padding: .5rem;
+    display: flex;
+    gap: 1rem;
+}
+.selectRange{
+    cursor: pointer;
+}
