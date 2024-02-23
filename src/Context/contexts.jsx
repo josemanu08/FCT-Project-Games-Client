@@ -22,7 +22,7 @@ export const Filter = ({ children }) => {
 export const UserData = ({ children }) => {
   const [userData, setUserData] = useState({
     xboxUsername: null,
-    playStationUsername: 'josemadrake'
+    playStationUsername: null
   })
 
   return (

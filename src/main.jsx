@@ -5,9 +5,9 @@ import './index.css'
 import { Filter, UserData } from './Context/contexts.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <UserData>
       <App />
     </UserData>
-  </React.StrictMode>
+  </>
 )

@@ -1,6 +1,10 @@
-import { React } from 'react'
+import { React, useState, useContext, useEffect } from 'react'
 import { Link, Routes, Route } from 'react-router-dom'
 import { UserInfo, Filter, Table } from './sectionComponents'
+import myGames from '../mocks/myGames.json'
+import myGamesXbox from '../mocks/myGamesXbox.json'
+
+import { userDataContext } from '../Context/contexts'
 
 export const Aside = () => {
   return (
@@ -13,11 +17,26 @@ export const Aside = () => {
 
 // ----------Rutas-Principales-----------
 export const userSite = () => {
+  const [xboxState, setXboxState] = useState(null)
+  const [playStationState, setPlaystationState] = useState(null)
+
+  const { userData } = useContext(userDataContext)
+
+  useEffect(() => {
+    if (!userData.playStationUsername) return
+    setPlaystationState(myGames.trophyTitles)
+  }, [userData])
+
+  useEffect(() => {
+    if (!userData.xboxUsername) return
+    setXboxState(myGamesXbox.titles)
+  }, [userData])
+
   return (
     <section className='userSite'>
         <UserInfo></UserInfo>
         <Filter></Filter>
-        <Table></Table>
+        <Table gameData={{}}></Table>
     </section>
   )
 }

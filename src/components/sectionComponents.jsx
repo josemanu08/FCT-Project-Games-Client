@@ -57,29 +57,16 @@ const GameItem = ({ gameData }) => {
   )
 }
 
-export const Table = ({ item }) => {
-  const [gameData, setGameData] = useState({
-    playStation: null,
-    xbox: null
-  })
-
-  const { userData } = useContext(userDataContext)
-
-  useEffect(() => {
-    if (!userData.playStationUsername) return
-    setGameData((previous) => {
-      return {
-        ...previous,
-        playStation: myGames
-      }
-    })
-  }, [userData])
-
+export const Table = ({ gameData }) => {
   return (
         <table border='1px' className='gamesTable'>
           <thead></thead>
           <tbody>
-            {}
+            {
+            (gameData)
+              ? 'Hay fiesta 😘'
+              : 'no hay fiesta'
+            }
           </tbody>
           <tfoot></tfoot>
         </table>

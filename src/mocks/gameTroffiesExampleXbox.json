@@ -1,0 +1,2414 @@
+{
+    "achievements": [
+      {
+        "id": "2",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Real boy : They all lived happily ever after",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "fa1e8788-7f67-4d37-ab2a-689c263671f4",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.AqMO_L47rXEBgLW.HdWxAPCytUJtT03GPsuii_uenVsbw7EtzWrz8QaNpR9HS1MnelSH2eDimvYtFAJkyYz8_4sCD8PWs2HFHvG8.Pqic66utDWbIzWt9DRnsH1VHjcg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "[Real boy: They all lived happily ever after] Llega al final.",
+        "lockedDescription": "[Real boy: They all lived happily ever after] Llega al final.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "70",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.24
+        }
+      },
+      {
+        "id": "3",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Free from the puppet string",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "f4ed7104-2aec-490f-8f99-9a2614a9fb5a",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxFectK4J7jFS8SjRIjVV.8fIf9nMTqVsW.NFRxIOmjpNNMxDfwgfqSBd9krPXfK8yNB4DT0zydQqTdXFIiNFbTS0CvE3K3aoZDJVkBzhSWUqnzqkP6pP1rUDSZ04DvZCQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "[Free from the puppet string] Llega al final.",
+        "lockedDescription": "[Free from the puppet string] Llega al final.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "70",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.02
+        }
+      },
+      {
+        "id": "4",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Rise of P",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5485f362-dc00-4f1c-ba94-6ab6bd7b4beb",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0DENRmXWeI9vv7J8iloINbY97jFHaRmHv1oEdhCGNjfODdRaP6ixpWvXU9OeK_F15FEEWUfM8ITpKK0DCQ0KcCrb7xAWeeZSnWGOdwf147scrE9wlD1vu4N0vjXtjb6qw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "[Rise of P] Llega al final.",
+        "lockedDescription": "[Rise of P] Llega al final.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "80",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.09
+        }
+      },
+      {
+        "id": "5",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La primera marioneta",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "cc65974d-6c82-4bc4-8435-f20777e808a0",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5H2Lqf7KW9EJGYyHlxOkEU0vEliEdmhNl7Sb0n0JFX2gDZYYxmN0kYVcrkZUmOG6hXxuqh9zCrtJMJYyA5JRGVElc7_B92fg7exNTcuLCXJtpm.UGTR9zjYdrQdxZuKJg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a la marioneta sin nombre.",
+        "lockedDescription": "Mata a la marioneta sin nombre.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 7.8
+        }
+      },
+      {
+        "id": "6",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El arma normal más fuerte",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "82761a3c-76ff-41ec-9394-ea5b29b5b721",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.EiV4zKbUXsuM2DB3SWO0i.SPvjuSNNWo4icnfZ_kqikq68_KT5iphloxHRnM3sr1kQEi_Ru2H4Jvl3sHPx9T_tmxNSyXiWm5AeM4SleB5PzD7laLrchJERI3ieGVF6otEsS75wswl0.nxVYMLuX6U-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Mejora un arma normal hasta su máximo nivel.",
+        "lockedDescription": "Mejora un arma normal hasta su máximo nivel.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 11.12
+        }
+      },
+      {
+        "id": "7",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El arma especial más fuerte",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "af9176c9-9278-4412-a6e3-f0ac018199db",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz0R78ypoxIJ0_pZfiGZAPcJZPBIl00QiVE.acXf.NXIRmV9YRhrGXHHj6vzzGoAOpB_G5JPTCgFZDZZYWI_Y3tsNWnp9kXS99CKToVk8F67_WDUzT_7_8FHe.oImTpKGmw.kBFU7hbuWS.gEN2Ka98-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Mejora un arma especial hasta su máximo nivel.",
+        "lockedDescription": "Mejora un arma especial hasta su máximo nivel.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.6
+        }
+      },
+      {
+        "id": "8",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El brazo de legión más fuerte",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "4d2e0932-3240-437e-ad28-d845a64f1efd",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2EjZNt_aFbGlQ3__WbItGhfsJaVZ9viXX_i6hxo7BjNlqTPsUdUWzwysReFSzLPvjSJlcgdevk2avRuAoKTJ_cPkKXgVaWodp8q8IXjkHJ.Mp_ZhOP.JTVSEi.c6db7mfBVHp6Y5rPgcH2zq1893hE-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Modifica un brazo de legión hasta su máximo nivel.",
+        "lockedDescription": "Modifica un brazo de legión hasta su máximo nivel.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 13.02
+        }
+      },
+      {
+        "id": "9",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Potencial extremo",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "cf722c10-f1d6-4a29-9264-266eba639d36",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.L9OJeNKJI90_1kDr_8tbheD7SkY41nHvsp726Mgcd8mqul18iThIuDmztAMYnBVFqAdA.UW9Vh.OKR9gEktKdzOmcHd9gCdZNkzsQaeQEMdHTpnFxXHuRBcCxjTQ_I8w--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Activa el Órgano P hasta la fase 5.",
+        "lockedDescription": "Activa el Órgano P hasta la fase 5.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 11.68
+        }
+      },
+      {
+        "id": "10",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Pianista de Krat",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "47d175a9-6e28-43fd-b40e-a5dfbbce262c",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4h1DsE7or38DD4AjWrk8GXSW.Wk4xaRJzLuFlFNmuOM_RawXRgLhqK8Dnal0hhldv6wRQDhwMzeWnL9REjZtKBkB_lV1twlrKyFkadqw2qS5YFDg9I4YST8Ra3ei0XO8A--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Toca una canción perfecta en el piano del Hotel Krat.",
+        "lockedDescription": "Toca una canción perfecta en el piano del Hotel Krat.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.02
+        }
+      },
+      {
+        "id": "11",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Coleccionista de brazos de legión",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "880a3101-38b3-4a3e-92c1-e1e621530901",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NoGj7jZQMki04gpiRpEPtV2BmpMTfPzAU0QWseacCnhYtRAVxsxsf9ZNTKgV6kMRmHDNucjJhKVyuNrOhqyZgtqxwHeeTGDBfdRnrDMOIw.yzb8WIdtB0QdrsYFamtIBKvxMsUq1To9FOPWwHMMjc-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue todos los brazos de legión.",
+        "lockedDescription": "Consigue todos los brazos de legión.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 7.25
+        }
+      },
+      {
+        "id": "12",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Coleccionista de armas especiales",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "661ab682-4fb2-4706-b2f3-325fffd9b21d",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8YuYBVbYGeJG8WnF9JRKFdCRJbYx6gLN8qjyXtnH6i3256klBlQGWiScz28_VRB2xMIFYGcH5RcRyhKAlvTFpOM.nXi6jgqnFaRi1O3gTTW2oo0gPxyIhr3dXhc6YV3IhIP6AtRSJ5m3MhsGcNdAZQ-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue todas las armas especiales.",
+        "lockedDescription": "Consigue todas las armas especiales.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.83
+        }
+      },
+      {
+        "id": "13",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Coleccionista de armas normales",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5d3bb27c-42a0-447e-8083-09bc35e4dedf",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8d8P5Fm3_HKvALLmHhzta9MGjNzmpCWyMopO9a_MotBpPIbTuGqKrNoYbFeUkximQ1SY45vmX5b7Es9p.xfA98wIHLFVwzdXXVXQxJHlwkfj6xAgMh.RrrWs.qSjIGvZCigFinOvhJuHy2Q1MXgS1o-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue todas las armas normales.",
+        "lockedDescription": "Consigue todas las armas normales.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 2.12
+        }
+      },
+      {
+        "id": "14",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Melodía dorada",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "79ce6fec-bd39-4a69-9daa-8f2e6012d49a",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9Dl_NpMoSxqElVwPAch6PxrZkHl6FKnclB3lcB1SQQuSpghF4SiBTJ4UfssFEBoTCQwV6irfdCz3d5XnsgS1UpWwaizZ6AUf1Yh52VUPP0uP8YfWSf4jghonW15vjMhCg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue y escucha todos los vinilos.",
+        "lockedDescription": "Consigue y escucha todos los vinilos.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.17
+        }
+      },
+      {
+        "id": "15",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Aprendiendo sobre emociones",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b4c01b37-8e74-4040-888d-58e680ea7518",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6_e2TcMCB_.ck3lzhaiSKlBxqajvbiZfIbbWWHpfo.mfoIgJ4RMP.rJPfMWSIXqVgQO.wXELV7GtEd1o9lti858PbjY4IG_oJ2PaVu9kdcb5rejgQgqEi9UifciQ7c79g--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Aprende todos los gestos.",
+        "lockedDescription": "Aprende todos los gestos.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.05
+        }
+      },
+      {
+        "id": "16",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Explorador curtido",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "28393a19-8006-4669-a74b-3d9decc3cb65",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.Jb7t7xSiWVPPAMuB4GzERQ6yWYdLLy4TcvNo65qI3fdGDVE_0i59p4a_7xY95vj0emI9QKQNHyo74f2EDEfRfCAXPJ5Vy7KXVWNj5igk9c5ReFsAfKZXY1h7oV8odyfg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descifra todos los recipientes crípticos y recoge las recompensas.",
+        "lockedDescription": "Descifra todos los recipientes crípticos y recoge las recompensas.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.47
+        }
+      },
+      {
+        "id": "17",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Fin de los acertijos",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "006a3df1-fd98-4580-a88b-aa879fb2f357",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5KscWy7fb46IudxePIa1h8szJghD2cYSuYHcZJ_JT7TrPT2LBj2h1Ca2MsYpM3YDDCRg6BJnpSNLahoQfh17QMEGqKPLa90AJDMuJ.u3sumG9XWfF8eS.EmWfXTMKXdVw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre todos los santuarios trinitarios.",
+        "lockedDescription": "Descubre todos los santuarios trinitarios.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.83
+        }
+      },
+      {
+        "id": "18",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La primera mentira",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-18T20:33:19.9730000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b2aca058-7988-46e8-9c56-ccf0ddab356c",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd76IJ83kjcBYC1aFpa3qcrcbHpt9Koue.LCzs7jNC2ZMeZsHqXIW4qPeZO3WM2ZpcT0TDnaSvKvYokGguAU84GskY0T33unEqhydF4zA2UMQeABkQICHZC.KdzcVimgFDA--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Di una mentira ante la entrada al Hotel Krat.",
+        "lockedDescription": "Di una mentira ante la entrada al Hotel Krat.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 40.03
+        }
+      },
+      {
+        "id": "19",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Guía del Stargazer",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-17T20:24:39.9770000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "4b2e9b2c-c88d-4f31-883e-61dfac0892b9",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz_r4VuAyRaXTe5jEX8LqbCUFqliD6JQMZHlZM43T7Kcco3WjRPlxBcqY1QRe4ND0D7Jca6fnDjZ0T02HpRPz2GqCqsdgCKE9a5WdPfbQDUB6HmBz8nXzQY0lSIlzmw5Kg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Repara un Stargazer.",
+        "lockedDescription": "Repara un Stargazer.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 57.17
+        }
+      },
+      {
+        "id": "20",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Explorando posibilidades",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-19T20:45:20.3730000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ce7ebd80-23ab-4648-9e86-909e5dfa8a82",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3Wnjxcfm3PBpoQdS1MYP_xi17cw6yKkzv3vo_TGRZKdfxSz6BYJxRzVrKtUsGOdWrrhrj1ASGN_cQj2KXfdz6aJCyFrC.FxP_KO3JZOabeJM_SPUEhE6YaO4h2QSmT.3LqEUGABEv6BRzqBlZ7nw6Q-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Intenta ensamblar un arma.",
+        "lockedDescription": "Intenta ensamblar un arma.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 24.72
+        }
+      },
+      {
+        "id": "21",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La técnica de defensa definitiva",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-18T21:05:56.1700000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "36098f4b-596b-4509-b120-f54e1ebe36a2",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7_VMytKAIlrKQTAdEPrv1j53MvOVRLoHfK2lCP6mxuDYBIRguIElqn7f8f1aob2x9DaxopwOlfvpCrmWKSFDLtJtbtkQFq16uFclYciQIyKc1fJWtYPGNlr54tGDDZouw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Destruye el arma de un enemigo con un bloqueo perfecto.",
+        "lockedDescription": "Destruye el arma de un enemigo con un bloqueo perfecto.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 36.91
+        }
+      },
+      {
+        "id": "22",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Golpe letal",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-17T20:11:17.6300000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "c4650891-8613-40bb-892b-8e1276891841",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6Lg_RbpfQlj2_ypDtWKAH3T4gvF81Rl1A5kmZocRzyk6O5DZFtJ6FBfiRBX8e21Ja_Sca9WBvKtsulX2GdqcRbFdhi1fXSO0IqiKgjZuM0XXPKE5zx9gQf8DuMGX8WQHg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Ejecuta un ataque letal.",
+        "lockedDescription": "Ejecuta un ataque letal.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 66.13
+        }
+      },
+      {
+        "id": "23",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Los Bastardos y los Barrenderos",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-19T20:40:29.8770000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "bb67f5fe-f600-4d3f-8267-48052b83d549",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6RyA4H3l0fKk5N63S9aX_2gfV1_L89oztAY1R9ygPTbQhQWX3ncPU.zwYK1oKxXCLi9rnrFnDgs08rNnrDHdKGJG9b1hNk2qfUEQg31uKzhMXMXhC57Y_HHq8bHYwdACQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Mata a un acechador.",
+        "lockedDescription": "Mata a un acechador.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 28.94
+        }
+      },
+      {
+        "id": "24",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Maestro del desfile",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-18T20:27:26.6470000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ee53074e-24c2-4a86-9dd7-2419e8046ab7",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyyRh1EINCfc...4qdAoy_PDci2S.PYMdEyh2pz3Jy.aJhi7i65aTHuDrJKLigC.ARp.KfLBiICBNAgJm8JNtOrGgaHSiTe0R3aChAxDO2.d1t8w.Yr56KajFMhKbHIO6Q--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al maestro del desfile.",
+        "lockedDescription": "Mata al maestro del desfile.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 40.21
+        }
+      },
+      {
+        "id": "25",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Vigilante desechado",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2023-10-19T21:25:57.0270000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "50e47eaf-5532-46bb-a83b-3bd9a0a498e8",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1SyTPKDqKvcc7woC3Ucu5VNDxfucCTkL6gH2IcOV_xdYlcfofhYKqgq8GetC0odtG9QmQOb4ph44cTVVuKEja2UVKK9Elca6Gw8WcWVrcvqT5I_qVL3rL9puwpqL2SueA--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al vigilante desechado.",
+        "lockedDescription": "Mata al vigilante desechado.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 28.41
+        }
+      },
+      {
+        "id": "26",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La Llama del Rey",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "bab78e17-3b18-46ef-ae53-c4c3d02e2ea7",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_L1_HWIsn7_6.MzRFRccC8XK1IPyoI3urRBDaeoF3Cz9zP8C08fFBMNODbq5rU50nRsd6wWEtXaWFBTAW8qIB4e4t5YORkLz1QtHOWxmQoaNvl0xGb_jDDuHXe1pRcD2Q--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a Fuoco, la Llama del Rey.",
+        "lockedDescription": "Mata a Fuoco, la Llama del Rey.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 23.37
+        }
+      },
+      {
+        "id": "27",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El arzobispo caído",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "06a66647-3c79-442f-8177-196a8d7366df",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4c7mYz4WLsxBgeMtZP1bmm7y3qk1bncV2hwRaEiSmklhhfIU5ACejkc1mb9TBJmhgCJcyofPZKTNW1qiyXB1eP5o4x9d1wplYN3_AYto8ah36qXjoaeTbPDiFYi1.9CEw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a Andreus, el arzobispo caído.",
+        "lockedDescription": "Mata a Andreus, el arzobispo caído.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 19.7
+        }
+      },
+      {
+        "id": "28",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El enfrentamiento postergado",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ad66d4b2-54f5-4c1f-99ca-0f9c2e594bd8",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz3oem4jHWUN7JU4S2zX8Km8wWUj9gGMFIxa82ZBjQFZmJ9s8Sn76tAdg2yDxKRKx0t2CZW9iEYFCukVCCubKqLsyccyXfkf_QjSQeT1.YyZ60cTjZQR_cJw58PanuXZgQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al hermano mayor de la Hermandad del Conejo Negro.",
+        "lockedDescription": "Mata al hermano mayor de la Hermandad del Conejo Negro.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 18.23
+        }
+      },
+      {
+        "id": "29",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Rey de las Marionetas",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "1a889b80-17b9-4a62-8251-a9113a6ec31d",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd24G7kINSDN6etAm2rYNg7F4YyJJGLQsPwf8tsaLOlwnWPJ.FDwfXSJC7vEAK3qB.XL8cMDnA5BP1baitITkppLvQhN3sC7lnlrEVCqPvAH08LcIlxPjf2G4OEf.jAg8Yw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a Romeo, Rey de las Marionetas.",
+        "lockedDescription": "Mata a Romeo, Rey de las Marionetas.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 16.08
+        }
+      },
+      {
+        "id": "30",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El campeón de la evolución",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "d669fc5d-0d4a-463c-9600-bc7537040143",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwY0.LvEnunrBOHJwJoTGvMy5osMwEnXqx3kpACxseudP7DD0Kqc.0fOowXoOsBMDsILKdphi9u9Ok7vjZKSeBI9nzYLepG4zcaA0znjL0BLm7BZQK1BLfUn.BRebNRspw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al campeón Victor.",
+        "lockedDescription": "Mata al campeón Victor.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 14.98
+        }
+      },
+      {
+        "id": "31",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Monstruo verde devorador de marionetas",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "1b7c06b8-2206-448b-a927-94ee62b44da4",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd83wMIq1a9ojCTpny5eyEf865L0qjiKx4WvuZ6ytacUOw2FOc9V8uaEx3oBZZle38FpId6l3D5oBcQFHZJmo3dsYO2V5hL5aLG2PuLebKVm.cgc9TIGIPHhox5TsnFMhmQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al monstruo verde devorador de marionetas.",
+        "lockedDescription": "Mata al monstruo verde devorador de marionetas.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 13.8
+        }
+      },
+      {
+        "id": "32",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Maestro del desfile corrompido",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5402f5e1-8f40-4107-922d-d71905c8e140",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxcPyrLjoM9kikrb6t9m4Qy3AA6CL0CveE.6Z3ZVzamSxMcat_R7yB2onI35O7yt9OHzZ6x_m4f7AMBlsAoHO2IBblm0YbsGkVpnFTEbkEGqxoddhlv7CCvNSreFrsWGow--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata al maestro del desfile corrompido.",
+        "lockedDescription": "Mata al maestro del desfile corrompido.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 12.97
+        }
+      },
+      {
+        "id": "33",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Venganza negra",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "6a7eff16-5f81-421d-902c-74f5db5611b0",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz5H8LkGQFwFRZRwf8SjEdnDxHhABCmg_EQZ7fZMfUv3vlXAH8DaJiFMz_5HoL99F2bsZKHSlUui7GB6ikNEYc6sLBSeT98b.5GIDCqrJlFWDqx8mqPbiCW8miLul8cHKg--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Acaba con la Hermandad del Conejo Negro.",
+        "lockedDescription": "Acaba con la Hermandad del Conejo Negro.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 12.56
+        }
+      },
+      {
+        "id": "34",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La completitud",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ff052b1c-1d82-4b53-a9c9-5273e8054ebc",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwA8pSuoJ0BZJyAl9ADCxSfLHDtIlvZ5qxTcGFbuwsMykDtNO146MRrxSjhC21mk5lRUcl0ttXb9yod3dqr.t.h7DATdNvFmK000bMVgdnZs1jjk1CxigyZSpD0zsvIDsw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a Laxasia la Entera.",
+        "lockedDescription": "Mata a Laxasia la Entera.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 11.4
+        }
+      },
+      {
+        "id": "35",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "El dios despertado",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "9da7e3f5-604b-4e26-b63f-20f58d0323cc",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.L9OJeNKJI90_1kDr_8tbiHRRmpsRLCBcHgYOgUdPslRwds5iGyjTXFrPXSeRDCxsCDrMcVb4hUhYL4bTSXbB0WaKSp9WPKeWOa85..epvQdlBkPiJGJ3RDVpFeWC6PPw--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Mata a Manus, el dios despertado.",
+        "lockedDescription": "Mata a Manus, el dios despertado.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.97
+        }
+      },
+      {
+        "id": "36",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Monedas de oro en fruto",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5c2a6d04-45fd-43c7-bc79-e1ffa2e6da86",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9mS_ItmiygsCytjk30MGFQBQbMpUYZrnWqCpooha0aVO1VgzFXfRTgEuIjTqBR2XKqXPEIaG_zqc8LiacIYiXFPiuy3yKoazN9g6ptBLD6qhWY5pKM5a641Jnf3xOSitA--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Cosecha un fruto de monedas de oro.",
+        "lockedDescription": "Cosecha un fruto de monedas de oro.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 18.07
+        }
+      },
+      {
+        "id": "37",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "Al otro lado de la grieta",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "75aad6d6-3944-4a33-93e8-27015838458c",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd09EiImYjxj9xs2k9JzCXc7Oi3ArDjDY4x9dtRNurIJ.NK0EUdikDuxDoWDKCHApaUHkDzAn1KT3O5XLVuBg4h5PAJvcXFqcwXqX4lyBQrp.IMTvlcn0S_VgFbWWp2n39g--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Mata a todos los tipos de mariposa dimensional.",
+        "lockedDescription": "Mata a todos los tipos de mariposa dimensional.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 15.84
+        }
+      },
+      {
+        "id": "38",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia del príncipe",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "102edab7-d2cb-4ab1-ae03-53b839ae70ce",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd87WLqDaJNudd1c2327znwXn_AdcyW2TEaeW4TJYb6J4ypEbzcMW7tga6id2OrRUPvZrzFYs0WD4e45e5NmX1rT5EUookeC6owNPSpzoTi8MkT6rUzokWFJzKKLjvJvExV43B8ncCLMQxFHjZxcDZY8-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre la última historia de Venigni.",
+        "lockedDescription": "Descubre la última historia de Venigni.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.41
+        }
+      },
+      {
+        "id": "39",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia de la anciana refinada",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "4867a7f5-6cd6-4e45-991c-2e575c922d1a",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2AIXVU8QDMry7aZvIQVrO0Malsvxa6J7SOPJBSYQc7SKr5ZGGpOdRZvszoZFUC_qO7fl3BvuCei6z72adaZirpASebe_DLytZLS2dKU19i5DS0.PMzWXpaeZtOl65BhfvBDPbytXfbnq7MKtVwEl0o-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre la última historia de Antonia.",
+        "lockedDescription": "Descubre la última historia de Antonia.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 9.08
+        }
+      },
+      {
+        "id": "40",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia del que soñaba",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "2616fdb7-2e43-4750-823c-b84e02287e93",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0W70QW8EcDZP7AxuLja0ggx.QH3OG6gcJzMkeA27xl7G6Uceh9_8NSsEgetQvKODDytqApXTz9GvFMkXZpP.ynfTr_zWqG98RYvHQqbp3nq67o_qAceFFHRAVclA4pMAA--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Descubre la última historia de Simon Manus.",
+        "lockedDescription": "Descubre la última historia de Simon Manus.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.97
+        }
+      },
+      {
+        "id": "41",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia de un padre",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5c394587-ee55-409f-865e-f81535f04058",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8gPLTvLLEXKN6XzxAHAmQrixmJfTaAy0dRQjgzWjT_jpRuEgIpIr80eMs94o4NTB5jyDHwrzT1iHc3HoahgZOWMo34uPGawqOFqzyDIt8sU.86jYsnrM_ArVRTmAVI8TpgywN7LkMNte_JCV74ann8-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre la última historia de Geppetto.",
+        "lockedDescription": "Descubre la última historia de Geppetto.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 2.06
+        }
+      },
+      {
+        "id": "42",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia de una chica desconocida",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "7fa00980-e6d0-41ff-aebe-960610a7955e",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwWTCwSfGruMJR5G8CYhYvK2DICQaLnNeM6bmjx506MCsPjJFmgWJuC44_nMZCQm2YxLT4iXCQthiLqEkv84Ep0j1QJiPWlTAl32EDCqoWK3U_D6xsVkAtxzKogiAo2FaTlwrMy9t8C1MIOz.6qv91w-"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre la última historia de Eugénie.",
+        "lockedDescription": "Descubre la última historia de Eugénie.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.47
+        }
+      },
+      {
+        "id": "43",
+        "serviceConfigId": "00000000-0000-0000-0000-00007b71e406",
+        "name": "La historia de la mariposa azul",
+        "titleAssociations": [
+          {
+            "name": "Lies of P",
+            "id": 2071061510
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "4beadf21-f6ed-43a8-95e3-e8574af7b949",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9wrUykLBnhpUAS.HnN_i5lERf1aBhEyD0OaUV8W2Fn5mZqI_PKjIuL_n4kWLIKp0hRcgAczTgCMVLXbm103bm.iIts4Q8M3iMxqC.9a00uAjC3ED95GEnmT7A3AKE6OiA--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Descubre la última historia de Sophia.",
+        "lockedDescription": "Descubre la última historia de Sophia.",
+        "productId": "00000000-0000-0000-0000-00007b71e406",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.11
+        }
+      }
+    ],
+    "pagingInfo": {
+      "continuationToken": null,
+      "totalRecords": 42
+    }
+  }
