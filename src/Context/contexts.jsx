@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { createContext, useState, React } from 'react'
 
-const filterContext = createContext()
+export const filterContext = createContext()
+export const userDataContext = createContext()
 
 export const Filter = ({ children }) => {
   const [filterState, setFilterState] = useState({
@@ -15,5 +16,21 @@ export const Filter = ({ children }) => {
     }}>
         {children}
     </filterContext.Provider>
+  )
+}
+
+export const UserData = ({ children }) => {
+  const [userData, setUserData] = useState({
+    xboxUsername: null,
+    playStationUsername: 'josemadrake'
+  })
+
+  return (
+      <userDataContext.Provider value={{
+        userData,
+        setUserData
+      }}>
+        {children}
+      </userDataContext.Provider>
   )
 }

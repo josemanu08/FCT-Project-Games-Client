@@ -2,6 +2,7 @@
 @import url('./CSS/userSite-CSS/userSite.css');
 @import url('./CSS/userSite-CSS/userInfo.css');
 @import url('./CSS/userSite-CSS/filters.css');
+@import url('./CSS/userSite-CSS/table.css');
 
 *{
     box-sizing: border-box;

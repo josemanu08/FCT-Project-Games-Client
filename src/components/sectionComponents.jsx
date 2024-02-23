@@ -1,4 +1,6 @@
-import { React, useState } from 'react'
+import { React, useState, useEffect, useContext } from 'react'
+import myGames from '../mocks/myGames.json'
+import { userDataContext } from '../Context/contexts'
 
 // Aquí van los componentes del UserSite y el userOptions
 export const UserInfo = () => {
@@ -40,23 +42,46 @@ export const Filter = () => {
                 <option value="Bronze">Bronze</option>
             </select>
             <input className = 'selectDate' type="datetime-local" name="" id="" />
-            <input className = 'selectTitle' type="text"/>
+            <input className = 'selectTitle' type="text" placeholder='bloodbrone, uncharted....'/>
             <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
             {range}%
         </section>
   )
 }
 
-const GameItem = () => {
+const GameItem = ({ gameData }) => {
   return (
-        <div></div>
+        <tr>
+
+        </tr>
   )
 }
 
 export const Table = ({ item }) => {
-  return (
-        <table>
+  const [gameData, setGameData] = useState({
+    playStation: null,
+    xbox: null
+  })
 
+  const { userData } = useContext(userDataContext)
+
+  useEffect(() => {
+    if (!userData.playStationUsername) return
+    setGameData((previous) => {
+      return {
+        ...previous,
+        playStation: myGames
+      }
+    })
+  }, [userData])
+
+  return (
+        <table border='1px' className='gamesTable'>
+          <thead></thead>
+          <tbody>
+            {}
+          </tbody>
+          <tfoot></tfoot>
         </table>
   )
 }
