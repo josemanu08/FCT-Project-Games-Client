@@ -3,6 +3,7 @@ import { Link, Routes, Route } from 'react-router-dom'
 import { UserInfo, Filter, Table } from './sectionComponents'
 import myGames from '../mocks/myGames.json'
 import myGamesXbox from '../mocks/myGamesXbox.json'
+import { mapXboxGames, mapPlayStationGames } from '../scripts/helpers'
 
 import { userDataContext } from '../Context/contexts'
 
@@ -17,33 +18,49 @@ export const Aside = () => {
 
 // ----------Rutas-Principales-----------
 export const userSite = () => {
-  const [xboxState, setXboxState] = useState(null)
-  const [playStationState, setPlaystationState] = useState(null)
+  const [xboxState, setXboxState] = useState([])
+  const [playStationState, setPlaystationState] = useState([])
 
   const { userData } = useContext(userDataContext)
 
   useEffect(() => {
     if (!userData.playStationUsername) return
-    setPlaystationState(myGames.trophyTitles)
+    setPlaystationState(mapPlayStationGames(myGames.trophyTitles))
   }, [userData])
 
   useEffect(() => {
     if (!userData.xboxUsername) return
-    setXboxState(myGamesXbox.titles)
+    setXboxState(mapXboxGames(myGamesXbox.titles))
   }, [userData])
 
   return (
     <section className='userSite'>
         <UserInfo></UserInfo>
         <Filter></Filter>
-        <Table gameData={{}}></Table>
+        <Table xbox={xboxState} play={playStationState}></Table>
     </section>
   )
 }
 
 export const userOption = () => {
   return (
+      <section className='userOptions'>
         <h1>Aquí es donde configuras cosas 😏</h1>
+        <div className="playStationOptionToggle">
+          <div className='playFirstSection'>
+            <section className='PSN'>PSN</section>
+            <span>PSN account</span>
+          </div>
+          <i className='bx bx-sm bx-chevron-down'></i>
+        </div>
+        <div className="xboxOptionToggle">
+          <div className="xboxFirstSection">
+            <section className='XBL'>XBL</section>
+            <span>Xbox account</span>
+          </div>
+          <i className='bx bx-sm bx-chevron-down'></i>
+        </div>
+      </section>
   )
 }
 // ----------Rutas-Principales-----------

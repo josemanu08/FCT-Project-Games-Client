@@ -7,7 +7,7 @@ function App () {
     <BrowserRouter>
       <div className='container'>
         <Aside/>
-        <Roots></Roots>
+        <Roots/>
       </div>
     </BrowserRouter>
   )

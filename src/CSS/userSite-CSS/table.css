@@ -1,7 +1,21 @@
 .gamesTable{
+    overflow: hidden;
+    height: 100%;
+}
+
+.gamesTable tr, thead, tbody{
+    text-align: center;
+    display: table;
+    table-layout: fixed;
     width: 100%;
 }
 
-.gamesTable tr{
-    text-align: center;
+thead {
+    width: calc( 100% - 1em )
+}
+
+.gamesTable tbody{
+    height: 100%;
+    display: block;
+    overflow: auto;
 }

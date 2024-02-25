@@ -1,4 +1,6 @@
 .userSite{
     background-color: rgb(222, 249, 251);
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }

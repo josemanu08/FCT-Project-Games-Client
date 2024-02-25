@@ -3,6 +3,7 @@
 @import url('./CSS/userSite-CSS/userInfo.css');
 @import url('./CSS/userSite-CSS/filters.css');
 @import url('./CSS/userSite-CSS/table.css');
+@import url('./CSS/userOptions/userOptions.css');
 
 *{
     box-sizing: border-box;

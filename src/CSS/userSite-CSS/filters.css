@@ -3,7 +3,10 @@
     padding: .5rem;
     display: flex;
     gap: 1rem;
+    display: flex;
+    justify-content: center;
 }
+
 .selectRange{
     cursor: pointer;
 }

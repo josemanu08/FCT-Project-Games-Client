@@ -19,10 +19,12 @@ export const Filter = ({ children }) => {
   )
 }
 
+// LyricPepper7852
+// josemadrake
 export const UserData = ({ children }) => {
   const [userData, setUserData] = useState({
-    xboxUsername: null,
-    playStationUsername: null
+    xboxUsername: 'LyricPepper7852'/* null */,
+    playStationUsername: 'josemadrake'
   })
 
   return (
