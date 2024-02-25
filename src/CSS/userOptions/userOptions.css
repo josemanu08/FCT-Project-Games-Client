@@ -1,11 +1,12 @@
 .userOptions{
-    max-height: 100vh;
-    width: 100%;
+    width: 100vw;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .playStationOptionToggle{
@@ -39,6 +40,7 @@
     padding: .5rem;
     width: 6rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .XBL{
@@ -47,6 +49,7 @@
     padding: .5rem;
     width: 6rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .playFirstSection{
@@ -59,4 +62,19 @@
     display: flex;
     align-items: center;
     gap: 3rem;
+}
+
+/*Creación de la lógica del acordeón*/
+
+.playConfigContent, .xboxConfigContent{
+    height: 0px;
+    overflow: hidden;
+    border: 0px solid black;
+    transition: .5s height, .5s border-width;
+}
+
+#playChecked:checked ~ .playConfigContent,
+#xboxCheck:checked ~ .xboxConfigContent{
+    height: 300px;
+    border-width: 1px;
 }

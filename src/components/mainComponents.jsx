@@ -1,6 +1,6 @@
 import { React, useState, useContext, useEffect } from 'react'
 import { Link, Routes, Route } from 'react-router-dom'
-import { UserInfo, Filter, Table } from './sectionComponents'
+import { UserInfo, Filter, Table, ConfigPlaystation, ConfigXbox } from './sectionComponents'
 import myGames from '../mocks/myGames.json'
 import myGamesXbox from '../mocks/myGamesXbox.json'
 import { mapXboxGames, mapPlayStationGames } from '../scripts/helpers'
@@ -44,29 +44,32 @@ export const userSite = () => {
 
 export const userOption = () => {
   return (
-      <section className='userOptions'>
-        <h1>Aquí es donde configuras cosas 😏</h1>
-        <div className="playStationOptionToggle">
-          <div className='playFirstSection'>
-            <section className='PSN'>PSN</section>
-            <span>PSN account</span>
-          </div>
-          <i className='bx bx-sm bx-chevron-down'></i>
-        </div>
-        <div className="xboxOptionToggle">
-          <div className="xboxFirstSection">
-            <section className='XBL'>XBL</section>
-            <span>Xbox account</span>
-          </div>
-          <i className='bx bx-sm bx-chevron-down'></i>
-        </div>
-      </section>
+      <ul className='userOptions'>
+        <h1>😏</h1>
+        <li>
+          <input hidden type="checkbox" id="playChecked"/>
+          <ConfigPlaystation></ConfigPlaystation>
+          <form action="" className='playConfigContent'>
+            <input type="text" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quae!
+          </form>
+        </li>
+        <li>
+          <input hidden type="checkbox" id="xboxCheck" />
+          <ConfigXbox></ConfigXbox>
+          <form action="" className='xboxConfigContent'>
+            <input type="text" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quae!
+          </form>
+        </li>
+      </ul>
   )
 }
 // ----------Rutas-Principales-----------
 export const Roots = () => {
   return (
         <Routes>
+            <Route path='/' Component={userSite}></Route>
             <Route path='/userSite' Component={userSite}></Route>
             <Route path='/userOptions' Component={userOption}></Route>
         </Routes>
