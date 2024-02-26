@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import { React, useState, useEffect } from 'react'
+import { React, useState, useEffect, useContext } from 'react'
+import { userDataContext } from '../Context/contexts'
 // import myGames from '../mocks/myGames.json'
 // import { userDataContext } from '../Context/contexts'
 
@@ -9,25 +10,12 @@ export const UserInfo = () => {
         <section className='userInfo'>
             {/* Extraible */}
             <ul className='TroffieInfo'>
-                <li>
-                    <b>Platinum <img src="https://psnprofiles.com/lib/img/icons/40-platinum.png"/></b>
-                    data
-                </li>
-                <li>
-                    <b>Gold <img src="https://psnprofiles.com/lib/img/icons/40-silver.png" alt="" /></b>
-                    data
-                </li>
-                <li>
-                    <b>silver <img src="https://psnprofiles.com/lib/img/icons/40-gold.png" alt="" /></b>
-                    data
-                </li>
-                <li>
-                    <b>bronze <img src="https://psnprofiles.com/lib/img/icons/40-bronze.png" alt="" /></b>
-                    data
-                </li>
+                <li><b>Platinum <img src="https://psnprofiles.com/lib/img/icons/40-platinum.png"/></b>data</li>
+                <li><b>Gold <img src="https://psnprofiles.com/lib/img/icons/40-silver.png" alt="" /></b>data</li>
+                <li><b>silver <img src="https://psnprofiles.com/lib/img/icons/40-gold.png" alt="" /></b>data</li>
+                <li><b>bronze <img src="https://psnprofiles.com/lib/img/icons/40-bronze.png" alt="" /></b>data</li>
             </ul>
             {/* PONER EL RESTO DE UL DE LA INFO */}
-
         </section>
   )
 }
@@ -125,5 +113,86 @@ export const ConfigXbox = () => {
       </div>
       <div className="arrow-xbox"></div>
     </label>
+  )
+}
+
+// UserConfigFormComponents
+
+export const FormPlayStation = () => {
+  const [edit, setEdit] = useState(false)
+  // const [error, setError] = useState(false)
+  const { setUserData } = useContext(userDataContext)
+
+  const handleClick = () => {
+    setEdit(!edit)
+  }
+
+  const HandleSubmit = (event) => {
+    event.preventDefault()
+    if (!edit) return
+    const { usernamePlay } = Object.fromEntries(new FormData(event.target))
+    // VERIFICAR SI EL USUARIO EXISTE Y PUEDE TRAER DATOS
+
+    setEdit(false)
+    setUserData((previous) => {
+      return {
+        ...previous,
+        playStationUsername: usernamePlay
+      }
+    })
+  }
+
+  return (
+    <form onSubmit={(event) => HandleSubmit(event)} action="" className='playConfigContent' method='post'>
+      <section className='playParameterInfo'>
+        <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(36, 127, 232)', textDecorationThickness: '5px' }}>
+          PlayStation Username</p>
+        <button onClick={handleClick} style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+      </section>
+      {
+        edit
+          ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+      }
+      <button className='submit-button'>Select</button>
+    </form>
+  )
+}
+
+export const FormXbox = () => {
+  const handleClick = () => {
+    setEdit(!edit)
+  }
+
+  const HandleSubmit = (event) => {
+    event.preventDefault()
+    if (!edit) return
+    const { usernamePlay } = Object.fromEntries(new FormData(event.target))
+    // VERIFICAR SI EL USUARIO EXISTE Y PUEDE TRAER DATOS
+
+    setEdit(false)
+    setUserData((previous) => {
+      return {
+        ...previous,
+        playStationUsername: usernamePlay
+      }
+    })
+  }
+  const [edit, setEdit] = useState(false)
+  // const [error, setError] = useState(false)
+  const { setUserData } = useContext(userDataContext)
+  return (
+    <form action="" className='xboxConfigContent'>
+      <section className='xboxParameterInfo'>
+        <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(19, 162, 17)', textDecorationThickness: '5px' }}>Xbox Username</p>
+        <button style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+      </section>
+      {
+        edit
+          ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+      }
+      <button className='submit-button'>Select</button>
+    </form>
   )
 }
