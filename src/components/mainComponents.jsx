@@ -49,17 +49,26 @@ export const userOption = () => {
         <li>
           <input hidden type="checkbox" id="playChecked"/>
           <ConfigPlaystation></ConfigPlaystation>
-          <form action="" className='playConfigContent'>
-            <input type="text" />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quae!
+          <form action="" className='playConfigContent' method='post'>
+            <section className='playParameterInfo'>
+              <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(36, 127, 232)', textDecorationThickness: '5px' }}>
+                PlayStation Username</p>
+              <button style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+            </section>
+            <input className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+            <button className='submit-button'>Select</button>
           </form>
         </li>
         <li>
           <input hidden type="checkbox" id="xboxCheck" />
           <ConfigXbox></ConfigXbox>
           <form action="" className='xboxConfigContent'>
-            <input type="text" />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quae!
+          <section className='xboxParameterInfo'>
+            <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(19, 162, 17)', textDecorationThickness: '5px' }}>Xbox Username</p>
+            <button style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+          </section>
+            <input className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+            <button className='submit-button'>Select</button>
           </form>
         </li>
       </ul>

@@ -1,5 +1,6 @@
 .userOptions{
     width: 100vw;
+    list-style: none;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -22,6 +23,10 @@
     background-color: #c6def7;
 }
 
+.playStationOptionToggle:hover .arrow-play{
+    text-decoration: underline;
+}
+
 .xboxOptionToggle{
     display: flex;
     justify-content: space-between;
@@ -32,6 +37,10 @@
     font-weight: 700;
     cursor: pointer;
     background-color: rgb(173, 241, 173);
+}
+
+.xboxOptionToggle:hover .arrow-xbox{
+    text-decoration: underline;
 }
 
 .PSN{
@@ -65,16 +74,84 @@
 }
 
 /*Creación de la lógica del acordeón*/
-
 .playConfigContent, .xboxConfigContent{
     height: 0px;
     overflow: hidden;
     border: 0px solid black;
-    transition: .5s height, .5s border-width;
+    transition: .2s height, .2s border-width;
 }
 
 #playChecked:checked ~ .playConfigContent,
 #xboxCheck:checked ~ .xboxConfigContent{
-    height: 300px;
+    height: 15rem;
     border-width: 1px;
+}
+.arrow-play, .arrow-xbox{
+    width: 3rem;
+    position: relative;
+    text-align: center;
+    transition: .3s width, .3s background-color;
+}
+
+.arrow-play::after, .arrow-xbox::after{
+    font-size: x-large;
+    content: '+';
+}
+
+#playChecked:checked  ~ label > .arrow-play::after{
+    content: '-';
+}
+
+#xboxCheck:checked  ~ label > .arrow-xbox::after{
+    content: '-';
+}
+
+
+
+/*Formularios*/
+
+.playConfigContent, .xboxConfigContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.playConfigContent{
+    background-color: rgb(232, 241, 250);
+}
+
+.xboxConfigContent{
+    background-color: rgb(203, 245, 203);
+}
+
+.input-username{
+    padding: .3rem;
+    width: 15rem;
+    font-size: large;
+}
+
+.submit-button{
+    font-size: large;
+    border: none;
+    position: absolute;
+    bottom: .5rem;
+    width: 90%;
+    padding: .2rem;
+    cursor: pointer;
+    background-color: rgba(76, 250, 154, 0.333);
+}
+
+.submit-button:hover{
+    outline: 1px solid rgb(2, 49, 23);
+}
+
+.playParameterInfo, .xboxParameterInfo{
+    position: absolute;
+    padding: .5rem;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
 }

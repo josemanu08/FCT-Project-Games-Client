@@ -103,7 +103,7 @@ export const Table = ({ xbox, play }) => {
 }
 
 // UserConfig Components
-
+// <i className='bx bx-sm bx-chevron-down'></i>
 export const ConfigPlaystation = () => {
   return (
     <label htmlFor='playChecked' className="playStationOptionToggle">
@@ -111,7 +111,7 @@ export const ConfigPlaystation = () => {
           <div className='PSN'>PSN</div>
           <div>PSN account</div>
         </div>
-          <i className='bx bx-sm bx-chevron-down'></i>
+        <div className="arrow-play"></div>
     </label>
   )
 }
@@ -123,7 +123,7 @@ export const ConfigXbox = () => {
         <div className='XBL'>XBL</div>
         <div>Xbox account</div>
       </div>
-      <i className='bx bx-sm bx-chevron-down'></i>
+      <div className="arrow-xbox"></div>
     </label>
   )
 }
