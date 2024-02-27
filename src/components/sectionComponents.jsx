@@ -133,6 +133,7 @@ export const FormPlayStation = () => {
     const { usernamePlay } = Object.fromEntries(new FormData(event.target))
     // VERIFICAR SI EL USUARIO EXISTE Y PUEDE TRAER DATOS
 
+    localStorage.setItem('playUser', usernamePlay)
     setEdit(false)
     setUserData((previous) => {
       return {

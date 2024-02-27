@@ -1,5 +1,5 @@
-import { React, useState, useContext, useEffect } from 'react'
-import { Link, Routes, Route } from 'react-router-dom'
+import { React, useState, useContext, useEffect, useRef } from 'react'
+import { Link, NavLink, Routes, Route, isRouteErrorResponse } from 'react-router-dom'
 import { UserInfo, Filter, Table, ConfigPlaystation, ConfigXbox, FormPlayStation, FormXbox } from './sectionComponents'
 import myGames from '../mocks/myGames.json'
 import myGamesXbox from '../mocks/myGamesXbox.json'
@@ -14,8 +14,8 @@ import { userDataContext } from '../Context/contexts'
 export const Aside = () => {
   return (
     <nav className='web-aside'>
-        <Link className='nav-item' to= "/userOptions" ><i className='bx bxs-info-circle'></i></Link>
-        <Link className='nav-item' to= "/userSite" ><i className='bx bx-table'></i></Link>
+        <NavLink className='nav-item' to= "/userOptions" ><i className='bx bxs-info-circle'></i></NavLink>
+        <NavLink className='nav-item' to= "/userSite" ><i className='bx bx-table'></i></NavLink>
     </nav>
   )
 }
@@ -25,7 +25,12 @@ export const userSite = () => {
   const [xboxState, setXboxState] = useState([])
   const [playStationState, setPlaystationState] = useState([])
 
-  const { userData } = useContext(userDataContext)
+  const { userData, setUserData } = useContext(userDataContext)
+
+  const prevUserData = useRef({
+    prevPlayName: userData.xboxUsername,
+    prevXboxName: userData.playStationUsername
+  })
 
   useEffect(() => {
     if (!userData.playStationUsername) return
@@ -40,11 +45,22 @@ export const userSite = () => {
 
   useEffect(() => {
     if (!userData.xboxUsername) return
-    getXuidFromUsername(userData.xboxUsername)
-      .then(xuid => getGamesFromXuid(xuid))
-      .then(games => setXboxState(mapXboxGames(games.titles)))
-    // setXboxState(mapXboxGames(myGamesXbox.titles))
-  }, [userData])
+    if (prevUserData.current.prevXboxName === userData.xboxUsername) {
+      console.log('AAAAAAA')
+      return
+    }
+    // getXuidFromUsername(userData.xboxUsername)
+    // .then(xuid => getGamesFromXuid(xuid))
+    // .then(games => setXboxState(mapXboxGames(games.titles)))
+    prevUserData.current.prevXboxName = userData.xboxUsername
+    setXboxState(mapXboxGames(myGamesXbox.titles))
+    setUserData((previous) => {
+      return ({
+        ...previous,
+        xboxGames: mapXboxGames(myGamesXbox.titles)
+      })
+    })
+  }, [])
 
   return (
     <section className='userSite'>
