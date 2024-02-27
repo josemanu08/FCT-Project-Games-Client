@@ -10,10 +10,10 @@ export const UserInfo = () => {
         <section className='userInfo'>
             {/* Extraible */}
             <ul className='TroffieInfo'>
-                <li><b>Platinum <img src="https://psnprofiles.com/lib/img/icons/40-platinum.png"/></b>data</li>
-                <li><b>Gold <img src="https://psnprofiles.com/lib/img/icons/40-silver.png" alt="" /></b>data</li>
-                <li><b>silver <img src="https://psnprofiles.com/lib/img/icons/40-gold.png" alt="" /></b>data</li>
-                <li><b>bronze <img src="https://psnprofiles.com/lib/img/icons/40-bronze.png" alt="" /></b>data</li>
+                <li><b>Platinum <img src="https://psnprofiles.com/lib/img/icons/40-platinum.png"/></b></li>
+                <li><b>Gold <img src="https://psnprofiles.com/lib/img/icons/40-silver.png" alt="" /></b></li>
+                <li><b>silver <img src="https://psnprofiles.com/lib/img/icons/40-gold.png" alt="" /></b></li>
+                <li><b>bronze <img src="https://psnprofiles.com/lib/img/icons/40-bronze.png" alt="" /></b></li>
             </ul>
             {/* PONER EL RESTO DE UL DE LA INFO */}
         </section>
@@ -121,7 +121,7 @@ export const ConfigXbox = () => {
 export const FormPlayStation = () => {
   const [edit, setEdit] = useState(false)
   // const [error, setError] = useState(false)
-  const { setUserData } = useContext(userDataContext)
+  const { userData, setUserData } = useContext(userDataContext)
 
   const handleClick = () => {
     setEdit(!edit)
@@ -152,7 +152,7 @@ export const FormPlayStation = () => {
       {
         edit
           ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
-          : <input name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input value={userData.playStationUsername ?? ''} name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
       <button className='submit-button'>Select</button>
     </form>
@@ -160,6 +160,10 @@ export const FormPlayStation = () => {
 }
 
 export const FormXbox = () => {
+  const [edit, setEdit] = useState(false)
+  // const [error, setError] = useState(false)
+  const { userData, setUserData } = useContext(userDataContext)
+
   const handleClick = () => {
     setEdit(!edit)
   }
@@ -174,23 +178,20 @@ export const FormXbox = () => {
     setUserData((previous) => {
       return {
         ...previous,
-        playStationUsername: usernamePlay
+        xboxUsername: usernamePlay
       }
     })
   }
-  const [edit, setEdit] = useState(false)
-  // const [error, setError] = useState(false)
-  const { setUserData } = useContext(userDataContext)
   return (
-    <form action="" className='xboxConfigContent'>
+    <form onSubmit={(event) => HandleSubmit(event)} action="" className='xboxConfigContent'>
       <section className='xboxParameterInfo'>
         <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(19, 162, 17)', textDecorationThickness: '5px' }}>Xbox Username</p>
-        <button style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+        <button onClick={handleClick} style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
       </section>
       {
         edit
           ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
-          : <input name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input value={userData.xboxUsername ?? ''} name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
       <button className='submit-button'>Select</button>
     </form>

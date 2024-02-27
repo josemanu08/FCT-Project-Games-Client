@@ -5,6 +5,10 @@ import myGames from '../mocks/myGames.json'
 import myGamesXbox from '../mocks/myGamesXbox.json'
 import { mapXboxGames, mapPlayStationGames } from '../scripts/helpers'
 
+// Funciones fetch de Xbox
+
+import { getGamesFromXuid, getXuidFromUsername } from '../scripts/XBOX/xboxFunctions'
+
 import { userDataContext } from '../Context/contexts'
 
 export const Aside = () => {
@@ -25,12 +29,21 @@ export const userSite = () => {
 
   useEffect(() => {
     if (!userData.playStationUsername) return
+    (async () => {
+      // const auth = await uploadTokenAuth(authPsn)
+      // const userId = await getUserId(authPsn, userData.playStationUsername)
+      // const userGames = await getUserGamesFromId(authPsn, userId)
+    })()
+    // setPlaystationState(mapPlayStationGames(myGames.trophyTitles))
     setPlaystationState(mapPlayStationGames(myGames.trophyTitles))
   }, [userData])
 
   useEffect(() => {
     if (!userData.xboxUsername) return
-    setXboxState(mapXboxGames(myGamesXbox.titles))
+    getXuidFromUsername(userData.xboxUsername)
+      .then(xuid => getGamesFromXuid(xuid))
+      .then(games => setXboxState(mapXboxGames(games.titles)))
+    // setXboxState(mapXboxGames(myGamesXbox.titles))
   }, [userData])
 
   return (
