@@ -1,23 +1,56 @@
 .userInfo{
     padding: 1rem;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .userInfo ul{
     list-style: none;
 }
 
-.userInfo li {
-    display: flex;
-    flex-direction: column;
+.playUserInfo > li img{
+    width: 3rem;
+    height: 3rem;
 }
 
-.userInfo b {
-    border: 1px solid black;
-    width: 100%;
+.playUserInfo{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 115, 255, 0.568);
+    color: white;
+    padding: .2rem 1rem .2rem 1rem;
+    justify-content: space-between;
+    border: 3px solid rgb(0, 81, 255);
+    width: 70%;
+}
+
+.playUserInfo > li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.playUserInfo ul {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.playUserInfo ul img {
+    width: 2rem;
+}
+
+.playUserInfo ul li {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    display: flex;
-    justify-content: space-between;
+    gap: .5rem;
+}
+
+/*XBOX*/
+
+.XboxUserInfo > li img {
+    width: 3rem;
+    height: 3rem;
 }

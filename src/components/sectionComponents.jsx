@@ -1,20 +1,17 @@
 /* eslint-disable react/prop-types */
 import { React, useState, useEffect, useContext } from 'react'
 import { userDataContext } from '../Context/contexts'
+import { PlayUserInfo, XboxUserInfo } from './sectionSubComponents'
 // import myGames from '../mocks/myGames.json'
 // import { userDataContext } from '../Context/contexts'
 
 // Aquí van los componentes del UserSite y el userOptions
-export const UserInfo = () => {
+export const UserInfo = ({ profileInfo, profileXbox }) => {
   return (
         <section className='userInfo'>
-            {/* Extraible */}
-            <ul className='TroffieInfo'>
-                <li><b>Platinum <img src="https://psnprofiles.com/lib/img/icons/40-platinum.png"/></b></li>
-                <li><b>Gold <img src="https://psnprofiles.com/lib/img/icons/40-silver.png" alt="" /></b></li>
-                <li><b>silver <img src="https://psnprofiles.com/lib/img/icons/40-gold.png" alt="" /></b></li>
-                <li><b>bronze <img src="https://psnprofiles.com/lib/img/icons/40-bronze.png" alt="" /></b></li>
-            </ul>
+          {/* Extraible */}
+            <PlayUserInfo profileInfo={profileInfo}></PlayUserInfo>
+            <XboxUserInfo xboxProfileInfo={profileXbox}></XboxUserInfo>
             {/* PONER EL RESTO DE UL DE LA INFO */}
         </section>
   )
@@ -40,9 +37,19 @@ export const Filter = () => {
 
 const XboxGameItem = ({ gameData }) => {
   return (
-    <tr>
-      <td>{gameData.name}</td>
-      <td>{gameData.platform}</td>
+    <tr className='xboxItem'>
+       <td colSpan={2}>
+        <div className='mainInfo'>
+          <img className='icon' src={gameData.icon} alt={gameData.icon} />
+          <section className="subInfo">
+            <p>{gameData.name}</p>
+            <p style={{ fontSize: 'small' }}>
+            <span className='trophieNumber'>{gameData.earnedTrophies}</span>
+            &nbsp;Trophies</p>
+          </section>
+        </div>
+      </td>
+      <td><span className='playPlatform'>{gameData.platform}</span></td>
       <td>{gameData.percentaje}%</td>
     </tr>
   )
@@ -50,8 +57,18 @@ const XboxGameItem = ({ gameData }) => {
 
 const PlayStationGameItem = ({ gameData }) => {
   return (
-    <tr>
-      <td>{gameData.name}</td>
+    <tr className='playItem'>
+      <td colSpan={2}>
+        <div className='mainInfo'>
+          <img className='icon' src={gameData.icon} alt={gameData.icon} />
+          <section className="subInfo">
+            <p>{gameData.name}</p>
+            <p style={{ fontSize: 'small' }}>
+              <span className='trophieNumber'>{gameData.earnedTrophies}/{gameData.definedTrophies}</span>
+              &nbsp;Trophies</p>
+          </section>
+        </div>
+      </td>
       <td><span className='playPlatform'>{gameData.platform}</span></td>
       <td>{gameData.percentaje}%</td>
     </tr>
@@ -66,27 +83,29 @@ export const Table = ({ xbox, play }) => {
   }, [xbox, play])
 
   return (
-        <table border='1px' className='gamesTable'>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Platform</th>
-              <th>Pertentaje</th>
-            </tr>
-          </thead>
-          <tbody>
-            {
-              (!bodyState.length)
-                ? 'Waiting for your games... 😘'
-                : bodyState.sort((a, b) => a.name.localeCompare(b.name))
-                  .map((title, index) => {
-                    return (title.platform === 'playStation')
-                      ? <PlayStationGameItem key={index} gameData={title} />
-                      : <XboxGameItem key={index} gameData={title}/>
-                  })
-            }
-          </tbody>
-        </table>
+        <div className='table-container'>
+          <table className='gamesTable'>
+            <thead>
+                <tr>
+                  <th colSpan={2}>Name</th>
+                  <th>Platform</th>
+                  <th>Pertentaje</th>
+                </tr>
+            </thead>
+            <tbody>
+              {
+                (!bodyState.length)
+                  ? 'Waiting for your games... 😘'
+                  : bodyState.sort((a, b) => a.name.localeCompare(b.name))
+                    .map((title, index) => {
+                      return (title.platform === 'playStation')
+                        ? <PlayStationGameItem key={index} gameData={title} />
+                        : <XboxGameItem key={index} gameData={title}/>
+                    })
+              }
+            </tbody>
+          </table>
+        </div>
   )
 }
 
@@ -120,7 +139,6 @@ export const ConfigXbox = () => {
 
 export const FormPlayStation = () => {
   const [edit, setEdit] = useState(false)
-  // const [error, setError] = useState(false)
   const { userData, setUserData } = useContext(userDataContext)
 
   const handleClick = () => {
@@ -133,8 +151,8 @@ export const FormPlayStation = () => {
     const { usernamePlay } = Object.fromEntries(new FormData(event.target))
     // VERIFICAR SI EL USUARIO EXISTE Y PUEDE TRAER DATOS
 
-    localStorage.setItem('playUser', usernamePlay)
     setEdit(false)
+    if (usernamePlay === userData.playStationUsername) return
     setUserData((previous) => {
       return {
         ...previous,
@@ -144,16 +162,27 @@ export const FormPlayStation = () => {
   }
 
   return (
-    <form onSubmit={(event) => HandleSubmit(event)} action="" className='playConfigContent' method='post'>
+    <form onSubmit={(event) => HandleSubmit(event)} className='playConfigContent' method='post'>
       <section className='playParameterInfo'>
-        <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(36, 127, 232)', textDecorationThickness: '5px' }}>
-          PlayStation Username</p>
-        <button onClick={handleClick} style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+        <p>PlayStation Username</p>
+        <button onClick={handleClick} type='button'>Edit</button>
       </section>
       {
         edit
-          ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
-          : <input value={userData.playStationUsername ?? ''} name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          ? <input
+          name='usernamePlay'
+          required
+          className='input-username'
+          type="text"
+          placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input
+          value={userData.playStationUsername ?? ''}
+          name='usernamePlay'
+          required
+          disabled
+          className='input-username'
+          type="text"
+          placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
       <button className='submit-button'>Select</button>
     </form>
@@ -172,14 +201,15 @@ export const FormXbox = () => {
   const HandleSubmit = (event) => {
     event.preventDefault()
     if (!edit) return
-    const { usernamePlay } = Object.fromEntries(new FormData(event.target))
+    const { usernameXbox } = Object.fromEntries(new FormData(event.target))
     // VERIFICAR SI EL USUARIO EXISTE Y PUEDE TRAER DATOS
 
     setEdit(false)
+    if (usernameXbox === userData.xboxUsername) return
     setUserData((previous) => {
       return {
         ...previous,
-        xboxUsername: usernamePlay
+        xboxUsername: usernameXbox
       }
     })
   }
@@ -187,12 +217,24 @@ export const FormXbox = () => {
     <form onSubmit={(event) => HandleSubmit(event)} action="" className='xboxConfigContent'>
       <section className='xboxParameterInfo'>
         <p style={{ fontSize: '18px', textDecoration: 'underline', textUnderlineOffset: '7px', textDecorationColor: 'rgb(19, 162, 17)', textDecorationThickness: '5px' }}>Xbox Username</p>
-        <button onClick={handleClick} style={{ cursor: 'pointer', width: '6rem', padding: '.1rem', fontSize: '15px' }} type='button'>Edit</button>
+        <button onClick={handleClick} type='button'>Edit</button>
       </section>
       {
         edit
-          ? <input name='usernamePlay' required className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
-          : <input value={userData.xboxUsername ?? ''} name='usernamePlay' required disabled className='input-username' type="text" placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          ? <input
+          name='usernameXbox'
+          required
+          className='input-username'
+          type="text"
+          placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+          : <input
+          value={userData.xboxUsername ?? ''}
+          name='usernameXbox'
+          required
+          disabled
+          className='input-username'
+          type="text"
+          placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
       <button className='submit-button'>Select</button>
     </form>

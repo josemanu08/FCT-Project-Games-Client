@@ -24,9 +24,7 @@ export const Filter = ({ children }) => {
 export const UserData = ({ children }) => {
   const [userData, setUserData] = useState({
     xboxUsername: 'LyricPepper7852'/* null */,
-    playStationUsername: 'josemadrake',
-    playGames: [],
-    xboxGames: []
+    playStationUsername: 'josemadrake'
   })
 
   return (

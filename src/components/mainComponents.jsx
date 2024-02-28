@@ -1,87 +1,43 @@
-import { React, useState, useContext, useEffect, useRef } from 'react'
-import { Link, NavLink, Routes, Route, isRouteErrorResponse } from 'react-router-dom'
+/* eslint-disable react/prop-types */
+import { React } from 'react'
+import { NavLink, Routes, Route } from 'react-router-dom'
 import { UserInfo, Filter, Table, ConfigPlaystation, ConfigXbox, FormPlayStation, FormXbox } from './sectionComponents'
-import myGames from '../mocks/myGames.json'
-import myGamesXbox from '../mocks/myGamesXbox.json'
-import { mapXboxGames, mapPlayStationGames } from '../scripts/helpers'
 
 // Funciones fetch de Xbox
 
-import { getGamesFromXuid, getXuidFromUsername } from '../scripts/XBOX/xboxFunctions'
-
-import { userDataContext } from '../Context/contexts'
+// import { getGamesFromXuid, getXuidFromUsername } from '../scripts/XBOX/xboxFunctions'
 
 export const Aside = () => {
   return (
     <nav className='web-aside'>
         <NavLink className='nav-item' to= "/userOptions" ><i className='bx bxs-info-circle'></i></NavLink>
-        <NavLink className='nav-item' to= "/userSite" ><i className='bx bx-table'></i></NavLink>
+        <NavLink className='nav-item' to= "/" ><i className='bx bx-table'></i></NavLink>
     </nav>
   )
 }
 
 // ----------Rutas-Principales-----------
-export const userSite = () => {
-  const [xboxState, setXboxState] = useState([])
-  const [playStationState, setPlaystationState] = useState([])
-
-  const { userData, setUserData } = useContext(userDataContext)
-
-  const prevUserData = useRef({
-    prevPlayName: userData.xboxUsername,
-    prevXboxName: userData.playStationUsername
-  })
-
-  useEffect(() => {
-    if (!userData.playStationUsername) return
-    (async () => {
-      // const auth = await uploadTokenAuth(authPsn)
-      // const userId = await getUserId(authPsn, userData.playStationUsername)
-      // const userGames = await getUserGamesFromId(authPsn, userId)
-    })()
-    // setPlaystationState(mapPlayStationGames(myGames.trophyTitles))
-    setPlaystationState(mapPlayStationGames(myGames.trophyTitles))
-  }, [userData])
-
-  useEffect(() => {
-    if (!userData.xboxUsername) return
-    if (prevUserData.current.prevXboxName === userData.xboxUsername) {
-      console.log('AAAAAAA')
-      return
-    }
-    // getXuidFromUsername(userData.xboxUsername)
-    // .then(xuid => getGamesFromXuid(xuid))
-    // .then(games => setXboxState(mapXboxGames(games.titles)))
-    prevUserData.current.prevXboxName = userData.xboxUsername
-    setXboxState(mapXboxGames(myGamesXbox.titles))
-    setUserData((previous) => {
-      return ({
-        ...previous,
-        xboxGames: mapXboxGames(myGamesXbox.titles)
-      })
-    })
-  }, [])
-
+export const UserSite = ({ xbox, play, profileInfo, profileXbox }) => {
   return (
     <section className='userSite'>
-        <UserInfo></UserInfo>
+        <UserInfo profileXbox = {profileXbox} profileInfo={profileInfo}></UserInfo>
         <Filter></Filter>
-        <Table xbox={xboxState} play={playStationState}></Table>
+        <Table xbox={xbox} play={play}></Table>
     </section>
   )
 }
 
-export const userOption = () => {
+export const UserOption = () => {
   return (
       <ul className='userOptions'>
         <h1>😏</h1>
         <li>
-          <input hidden type="checkbox" id="playChecked"/>
+          <input defaultChecked hidden type="checkbox" id="playChecked"/>
           <ConfigPlaystation></ConfigPlaystation>
           <FormPlayStation></FormPlayStation>
         </li>
         <li>
-          <input hidden type="checkbox" id="xboxCheck" />
+          <input defaultChecked hidden type="checkbox" id="xboxCheck" />
           <ConfigXbox></ConfigXbox>
           <FormXbox></FormXbox>
         </li>
@@ -89,12 +45,11 @@ export const userOption = () => {
   )
 }
 // ----------Rutas-Principales-----------
-export const Roots = () => {
+export const Roots = ({ xbox, play, profileInfo, profileXbox }) => {
   return (
         <Routes>
-            <Route path='/' Component={userSite}></Route>
-            <Route path='/userSite' Component={userSite}></Route>
-            <Route path='/userOptions' Component={userOption}></Route>
+            <Route path='/' element={<UserSite profileXbox = {profileXbox} profileInfo={profileInfo} xbox={xbox} play={play}/>} ></Route>
+            <Route path='/userOptions' element={<UserOption/>}></Route>
         </Routes>
   )
 }

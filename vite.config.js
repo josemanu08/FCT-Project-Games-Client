@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://xbl.io'
+      '/api': 'https://xbl.io',
+      '/psn-api': 'http://localhost:4000'
     }
   }
 })

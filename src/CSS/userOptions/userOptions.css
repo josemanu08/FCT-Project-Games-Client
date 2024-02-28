@@ -150,3 +150,17 @@
 
 /*Botones e inputs del formulario*/
 
+.playParameterInfo p{
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(36, 127, 232);
+    text-decoration-thickness: 5px 
+}
+
+.playParameterInfo button, .xboxParameterInfo button{
+    cursor: pointer;
+    width: 6rem;
+    padding: .1rem;
+    font-size: 15px
+}

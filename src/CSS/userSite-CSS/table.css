@@ -1,6 +1,7 @@
-.gamesTable{
+/*.gamesTable{
     overflow: hidden;
     height: 100%;
+    text-wrap: nowrap;
 }
 
 .gamesTable tr, thead, tbody{
@@ -17,5 +18,84 @@ thead {
 .gamesTable tbody{
     height: 100%;
     display: block;
-    overflow: auto;
+    overflow: auto
+}*/
+.gamesTable{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.table-container{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.table-container::-webkit-scrollbar{
+    width: 15px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: white;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #cfcece;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #817f7f;
+}
+
+/*-------------------------------------*/
+
+.gamesTable td{
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.gamesTable tr {
+    border-bottom: 1px solid rgb(232, 241, 250);
+}
+
+.playItem{
+    background-color: #c6def7;
+}
+
+.playItem:hover{
+    background-color: #a1c9f4;
+}
+
+.xboxItem{
+    background-color: rgb(173, 241, 173);
+}
+
+.xboxItem:hover{
+    background-color: rgb(130, 245, 130);
+}
+
+.xboxItem .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon{
+    width: 3.5rem;
+    height: 2.5rem;
+}
+.mainInfo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.subInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+}
+
+.trophieNumber{
+    font-weight: 650;
 }
