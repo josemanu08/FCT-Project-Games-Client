@@ -1,5 +1,5 @@
-import profilePSN from '../mocks/userPlaystation.json' assert {type:'json'}
-import profileXBOX from '../mocks/userXbox.json' assert {type:'json'}
+// import profilePSN from '../mocks/userPlaystation.json' assert {type:'json'}
+// import profileXBOX from '../mocks/userXbox.json' assert {type:'json'}
 
 export const mapXboxGames = (gamesObj) => {
   return gamesObj.map((title) => {
@@ -29,24 +29,34 @@ export const mapPlayStationGames = (gamesObj) => {
 }
 
 export const mapPlayProfile = (profile) => {
-    return ({
-      username: profile.onlineId,
-      icon: profile.avatarUrls[0].avatarUrl,
-      TrohySummary: {
-        platinum: profile.trophySummary.earnedTrophies.platinum,
-        gold: profile.trophySummary.earnedTrophies.gold,
-        silver: profile.trophySummary.earnedTrophies.silver,
-        bronze: profile.trophySummary.earnedTrophies.bronze,
-      }
-    })
+  return ({
+    username: profile.onlineId,
+    icon: profile.avatarUrls[0].avatarUrl,
+    TrohySummary: {
+      platinum: profile.trophySummary.earnedTrophies.platinum,
+      gold: profile.trophySummary.earnedTrophies.gold,
+      silver: profile.trophySummary.earnedTrophies.silver,
+      bronze: profile.trophySummary.earnedTrophies.bronze
+    }
+  })
 }
 
-export const mapXboxProfile = (profile) => {
+export const mapXboxProfile = (profile, xboxState) => {
   return ({
     username: profile[0].gamertag,
     icon: profile[0].displayPicRaw,
     gamerScore: profile[0].gamerScore,
     tier: profile[0].detail.accountTier,
-    total: null
+    total: calcTotalTrophiesXbox(xboxState)
+  })
+}
+
+export const calcTotalTrophiesXbox = (xboxState) => {
+  return xboxState.reduce((acc, obj) => { return acc + obj.currentAchievements }, 0)
+}
+
+export const applyFilters = (gamesObj, filters) => {
+  return gamesObj.filter((game) => {
+    return ((game.name.toLowerCase().includes(filters.search) || !filters.search))
   })
 }

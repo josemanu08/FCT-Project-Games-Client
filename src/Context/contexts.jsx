@@ -6,7 +6,8 @@ export const userDataContext = createContext()
 
 export const Filter = ({ children }) => {
   const [filterState, setFilterState] = useState({
-    rarity: 'all'
+    search: '',
+    type: ''
   })
 
   return (
@@ -28,11 +29,15 @@ export const UserData = ({ children }) => {
   })
 
   return (
-      <userDataContext.Provider value={{
-        userData,
-        setUserData
-      }}>
-        {children}
-      </userDataContext.Provider>
+      <Filter>
+        <userDataContext.Provider value={{
+          userData,
+          setUserData
+        }}>
+          {children}
+        </userDataContext.Provider>
+      </Filter>
   )
 }
+
+// HACER UN COMPONENTE CONTEXT GLOBAL

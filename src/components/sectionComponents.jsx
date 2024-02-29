@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
-import { React, useState, useEffect, useContext } from 'react'
-import { userDataContext } from '../Context/contexts'
+import { React, useState, useEffect, useContext, useRef } from 'react'
+import { userDataContext, filterContext } from '../Context/contexts'
 import { PlayUserInfo, XboxUserInfo } from './sectionSubComponents'
+import { applyFilters } from '../scripts/helpers'
 // import myGames from '../mocks/myGames.json'
 // import { userDataContext } from '../Context/contexts'
 
@@ -18,18 +19,43 @@ export const UserInfo = ({ profileInfo, profileXbox }) => {
 }
 
 export const Filter = () => {
+  const { setFilterState } = useContext(filterContext)
   const [range, setRange] = useState(50)
+
+  const searchRef = useRef(null)
+  const typeRef = useRef(null)
+
+  const searchHandler = () => {
+    setFilterState((previous) => {
+      return ({
+        ...previous,
+        search: searchRef.current.value
+      })
+    })
+  }
+
+  const typeHandler = () => {
+    setFilterState((previous) => {
+      return ({
+        ...previous,
+        type: typeRef.current.value
+      })
+    })
+  }
+
   return (
         <section className='filters'>
-            <select className='selectRarity'>
-                <option value="Platinum">Platinum</option>
-                <option value="Gold">Gold</option>
-                <option value="Silver">Silver</option>
-                <option value="Bronze">Bronze</option>
-            </select>
-            <input className = 'selectTitle' type="text" size= "60" placeholder='Bloodborne, Uncharted, Dark Souls....'/>
-            <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
-            {range}%
+            <input onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text" size= "100" placeholder='Bloodborne, Uncharted, Dark Souls....'/>
+           <div className="sub-filters">
+              <select ref={typeRef} onInput={typeHandler} className='selectRarity'>
+                  <option value="Platinum">Platinum</option>
+                  <option value="Gold">Gold</option>
+                  <option value="Silver">Silver</option>
+                  <option value="Bronze">Bronze</option>
+              </select>
+              <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
+              {range}%
+           </div>
         </section>
   )
 }
@@ -75,11 +101,14 @@ const PlayStationGameItem = ({ gameData }) => {
 }
 
 export const Table = ({ xbox, play }) => {
+  const { filterState } = useContext(filterContext)
   const [bodyState, setBodyState] = useState([])
 
   useEffect(() => {
     setBodyState([...xbox, ...play])
   }, [xbox, play])
+
+  const filteredTableBody = applyFilters(bodyState, filterState)
 
   return (
         <div className='table-container'>
@@ -95,7 +124,7 @@ export const Table = ({ xbox, play }) => {
               {
                 (!bodyState.length)
                   ? 'Waiting for your games... 😘'
-                  : bodyState.sort((a, b) => a.name.localeCompare(b.name))
+                  : filteredTableBody.sort((a, b) => a.name.localeCompare(b.name))
                     .map((title, index) => {
                       return (title.platform === 'playStation')
                         ? <PlayStationGameItem key={index} gameData={title} />
@@ -144,6 +173,15 @@ export const FormPlayStation = () => {
     setEdit(!edit)
   }
 
+  const eraseContext = () => {
+    setUserData((previous) => {
+      return {
+        ...previous,
+        playStationUsername: null
+      }
+    })
+  }
+
   const HandleSubmit = (event) => {
     event.preventDefault()
     if (!edit) return
@@ -183,6 +221,9 @@ export const FormPlayStation = () => {
           type="text"
           placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
+      <button type='button' className='erase-button' onClick={eraseContext}>
+        <i className='bx bx-x'></i>
+      </button>
       <button className='submit-button'>Select</button>
     </form>
   )
@@ -195,6 +236,15 @@ export const FormXbox = () => {
 
   const handleClick = () => {
     setEdit(!edit)
+  }
+
+  const eraseContext = () => {
+    setUserData((previous) => {
+      return {
+        ...previous,
+        xboxUsername: null
+      }
+    })
   }
 
   const HandleSubmit = (event) => {
@@ -235,6 +285,10 @@ export const FormXbox = () => {
           type="text"
           placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
       }
+
+      <button type='button' className='erase-button' onClick={eraseContext}>
+        <i className='bx bx-x'></i>
+      </button>
       <button className='submit-button'>Select</button>
     </form>
   )

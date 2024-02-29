@@ -1,12 +1,22 @@
 .filters{
     border: 1px solid black;
-    padding: .5rem;
+    padding: .8rem;
     display: flex;
     gap: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .selectRange{
     cursor: pointer;
+}
+
+.filters input[type='text']{
+    font-size: medium;
+    padding: .1rem;
+}
+
+.sub-filters{
+    display: flex;
+    gap: .5rem;
 }

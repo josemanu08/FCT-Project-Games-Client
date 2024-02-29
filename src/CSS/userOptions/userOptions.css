@@ -71,6 +71,11 @@
     overflow: hidden;
     border: 0px solid black;
     transition: .2s height, .2s border-width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: .5rem;
 }
 
 #playChecked:checked ~ .playConfigContent,
@@ -101,13 +106,6 @@
 
 
 /*Formularios*/
-
-.playConfigContent, .xboxConfigContent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 
 .playConfigContent{
     background-color: rgb(232, 241, 250);
@@ -163,4 +161,23 @@
     width: 6rem;
     padding: .1rem;
     font-size: 15px
+}
+
+.erase-button{
+    border-radius: 20%;
+    border: none;
+    padding: .3rem .5rem .3rem .5rem;
+    font-size: large;
+    background-color: rgb(241, 61, 61);
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1280px){
+    #playChecked:checked ~ .playConfigContent,
+    #xboxCheck:checked ~ .xboxConfigContent{
+        height: 10rem;
+        border-width: 1px;
+    }
 }

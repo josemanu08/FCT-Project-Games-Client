@@ -1,4 +1,4 @@
-import { React, useState, useContext, useEffect, useRef } from 'react'
+import { React, useContext } from 'react'
 import { Aside, Roots } from './components/mainComponents'
 import { BrowserRouter } from 'react-router-dom'
 import { userDataContext } from './Context/contexts'
@@ -10,14 +10,13 @@ function App () {
   const { playStationState } = usePlay({ userData })
   const { xboxState } = useXbox({ userData })
   const { ProfilePSN } = usePlayProfile({ userData })
-  const { ProfileXbox } = useXboxProfile({ userData })
+  const { ProfileXbox } = useXboxProfile({ userData, xboxState })
 
-  console.log(ProfileXbox)
   return (
     <BrowserRouter>
       <div className='container'>
         <Aside/>
-        <Roots profileXbox = {ProfileXbox} profileInfo={ProfilePSN} xbox={xboxState} play={playStationState}/>
+        <Roots profileXbox={ProfileXbox} profileInfo={ProfilePSN} xbox={xboxState} play={playStationState}/>
       </div>
     </BrowserRouter>
   )

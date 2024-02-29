@@ -61,6 +61,7 @@ export const XboxUserInfo = ({ xboxProfileInfo }) => {
                         {xboxProfileInfo.tier}
                     </li>
                     <li>
+                        <i className='bx bx-md bxs-trophy'></i>
                         {xboxProfileInfo.total}
                     </li>
                 </ul>

@@ -5,9 +5,7 @@ import './index.css'
 import { Filter, UserData } from './Context/contexts.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <>
-    <UserData>
-      <App />
-    </UserData>
-  </>
+  <UserData>
+    <App />
+  </UserData>
 )
