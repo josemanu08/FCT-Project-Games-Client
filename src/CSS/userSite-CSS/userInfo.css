@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .userInfo ul{
@@ -26,23 +27,23 @@
     width: 70%;
 }
 
-.playUserInfo > li{
+.playUserInfo > li, .XboxUserInfo > li{
     display: flex;
     gap: 1rem;
     align-items: center;
 }
 
-.playUserInfo ul {
+.playUserInfo ul, .XboxUserInfo ul {
     display: flex;
     gap: .5rem;
     align-items: center;
 }
 
-.playUserInfo ul img {
+.playUserInfo ul img, .XboxUserInfo ul img {
     width: 2rem;
 }
 
-.playUserInfo ul li {
+.playUserInfo ul li, .XboxUserInfo ul li {
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -53,4 +54,25 @@
 .XboxUserInfo > li img {
     width: 3rem;
     height: 3rem;
+    border-radius: 50%;
+}
+
+.XboxUserInfo {
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(27, 176, 45, 0.568);
+    color: white;
+    padding: .2rem 1rem .2rem 1rem;
+    justify-content: space-between;
+    border: 3px solid rgb(3, 58, 9);
+    width: 70%;
+}
+
+@media screen and (min-width: 1000px){
+    .XboxUserInfo{
+        width: 50%;
+    }
+    .playUserInfo{
+        width: 50%;
+    }
 }

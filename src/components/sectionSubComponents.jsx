@@ -53,9 +53,11 @@ export const XboxUserInfo = ({ xboxProfileInfo }) => {
                 </li>
                 <ul>
                     <li>
-                        {xboxProfileInfo.gamerScore}
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/1024px-Xbox_one_logo.svg.png" alt="" />
+                        <p style={{ color: 'green' }}>{xboxProfileInfo.gamerScore}</p>
                     </li>
                     <li>
+                    <i className='bx bx-md bxs-medal' ></i>
                         {xboxProfileInfo.tier}
                     </li>
                     <li>

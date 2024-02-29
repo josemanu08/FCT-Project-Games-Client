@@ -27,8 +27,7 @@ export const Filter = () => {
                 <option value="Silver">Silver</option>
                 <option value="Bronze">Bronze</option>
             </select>
-            <input className = 'selectDate' type="datetime-local" name="" id="" />
-            <input className = 'selectTitle' type="text" placeholder='bloodborne, uncharted....'/>
+            <input className = 'selectTitle' type="text" size= "60" placeholder='Bloodborne, Uncharted, Dark Souls....'/>
             <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
             {range}%
         </section>
