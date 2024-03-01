@@ -3,6 +3,7 @@ import { PlayStationGameItem } from './playGameItem'
 import { XboxGameItem } from './xboxGameItem'
 import { applyFilters } from '../../scripts/helpers'
 import { filterContext } from '../../Context/contexts'
+import { animate, stagger } from 'motion'
 
 // eslint-disable-next-line react/prop-types
 export const Table = ({ xbox, play }) => {
@@ -12,6 +13,15 @@ export const Table = ({ xbox, play }) => {
   useEffect(() => {
     setBodyState([...xbox, ...play])
   }, [xbox, play])
+
+  /* useEffect(() => {
+    const tr = document.querySelectorAll('tr')
+    animate(
+      tr,
+      { opacity: [0, 1], scale: [0, 1] },
+      { easing: 'ease-in-out', delay: stagger(0.1) }
+    )
+  }, [filterState]) */
 
   const filteredTableBody = applyFilters(bodyState, filterState)
   return (

@@ -6,7 +6,7 @@ export const PlayUserInfo = ({ profileInfo }) => {
    <>
     {
         !profileInfo
-          ? 'No hay'
+          ? ''
           : <ul className='playUserInfo'>
                 <li>
                     <img src={profileInfo.icon} alt="" />

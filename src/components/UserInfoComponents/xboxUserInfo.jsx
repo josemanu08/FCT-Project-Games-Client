@@ -6,7 +6,7 @@ export const XboxUserInfo = ({ xboxProfileInfo }) => {
           <>
               {
                   !xboxProfileInfo
-                    ? 'Waiting...'
+                    ? ''
                     : <ul className='XboxUserInfo'>
                   <li>
                       <img src={xboxProfileInfo.icon} alt="" />

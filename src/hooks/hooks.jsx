@@ -86,3 +86,13 @@ export const useXboxProfile = ({ userData, xboxState }) => {
 
   return { ProfileXbox }
 }
+
+export const useData = () => {
+  const [data, setData] = useData({
+    psnAch: null,
+    xbAch: null,
+    psnProf: null,
+    xbProf: null
+  })
+  // const updatedData = data
+}
