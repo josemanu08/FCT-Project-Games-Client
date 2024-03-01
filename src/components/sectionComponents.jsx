@@ -23,7 +23,7 @@ export const Filter = () => {
   const [range, setRange] = useState(50)
 
   const searchRef = useRef(null)
-  const typeRef = useRef(null)
+  const platformRef = useRef(null)
 
   const searchHandler = () => {
     setFilterState((previous) => {
@@ -34,11 +34,11 @@ export const Filter = () => {
     })
   }
 
-  const typeHandler = () => {
+  const platformHandler = () => {
     setFilterState((previous) => {
       return ({
         ...previous,
-        type: typeRef.current.value
+        platform: platformRef.current.value
       })
     })
   }
@@ -47,11 +47,10 @@ export const Filter = () => {
         <section className='filters'>
             <input onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text" size= "100" placeholder='Bloodborne, Uncharted, Dark Souls....'/>
            <div className="sub-filters">
-              <select ref={typeRef} onInput={typeHandler} className='selectRarity'>
-                  <option value="Platinum">Platinum</option>
-                  <option value="Gold">Gold</option>
-                  <option value="Silver">Silver</option>
-                  <option value="Bronze">Bronze</option>
+              <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
+                  <option defaultChecked value="both">both</option>
+                  <option value="playStation">PlayStation</option>
+                  <option value="xbox">Xbox</option>
               </select>
               <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
               {range}%
@@ -70,7 +69,7 @@ const XboxGameItem = ({ gameData }) => {
             <p>{gameData.name}</p>
             <p style={{ fontSize: 'small' }}>
             <span className='trophieNumber'>{gameData.earnedTrophies}</span>
-            &nbsp;Trophies</p>
+            &nbsp;Trophies&nbsp;({gameData.currentGamerscore}/{gameData.totalGamerscore})</p>
           </section>
         </div>
       </td>
@@ -109,7 +108,6 @@ export const Table = ({ xbox, play }) => {
   }, [xbox, play])
 
   const filteredTableBody = applyFilters(bodyState, filterState)
-
   return (
         <div className='table-container'>
           <table className='gamesTable'>

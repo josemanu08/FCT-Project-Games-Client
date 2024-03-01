@@ -3,3 +3,9 @@ export const getUserTitles = (username) => {
     .then(res => res.json())
     .then(json => json)
 }
+
+export const getUserProfile = (username) => {
+  return fetch(`/psn-api/userDetails/${username}`)
+    .then(res => res.json())
+    .then(json => json)
+}

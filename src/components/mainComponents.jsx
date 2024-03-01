@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { React } from 'react'
+import { React, Suspense, lazy } from 'react'
 import { NavLink, Routes, Route } from 'react-router-dom'
 import { UserInfo, Filter, Table, ConfigPlaystation, ConfigXbox, FormPlayStation, FormXbox } from './sectionComponents'
 

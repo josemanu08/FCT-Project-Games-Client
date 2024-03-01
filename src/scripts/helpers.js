@@ -9,7 +9,9 @@ export const mapXboxGames = (gamesObj) => {
       percentaje: title.achievement.progressPercentage,
       platform: 'xbox',
       icon: title.displayImage,
-      earnedTrophies: title.achievement.currentAchievements
+      earnedTrophies: title.achievement.currentAchievements,
+      currentGamerscore: title.achievement.currentGamerscore,
+      totalGamerscore: title.achievement.totalGamerscore
     })
   })
 }
@@ -57,6 +59,7 @@ export const calcTotalTrophiesXbox = (xboxState) => {
 
 export const applyFilters = (gamesObj, filters) => {
   return gamesObj.filter((game) => {
-    return ((game.name.toLowerCase().includes(filters.search) || !filters.search))
+    return ((game.name.toLowerCase().includes(filters.search) || !filters.search) &&
+   (game.platform === filters.platform || filters.platform === 'both'))
   })
 }
