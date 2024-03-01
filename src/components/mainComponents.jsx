@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { React, Suspense, lazy } from 'react'
+import { React } from 'react'
 import { NavLink, Routes, Route } from 'react-router-dom'
 import { UserInfo, Filter, Table, ConfigPlaystation, ConfigXbox, FormPlayStation, FormXbox } from './sectionComponents'
 
@@ -45,6 +45,7 @@ export const UserOption = () => {
   )
 }
 // ----------Rutas-Principales-----------
+
 export const Roots = ({ xbox, play, profileInfo, profileXbox }) => {
   return (
         <Routes>

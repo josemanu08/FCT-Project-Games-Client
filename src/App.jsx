@@ -1,5 +1,7 @@
 import { React, useContext } from 'react'
-import { Aside, Roots } from './components/mainComponents'
+// import { Aside, Roots } from './components/mainComponents'
+import { Aside } from './components/MainComponents/aside'
+import { Roots } from './components/MainComponents/routes'
 import { BrowserRouter } from 'react-router-dom'
 import { userDataContext } from './Context/contexts'
 
