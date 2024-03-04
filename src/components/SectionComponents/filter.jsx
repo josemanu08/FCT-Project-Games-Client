@@ -2,7 +2,7 @@ import { React, useRef, useContext, useState } from 'react'
 import { filterContext } from '../../Context/contexts'
 
 export const Filter = () => {
-  const { setFilterState } = useContext(filterContext)
+  const { setFilterState, filterState } = useContext(filterContext)
   const [range, setRange] = useState(50)
 
   const searchRef = useRef(null)
@@ -25,18 +25,17 @@ export const Filter = () => {
       })
     })
   }
-
   return (
           <section className='filters'>
-              <input onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text" size= "100" placeholder='Bloodborne, Uncharted, Dark Souls....'/>
+              <input onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
              <div className="sub-filters">
                 <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
-                    <option defaultChecked value="both">both</option>
+                    <option value="both">both</option>
                     <option value="playStation">PlayStation</option>
                     <option value="xbox">Xbox</option>
                 </select>
-                <input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
-                {range}%
+                {/* }<input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
+                {range}%{ */}
              </div>
           </section>
   )

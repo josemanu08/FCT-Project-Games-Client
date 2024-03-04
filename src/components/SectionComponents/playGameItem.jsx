@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const PlayStationGameItem = ({ gameData }) => {
   return (
@@ -14,8 +15,21 @@ export const PlayStationGameItem = ({ gameData }) => {
                 &nbsp;Trophies</p>
             </section>
           </div>
+          <div className='platformInfo'>
+            {
+              gameData?.titlePlatforms.split(',')
+                .map((platform, index) => {
+                  if (platform === 'PS4') return <p className='PS4' key={index}>{platform}</p>
+                  if (platform === 'PSVITA') return <p className='PSVITA' key={index}>{platform}</p>
+                  return <p className='PS3' key={index}>{platform}</p>
+                })
+            }
+          </div>
         </td>
-        <td><span className='playPlatform'>{gameData.platform}</span></td>
+        <td className='detailsColumn'>
+          {/* }<span className='playPlatform'>{gameData.platform}</span>{ */}
+            <NavLink className='getDetails'><i className='bx bx-sm bxs-spreadsheet'></i></NavLink>
+        </td>
         <td>{gameData.percentaje}%</td>
       </tr>
   )

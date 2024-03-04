@@ -1,14 +1,21 @@
 .filters{
-    border: 1px solid black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     padding: .8rem;
     display: flex;
+    color: white;
     gap: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #24252b;
 }
 
 .selectRange{
     cursor: pointer;
+}
+
+.selectTitle{
+    width: 50%;
 }
 
 .filters input[type='text']{

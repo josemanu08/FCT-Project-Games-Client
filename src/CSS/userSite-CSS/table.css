@@ -1,29 +1,11 @@
-/*.gamesTable{
-    overflow: hidden;
-    height: 100%;
-    text-wrap: nowrap;
-}
-
-.gamesTable tr, thead, tbody{
-    text-align: center;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-}
-
-thead {
-    width: calc( 100% - 1em )
-}
-
-.gamesTable tbody{
-    height: 100%;
-    display: block;
-    overflow: auto
-}*/
 .gamesTable{
     text-align: center;
     width: 100%;
     max-height: 100%;
+}
+
+.gamesTable th{
+    color: white;
 }
 
 .table-container{
@@ -60,15 +42,19 @@ thead {
 }
 
 .playItem{
-    background-color: #c6def7;
+    /*background-color: #c6def7;*/
+    background-color: #5564f0;
+    color: white;
 }
 
 .playItem:hover{
     background-color: #a1c9f4;
+    color: black;
 }
 
 .xboxItem{
-    background-color: rgb(173, 241, 173);
+    /*background-color: rgb(173, 241, 173);*/
+    background-color: rgb(91, 213, 91);
 }
 
 .xboxItem:hover{
@@ -88,6 +74,7 @@ thead {
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-size: large;
 }
 
 .subInfo{
@@ -98,4 +85,71 @@ thead {
 
 .trophieNumber{
     font-weight: 650;
+}
+
+/*04/03/2024*/
+
+.platformInfo{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: .5rem;
+}
+
+.detailsColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    color: black;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.getDetails:hover{
+    outline: 1px solid black;
+}
+
+.platformInfo p{
+    border: 1px solid black;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: small;
+}
+
+.PC{
+    background-color: rgb(84, 164, 130);
+    color: white;
+}
+
+.XboxSeries{
+    background-color: rgb(59, 164, 47);
+    color: white;
+}
+
+.XboxOne{
+    background-color: rgb(56, 231, 56);  
+    color: white;  
+}
+
+.PS4{
+    background-color: rgb(55, 55, 236);
+    color: white;
+}
+
+.PSVITA{
+    background-color:#0071bc;
+    color: white;
+}
+
+.PS3{
+    background-color: #6576b4;
+    color: white;
 }

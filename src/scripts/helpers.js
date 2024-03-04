@@ -11,7 +11,8 @@ export const mapXboxGames = (gamesObj) => {
       icon: title.displayImage,
       earnedTrophies: title.achievement.currentAchievements,
       currentGamerscore: title.achievement.currentGamerscore,
-      totalGamerscore: title.achievement.totalGamerscore
+      totalGamerscore: title.achievement.totalGamerscore,
+      titlePlatforms: title.devices
     })
   })
 }
@@ -25,7 +26,8 @@ export const mapPlayStationGames = (gamesObj) => {
       platform: 'playStation',
       icon: title.trophyTitleIconUrl,
       definedTrophies: Object.values(title.definedTrophies).reduce((acc, value) => acc + value),
-      earnedTrophies: Object.values(title.earnedTrophies).reduce((acc, value) => acc + value)
+      earnedTrophies: Object.values(title.earnedTrophies).reduce((acc, value) => acc + value),
+      titlePlatforms: title.trophyTitlePlatform
     })
   })
 }
@@ -54,7 +56,7 @@ export const mapXboxProfile = (profile, xboxState) => {
 }
 
 export const calcTotalTrophiesXbox = (xboxState) => {
-  return xboxState.reduce((acc, obj) => { return acc + obj.currentAchievements }, 0)
+  return xboxState.reduce((acc, obj) => { return acc + obj.achievement.currentAchievements }, 0)
 }
 
 export const applyFilters = (gamesObj, filters) => {

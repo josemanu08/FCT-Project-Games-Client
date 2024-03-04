@@ -1,24 +1,29 @@
 import { React, useContext } from 'react'
 // import { Aside, Roots } from './components/mainComponents'
-import { Aside } from './components/MainComponents/aside'
 import { Roots } from './components/MainComponents/routes'
 import { BrowserRouter } from 'react-router-dom'
 import { userDataContext } from './Context/contexts'
-
-import { useXbox, usePlay, usePlayProfile, useXboxProfile } from './hooks/hooks'
+// ---Mock---
+import myGames from './mocks/myGames.json'
+import PSNProfile from './mocks/userPlaystation.json'
+import gamesXbox from './mocks/myGamesXbox.json'
+import userXbox from './mocks/userXbox.json'
+import { mapPlayProfile, mapPlayStationGames, mapXboxProfile, mapXboxGames } from './scripts/helpers'
+// ---Mock---
+import { useUserData } from './hooks/hooks'
 
 function App () {
   const { userData } = useContext(userDataContext)
-  const { playStationState } = usePlay({ userData })
-  const { xboxState } = useXbox({ userData })
-  const { ProfilePSN } = usePlayProfile({ userData })
-  const { ProfileXbox } = useXboxProfile({ userData, xboxState })
-
+  const { data } = useUserData({ userData })
+  // data.psn?.psnProfile
+  // data.psn?.psnTitles
+  // data.xbl?.xblProfile
+  // data.xbl?.xblTitles
   return (
     <BrowserRouter>
       <div className='container'>
-        <Aside/>
-        <Roots profileXbox={ProfileXbox} profileInfo={ProfilePSN} xbox={xboxState} play={playStationState}/>
+        {}<Roots profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)} profileInfo={mapPlayProfile(PSNProfile.profile)} xbox={mapXboxGames(gamesXbox.titles)} play={mapPlayStationGames(myGames.trophyTitles)}/>{ }
+        {/* }<Roots profileXbox={data.xbl?.xblProfile} profileInfo={data.psn?.psnProfile} xbox={data.xbl?.xblTitles} play={data.psn?.psnTitles}/>{ */}
       </div>
     </BrowserRouter>
   )

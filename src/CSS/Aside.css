@@ -1,7 +1,7 @@
 .web-aside{
     min-height: 100vh;
     width: 5vw;
-    background-color: #31354c;
+    background-color: #212433;
     color: whitesmoke;
     display: flex;
     align-items: center;
@@ -19,5 +19,8 @@
 }
 
 .nav-item:hover{
+    background-color: #4f5a97;
+}
+.active{
     background-color: #4f5a97;
 }

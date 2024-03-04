@@ -38,5 +38,7 @@ export const getXboxUserProfile = (username) => {
     }
   })
     .then(res => res.json())
-    .then(json => json)
+    .then(json => {
+      return json
+    })
 }

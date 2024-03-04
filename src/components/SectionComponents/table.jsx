@@ -11,7 +11,9 @@ export const Table = ({ xbox, play }) => {
   const [bodyState, setBodyState] = useState([])
 
   useEffect(() => {
-    setBodyState([...xbox, ...play])
+    const xboxTableData = xbox ?? []
+    const playTableData = play ?? []
+    setBodyState([...xboxTableData, ...playTableData])
   }, [xbox, play])
 
   /* useEffect(() => {
@@ -30,7 +32,7 @@ export const Table = ({ xbox, play }) => {
               <thead>
                   <tr>
                     <th colSpan={2}>Name</th>
-                    <th>Platform</th>
+                    <th>Details</th>
                     <th>Pertentaje</th>
                   </tr>
               </thead>
