@@ -87,12 +87,20 @@ export const useXboxProfile = ({ userData, xboxState }) => {
   return { ProfileXbox }
 }
 
-export const useData = () => {
+export const useData = ({ userData }) => {
   const [data, setData] = useData({
     psnAch: null,
     xbAch: null,
     psnProf: null,
     xbProf: null
   })
-  // const updatedData = data
+  const updatedData = data
+
+  useEffect(() => {
+    /* getUserTitles(userData.playStationUsername)
+      .then(res => {
+        setPlaystationState(mapPlayStationGames(res.trophyTitles))
+      }) */
+    updatedData.psnAch = mapPlayStationGames(myGames.trophyTitles)
+  }, [userData])
 }
