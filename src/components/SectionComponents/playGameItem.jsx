@@ -28,7 +28,7 @@ export const PlayStationGameItem = ({ gameData }) => {
         </td>
         <td className='detailsColumn'>
           {/* }<span className='playPlatform'>{gameData.platform}</span>{ */}
-            <NavLink className='getDetails'><i className='bx bx-sm bxs-spreadsheet'></i></NavLink>
+            <NavLink to={`/psn/${gameData.id}/${gameData.accId}`} className='getDetails'><i className='bx bx-sm bxs-spreadsheet'></i></NavLink>
         </td>
         <td>{gameData.percentaje}%</td>
       </tr>

@@ -8,9 +8,9 @@ export const getPlayUserData = async (psnUsername) => {
     psnProfile: null
   }
 
-  const psnTitles = await getUserTitles(psnUsername)
   const psnProfile = await getUserProfile(psnUsername)
-  res.psnTitles = mapPlayStationGames(psnTitles.trophyTitles)
+  const psnTitles = await getUserTitles(psnUsername)
+  res.psnTitles = mapPlayStationGames(psnTitles.trophyTitles, psnProfile.profile)
   res.psnProfile = mapPlayProfile(psnProfile.profile)
 
   return res
@@ -25,7 +25,7 @@ export const getXboxUserData = async (xblUsername) => {
   const xblId = await getXuidFromUsername(xblUsername)
   const xblTitles = await getGamesFromXuid(xblId)
   const xblProfile = await getXboxUserProfile(xblUsername)
-  res.xblTitles = mapXboxGames(xblTitles.titles)
+  res.xblTitles = mapXboxGames(xblTitles)
   res.xblProfile = mapXboxProfile(xblProfile.people, xblTitles.titles)
 
   return res

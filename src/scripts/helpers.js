@@ -2,8 +2,11 @@
 // import profileXBOX from '../mocks/userXbox.json' assert {type:'json'}
 
 export const mapXboxGames = (gamesObj) => {
-  return gamesObj.map((title) => {
+  const games = gamesObj.titles
+  return games.map((title) => {
     return ({
+      userId: gamesObj.xuid,
+      id: title.titleId,
       name: title.name,
       currentAchievements: title.achievement.currentAchievements,
       percentaje: title.achievement.progressPercentage,
@@ -17,9 +20,11 @@ export const mapXboxGames = (gamesObj) => {
   })
 }
 
-export const mapPlayStationGames = (gamesObj) => {
+export const mapPlayStationGames = (gamesObj, playProfile) => {
   return gamesObj.map((title) => {
     return ({
+      accId: playProfile.accountId,
+      id: title.npCommunicationId,
       name: title.trophyTitleName,
       currentAchievements: title.earnedTrophies,
       percentaje: title.progress,
@@ -34,6 +39,7 @@ export const mapPlayStationGames = (gamesObj) => {
 
 export const mapPlayProfile = (profile) => {
   return ({
+    id: profile.accountId,
     username: profile.onlineId,
     icon: profile.avatarUrls[0].avatarUrl,
     TrohySummary: {

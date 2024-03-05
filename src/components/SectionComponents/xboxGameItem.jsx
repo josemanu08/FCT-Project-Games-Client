@@ -26,7 +26,7 @@ export const XboxGameItem = ({ gameData }) => {
           </div>
         </td>
         <td className='detailsColumn'>
-          <NavLink className='getDetails'><i className='bx bx-sm bxs-spreadsheet'></i></NavLink>
+          <NavLink to={`/xbl/${gameData.id}/${gameData.userId}`} className='getDetails'><i className='bx bx-sm bxs-spreadsheet'></i></NavLink>
         </td>
         <td>{gameData.percentaje}%</td>
       </tr>
