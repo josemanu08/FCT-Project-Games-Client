@@ -3,7 +3,7 @@ import { PlayStationGameItem } from './playGameItem'
 import { XboxGameItem } from './xboxGameItem'
 import { applyFilters } from '../../scripts/helpers'
 import { filterContext } from '../../Context/contexts'
-import { animate, stagger } from 'motion'
+// import { animate, stagger } from 'motion'
 
 // eslint-disable-next-line react/prop-types
 export const Table = ({ xbox, play }) => {
