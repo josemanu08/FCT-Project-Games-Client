@@ -18,7 +18,7 @@
 }
 
 .table-container::-webkit-scrollbar-track {
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 .table-container::-webkit-scrollbar-thumb {
@@ -26,7 +26,7 @@
 }
 
 .table-container::-webkit-scrollbar-thumb:hover {
-    background-color: #817f7f;
+    background-color: #eee5e5;
 }
 
 /*-------------------------------------*/
@@ -43,22 +43,24 @@
 
 .playItem{
     /*background-color: #c6def7;*/
-    background-color: #5564f0;
+    background-color: rgb(0, 115, 255, 0.568);
     color: white;
 }
 
 .playItem:hover{
-    background-color: #a1c9f4;
+    background-color: #4598f0;
     color: black;
 }
 
 .xboxItem{
     /*background-color: rgb(173, 241, 173);*/
+    color: white;
     background-color: rgb(91, 213, 91);
+    background-color: rgba(16, 118, 28, 0.568);
 }
 
 .xboxItem:hover{
-    background-color: rgb(130, 245, 130);
+    background-color: rgb(43, 151, 43);
 }
 
 .xboxItem .icon {

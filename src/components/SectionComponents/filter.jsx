@@ -3,7 +3,6 @@ import { filterContext } from '../../Context/contexts'
 
 export const Filter = () => {
   const { setFilterState, filterState } = useContext(filterContext)
-  const [range, setRange] = useState(50)
 
   const searchRef = useRef(null)
   const platformRef = useRef(null)
@@ -27,7 +26,7 @@ export const Filter = () => {
   }
   return (
           <section className='filters'>
-              <input onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
+              <input value={filterState.search} onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
              <div className="sub-filters">
                 <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
                     <option value="both">both</option>

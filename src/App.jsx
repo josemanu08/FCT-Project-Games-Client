@@ -11,6 +11,11 @@ import userXbox from './mocks/userXbox.json'
 import { mapPlayProfile, mapPlayStationGames, mapXboxProfile, mapXboxGames } from './scripts/helpers'
 // ---Mock---
 import { useUserData } from './hooks/hooks'
+import { getAvailableTrophies } from './scripts/TROPHY/trophyFetch'
+
+/* (async () => {
+  await getAvailableTrophies('7397312102069087760', 'NPWR11234_00')
+})() */
 
 function App () {
   const { userData } = useContext(userDataContext)
