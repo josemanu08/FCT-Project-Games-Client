@@ -36,12 +36,13 @@ export const getAvailableTrophies = async (userId, titleId) => {
 }
 
 export const getXboxAvailableTrophies = async (userId, titleId) => {
-  const response = []
+  const response = {}
   const trophies = await fetchXboxTrophies(userId, titleId)
   const gameData = await fetchGameData(titleId)
   // const GameInfo = await
   // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
-  response.push(trophies, mapXboxGameInfo(gameData)[0])
+  response.tr = trophies
+  response.ti = mapXboxGameInfo(gameData)[0]
   console.log(response)
   return response
 }
@@ -51,6 +52,7 @@ export const mapXboxGameInfo = (gameInfo) => {
   if (!gameInfo) return
 
   return gameInfo.Products.map((productInfo) => ({
+    name: productInfo.LocalizedProperties[0].ProductTitle,
     developerName: productInfo.LocalizedProperties[0].DeveloperName,
     website: productInfo.LocalizedProperties[0].PublisherWebsiteUri,
     imgs: {

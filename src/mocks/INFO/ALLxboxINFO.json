@@ -1,5 +1,5 @@
-[
-    {
+{
+    "tr": {
         "achievements": [
             {
                 "id": "1",
@@ -2047,7 +2047,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 3.05
+                    "currentPercentage": 3.06
                 }
             },
             {
@@ -3454,7 +3454,8 @@
             "totalRecords": 63
         }
     },
-    {
+    "ti":{
+        "name": "Hollow Knight: Voidheart Edition",
         "developerName": "Team Cherry",
         "website": "https://www.teamcherry.com.au/",
         "imgs": {
@@ -3627,4 +3628,4 @@
             "Platformer"
         ]
     }
-]
+}

@@ -23,8 +23,8 @@ export const useXboxTrophies = ({ userId, gameId }) => {
   const [xboxTrophyData, setXboxTrophyData] = useState(null)
   useEffect(() => {
     const fetchData = async () => {
-      // const trophies = await getXboxAvailableTrophies(userId, gameId)
-      setXboxTrophyData(ALLxboxINFO)
+      const trophies = await getXboxAvailableTrophies(userId, gameId)
+      setXboxTrophyData(trophies)
     }
     fetchData()
   }, [])

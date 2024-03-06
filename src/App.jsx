@@ -19,7 +19,7 @@ import { useUserData } from './hooks/hooks'
 })() */
 
 /* (async () => {
-  await getXboxAvailableTrophies('2535430809538288', '1931947471')
+  await getXboxAvailableTrophies('2535430809538288', '2059211995')
 })() */
 
 function App () {

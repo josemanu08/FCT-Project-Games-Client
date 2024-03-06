@@ -1,0 +1,120 @@
+.goBack{
+    position: fixed;
+    top: .5rem;
+    right: .5rem;
+    padding: .7rem;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s padding;
+}
+
+
+.detailBody{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(87, 191, 87);
+}
+
+.detailContainer{
+    width: 50vw;
+}
+
+.detailsHeader{
+    display: flex;
+    justify-content: space-around;
+    height: min-content;
+    background-color: #18191A;
+    padding: 2rem;
+}
+
+@media(max-width:1200px){
+    .detailContainer{
+        width: 100vw;
+    }    
+}
+
+.goBack:hover{
+    padding: 1rem;
+}
+
+/*img*/
+.titleImageContainer img{
+    width: 20rem;
+}
+
+/*div con backgroundImg*/
+
+.titleImageContainer .img{
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.titleImageContainer{
+    min-width: 40%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.titleInfoContainer{
+    min-width: 40%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.goBack{
+    color:rgb(17, 244, 161);
+}
+
+
+
+.detailsHeaderSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titleName{
+    font-size: xx-large;
+    color: white;
+}
+
+.infoName{
+    color: gray;
+}
+
+.info{
+    color: white;
+}
+
+.gameInfo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: .5rem;
+}
+
+.xboxTitleDescription{
+    text-align: start;
+}
+
+button{
+    width: 5rem;
+    padding: .7rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background-color: #007738;
+    font-size: medium;
+}
+
+button a {
+    color: white;
+}

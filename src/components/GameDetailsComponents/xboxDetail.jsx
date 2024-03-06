@@ -1,36 +1,47 @@
+/* eslint-disable react/prop-types */
 import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useXboxTrophies } from '../../hooks/detailHooks'
 
 const TitleInfo = ({ info }) => {
   return (
-    <>
-      <h2>Title</h2>
+    <section style={{ position: 'relative' }} className='titleInfoContainer'>
+     <h2 className='titleName'>{info?.ti?.name}</h2>
       <ul className='detailsHeaderSection'>
         <li>
           <ul className='gameInfo'>
-            <li>Creador</li>
-            <li>Fecha de Lanzamiento</li>
+            <li>
+              <span className='infoName'>Created By </span>
+              <p className='info'>{info?.ti?.developerName}</p>
+            </li>
+            <li>
+              <span className='infoName'>Date </span>
+              <p className='info'>{(new Date(info?.ti?.releaseDate).toLocaleDateString())}</p>
+            </li>
           </ul>
         </li>
         <li className='xboxTitleDescription'>
-          Descripción del juego
+          <p className='infoName'>{info?.ti?.shortDescription}</p>
         </li>
       </ul>
-      <button type='button'><a href=""></a></button>
-    </>
+      <button type='button'><a target='_blank' href={`${info?.ti?.website}`} rel="noreferrer">Website</a></button>
+    </section>
   )
 }
 
-const TitleImages = () => {
+const TitleImages = ({ info }) => {
+  console.log(info?.ti?.imgs?.logo[0]?.Uri)
   return (
-    <></>
+    <section className='titleImageContainer'>
+      { }<div className='img' style={{ backgroundImage: `url("${info?.ti?.imgs?.logo[0]?.Uri}")`, height: '300px', width: '100%' }}></div>{ }
+      {/* }<img src={`${info?.ti?.imgs?.logo[0]?.Uri}`} alt="" />{ */}
+    </section>
   )
 }
 
 const Header = ({ children }) => {
   return (
-  <header>
+  <header className='detailsHeader'>
     {children}
   </header>
   )
@@ -41,13 +52,19 @@ export const XboxDetail = () => {
   const { xboxTrophyData } = useXboxTrophies(params)
   return (
     <>
-        <Header>
-          <TitleImages></TitleImages>
-          <TitleInfo></TitleInfo>
-        </Header>
-        <NavLink to='/'>go back</NavLink>
-        {/* }<h1>Juego de xbox con id {params.gameId}, y usuario {params.userId}</h1>{ */}
-        {/* }{JSON.stringify(xboxTrophyData, null, 3)}{ */}
+        {
+          xboxTrophyData
+            ? <div className='detailBody'>
+                <div className='detailContainer'>
+                  <Header>
+                    <TitleImages info = {xboxTrophyData}></TitleImages>
+                    <TitleInfo info={xboxTrophyData}></TitleInfo>
+                  </Header>
+                  <NavLink className='goBack' to='/'><i className='bx bxs-left-arrow'></i></NavLink>
+                </div>
+              </div>
+            : 'Waiting'
+        }
     </>
   )
 }
