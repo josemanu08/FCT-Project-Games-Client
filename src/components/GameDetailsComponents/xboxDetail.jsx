@@ -55,13 +55,11 @@ export const XboxDetail = () => {
         {
           xboxTrophyData
             ? <div className='detailBody'>
-                <div className='detailContainer'>
                   <Header>
                     <TitleImages info = {xboxTrophyData}></TitleImages>
                     <TitleInfo info={xboxTrophyData}></TitleInfo>
                   </Header>
                   <NavLink className='goBack' to='/'><i className='bx bxs-left-arrow'></i></NavLink>
-                </div>
               </div>
             : 'Waiting'
         }

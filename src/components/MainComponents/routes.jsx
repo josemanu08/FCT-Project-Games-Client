@@ -12,8 +12,8 @@ export const Roots = ({ xbox, play, profileInfo, profileXbox }) => {
             <Route end path='/' element= {<Aside></Aside>}>
               <Route path='/' element={<UserSite profileXbox = {profileXbox} profileInfo={profileInfo} xbox={xbox} play={play}/>} ></Route>
               <Route path='/userOptions' element={<UserOption/>}></Route>
-              <Route path='/psn/:gameId/:userId' element={<PlayDetail/>}></Route>
               <Route path='/xbl/:gameId/:userId'element={<XboxDetail/>} ></Route>
+              <Route path='/psn/:gameId/:userId' element={<PlayDetail/>}></Route>
             </Route>
          </Routes>
   )

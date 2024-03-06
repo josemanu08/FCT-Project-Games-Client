@@ -9,19 +9,17 @@
     align-items: center;
     justify-content: center;
     transition: .5s padding;
+    color: rgb(87, 191, 87)
 }
 
 
 .detailBody{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(87, 191, 87);
 }
 
-.detailContainer{
-    width: 50vw;
-}
 
 .detailsHeader{
     display: flex;
@@ -29,16 +27,14 @@
     height: min-content;
     background-color: #18191A;
     padding: 2rem;
+    box-sizing: border-box;
+    width: 50vh;
 }
 
-@media(max-width:1200px){
-    .detailContainer{
-        width: 100vw;
-    }    
-}
-
-.goBack:hover{
-    padding: 1rem;
+@media(max-width:1400px){
+    .detailsHeader{
+        width: 100%;
+    }
 }
 
 /*img*/
@@ -63,17 +59,11 @@
 
 .titleInfoContainer{
     min-width: 40%;
-    max-width: 40%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-
-.goBack{
-    color:rgb(17, 244, 161);
-}
-
-
 
 .detailsHeaderSection{
     display: flex;
