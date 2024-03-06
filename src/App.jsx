@@ -11,10 +11,15 @@ import userXbox from './mocks/userXbox.json'
 import { mapPlayProfile, mapPlayStationGames, mapXboxProfile, mapXboxGames } from './scripts/helpers'
 // ---Mock---
 import { useUserData } from './hooks/hooks'
-import { getAvailableTrophies } from './scripts/TROPHY/trophyFetch'
+// import { getAvailableTrophies } from './scripts/TROPHY/trophyFetch'
+// import { getXboxAvailableTrophies } from './scripts/TROPHY/getAvailableTrophies'
 
 /* (async () => {
   await getAvailableTrophies('7397312102069087760', 'NPWR11234_00')
+})() */
+
+/* (async () => {
+  await getXboxAvailableTrophies('2535430809538288', '1931947471')
 })() */
 
 function App () {

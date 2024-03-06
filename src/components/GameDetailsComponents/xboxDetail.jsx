@@ -2,6 +2,14 @@ import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useXboxTrophies } from '../../hooks/detailHooks'
 
+const Header = ({ img }) => {
+  return (
+  <header>
+    <img src="" alt="" />
+  </header>
+  )
+}
+
 export const XboxDetail = () => {
   const params = useParams()
   const { xboxTrophyData } = useXboxTrophies(params)
