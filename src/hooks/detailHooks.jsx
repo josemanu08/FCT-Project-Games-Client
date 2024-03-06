@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import { getAvailableTrophies, getXboxAvailableTrophies } from '../scripts/TROPHY/getAvailableTrophies'
-import trophies from '../mocks/TROPHIES/tDetailPlay.json'
+
+// Mocks
 import xboxTrophies from '../mocks/TROPHIES/tDetailXbox.json'
 import allPstrophiesInfo from '../mocks/TROPHIES/allPlayStationTrophyInfo.json'
+import ALLxboxINFO from '../mocks/INFO/ALLxboxINFO.json'
 
 export const useTrophies = ({ userId, gameId }) => {
   const [trophyData, setTrophyData] = useState(null)
@@ -22,7 +24,7 @@ export const useXboxTrophies = ({ userId, gameId }) => {
   useEffect(() => {
     const fetchData = async () => {
       // const trophies = await getXboxAvailableTrophies(userId, gameId)
-      setXboxTrophyData(xboxTrophies)
+      setXboxTrophyData(ALLxboxINFO)
     }
     fetchData()
   }, [])

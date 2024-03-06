@@ -40,9 +40,10 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
   const trophies = await fetchXboxTrophies(userId, titleId)
   const gameData = await fetchGameData(titleId)
   // const GameInfo = await
-  response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
-  response.push(gameData)
-  console.log(mapXboxGameInfo(gameData))
+  // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
+  response.push(trophies, mapXboxGameInfo(gameData)[0])
+  console.log(response)
+  return response
 }
 
 // Mapeo toda la información que me da el endpoint del juego en el Marketplace
