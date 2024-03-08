@@ -32,6 +32,47 @@
     gap: 1rem;
 }
 
+/*img SLIDER*/
+.titleImageContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.images{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 30rem;
+}
+
+.images img{
+    width: 30rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.prevImage, .nextImage{
+    background-color: #18191a00;
+    border: none;
+    color: white;
+}
+.prevImage{
+    position: absolute;
+    left: .5rem;
+    top: 50%;
+    cursor: pointer;
+}
+
+.nextImage{
+    position: absolute;
+    right: .5rem;
+    top: 50%;
+    cursor: pointer;
+}
+
+@media (min-width: 1500px){
+}
 @media (max-width: 700px){
     .detailsHeader{
         flex-direction: column;
@@ -43,15 +84,7 @@
     }
 }
 
-/*img*/
-.titleImageContainer{
-    display: flex;
-}
-.titleImageContainer img{
-    width: 15rem;
-    border-radius: 10px;
-    align-self: center;
-}
+/*img SLIDER*/
 
 /*div con backgroundImg*/
 

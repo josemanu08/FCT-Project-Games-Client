@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { React } from 'react'
+import { React, useEffect, useRef, useState } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useXboxTrophies } from '../../hooks/detailHooks'
 // import { useDescription } from '../../hooks/useDescription'
@@ -38,10 +38,40 @@ const TitleInfo = ({ info }) => {
 }
 
 const TitleImages = ({ info }) => {
+  const [index, setIndex] = useState(0)
+  const imgRef = useRef()
+
+  useEffect(() => {
+    // const img = imgRef.current.children[index]
+    const img = document.querySelectorAll('img')[index]
+    img.scrollIntoView()
+  }, [index])
+
+  const changeImage = (step) => {
+    if (step === 'next') {
+      const isLastImage = index === info.ti.imgs.length - 1
+      setIndex(isLastImage ? info.ti.imgs.length - 1 : index + 1)
+    } else {
+      const isFistImage = index === 0
+      setIndex(isFistImage ? 0 : index - 1)
+    }
+  }
+
   return (
     <section className='titleImageContainer'>
-      { /* }<div className='img' style={{ backgroundImage: `url("${info?.ti?.imgs?.logo[0]?.Uri}")`, height: '300px', width: '100%' }}></div>{ */ }
-      { }<img src={`${info?.ti?.imgs?.logo[0]?.Uri}`} alt="" />{ }
+      <div ref={imgRef} className="images">
+        {
+          info?.ti?.imgs.map((img, index) => {
+            return <img width='400px' key={index} src={`${img.Uri}`} alt="" />
+          })
+        }
+      </div>
+      <button onClick={() => changeImage('next')} className='nextImage'>
+      <i className='bx bx-sm bxs-right-arrow'></i>
+      </button>
+      <button onClick={() => changeImage('prev')} className='prevImage'>
+      <i className='bx bx-sm bxs-left-arrow' ></i>
+      </button>
     </section>
   )
 }
