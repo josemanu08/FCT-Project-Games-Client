@@ -1,16 +1,11 @@
 /* eslint-disable react/prop-types */
-import { React, useState } from 'react'
+import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useXboxTrophies } from '../../hooks/detailHooks'
+// import { useDescription } from '../../hooks/useDescription'
 
 const TitleInfo = ({ info }) => {
-  const [descState, setDescState] = useState(info.ti.shortDescription.length > 200 ? 'closedDesc' : 'openedDesc')
-
-  const handleClick = () => {
-    setDescState((prev) => {
-      return prev === 'closedDesc' ? 'openedDesc' : 'closedDesc'
-    })
-  }
+  // const { descState, handleClick } = useDescription({ info })
 
   return (
     <section style={{ position: 'relative' }} className='titleInfoContainer'>
@@ -32,12 +27,9 @@ const TitleInfo = ({ info }) => {
             </li>
           </ul>
         </li>
-        <li className={`xboxTitleDescription ${descState}`}>
+        <li className={'xboxTitleDescription '}>
           <p className='infoName'>{info?.ti?.shortDescription}</p>
-          {
-            info.ti.shortDescription > 200 && window.outerWidth < 1600 &&
-            <button onClick={handleClick}><i className='bx bx-sm bx-chevron-down'></i></button>
-          }
+            {/* }<button className='open-close-desc' onClick={}><i className='bx bx-sm bx-chevron-down'></i></button>{ */}
         </li>
       </ul>
       <button type='button'><a target='_blank' href={`${info?.ti?.website}`} rel="noreferrer">Website</a></button>
@@ -51,6 +43,18 @@ const TitleImages = ({ info }) => {
       { /* }<div className='img' style={{ backgroundImage: `url("${info?.ti?.imgs?.logo[0]?.Uri}")`, height: '300px', width: '100%' }}></div>{ */ }
       { }<img src={`${info?.ti?.imgs?.logo[0]?.Uri}`} alt="" />{ }
     </section>
+  )
+}
+
+const Categories = ({ info }) => {
+  return (
+      <ul className='categories'>
+      {
+        info.ti.categories.map((cat, index) => {
+          return <li key={index}>{cat}</li>
+        })
+      }
+    </ul>
   )
 }
 
@@ -73,6 +77,7 @@ export const XboxDetail = () => {
                   <Header>
                     <TitleImages info = {xboxTrophyData}></TitleImages>
                     <TitleInfo info={xboxTrophyData}></TitleInfo>
+                    <Categories info={xboxTrophyData}></Categories>
                   </Header>
                   <NavLink className='goBack' to='/'><i className='bx bxs-left-arrow'></i></NavLink>
               </div>

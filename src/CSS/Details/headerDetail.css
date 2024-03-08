@@ -29,12 +29,28 @@
     padding: 2rem;
     box-sizing: border-box;
     width: 100%;
+    gap: 1rem;
+}
+
+@media (max-width: 700px){
+    .detailsHeader{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .detailsHeader .titleInfoContainer{
+        max-width: 100%;
+    }
 }
 
 /*img*/
+.titleImageContainer{
+    display: flex;
+}
 .titleImageContainer img{
     width: 15rem;
     border-radius: 10px;
+    align-self: center;
 }
 
 /*div con backgroundImg*/
@@ -118,6 +134,14 @@
     color: rgba(255, 255, 255, 0.919);   
 }
 
+.openedDesc .open-close-desc{
+    display: none;
+}
+
+.closedDesc .open-close-desc{
+    display: unset;
+}
+
 .titleInfoContainer > button{
     width: 5rem;
     padding: .7rem;
@@ -130,4 +154,35 @@
 
 .titleInfoContainer > button a {
     color: white;
+}
+
+.categories{
+    align-self: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: large;
+}
+
+.categories li {
+    position: relative;
+    cursor: pointer;
+}
+
+.categories li::after{
+    content: '';
+    background-color: #007738;
+    position: absolute;   
+    bottom: -.5rem;
+    right: 50%;
+    transform: translateX(50%);
+    height: 2px;
+    width: 60%;
+    transition: .5s width;
+}
+
+.categories li:hover::after{
+    width: 100%;
 }

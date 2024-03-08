@@ -43,6 +43,7 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
   // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
   response.tr = trophies
   response.ti = mapXboxGameInfo(gameData)[0]
+  console.log(response)
   return response
 }
 
@@ -55,6 +56,7 @@ export const mapXboxGameInfo = (gameInfo) => {
     developerName: productInfo.LocalizedProperties[0].DeveloperName,
     website: productInfo.LocalizedProperties[0].PublisherWebsiteUri,
     price: productInfo.DisplaySkuAvailabilities[0].Availabilities[0].OrderManagementData.Price.MSRP,
+    search: productInfo.LocalizedProperties[0].SearchTitles,
     imgs: {
       logo: productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'BoxArt'),
       backgroundImage: productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'SuperHeroArt'),

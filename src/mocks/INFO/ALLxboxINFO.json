@@ -3459,6 +3459,28 @@
         "developerName": "Team Cherry",
         "website": "https://www.teamcherry.com.au/",
         "price": 14.99,
+        "search": [
+            {
+                "SearchTitleString": "Hollow Knight",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Gothic",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Platformer",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Metroidvania",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Voidheart",
+                "SearchTitleType": "SearchHint"
+            }
+        ],
         "imgs": {
             "logo": [
                 {
