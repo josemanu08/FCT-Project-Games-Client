@@ -725,7 +725,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Common",
-                    "currentPercentage": 10.07
+                    "currentPercentage": 10.08
                 }
             },
             {
@@ -875,7 +875,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Common",
-                    "currentPercentage": 11.47
+                    "currentPercentage": 11.48
                 }
             },
             {
@@ -925,7 +925,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 6.57
+                    "currentPercentage": 6.58
                 }
             },
             {
@@ -1034,7 +1034,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 8.48
+                    "currentPercentage": 8.49
                 }
             },
             {
@@ -1084,7 +1084,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 5.96
+                    "currentPercentage": 5.97
                 }
             },
             {
@@ -1538,7 +1538,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 3.7
+                    "currentPercentage": 3.71
                 }
             },
             {
@@ -1788,7 +1788,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 8.33
+                    "currentPercentage": 8.34
                 }
             },
             {
@@ -2215,7 +2215,7 @@
                 "isRevoked": false,
                 "rarity": {
                     "currentCategory": "Rare",
-                    "currentPercentage": 3.18
+                    "currentPercentage": 3.19
                 }
             },
             {
@@ -3454,10 +3454,11 @@
             "totalRecords": 63
         }
     },
-    "ti":{
+    "ti": {
         "name": "Hollow Knight: Voidheart Edition",
         "developerName": "Team Cherry",
         "website": "https://www.teamcherry.com.au/",
+        "price": 14.99,
         "imgs": {
             "logo": [
                 {

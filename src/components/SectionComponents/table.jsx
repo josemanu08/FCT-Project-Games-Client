@@ -31,9 +31,9 @@ export const Table = ({ xbox, play }) => {
             <table className='gamesTable'>
               <thead>
                   <tr>
-                    <th colSpan={2}>Name</th>
-                    <th>Details</th>
-                    <th>Pertentaje</th>
+                    {/* }<th colSpan={2}>Name</th>
+                        <th>Details</th>
+                      <th>Pertentaje</th>{ */}
                   </tr>
               </thead>
               <tbody>

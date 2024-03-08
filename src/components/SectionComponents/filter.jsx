@@ -1,11 +1,8 @@
-import { React, useRef, useContext, useState } from 'react'
+import { React, useRef, useContext } from 'react'
 import { filterContext } from '../../Context/contexts'
 
-export const Filter = () => {
+const useFilter = ({ searchRef, platformRef }) => {
   const { setFilterState, filterState } = useContext(filterContext)
-
-  const searchRef = useRef(null)
-  const platformRef = useRef(null)
 
   const searchHandler = () => {
     setFilterState((previous) => {
@@ -24,18 +21,32 @@ export const Filter = () => {
       })
     })
   }
+
+  return { searchHandler, platformHandler, filterState }
+}
+
+export const Filter = () => {
+  // const { setFilterState, filterState } = useContext(filterContext)
+  const searchRef = useRef(null)
+  const platformRef = useRef(null)
+  const { searchHandler, platformHandler, filterState } = useFilter({ searchRef, platformRef })
+
   return (
           <section className='filters'>
-              <input value={filterState.search} onInput={searchHandler} ref={searchRef} className = 'selectTitle' type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
-             <div className="sub-filters">
-                <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
-                    <option value="both">both</option>
-                    <option value="playStation">PlayStation</option>
-                    <option value="xbox">Xbox</option>
-                </select>
-                {/* }<input className = 'selectRange' defaultValue={range} onInput={(event) => setRange(event.target.value)} type="range" step="10"/>
-                {range}%{ */}
-             </div>
+            <input
+            value={filterState.search}
+            onInput={searchHandler}
+            ref={searchRef}
+            className = 'selectTitle'
+            type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
+
+            <div className="sub-filters">
+              <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
+                  <option value="both">both</option>
+                  <option value="playStation">PlayStation</option>
+                  <option value="xbox">Xbox</option>
+              </select>
+            </div>
           </section>
   )
 }

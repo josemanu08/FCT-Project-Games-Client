@@ -28,38 +28,34 @@
     background-color: #18191A;
     padding: 2rem;
     box-sizing: border-box;
-    width: 50vh;
-}
-
-@media(max-width:1400px){
-    .detailsHeader{
-        width: 100%;
-    }
+    width: 100%;
 }
 
 /*img*/
 .titleImageContainer img{
-    width: 20rem;
+    width: 15rem;
+    border-radius: 10px;
 }
 
 /*div con backgroundImg*/
 
-.titleImageContainer .img{
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-
-.titleImageContainer{
+/*.titleImageContainer{
     min-width: 40%;
     max-width: 50%;
     display: flex;
     justify-content: center;
 }
 
+.titleImageContainer .img{
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}*/
+
+
 .titleInfoContainer{
     min-width: 40%;
-    max-width: 50%;
+    max-width: 40%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -93,9 +89,36 @@
 
 .xboxTitleDescription{
     text-align: start;
+    position: relative;
 }
 
-button{
+.closedDesc{
+    height: 75px;
+    overflow: hidden;
+    background-image: linear-gradient(#18191A 60%, rgba(78, 73, 73, 0.479) );
+}
+
+.openedDesc{
+    height: min-content;
+}
+
+.open-close-desc{
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    border: none;
+    background-color: #18191a00;
+    color: rgba(255, 255, 255, 0.714);
+    cursor: pointer;
+    transition: .5s background-color, .5s color;
+}
+
+.open-close-desc:hover{
+    background-color: #18191a77;
+    color: rgba(255, 255, 255, 0.919);   
+}
+
+.titleInfoContainer > button{
     width: 5rem;
     padding: .7rem;
     cursor: pointer;
@@ -105,6 +128,6 @@ button{
     font-size: medium;
 }
 
-button a {
+.titleInfoContainer > button a {
     color: white;
 }

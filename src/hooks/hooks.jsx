@@ -14,13 +14,13 @@ export const useUserData = ({ userData }) => {
     const fetchData = async () => {
       const newData = { ...structuredClone(data) }
       if (userData.playStationUsername && (userData.playStationUsername !== psnUsernameRef.current)) {
-        newData.psn = await getPlayUserData(userData.playStationUsername)
+        // newData.psn = await getPlayUserData(userData.playStationUsername)
       }
       if (!userData.playStationUsername && data.psn) {
         newData.psn = null
       }
       if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
-        newData.xbl = await getXboxUserData(userData.xboxUsername)
+        // newData.xbl = await getXboxUserData(userData.xboxUsername)
       }
       if (!userData.xboxUsername && data.xbl) {
         newData.xbl = null
