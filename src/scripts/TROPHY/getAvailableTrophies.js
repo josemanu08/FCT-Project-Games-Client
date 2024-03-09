@@ -1,9 +1,10 @@
-import { fetchTrophies, fetchAllTrophies, fetchXboxTrophies, fetchGameData } from './trophyFetch'
+import { fetchTrophies, fetchAllTrophies, fetchXboxTrophies, fetchGameData, fetchAllGameInfo } from './trophyFetch'
 
 // Modifico la información obtenida de dos endpoints para que sea más completa (para que tenga fotitos 😉)
-export const getAvailableTrophies = async (userId, titleId) => {
+export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) => {
   const myTrophies = await fetchTrophies(userId, titleId)
   const allGameTrophies = await fetchAllTrophies(titleId)
+  const gameInfo = await fetchAllGameInfo(gameName)
 
   // Información de Los Trofeos ganados que necesito
   const myMappedTrophies = myTrophies.tDetails.trophies
@@ -13,6 +14,8 @@ export const getAvailableTrophies = async (userId, titleId) => {
       date: t.earnedDateTime,
       earnedRate: t.trophyEarnedRate
     }))
+
+  const myRarestTrophies = [myTrophies.tDetails.rarestTrophies]
 
   // Ids de los trofeos ganados
   const earnedIds = myTrophies.tDetails.trophies.filter(t => t.earned).map(t => (t.trophyId))
@@ -31,8 +34,13 @@ export const getAvailableTrophies = async (userId, titleId) => {
       icon: t.trophyIconUrl,
       detail: t.trophyDetail
     }
-  ))
-  return mixedTrophiesInfo
+  )).concat(myRarestTrophies)
+
+  const result = {}
+  result.ti = mixedTrophiesInfo
+  result.gi = gameInfo
+
+  return result
 }
 
 export const getXboxAvailableTrophies = async (userId, titleId) => {

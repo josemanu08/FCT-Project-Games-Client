@@ -346,7 +346,7 @@
         "gId": "001",
         "name": "Living Failures",
         "date": "2020-11-12T16:20:24Z",
-        "earnedRate": "13.4",
+        "earnedRate": "13.5",
         "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/E4172A6E241F3E7C6F0F1AE6B1461131411174F0.PNG",
         "detail": "Defeat the failed attempts to become Great Ones."
     },
@@ -358,5 +358,16 @@
         "earnedRate": "10.2",
         "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/74D8DE032F0C735CBBC8ED127A9C2EE197641F55.PNG",
         "detail": "Defeat the beast that was once Laurence, the First Vicar."
-    }
+    },
+    [
+        {
+            "trophyId": 34,
+            "trophyHidden": false,
+            "earned": true,
+            "earnedDateTime": "2021-01-03T17:04:18Z",
+            "trophyType": "gold",
+            "trophyRare": 1,
+            "trophyEarnedRate": "6.3"
+        }
+    ]
 ]

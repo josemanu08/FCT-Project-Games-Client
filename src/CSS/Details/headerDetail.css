@@ -42,11 +42,11 @@
     display: flex;
     overflow: hidden;
     scroll-behavior: smooth;
-    width: 30rem;
+    width: 20rem;
 }
 
 .images img{
-    width: 30rem;
+    width: 20rem;
     border-radius: 10px;
     object-fit: cover;
 }

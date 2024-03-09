@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { getAvailableTrophies, getXboxAvailableTrophies } from '../scripts/TROPHY/getAvailableTrophies'
+import { getAvailableTrophiesGameInfo, getXboxAvailableTrophies } from '../scripts/TROPHY/getAvailableTrophies'
 
 // Mocks
 import xboxTrophies from '../mocks/TROPHIES/tDetailXbox.json'
@@ -8,13 +8,13 @@ import ALLxboxINFO from '../mocks/INFO/ALLxboxINFO.json'
 import LisOfP from '../mocks/INFO/liesOfP.json'
 import cocoon from '../mocks/INFO/cocoon.json'
 
-export const useTrophies = ({ userId, gameId }) => {
+export const useTrophies = ({ userId, gameId, gameName }) => {
   const [trophyData, setTrophyData] = useState(null)
   useEffect(() => {
     const fetchData = async () => {
       // const trophies = await fetchTrophies(userId, gameId)
-      // const trophies = await getAvailableTrophies(userId, gameId)
-      setTrophyData(allPstrophiesInfo)
+      const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
+      setTrophyData(trophies)
     }
     fetchData()
   }, [])

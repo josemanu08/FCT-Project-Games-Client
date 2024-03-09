@@ -1,0 +1,1224 @@
+{
+    "ti": [
+        {
+            "tId": 1,
+            "gId": "default",
+            "name": "To Link the Fire",
+            "date": "2020-08-29T14:33:07Z",
+            "earnedRate": "33.0",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/739965374A577B2A7D0BFA39CC511AFB4F5DA568.PNG",
+            "detail": "Reach \"To Link the Fire\" ending."
+        },
+        {
+            "tId": 7,
+            "gId": "default",
+            "name": "Covenant: Way of White",
+            "date": "2020-08-23T16:03:14Z",
+            "earnedRate": "72.7",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/4CFA52D17176862DB462F46B1D031764E21422D4.PNG",
+            "detail": "Discover Way of White covenant."
+        },
+        {
+            "tId": 8,
+            "gId": "default",
+            "name": "Covenant: Princess's Guard",
+            "date": "2020-08-23T15:08:47Z",
+            "earnedRate": "46.7",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/9AD75839C6D30FDA857C7CCF8B81A2B9001EC287.PNG",
+            "detail": "Discover Princess's Guard covenant."
+        },
+        {
+            "tId": 9,
+            "gId": "default",
+            "name": "Covenant: Blade of the Darkmoon",
+            "date": "2020-08-30T15:01:14Z",
+            "earnedRate": "28.3",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/7EF1DC4DD5B02A56AA13F105E4B31C96EE652EE0.PNG",
+            "detail": "Discover Blade of the Darkmoon covenant."
+        },
+        {
+            "tId": 11,
+            "gId": "default",
+            "name": "Covenant: Forest Hunter",
+            "date": "2020-08-23T20:00:29Z",
+            "earnedRate": "44.7",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/CD293076A052BB2AA6A3D0EE4AD74F2AF4BAD56B.PNG",
+            "detail": "Discover Forest Hunter covenant."
+        },
+        {
+            "tId": 12,
+            "gId": "default",
+            "name": "Covenant: Darkwraith",
+            "date": "2020-08-31T10:59:54Z",
+            "earnedRate": "21.3",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/E45AC2A9800BFCD3942B5AB8E2A3C76A33B35554.PNG",
+            "detail": "Discover Darkwraith covenant."
+        },
+        {
+            "tId": 13,
+            "gId": "default",
+            "name": "Covenant: Path of the Dragon",
+            "date": "2020-08-29T14:00:15Z",
+            "earnedRate": "35.1",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/27274DC8B5DE078A712DC43EC1B3BF8AB58C790A.PNG",
+            "detail": "Discover Path of the Dragon covenant."
+        },
+        {
+            "tId": 14,
+            "gId": "default",
+            "name": "Covenant: Gravelord Servant",
+            "date": "2020-08-31T11:52:24Z",
+            "earnedRate": "37.1",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/4B6004AD6EDD6D9F746A10AEC1255C5090C9E798.PNG",
+            "detail": "Discover Gravelord Servant covenant."
+        },
+        {
+            "tId": 15,
+            "gId": "default",
+            "name": "Covenant: Chaos Servant",
+            "date": "2020-08-22T15:37:01Z",
+            "earnedRate": "53.1",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/BD82BD7602C836390F361D83C60D6D54D5F21A0E.PNG",
+            "detail": "Discover Chaos Servant covenant."
+        },
+        {
+            "tId": 16,
+            "gId": "default",
+            "name": "Strongest Weapon",
+            "date": "2020-08-27T18:38:55Z",
+            "earnedRate": "27.9",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/BFEA5B4574E27E2106B266009DFCC394DE591AF5.PNG",
+            "detail": "Acquire best wpn through standard reinfrc."
+        },
+        {
+            "tId": 19,
+            "gId": "default",
+            "name": "Raw Weapon",
+            "date": "2020-08-23T13:12:53Z",
+            "earnedRate": "17.4",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/A9B25823732C40B1FC482EA90448E8D5AE9AECD3.PNG",
+            "detail": "Acquire best wpn through raw reinfrc."
+        },
+        {
+            "tId": 26,
+            "gId": "default",
+            "name": "Enkindle",
+            "date": "2020-08-21T09:53:55Z",
+            "earnedRate": "97.9",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/0AB987CC174BA3AC04B72A44AED3C26544F6123E.PNG",
+            "detail": "Light bonfire flame."
+        },
+        {
+            "tId": 27,
+            "gId": "default",
+            "name": "Estus Flask",
+            "date": "2020-08-21T10:00:21Z",
+            "earnedRate": "95.5",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/8BE86658C203C330DADF8D9086DF1A5A806EE477.PNG",
+            "detail": "Acquire Estus Flask."
+        },
+        {
+            "tId": 28,
+            "gId": "default",
+            "name": "Reach Lordran",
+            "date": "2020-08-21T10:06:39Z",
+            "earnedRate": "92.8",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/2A7B59662CF5FC8EC6BA8395D9DB2DF6A7D29A8B.PNG",
+            "detail": "Arrive in Lordran."
+        },
+        {
+            "tId": 29,
+            "gId": "default",
+            "name": "Ring the Bell (Undead Church)",
+            "date": "2020-08-21T14:14:13Z",
+            "earnedRate": "71.3",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/7DF47D256063AD8DB3B6B50198CD940959B3C70E.PNG",
+            "detail": "Ring Bell of Awakening at Undead Church."
+        },
+        {
+            "tId": 30,
+            "gId": "default",
+            "name": "Ring the Bell (Quelaag's Domain)",
+            "date": "2020-08-22T14:41:06Z",
+            "earnedRate": "60.8",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/C55D1527A12BBCCBC32601C95664CCC57A4C5B98.PNG",
+            "detail": "Ring Bell of Awakening in Quelaag's domain."
+        },
+        {
+            "tId": 31,
+            "gId": "default",
+            "name": "Rite of Kindling",
+            "date": "2020-08-23T15:29:04Z",
+            "earnedRate": "53.8",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/A73815B397099C73689F917270C602C2AF60869D.PNG",
+            "detail": "Acquire the Rite of Kindling."
+        },
+        {
+            "tId": 32,
+            "gId": "default",
+            "name": "Art of Abysswalking",
+            "date": "2020-08-24T09:13:30Z",
+            "earnedRate": "52.7",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/91A17081AF084252AF152B5CDE3673DF8011EFFF.PNG",
+            "detail": "Acquire the Art of Abysswalking."
+        },
+        {
+            "tId": 33,
+            "gId": "default",
+            "name": "Reach Anor Londo",
+            "date": "2020-08-22T20:25:19Z",
+            "earnedRate": "57.4",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/D1CC2C3B9EAA9F1B15E70F1886FDE49787043B66.PNG",
+            "detail": "Arrive in Anor Londo."
+        },
+        {
+            "tId": 34,
+            "gId": "default",
+            "name": "Lordvessel",
+            "date": "2020-08-23T15:08:21Z",
+            "earnedRate": "54.8",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/5082C11C982FFC1D7C13915D3D49CE734B77A3F2.PNG",
+            "detail": "Acquire the Lordvessel."
+        },
+        {
+            "tId": 35,
+            "gId": "default",
+            "name": "Defeat Gravelord Nito",
+            "date": "2020-08-28T14:26:26Z",
+            "earnedRate": "46.4",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/C55CA2EFD801B5473F0F81800B151D8CDE96BA95.PNG",
+            "detail": "Defeat the Soul Lord Gravelord Nito."
+        },
+        {
+            "tId": 36,
+            "gId": "default",
+            "name": "Defeat Bed of Chaos",
+            "date": "2020-08-24T12:45:51Z",
+            "earnedRate": "46.2",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/05BAF77FB29FCF9F3E8F065868AA8032A11E50E2.PNG",
+            "detail": "Defeat the Soul Lord Bed of Chaos."
+        },
+        {
+            "tId": 37,
+            "gId": "default",
+            "name": "Defeat the Four Kings",
+            "date": "2020-08-25T11:23:26Z",
+            "earnedRate": "46.8",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/166C46309F03A7902177191CAE77AE5748E70C41.PNG",
+            "detail": "Defeat the Four Kings, inheritors of souls."
+        },
+        {
+            "tId": 38,
+            "gId": "default",
+            "name": "Defeat Seath the Scaleless",
+            "date": "2020-08-25T20:31:28Z",
+            "earnedRate": "46.9",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/897C1150B16C82656FDFEB26B17C56D1864E2668.PNG",
+            "detail": "Defeat Seath the Scaleless, inheritors of souls."
+        },
+        {
+            "tId": 39,
+            "gId": "default",
+            "name": "Defeat the Dark Sun Gwyndolin",
+            "date": "2020-08-23T17:59:46Z",
+            "earnedRate": "35.2",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/BA7C3F8A72BD87D6E5483C78D9C2792A1CE5CF98.PNG",
+            "detail": "Defeat Dark Sun Gwyndolin, the Darkmoon God."
+        },
+        {
+            "tId": 40,
+            "gId": "default",
+            "name": "Defeat Crossbreed Priscilla",
+            "date": "2020-08-29T11:33:34Z",
+            "earnedRate": "40.5",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/1CD3D061EC52C50D69096EEBFC5FB11277EEA74B.PNG",
+            "detail": "Defeat Crossbreed Priscilla, the Lifehunter."
+        },
+        [
+            {
+                "trophyId": 19,
+                "trophyHidden": false,
+                "earned": true,
+                "earnedDateTime": "2020-08-23T13:12:53Z",
+                "trophyType": "bronze",
+                "trophyRare": 2,
+                "trophyEarnedRate": "17.4"
+            }
+        ]
+    ],
+    "gi": {
+        "error": "OK",
+        "limit": 1,
+        "offset": 0,
+        "number_of_page_results": 1,
+        "number_of_total_results": 1,
+        "status_code": 1,
+        "results": {
+            "deck": "A quasi-sequel to From Software's action-RPG Demon's Souls, set in a new universe while retaining most of the basic gameplay and the high level of challenge. It features a less-linear world, a new checkpoint system in the form of bonfires, and the unique Humanity system.",
+            "name": "Dark Souls",
+            "original_release_date": "2011-09-22",
+            "platforms": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-20/",
+                    "id": 20,
+                    "name": "Xbox 360",
+                    "site_detail_url": "https://www.giantbomb.com/xbox-360/3045-20/",
+                    "abbreviation": "X360"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-35/",
+                    "id": 35,
+                    "name": "PlayStation 3",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-3/3045-35/",
+                    "abbreviation": "PS3"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-86/",
+                    "id": 86,
+                    "name": "Xbox 360 Games Store",
+                    "site_detail_url": "https://www.giantbomb.com/xbox-360-games-store/3045-86/",
+                    "abbreviation": "XBGS"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+                    "id": 94,
+                    "name": "PC",
+                    "site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+                    "abbreviation": "PC"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-145/",
+                    "id": 145,
+                    "name": "Xbox One",
+                    "site_detail_url": "https://www.giantbomb.com/xbox-one/3045-145/",
+                    "abbreviation": "XONE"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-146/",
+                    "id": 146,
+                    "name": "PlayStation 4",
+                    "site_detail_url": "https://www.giantbomb.com/playstation-4/3045-146/",
+                    "abbreviation": "PS4"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-157/",
+                    "id": 157,
+                    "name": "Nintendo Switch",
+                    "site_detail_url": "https://www.giantbomb.com/nintendo-switch/3045-157/",
+                    "abbreviation": "NSW"
+                }
+            ],
+            "images": [
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3013262-dsc02041.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/1992/3013262-dsc02041.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/1992/3013262-dsc02041.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3013262-dsc02041.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/0/1992/3013262-dsc02041.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/0/1992/3013262-dsc02041.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/0/1992/3013262-dsc02041.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/0/1992/3013262-dsc02041.png",
+                    "tags": "All Images, Nintendo, PAX East 2018 Booth, PAX East 2018"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3013247-dsc00490.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/1992/3013247-dsc00490.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/1992/3013247-dsc00490.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/1992/3013247-dsc00490.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/0/1992/3013247-dsc00490.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/0/1992/3013247-dsc00490.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/0/1992/3013247-dsc00490.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/0/1992/3013247-dsc00490.png",
+                    "tags": "All Images, Nintendo, PAX East 2018 Booth, PAX East 2018"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/2/27979/2844722-_ga1sbf_s7jxnppifsfcrniql4nydsjvyhczjgd3usqlayspn.jpg",
+                    "tags": "All Images, fan art"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/2/27979/2844721-2844478-5566499718-q0bqt.png",
+                    "tags": "All Images"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2688102-2014-03-11_00001.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2688102-2014-03-11_00001.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2688102-2014-03-11_00001.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2688102-2014-03-11_00001.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2688102-2014-03-11_00001.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2688102-2014-03-11_00001.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2688102-2014-03-11_00001.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2688102-2014-03-11_00001.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567334-7205662399-data2.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567334-7205662399-data2.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567334-7205662399-data2.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567334-7205662399-data2.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567334-7205662399-data2.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567334-7205662399-data2.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567334-7205662399-data2.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567334-7205662399-data2.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567333-1078542587-data2.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567333-1078542587-data2.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567333-1078542587-data2.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567333-1078542587-data2.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567333-1078542587-data2.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567333-1078542587-data2.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567333-1078542587-data2.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567333-1078542587-data2.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567331-6074113355-data2.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567331-6074113355-data2.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567331-6074113355-data2.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567331-6074113355-data2.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567331-6074113355-data2.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567331-6074113355-data2.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567331-6074113355-data2.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567331-6074113355-data2.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567330-9852207537-data2.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567330-9852207537-data2.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567330-9852207537-data2.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567330-9852207537-data2.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567330-9852207537-data2.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567330-9852207537-data2.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567330-9852207537-data2.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567330-9852207537-data2.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567329-4095843284-data2.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567329-4095843284-data2.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567329-4095843284-data2.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567329-4095843284-data2.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567329-4095843284-data2.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567329-4095843284-data2.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567329-4095843284-data2.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567329-4095843284-data2.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567318-4137666105-data-.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567318-4137666105-data-.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/20/205244/2567318-4137666105-data-.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/20/205244/2567318-4137666105-data-.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/20/205244/2567318-4137666105-data-.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/20/205244/2567318-4137666105-data-.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/20/205244/2567318-4137666105-data-.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/20/205244/2567318-4137666105-data-.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/0/3346/2560165-2560164-2013-10-15_00001.jpg",
+                    "tags": "All Images, Screenshots, Prepare To Die Edition (PC)"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/82063/2555200-dsclean.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/82063/2555200-dsclean.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/82063/2555200-dsclean.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/82063/2555200-dsclean.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/82063/2555200-dsclean.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/82063/2555200-dsclean.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/82063/2555200-dsclean.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/8/82063/2555200-dsclean.jpg",
+                    "tags": "All Images, Box Art"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485009-ds03.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485009-ds03.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485009-ds03.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485009-ds03.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/7/78537/2485009-ds03.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/7/78537/2485009-ds03.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/7/78537/2485009-ds03.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/7/78537/2485009-ds03.png",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485008-ds02.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485008-ds02.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485008-ds02.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485008-ds02.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/7/78537/2485008-ds02.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/7/78537/2485008-ds02.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/7/78537/2485008-ds02.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/7/78537/2485008-ds02.png",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485007-ds01.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485007-ds01.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/78537/2485007-ds01.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/78537/2485007-ds01.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/7/78537/2485007-ds01.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/7/78537/2485007-ds01.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/7/78537/2485007-ds01.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/7/78537/2485007-ds01.png",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/76733/2389877-darksoulsptd.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/76733/2389877-darksoulsptd.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/7/76733/2389877-darksoulsptd.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/7/76733/2389877-darksoulsptd.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/7/76733/2389877-darksoulsptd.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/7/76733/2389877-darksoulsptd.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/7/76733/2389877-darksoulsptd.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/7/76733/2389877-darksoulsptd.jpg",
+                    "tags": "All Images, Box Art"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371300-ornstein_by_oldhat104_d5joxpi.png",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371299-dark_souls_swords_1680x1050.jpg",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371297-1350184242307.png",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371297-1350184242307.png",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371297-1350184242307.png",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371297-1350184242307.png",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371297-1350184242307.png",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371297-1350184242307.png",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371297-1350184242307.png",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371297-1350184242307.png",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371296-1347452451021.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371296-1347452451021.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371296-1347452451021.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371296-1347452451021.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371296-1347452451021.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371296-1347452451021.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371296-1347452451021.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371296-1347452451021.jpg",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371295-1341610577171.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371295-1341610577171.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371295-1341610577171.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371295-1341610577171.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371295-1341610577171.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371295-1341610577171.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371295-1341610577171.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371295-1341610577171.jpg",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371294-19910_dark_souls.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371294-19910_dark_souls.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/16/163828/2371294-19910_dark_souls.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/16/163828/2371294-19910_dark_souls.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/16/163828/2371294-19910_dark_souls.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/16/163828/2371294-19910_dark_souls.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/16/163828/2371294-19910_dark_souls.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/16/163828/2371294-19910_dark_souls.jpg",
+                    "tags": "All Images, Wallpapers"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/6/64466/2306832-dark_souls___artorias.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/6/64466/2306832-dark_souls___artorias.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/6/64466/2306832-dark_souls___artorias.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/6/64466/2306832-dark_souls___artorias.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/6/64466/2306832-dark_souls___artorias.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/6/64466/2306832-dark_souls___artorias.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/6/64466/2306832-dark_souls___artorias.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/6/64466/2306832-dark_souls___artorias.jpg",
+                    "tags": "All Images"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283627-sig.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283627-sig.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283627-sig.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283627-sig.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/12/120355/2283627-sig.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/12/120355/2283627-sig.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/12/120355/2283627-sig.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/12/120355/2283627-sig.jpg",
+                    "tags": "All Images"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283619-2283618-oswald.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283619-2283618-oswald.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283619-2283618-oswald.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283619-2283618-oswald.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/12/120355/2283619-2283618-oswald.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/12/120355/2283619-2283618-oswald.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/12/120355/2283619-2283618-oswald.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/12/120355/2283619-2283618-oswald.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/12/120355/2283462-2283460-crestfallen_warrior.jpg",
+                    "tags": "All Images, Screenshots"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283447-kingseeker_frampt.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283447-kingseeker_frampt.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/12/120355/2283447-kingseeker_frampt.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/12/120355/2283447-kingseeker_frampt.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/12/120355/2283447-kingseeker_frampt.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/12/120355/2283447-kingseeker_frampt.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/12/120355/2283447-kingseeker_frampt.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/12/120355/2283447-kingseeker_frampt.jpg",
+                    "tags": "All Images, Concept Art"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/28528/2225993-zpmcx.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/28528/2225993-zpmcx.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/28528/2225993-zpmcx.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/28528/2225993-zpmcx.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/2/28528/2225993-zpmcx.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/2/28528/2225993-zpmcx.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/2/28528/2225993-zpmcx.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/2/28528/2225993-zpmcx.jpg",
+                    "tags": "All Images, Prepare To Die Edition (PC)"
+                },
+                {
+                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/28528/2225992-zn5g0.jpg",
+                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/28528/2225992-zn5g0.jpg",
+                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/2/28528/2225992-zn5g0.jpg",
+                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/2/28528/2225992-zn5g0.jpg",
+                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/2/28528/2225992-zn5g0.jpg",
+                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/2/28528/2225992-zn5g0.jpg",
+                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/2/28528/2225992-zn5g0.jpg",
+                    "original": "https://www.giantbomb.com/a/uploads/original/2/28528/2225992-zn5g0.jpg",
+                    "tags": "All Images, Prepare To Die Edition (PC)"
+                }
+            ],
+            "characters": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-11183/",
+                    "id": 11183,
+                    "name": "Patches the Hyena",
+                    "site_detail_url": "https://www.giantbomb.com/patches-the-hyena/3005-11183/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20757/",
+                    "id": 20757,
+                    "name": "Solaire of Astora",
+                    "site_detail_url": "https://www.giantbomb.com/solaire-of-astora/3005-20757/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20759/",
+                    "id": 20759,
+                    "name": "Dusk of Oolacile",
+                    "site_detail_url": "https://www.giantbomb.com/dusk-of-oolacile/3005-20759/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20812/",
+                    "id": 20812,
+                    "name": "Chaos Witch Quelaag",
+                    "site_detail_url": "https://www.giantbomb.com/chaos-witch-quelaag/3005-20812/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20813/",
+                    "id": 20813,
+                    "name": "Bell Gargoyle",
+                    "site_detail_url": "https://www.giantbomb.com/bell-gargoyle/3005-20813/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20814/",
+                    "id": 20814,
+                    "name": "Capra Demon",
+                    "site_detail_url": "https://www.giantbomb.com/capra-demon/3005-20814/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20815/",
+                    "id": 20815,
+                    "name": "Centipede Demon",
+                    "site_detail_url": "https://www.giantbomb.com/centipede-demon/3005-20815/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20816/",
+                    "id": 20816,
+                    "name": "Asylum Demon",
+                    "site_detail_url": "https://www.giantbomb.com/asylum-demon/3005-20816/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20817/",
+                    "id": 20817,
+                    "name": "Ceaseless Discharge",
+                    "site_detail_url": "https://www.giantbomb.com/ceaseless-discharge/3005-20817/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20818/",
+                    "id": 20818,
+                    "name": "Gaping Dragon",
+                    "site_detail_url": "https://www.giantbomb.com/gaping-dragon/3005-20818/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20819/",
+                    "id": 20819,
+                    "name": "Great Grey Wolf Sif",
+                    "site_detail_url": "https://www.giantbomb.com/great-grey-wolf-sif/3005-20819/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-20820/",
+                    "id": 20820,
+                    "name": "Iron Golem",
+                    "site_detail_url": "https://www.giantbomb.com/iron-golem/3005-20820/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21009/",
+                    "id": 21009,
+                    "name": "Gwynevere",
+                    "site_detail_url": "https://www.giantbomb.com/gwynevere/3005-21009/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21010/",
+                    "id": 21010,
+                    "name": "Gwyndolin",
+                    "site_detail_url": "https://www.giantbomb.com/gwyndolin/3005-21010/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21011/",
+                    "id": 21011,
+                    "name": "Gwyn",
+                    "site_detail_url": "https://www.giantbomb.com/gwyn/3005-21011/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21012/",
+                    "id": 21012,
+                    "name": "Crossbreed Priscilla",
+                    "site_detail_url": "https://www.giantbomb.com/crossbreed-priscilla/3005-21012/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21013/",
+                    "id": 21013,
+                    "name": "Nito",
+                    "site_detail_url": "https://www.giantbomb.com/nito/3005-21013/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21014/",
+                    "id": 21014,
+                    "name": "The Witch of Izalith",
+                    "site_detail_url": "https://www.giantbomb.com/the-witch-of-izalith/3005-21014/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21015/",
+                    "id": 21015,
+                    "name": "Seath the Scaleless",
+                    "site_detail_url": "https://www.giantbomb.com/seath-the-scaleless/3005-21015/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21029/",
+                    "id": 21029,
+                    "name": "Quelaag's Sister",
+                    "site_detail_url": "https://www.giantbomb.com/quelaags-sister/3005-21029/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-21030/",
+                    "id": 21030,
+                    "name": "Quelana",
+                    "site_detail_url": "https://www.giantbomb.com/quelana/3005-21030/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-22139/",
+                    "id": 22139,
+                    "name": "Crestfallen Warrior",
+                    "site_detail_url": "https://www.giantbomb.com/crestfallen-warrior/3005-22139/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-22200/",
+                    "id": 22200,
+                    "name": "Dragon Slayer Ornstein",
+                    "site_detail_url": "https://www.giantbomb.com/dragon-slayer-ornstein/3005-22200/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-22201/",
+                    "id": 22201,
+                    "name": "Executioner Smough",
+                    "site_detail_url": "https://www.giantbomb.com/executioner-smough/3005-22201/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-23913/",
+                    "id": 23913,
+                    "name": "Kingseeker Frampt",
+                    "site_detail_url": "https://www.giantbomb.com/kingseeker-frampt/3005-23913/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-23914/",
+                    "id": 23914,
+                    "name": "Lautrec of Carim",
+                    "site_detail_url": "https://www.giantbomb.com/lautrec-of-carim/3005-23914/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-23976/",
+                    "id": 23976,
+                    "name": "Siegmeyer of Catarina",
+                    "site_detail_url": "https://www.giantbomb.com/siegmeyer-of-catarina/3005-23976/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-23977/",
+                    "id": 23977,
+                    "name": "Oswald of Carim",
+                    "site_detail_url": "https://www.giantbomb.com/oswald-of-carim/3005-23977/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24487/",
+                    "id": 24487,
+                    "name": "Abysswalker Knight Artorias",
+                    "site_detail_url": "https://www.giantbomb.com/abysswalker-knight-artorias/3005-24487/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24488/",
+                    "id": 24488,
+                    "name": "Darkstalker Kaathe",
+                    "site_detail_url": "https://www.giantbomb.com/darkstalker-kaathe/3005-24488/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24489/",
+                    "id": 24489,
+                    "name": "The Four Kings",
+                    "site_detail_url": "https://www.giantbomb.com/the-four-kings/3005-24489/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24490/",
+                    "id": 24490,
+                    "name": "Bed of Chaos",
+                    "site_detail_url": "https://www.giantbomb.com/bed-of-chaos/3005-24490/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24493/",
+                    "id": 24493,
+                    "name": "Andre of Astora",
+                    "site_detail_url": "https://www.giantbomb.com/andre-of-astora/3005-24493/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24494/",
+                    "id": 24494,
+                    "name": "Giant Blacksmith",
+                    "site_detail_url": "https://www.giantbomb.com/giant-blacksmith/3005-24494/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24497/",
+                    "id": 24497,
+                    "name": "Black Dragon Kalameet",
+                    "site_detail_url": "https://www.giantbomb.com/black-dragon-kalameet/3005-24497/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24499/",
+                    "id": 24499,
+                    "name": "Alvina",
+                    "site_detail_url": "https://www.giantbomb.com/alvina/3005-24499/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24509/",
+                    "id": 24509,
+                    "name": "Anastacia of Astora",
+                    "site_detail_url": "https://www.giantbomb.com/anastacia-of-astora/3005-24509/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-24711/",
+                    "id": 24711,
+                    "name": "Manus, Father of the Abyss",
+                    "site_detail_url": "https://www.giantbomb.com/manus-father-of-the-abyss/3005-24711/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25140/",
+                    "id": 25140,
+                    "name": "Griggs of Vinheim",
+                    "site_detail_url": "https://www.giantbomb.com/griggs-of-vinheim/3005-25140/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25147/",
+                    "id": 25147,
+                    "name": "Hawkeye Gough",
+                    "site_detail_url": "https://www.giantbomb.com/hawkeye-gough/3005-25147/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25148/",
+                    "id": 25148,
+                    "name": "Lord's Blade Ciaran",
+                    "site_detail_url": "https://www.giantbomb.com/lords-blade-ciaran/3005-25148/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25152/",
+                    "id": 25152,
+                    "name": "Oscar, Knight of Astora",
+                    "site_detail_url": "https://www.giantbomb.com/oscar-knight-of-astora/3005-25152/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25156/",
+                    "id": 25156,
+                    "name": "Laurentius of the Great Swamp",
+                    "site_detail_url": "https://www.giantbomb.com/laurentius-of-the-great-swamp/3005-25156/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25159/",
+                    "id": 25159,
+                    "name": "Havel the Rock",
+                    "site_detail_url": "https://www.giantbomb.com/havel-the-rock/3005-25159/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25174/",
+                    "id": 25174,
+                    "name": "Rhea of Thorolund",
+                    "site_detail_url": "https://www.giantbomb.com/rhea-of-thorolund/3005-25174/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25181/",
+                    "id": 25181,
+                    "name": "Maneater Mildred",
+                    "site_detail_url": "https://www.giantbomb.com/maneater-mildred/3005-25181/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25182/",
+                    "id": 25182,
+                    "name": "Witch Beatrice",
+                    "site_detail_url": "https://www.giantbomb.com/witch-beatrice/3005-25182/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25184/",
+                    "id": 25184,
+                    "name": "Black Iron Tarkus",
+                    "site_detail_url": "https://www.giantbomb.com/black-iron-tarkus/3005-25184/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25188/",
+                    "id": 25188,
+                    "name": "Snuggly the Crow",
+                    "site_detail_url": "https://www.giantbomb.com/snuggly-the-crow/3005-25188/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25190/",
+                    "id": 25190,
+                    "name": "Eingyi",
+                    "site_detail_url": "https://www.giantbomb.com/eingyi/3005-25190/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25191/",
+                    "id": 25191,
+                    "name": "Sieglinde of Catarina",
+                    "site_detail_url": "https://www.giantbomb.com/sieglinde-of-catarina/3005-25191/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25196/",
+                    "id": 25196,
+                    "name": "Xanthous King Jeremiah",
+                    "site_detail_url": "https://www.giantbomb.com/xanthous-king-jeremiah/3005-25196/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-25199/",
+                    "id": 25199,
+                    "name": "Everlasting Dragon",
+                    "site_detail_url": "https://www.giantbomb.com/everlasting-dragon/3005-25199/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-28206/",
+                    "id": 28206,
+                    "name": "Marvelous Chester",
+                    "site_detail_url": "https://www.giantbomb.com/marvelous-chester/3005-28206/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-29208/",
+                    "id": 29208,
+                    "name": "Chosen Undead",
+                    "site_detail_url": "https://www.giantbomb.com/chosen-undead/3005-29208/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-30065/",
+                    "id": 30065,
+                    "name": "Rickert of Vinheim",
+                    "site_detail_url": "https://www.giantbomb.com/rickert-of-vinheim/3005-30065/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-30066/",
+                    "id": 30066,
+                    "name": "Vamos",
+                    "site_detail_url": "https://www.giantbomb.com/vamos/3005-30066/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-30067/",
+                    "id": 30067,
+                    "name": "Pinwheel",
+                    "site_detail_url": "https://www.giantbomb.com/pinwheel/3005-30067/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-30229/",
+                    "id": 30229,
+                    "name": "Demon Firesage",
+                    "site_detail_url": "https://www.giantbomb.com/demon-firesage/3005-30229/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31009/",
+                    "id": 31009,
+                    "name": "Big Hat Logan",
+                    "site_detail_url": "https://www.giantbomb.com/big-hat-logan/3005-31009/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31446/",
+                    "id": 31446,
+                    "name": "Taurus Demon",
+                    "site_detail_url": "https://www.giantbomb.com/taurus-demon/3005-31446/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31447/",
+                    "id": 31447,
+                    "name": "Stray Demon",
+                    "site_detail_url": "https://www.giantbomb.com/stray-demon/3005-31447/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31448/",
+                    "id": 31448,
+                    "name": "Moonlight Butterfly",
+                    "site_detail_url": "https://www.giantbomb.com/moonlight-butterfly/3005-31448/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31449/",
+                    "id": 31449,
+                    "name": "Sanctuary Guardian",
+                    "site_detail_url": "https://www.giantbomb.com/sanctuary-guardian/3005-31449/"
+                }
+            ],
+            "developers": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/company/3010-760/",
+                    "id": 760,
+                    "name": "FromSoftware, Inc.",
+                    "site_detail_url": "https://www.giantbomb.com/fromsoftware-inc/3010-760/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/company/3010-4991/",
+                    "id": 4991,
+                    "name": "Virtuos Ltd.",
+                    "site_detail_url": "https://www.giantbomb.com/virtuos-ltd/3010-4991/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/company/3010-8439/",
+                    "id": 8439,
+                    "name": "QLOC",
+                    "site_detail_url": "https://www.giantbomb.com/qloc/3010-8439/"
+                }
+            ],
+            "genres": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/genre/3060-5/",
+                    "id": 5,
+                    "name": "Role-Playing",
+                    "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=role-playing&wikiTypeId=3060&wikiId=5&genre=5"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/genre/3060-43/",
+                    "id": 43,
+                    "name": "Action-Adventure",
+                    "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=action-adventure&wikiTypeId=3060&wikiId=43&genre=43"
+                }
+            ],
+            "locations": [
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-3867/",
+                    "id": 3867,
+                    "name": "Anor Londo",
+                    "site_detail_url": "https://www.giantbomb.com/anor-londo/3035-3867/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-3868/",
+                    "id": 3868,
+                    "name": "Painted World of Ariamis",
+                    "site_detail_url": "https://www.giantbomb.com/painted-world-of-ariamis/3035-3868/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-3960/",
+                    "id": 3960,
+                    "name": "Blighttown",
+                    "site_detail_url": "https://www.giantbomb.com/blighttown/3035-3960/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-3961/",
+                    "id": 3961,
+                    "name": "Sen's Fortress",
+                    "site_detail_url": "https://www.giantbomb.com/sens-fortress/3035-3961/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-3964/",
+                    "id": 3964,
+                    "name": "The Duke's Archives",
+                    "site_detail_url": "https://www.giantbomb.com/the-dukes-archives/3035-3964/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4066/",
+                    "id": 4066,
+                    "name": "Firelink Shrine",
+                    "site_detail_url": "https://www.giantbomb.com/firelink-shrine/3035-4066/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4067/",
+                    "id": 4067,
+                    "name": "Undead Burg",
+                    "site_detail_url": "https://www.giantbomb.com/undead-burg/3035-4067/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4068/",
+                    "id": 4068,
+                    "name": "Undead Parish",
+                    "site_detail_url": "https://www.giantbomb.com/undead-parish/3035-4068/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4069/",
+                    "id": 4069,
+                    "name": "Darkroot Garden",
+                    "site_detail_url": "https://www.giantbomb.com/darkroot-garden/3035-4069/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4070/",
+                    "id": 4070,
+                    "name": "Darkroot Basin",
+                    "site_detail_url": "https://www.giantbomb.com/darkroot-basin/3035-4070/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4218/",
+                    "id": 4218,
+                    "name": "Oolacile",
+                    "site_detail_url": "https://www.giantbomb.com/oolacile/3035-4218/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4219/",
+                    "id": 4219,
+                    "name": "Lost Izalith",
+                    "site_detail_url": "https://www.giantbomb.com/lost-izalith/3035-4219/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4220/",
+                    "id": 4220,
+                    "name": "The Abyss",
+                    "site_detail_url": "https://www.giantbomb.com/the-abyss/3035-4220/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4221/",
+                    "id": 4221,
+                    "name": "The Catacombs",
+                    "site_detail_url": "https://www.giantbomb.com/the-catacombs/3035-4221/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4222/",
+                    "id": 4222,
+                    "name": "Tomb of the Giants",
+                    "site_detail_url": "https://www.giantbomb.com/tomb-of-the-giants/3035-4222/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4223/",
+                    "id": 4223,
+                    "name": "New Londo Ruins",
+                    "site_detail_url": "https://www.giantbomb.com/new-londo-ruins/3035-4223/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4224/",
+                    "id": 4224,
+                    "name": "Valley of the Drakes",
+                    "site_detail_url": "https://www.giantbomb.com/valley-of-the-drakes/3035-4224/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4740/",
+                    "id": 4740,
+                    "name": "Demon Ruins",
+                    "site_detail_url": "https://www.giantbomb.com/demon-ruins/3035-4740/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4741/",
+                    "id": 4741,
+                    "name": "Quelaag's Domain",
+                    "site_detail_url": "https://www.giantbomb.com/quelaags-domain/3035-4741/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4807/",
+                    "id": 4807,
+                    "name": "Kiln of the First Flame",
+                    "site_detail_url": "https://www.giantbomb.com/kiln-of-the-first-flame/3035-4807/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4808/",
+                    "id": 4808,
+                    "name": "Undead Asylum",
+                    "site_detail_url": "https://www.giantbomb.com/undead-asylum/3035-4808/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4809/",
+                    "id": 4809,
+                    "name": "Crystal Cave",
+                    "site_detail_url": "https://www.giantbomb.com/crystal-cave/3035-4809/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4810/",
+                    "id": 4810,
+                    "name": "Ash Lake",
+                    "site_detail_url": "https://www.giantbomb.com/ash-lake/3035-4810/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4811/",
+                    "id": 4811,
+                    "name": "The Great Hollow",
+                    "site_detail_url": "https://www.giantbomb.com/the-great-hollow/3035-4811/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4878/",
+                    "id": 4878,
+                    "name": "The Depths",
+                    "site_detail_url": "https://www.giantbomb.com/the-depths/3035-4878/"
+                },
+                {
+                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4981/",
+                    "id": 4981,
+                    "name": "Lordran",
+                    "site_detail_url": "https://www.giantbomb.com/lordran/3035-4981/"
+                }
+            ]
+        },
+        "version": "1.0"
+    }
+}
