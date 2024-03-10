@@ -1,18 +1,30 @@
 import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
-import { useTrophies } from '../../hooks/detailHooks'
+import { useTrophies, useXboxTrophies } from '../../hooks/detailHooks'
+import { mapPlayImages, mapTitleInfo, mapCategories } from '../../scripts/helpers'
+
+import { TitleInfo } from './TitleInfo'
+import { TitleImages } from './TitleImages'
+import { Header } from './Header'
+import { Categories } from './Categories'
 
 export const PlayDetail = () => {
   const params = useParams()
   const { trophyData } = useTrophies(params)
   return (
     <>
-      <NavLink to='/'>go back</NavLink>
-      <h1 style={{ color: 'white' }}>Detalles de Juego con id {params?.gameId}. Del usuario {params?.userId}</h1>
-      {/* }<p style={{ color: 'white' }}>{JSON.stringify({ trophyData })}</p>{ */}
-      {/* }<ul>
-        {trophyData.map((data, index) => <li key={index}>{JSON.stringify(data)}</li>)}
-      </ul>{ */}
+    {
+    trophyData
+      ? <div className='detailBody bodyPlayStation'>
+      <Header>
+        <TitleImages info={mapPlayImages(trophyData.gi.results.image, trophyData.gi.results.images)}></TitleImages>
+        <TitleInfo info={mapTitleInfo(trophyData.gi.results)}></TitleInfo>
+        <Categories className={'playStationCategories'} info={mapCategories(trophyData.gi.results.genres)}></Categories>
+      </Header>
+    <NavLink className='goBack goBackPlayStation' to='/'><i className='bx bxs-left-arrow'/></NavLink>
+    </div>
+      : 'Loading...'
+      }
     </>
   )
 }

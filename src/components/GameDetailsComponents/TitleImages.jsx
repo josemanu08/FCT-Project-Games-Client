@@ -13,7 +13,7 @@ export const TitleImages = ({ info }) => {
 
   const changeImage = (step) => {
     if (step === 'next') {
-      const isLastImage = index === info.lenth - 1
+      const isLastImage = index === info.length - 1
       setIndex(isLastImage ? info.length - 1 : index + 1)
     } else {
       const isFistImage = index === 0

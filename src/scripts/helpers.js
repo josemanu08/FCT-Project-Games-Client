@@ -71,3 +71,36 @@ export const applyFilters = (gamesObj, filters) => {
    (game.platform === filters.platform || filters.platform === 'both'))
   })
 }
+// DetailsSection
+
+export const mapPlayImages = (image, images) => {
+  const result = images
+    .filter((img) => {
+      return (img.tags.toLowerCase().includes('screenshots') ||
+      img.tags.toLowerCase().includes('box art'))
+    })
+    .reverse()
+    .map(img => ({
+      Uri: img.super_url,
+      tag: img.tags
+    }))
+  result.unshift({ Uri: image.original_url })
+  return result
+}
+
+// name, developerNamem, releaseDate, shortDescription, website
+
+export const mapTitleInfo = (results) => {
+  return ({
+    name: results.name,
+    shortDescription: results.deck,
+    releaseDate: results.original_release_date,
+    developerName: results.developers[0].name
+  })
+}
+
+export const mapCategories = (genres) => {
+  return {
+    categories: genres.map(genre => genre.name)
+  }
+}

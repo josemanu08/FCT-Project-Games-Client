@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-export const Categories = ({ info }) => {
+export const Categories = ({ info, className }) => {
   return (
-        <ul className='categories'>
+        <ul className={`categories ${className}`}>
         {
           info.categories.map((cat, index) => {
             return <li key={index}>{cat}</li>
