@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
     background-color: #24252b;
+    width: 90%;
+    align-self: center;
 }
 
 .selectRange{
@@ -14,6 +16,15 @@
 
 .selectTitle{
     width: 50%;
+    background-color: #3d3f47;
+    color: white;
+    border: none;
+}
+
+.selectRarity{
+    background-color: #3d3f47;
+    color: white;
+    padding: .1rem;
 }
 
 .filters input[type='text']{

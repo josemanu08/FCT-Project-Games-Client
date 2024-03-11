@@ -41,7 +41,7 @@ export const Filter = () => {
             type="text"placeholder='Bloodborne, Uncharted, Dark Souls....'/>
 
             <div className="sub-filters">
-              <select ref={platformRef} onInput={platformHandler} className='selectRarity'>
+              <select defaultValue={filterState.platform} ref={platformRef} onInput={platformHandler} className='selectRarity'>
                   <option value="both">both</option>
                   <option value="playStation">PlayStation</option>
                   <option value="xbox">Xbox</option>

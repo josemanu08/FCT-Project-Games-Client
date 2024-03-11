@@ -5,17 +5,36 @@
     border-collapse: collapse;
 }
 
-.gamesTable th{
-    color: white;
+.gamesTable tr:nth-child(even){
+    /*border-bottom: .5px solid rgb(88, 88, 88);*/
+    background-color: #2d3349;
 }
 
-.gamesTable tr{
-    border-bottom: .5px solid rgb(88, 88, 88);
+.gamesTable tr:nth-child(odd){
+    background-color: #222;
 }
 
 .table-container{
     height: 100%;
     overflow-y: scroll;
+    width: 90%;
+    align-self: center;
+}
+
+@media (max-width:768px){
+    .table-container{
+        width: 100%;
+    }
+}
+
+
+.gamesTable tr{
+    /*transition: .1s transform, .1s box-shadow;*/
+}
+
+.gamesTable tr:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 10px #0f0f0f;
 }
 
 .table-container::-webkit-scrollbar{
@@ -45,7 +64,6 @@
     cursor: pointer;
 }
 
-
 .playItem{
     /*background-color: #c6def7;*/
     background-color: rgb(0, 115, 255, 0.568);
@@ -53,10 +71,10 @@
     color: white;
 }
 
-.playItem:hover{
+/*.playItem:hover{
     background-color: #4598f0;
     color: black;
-}
+}*/
 
 .xboxItem{
     /*background-color: rgb(173, 241, 173);*/
@@ -66,9 +84,9 @@
     background-color: #18191A;
 }
 
-.xboxItem:hover{
+/*.xboxItem:hover{
     background-color: rgb(43, 151, 43);
-}
+}*/
 
 .xboxItem .icon {
     width: 2.5rem;
@@ -124,7 +142,7 @@
 }
 
 .getDetails:hover{
-    outline: 1px solid black;
+    outline: 1px solid rgb(255, 248, 248);
 }
 
 .platformInfo p{
@@ -149,12 +167,12 @@
 }
 
 .PS4{
-    background-color: rgb(55, 55, 236);
+    background-color: rgb(67, 67, 255);
     color: white;
 }
 
 .PSVITA{
-    background-color:#0071bc;
+    background-color:#29a8fc;
     color: white;
 }
 

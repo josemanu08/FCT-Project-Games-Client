@@ -5,8 +5,8 @@ export const Aside = () => {
   return (
     <>
       <nav className='web-aside'>
-          <NavLink className='nav-item' to= "/userOptions" ><i className='bx bxs-info-circle'></i></NavLink>
-          <NavLink className='nav-item' to= "/" ><i className='bx bx-table'></i></NavLink>
+          <NavLink className='nav-item' to= "/userOptions" ><i className='bx bx-sm bxs-info-circle'></i></NavLink>
+          <NavLink className='nav-item' to= "/" ><i className='bx bx-sm bx-table'></i></NavLink>
       </nav>
     <Outlet></Outlet>
     </>
