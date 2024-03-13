@@ -24,13 +24,14 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const myMappedAllGameTrophies = allGameTrophies.trophies.filter(t => earnedIds.includes(t.trophyId))
 
   // Unión de información entre los trofeos
-  const mixedTrophiesInfo = myMappedAllGameTrophies.map((t, index) => (
+  const mixedTrophiesInfo = allGameTrophies.trophies.map((t, index) => (
     {
-      tId: myMappedTrophies[index].tId,
+      achieved: earnedIds.includes(t.trophyId),
+      tId: t.trophyId,
       gId: t.trophyGroupId,
       name: t.trophyName,
-      date: myMappedTrophies[index].date,
-      earnedRate: myMappedTrophies[index].earnedRate,
+      date: myMappedTrophies[index]?.date,
+      earnedRate: myMappedTrophies[index]?.earnedRate,
       icon: t.trophyIconUrl,
       detail: t.trophyDetail
     }
@@ -39,7 +40,7 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const result = {}
   result.ti = mixedTrophiesInfo
   result.gi = gameInfo
-
+  console.log(result.ti)
   return result
 }
 
@@ -65,7 +66,6 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
 
   response.tr = mappedTrophies
   response.ti = mapXboxGameInfo(gameData)[0]
-  console.log(response)
   return response
 }
 

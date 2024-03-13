@@ -1,5 +1,6 @@
 .trophy-detail-container{
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .trophy-detail-table{
@@ -32,7 +33,6 @@
 
 td{
     position: relative;
-    text-align: center;
 }
 
 .date-trophy-info{
@@ -40,4 +40,24 @@ td{
     right: .5rem;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.trophy-desc-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.trophy-description{
+    font-size: small;
+    color: #464545;
+}
+
+.earned-rate{
+    text-align: center;
+}
+
+.first-trophy, .latest-trophy, .rarest-trophies{
+    outline: 1px solid black;
+    outline-offset: 1px;
 }

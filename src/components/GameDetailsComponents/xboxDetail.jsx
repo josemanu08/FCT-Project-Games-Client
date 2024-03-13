@@ -8,16 +8,32 @@ import { Header } from './Header'
 import { Categories } from './Categories'
 
 // import { useDescription } from '../../hooks/useDescription'
+import { getFirstTrophy, getLatestTrophy, getRarestTrophies } from '../../scripts/helpers'
+
+export const TrophySubItem = ({ trophyInfo }) => {
+  return (
+    <>
+      <div className="main-trophy-info">
+          <img loading='lazy' className='trophy-icon' src={`${trophyInfo?.icon}`} alt={`${trophyInfo?.icon}`} />
+          <section className='trophy-desc-name'>
+            <p className='trophy-name'>{trophyInfo?.name}</p>
+            <p className='trophy-description'>{trophyInfo?.detail}</p>
+          </section>
+        </div>
+        <div className='date-trophy-info'>
+          {
+            trophyInfo?.achieved && (new Date(trophyInfo?.date)).toLocaleDateString()
+          }
+        </div>
+    </>
+  )
+}
 
 export const TrophyItem = ({ trophyInfo }) => {
   return (
     <tr className={trophyInfo?.achieved || 'not-achieved'}>
       <td>
-        <div className="main-trophy-info">
-          <img loading='lazy' className='trophy-icon' src={`${trophyInfo.icon}`} alt={`${trophyInfo.icon}`} />
-          <p className='description'>{trophyInfo.detail}</p>
-        </div>
-        <div className='date-trophy-info'>{(new Date(trophyInfo.date)).toLocaleDateString()}</div>
+        <TrophySubItem trophyInfo={trophyInfo}></TrophySubItem>
       </td>
       <td>
         <p className='earned-rate'>{trophyInfo.earnedRate}%</p>
@@ -30,13 +46,23 @@ export const AditionalTrophyInfo = ({ trophyInfo }) => {
   return (
     <ul className='trophy-detail-aditional-info'>
       <li className='first-trophy'>
-
+        <p>Primer Trofeo</p>
+        <TrophySubItem trophyInfo={getFirstTrophy(trophyInfo)}></TrophySubItem>
       </li>
       <li className='latest-trophy'>
-
+        <p>Último Trofeo</p>
+        <TrophySubItem trophyInfo={getLatestTrophy(trophyInfo)}></TrophySubItem>
       </li>
       <ul className="rarest-trophies">
-
+        <p>Trofeos mas raros</p>
+        {
+          getRarestTrophies(trophyInfo)
+            .map(tr => (
+              <li key={tr.tId}>
+                <TrophySubItem trophyInfo={tr}></TrophySubItem>
+              </li>
+            ))
+        }
       </ul>
     </ul>
   )

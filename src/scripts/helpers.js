@@ -107,10 +107,25 @@ export const mapCategories = (genres) => {
 
 // TUNCIONES DE TROPHY-ADITIONAL-INFO
 export const getFirstTrophy = (trophies) => {
-  const dates = trophies.map(tr => (new Date(tr.date)).getTime())
-  console.log()
+  const dates = trophies
+    .filter(tr => tr.achieved)
+    .map(tr => (new Date(tr.date)).getTime())
+  const firstTrophy = trophies.find(tr => (new Date(tr.date)).getTime() === Math.min(...dates))
+  return firstTrophy
 }
 
-export const getLatetsTrophy = (trophies) => {
+export const getLatestTrophy = (trophies) => {
+  const dates = trophies
+    .filter(tr => tr.achieved)
+    .map(tr => (new Date(tr.date)).getTime())
+  const latestTrophy = trophies.find(tr => (new Date(tr.date)).getTime() === Math.max(...dates))
+  return latestTrophy
+}
 
+export const getRarestTrophies = (trophies) => {
+  const rarestTrophies = trophies
+    .filter(tr => tr.achieved)
+    .sort((a, b) => a.earnedRate - b.earnedRate)
+    .slice(0, 5)
+  return rarestTrophies
 }
