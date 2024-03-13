@@ -6,6 +6,7 @@ import { TitleInfo } from './TitleInfo'
 import { TitleImages } from './TitleImages'
 import { Header } from './Header'
 import { Categories } from './Categories'
+import { LazyLoadComponent, LazyLoadImage } from 'react-lazy-load-image-component'
 
 // import { useDescription } from '../../hooks/useDescription'
 import { getFirstTrophy, getLatestTrophy, getRarestTrophies } from '../../scripts/helpers'
@@ -14,7 +15,8 @@ export const TrophySubItem = ({ trophyInfo }) => {
   return (
     <>
       <div className="main-trophy-info">
-          <img loading='lazy' className='trophy-icon' src={`${trophyInfo?.icon}`} alt={`${trophyInfo?.icon}`} />
+         { }<LazyLoadImage style={{ objectFit: 'cover', borderRadius: '100px' }} src={`${trophyInfo?.icon}`} height='60' width='60'>
+         </LazyLoadImage>{ }
           <section className='trophy-desc-name'>
             <p className='trophy-name'>{trophyInfo?.name}</p>
             <p className='trophy-description'>{trophyInfo?.detail}</p>
@@ -75,7 +77,13 @@ export const TrophyTable = ({ info }) => {
       <table className='trophy-detail-table' border={1}>
         <tbody>
             {
-              info.map((tr) => <TrophyItem key={tr.tId} trophyInfo={tr} />)
+              info.map((tr) => (
+                <LazyLoadComponent
+                key={tr.tId}
+                >
+                   <TrophyItem trophyInfo={tr} />
+                </LazyLoadComponent>
+              ))
             }
         </tbody>
       </table>
@@ -84,6 +92,7 @@ export const TrophyTable = ({ info }) => {
 }
 
 export const XboxDetail = () => {
+  console.log('me Renderizo')
   const params = useParams()
   const { xboxTrophyData } = useXboxTrophies(params)
   return (

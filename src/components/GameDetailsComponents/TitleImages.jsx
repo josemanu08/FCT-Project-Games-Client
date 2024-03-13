@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useRef, useState } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const TitleImages = ({ info }) => {
   const [index, setIndex] = useState(0)
@@ -7,7 +8,7 @@ export const TitleImages = ({ info }) => {
 
   useEffect(() => {
     // const img = imgRef.current.children[index]
-    const img = document.querySelectorAll('img')[index]
+    const img = document.querySelectorAll('.img')[index]
     img.scrollIntoView({ block: 'nearest', inline: 'start' })
   }, [index])
 
@@ -26,7 +27,8 @@ export const TitleImages = ({ info }) => {
         <div ref={imgRef} className="images">
           {
             Array.from(new Set(info)).map((img, index) => {
-              return <img width='400px' key={index} src={`${img.Uri}`} alt="" />
+              return <LazyLoadImage className='img' width='400px' key={index} src={`${img.Uri}`}></LazyLoadImage>
+              // return <img width='400px' className='img' key={index} src={`${img.Uri}`} alt="" />
             })
           }
         </div>

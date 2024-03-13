@@ -7,7 +7,7 @@ export const XboxGameItem = ({ gameData }) => {
       <tr className='xboxItem'>
          <td colSpan={2}>
           <div className='mainInfo'>
-            <img className='icon' src={gameData.icon} alt={gameData.icon} />
+            <img loading='lazy' className='icon' src={gameData.icon} alt={gameData.icon} />
             <section className="subInfo">
               <p>{gameData.name}</p>
               <p style={{ fontSize: 'small', color: 'gray' }}>

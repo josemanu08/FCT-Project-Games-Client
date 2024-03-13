@@ -24,18 +24,20 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const myMappedAllGameTrophies = allGameTrophies.trophies.filter(t => earnedIds.includes(t.trophyId))
 
   // Unión de información entre los trofeos
-  const mixedTrophiesInfo = allGameTrophies.trophies.map((t, index) => (
-    {
-      achieved: earnedIds.includes(t.trophyId),
-      tId: t.trophyId,
-      gId: t.trophyGroupId,
-      name: t.trophyName,
-      date: myMappedTrophies[index]?.date,
-      earnedRate: myMappedTrophies[index]?.earnedRate,
-      icon: t.trophyIconUrl,
-      detail: t.trophyDetail
-    }
-  ))// .concat(myRarestTrophies)
+  const mixedTrophiesInfo = allGameTrophies.trophies
+    .filter(t => earnedIds.includes(t.trophyId))
+    .map((t, index) => (
+      {
+        achieved: earnedIds.includes(t.trophyId),
+        tId: t.trophyId,
+        gId: t.trophyGroupId,
+        name: t.trophyName,
+        date: myMappedTrophies[index]?.date,
+        earnedRate: myMappedTrophies[index]?.earnedRate,
+        icon: t.trophyIconUrl,
+        detail: t.trophyDetail
+      }
+    ))// .concat(myRarestTrophies)
 
   const result = {}
   result.ti = mixedTrophiesInfo
@@ -52,7 +54,7 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
   // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
 
   const mappedTrophies = trophies.achievements
-    // .filter(tr => tr.progressState === 'Achieved')
+    .filter(tr => tr.progressState === 'Achieved')
     .map(tr => ({
       achieved: tr.progressState === 'Achieved',
       tId: tr.id,

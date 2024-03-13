@@ -1,11 +1,14 @@
 .trophy-detail-container{
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-start;
+    height: 100%;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .trophy-detail-table{
     width: 100%;
-    align-self: center;
 }
 
 @media(max-width:768px){
@@ -22,7 +25,10 @@
 }
 
 .trophy-icon{
-    width: 80px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .main-trophy-info{
