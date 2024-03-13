@@ -29,7 +29,7 @@
 
 
 .gamesTable tr{
-    /*transition: .1s transform, .1s box-shadow;*/
+    transition: 0.05s transform;
 }
 
 .gamesTable tr:hover{
@@ -93,9 +93,18 @@
     height: 2.5rem;
 }
 
+.playItem .icon {
+    object-fit: cover;
+}
+
+.xboxItem:hover .icon{
+    color: rgb(13, 195, 13);
+}
+
 .icon{
-    width: 3.5rem;
+    width: 2.5rem;
     height: 2.5rem;
+    border-radius: 100px;
 }
 .mainInfo{
     display: flex;

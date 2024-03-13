@@ -9,12 +9,12 @@ export const UserOption = () => {
         <ul className='userOptions'>
           <h1>😏</h1>
           <li>
-            <input defaultChecked hidden type="checkbox" id="playChecked"/>
+            <input hidden type="checkbox" id="playChecked"/>
             <ConfigPlaystation></ConfigPlaystation>
             <FormPlayStation></FormPlayStation>
           </li>
           <li>
-            <input defaultChecked hidden type="checkbox" id="xboxCheck" />
+            <input hidden type="checkbox" id="xboxCheck" />
             <ConfigXbox></ConfigXbox>
             <FormXbox></FormXbox>
           </li>

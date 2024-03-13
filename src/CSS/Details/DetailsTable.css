@@ -1,0 +1,43 @@
+.trophy-detail-container{
+    display: flex;
+}
+
+.trophy-detail-table{
+    width: 100%;
+    align-self: center;
+}
+
+@media(max-width:768px){
+    .trophy-detail-table{
+        width: 100%;
+    }
+    .trophy-detail-container{
+        flex-direction: column;
+    }
+}
+
+.not-achieved{
+    opacity: .5;
+}
+
+.trophy-icon{
+    width: 80px;
+}
+
+.main-trophy-info{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+td{
+    position: relative;
+    text-align: center;
+}
+
+.date-trophy-info{
+    position: absolute;
+    right: .5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}

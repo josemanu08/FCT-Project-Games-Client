@@ -104,3 +104,13 @@ export const mapCategories = (genres) => {
     categories: genres.map(genre => genre.name)
   }
 }
+
+// TUNCIONES DE TROPHY-ADITIONAL-INFO
+export const getFirstTrophy = (trophies) => {
+  const dates = trophies.map(tr => (new Date(tr.date)).getTime())
+  console.log()
+}
+
+export const getLatetsTrophy = (trophies) => {
+
+}

@@ -10,6 +10,12 @@
     align-self: center;
 }
 
+@media (max-width:768px){
+    .filters{
+        width: 100%;
+    }
+}
+
 .selectRange{
     cursor: pointer;
 }
@@ -19,6 +25,7 @@
     background-color: #3d3f47;
     color: white;
     border: none;
+    border-radius: 10px;
 }
 
 .selectRarity{

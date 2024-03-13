@@ -116,18 +116,7 @@
             "earnedRate": "15.4",
             "icon": "https://image.api.playstation.com/trophy/np/NPWR16297_00_00480B1D9C4B2C263C4EEC8DDB80CEF12063AE2D6C/A7C966CEEA2C650FB523BA82D9B6D19F62CE0AE6.PNG",
             "detail": "Complete the Trial of the Warrior"
-        },
-        [
-            {
-                "trophyId": 4,
-                "trophyHidden": false,
-                "earned": true,
-                "earnedDateTime": "2021-09-16T14:19:27Z",
-                "trophyType": "bronze",
-                "trophyRare": 1,
-                "trophyEarnedRate": "15.0"
-            }
-        ]
+        }
     ],
     "gi": {
         "error": "OK",

@@ -9,6 +9,7 @@
     align-items: center;
     gap: 1rem;
     background-color: #222;
+    background-color: #242323;
 }
 
 @media (max-width:750px){
@@ -23,11 +24,12 @@
     align-items: center;
     gap: .5rem;
     border: 2px solid rgb(12, 133, 247);
-    border-radius: 5px;
     width: 50rem;
     font-weight: 700;
     cursor: pointer;
-    background-color: #c6def7;
+    /*background-color: #c6def7;*/
+    background-color: #2d3349;
+    color: white;
 }
 
 .xboxOptionToggle{
@@ -35,11 +37,12 @@
     justify-content: space-between;
     align-items: center;
     border: 2px solid green;
-    border-radius: 5px;
     width: 50rem;
     font-weight: 700;
     cursor: pointer;
     background-color: rgb(173, 241, 173);
+    background-color: #2d3349;
+    color: white;
 }
 
 .PSN{

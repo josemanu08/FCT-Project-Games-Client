@@ -34,7 +34,7 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
       icon: t.trophyIconUrl,
       detail: t.trophyDetail
     }
-  )).concat(myRarestTrophies)
+  ))// .concat(myRarestTrophies)
 
   const result = {}
   result.ti = mixedTrophiesInfo
@@ -49,7 +49,21 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
   const gameData = await fetchGameData(titleId)
   // const GameInfo = await
   // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
-  response.tr = trophies
+
+  const mappedTrophies = trophies.achievements
+    // .filter(tr => tr.progressState === 'Achieved')
+    .map(tr => ({
+      achieved: tr.progressState === 'Achieved',
+      tId: tr.id,
+      name: tr.name,
+      gameName: tr.titleAssociations[0].name,
+      date: tr.progression.timeUnlocked,
+      earnedRate: tr.rarity.currentPercentage,
+      icon: tr.mediaAssets[0].url,
+      detail: tr.description
+    }))
+
+  response.tr = mappedTrophies
   response.ti = mapXboxGameInfo(gameData)[0]
   console.log(response)
   return response
