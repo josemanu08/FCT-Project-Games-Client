@@ -7,7 +7,7 @@ import { TitleInfo } from './TitleInfo'
 import { TitleImages } from './TitleImages'
 import { Header } from './Header'
 import { Categories } from './Categories'
-import { TrophyTable } from './xboxDetail'
+import { TrophyTable } from './TrophyRableComponents/TrophyTable'
 
 export const PlayDetail = () => {
   const params = useParams()
@@ -17,14 +17,16 @@ export const PlayDetail = () => {
     {
     trophyData
       ? <div className='detailBody bodyPlayStation'>
-      <Header>
-        <TitleImages info={mapPlayImages(trophyData.gi.results.image, trophyData.gi.results.images)}></TitleImages>
-        <TitleInfo info={mapTitleInfo(trophyData.gi.results)}></TitleInfo>
-        <Categories className={'playStationCategories'} info={mapCategories(trophyData.gi.results.genres)}></Categories>
-      </Header>
-      <TrophyTable info={trophyData.ti}></TrophyTable>
-    <NavLink className='goBack goBackPlayStation' to='/'><i className='bx bxs-left-arrow'/></NavLink>
-    </div>
+          <Header>
+            <TitleImages info={mapPlayImages(trophyData.gi.results.image, trophyData.gi.results.images)}></TitleImages>
+            <TitleInfo info={mapTitleInfo(trophyData.gi.results)}></TitleInfo>
+            <Categories className={'playStationCategories'} info={mapCategories(trophyData.gi.results.genres)}></Categories>
+          </Header>
+          <TrophyTable info={trophyData.ti}></TrophyTable>
+          <NavLink className='goBack goBackPlayStation' to='/'>
+            <i className='bx bxs-left-arrow'/>
+          </NavLink>
+        </div>
       : 'Loading...'
       }
     </>

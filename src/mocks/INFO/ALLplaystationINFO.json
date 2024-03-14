@@ -1,6 +1,7 @@
 {
     "ti": [
         {
+            "achieved": true,
             "tId": 1,
             "gId": "default",
             "name": "Falsehood",
@@ -10,6 +11,7 @@
             "detail": "Defeat the False Knight"
         },
         {
+            "achieved": true,
             "tId": 2,
             "gId": "default",
             "name": "Test of Resolve",
@@ -19,6 +21,7 @@
             "detail": "Defeat Hornet in Greenpath"
         },
         {
+            "achieved": true,
             "tId": 3,
             "gId": "default",
             "name": "Proof of Resolve",
@@ -28,6 +31,7 @@
             "detail": "Defeat Hornet in Kingdom's Edge"
         },
         {
+            "achieved": true,
             "tId": 4,
             "gId": "default",
             "name": "Watcher",
@@ -37,6 +41,7 @@
             "detail": "Destroy Lurien the Watcher"
         },
         {
+            "achieved": true,
             "tId": 5,
             "gId": "default",
             "name": "Beast",
@@ -46,6 +51,7 @@
             "detail": "Destroy Herrah the Beast"
         },
         {
+            "achieved": true,
             "tId": 6,
             "gId": "default",
             "name": "Teacher",
@@ -55,6 +61,7 @@
             "detail": "Destroy Monomon the Teacher"
         },
         {
+            "achieved": true,
             "tId": 8,
             "gId": "default",
             "name": "Charmed",
@@ -64,6 +71,7 @@
             "detail": "Acquire your first Charm"
         },
         {
+            "achieved": true,
             "tId": 9,
             "gId": "default",
             "name": "Enchanted",
@@ -73,15 +81,17 @@
             "detail": "Acquire half of Hallownest's Charms"
         },
         {
+            "achieved": true,
             "tId": 11,
             "gId": "default",
             "name": "Protected",
             "date": "2021-07-02T13:57:22Z",
-            "earnedRate": "21.5",
+            "earnedRate": "21.6",
             "icon": "https://image.api.playstation.com/trophy/np/NPWR16297_00_00480B1D9C4B2C263C4EEC8DDB80CEF12063AE2D6C/0A93BA90EB59964F0BB20F7BEB95CDA0D4571F71.PNG",
             "detail": "Acquire 4 Mask Shards"
         },
         {
+            "achieved": true,
             "tId": 13,
             "gId": "default",
             "name": "Soulful",
@@ -91,6 +101,7 @@
             "detail": "Acquire 3 Vessel Fragments"
         },
         {
+            "achieved": true,
             "tId": 15,
             "gId": "default",
             "name": "Connection",
@@ -100,6 +111,7 @@
             "detail": "Open half of Hallownest's Stag Stations"
         },
         {
+            "achieved": true,
             "tId": 19,
             "gId": "default",
             "name": "Cartographer",
@@ -109,6 +121,7 @@
             "detail": "Acquire a map of each area"
         },
         {
+            "achieved": true,
             "tId": 26,
             "gId": "default",
             "name": "Warrior",
@@ -136,7 +149,7 @@
                 "super_url": "https://www.giantbomb.com/a/uploads/scale_large/24/240391/3355540-co1rgi.jpg",
                 "thumb_url": "https://www.giantbomb.com/a/uploads/scale_avatar/24/240391/3355540-co1rgi.jpg",
                 "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/24/240391/3355540-co1rgi.jpg",
-                "original_url": "https:y//www.giantbomb.com/a/uploads/original/24/240391/3355540-co1rgi.png",
+                "original_url": "https://www.giantbomb.com/a/uploads/original/24/240391/3355540-co1rgi.png",
                 "image_tags": "All Images"
             },
             "name": "Hollow Knight",

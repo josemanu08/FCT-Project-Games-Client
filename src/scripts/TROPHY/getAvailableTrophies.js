@@ -42,7 +42,7 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const result = {}
   result.ti = mixedTrophiesInfo
   result.gi = gameInfo
-  console.log(result.ti)
+  console.log(result)
   return result
 }
 

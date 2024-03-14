@@ -8,6 +8,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: right;
+   /* position: fixed;
+    left: 0px;
+    z-index: 1;*/
 }
 
 .nav-item{

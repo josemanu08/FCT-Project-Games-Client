@@ -7,16 +7,52 @@
     gap: 1rem;
 }
 
-.trophy-detail-table{
-    width: 100%;
+.trophy-detail-container li {
+    position: relative;
 }
 
-@media(max-width:768px){
+.date-trophy-info{
+    color: white;
+}
+
+.trophy-detail-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trophy-detail-table tr{
+    transition: .1s transform;
+}
+
+.trophy-detail-table tr:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 5px #0f0f0f;
+}
+
+
+.trophy-detail-table tr:nth-child(even){
+    /*border-bottom: .5px solid rgb(88, 88, 88);*/
+    background-color: #2d3349;
+}
+
+.trophy-detail-table tr:nth-child(odd){
+    background-color: #222;
+}
+
+.trophy-detail-aditional-info{
+    width: 30%;
+}
+
+@media(max-width:850px){
     .trophy-detail-table{
         width: 100%;
     }
     .trophy-detail-container{
         flex-direction: column;
+        padding: 0%;
+    }
+    .trophy-detail-aditional-info{
+        width: 100%;
     }
 }
 
@@ -28,7 +64,7 @@
     width: 90px;
     height: 90px;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
 .main-trophy-info{
@@ -39,6 +75,8 @@
 
 td{
     position: relative;
+    padding: .3rem;
+    cursor: pointer;
 }
 
 .date-trophy-info{
@@ -56,14 +94,41 @@ td{
 
 .trophy-description{
     font-size: small;
-    color: #464545;
+    color: #9d9999;
 }
 
 .earned-rate{
     text-align: center;
 }
+.earned-rate{
+    color: white;
+}
 
-.first-trophy, .latest-trophy, .rarest-trophies{
-    outline: 1px solid black;
-    outline-offset: 1px;
+.trophy-name{
+    color: white;
+}
+
+/**/
+.first-trophy > p, .latest-trophy > p, .rarest-trophies > p{
+    padding: .6rem;
+    background-color: #222;
+    color: white;
+    margin-bottom: .2rem;
+}
+
+.trophy-detail-aditional-info{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.trophy-detail-aditional-info .main-trophy-info{
+    cursor: pointer;
+    background-color: #2d3349;
+    transition: .1s transform;
+}
+
+.trophy-detail-aditional-info .main-trophy-info:hover{
+    transform: translateY(-5%);
+    box-shadow: 5px 5px 5px black;
 }
