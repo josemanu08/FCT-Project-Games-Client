@@ -29,7 +29,6 @@
     box-shadow: 5px 5px 5px #0f0f0f;
 }
 
-
 .trophy-detail-table tr:nth-child(even){
     /*border-bottom: .5px solid rgb(88, 88, 88);*/
     background-color: #2d3349;
@@ -74,9 +73,9 @@
 }
 
 td{
-    position: relative;
     padding: .3rem;
     cursor: pointer;
+    position: relative;
 }
 
 .date-trophy-info{
@@ -131,4 +130,37 @@ td{
 .trophy-detail-aditional-info .main-trophy-info:hover{
     transform: translateY(-5%);
     box-shadow: 5px 5px 5px black;
+}
+
+/*MODALES*/
+
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: #22222282;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trophy-modal{
+    position: absolute;
+    transform: translateY(-200%);
+    transition: .4s transform cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+}
+
+.close-modal{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+
+.opened{
+    transform: translateY(0);
 }

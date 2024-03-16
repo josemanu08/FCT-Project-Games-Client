@@ -32,7 +32,8 @@ function App () {
   return (
     <BrowserRouter>
       <div className='container'>
-        {}<Roots
+        {}
+        <Roots
         profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
         profileInfo={mapPlayProfile(PSNProfile.profile)}
         xbox={mapXboxGames(gamesXbox)}

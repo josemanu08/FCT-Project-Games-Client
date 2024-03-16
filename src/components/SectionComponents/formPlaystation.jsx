@@ -42,20 +42,21 @@ export const FormPlayStation = () => {
         </section>
         {
           edit
-            ? <input
+            ? (<input
             name='usernamePlay'
             required
+            defaultValue={userData.playStationUsername ?? ''}
             className='input-username'
             type="text"
-            placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
-            : <input
+            placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>)
+            : (<input
             value={userData.playStationUsername ?? ''}
             name='usernamePlay'
             required
             disabled
             className='input-username'
             type="text"
-            placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>
+            placeholder='DatilonFG, TheWolf, xXCHRISCHETOXx'/>)
         }
         <button type='button' className='erase-button' onClick={eraseContext}>
           <i className='bx bx-x'></i>

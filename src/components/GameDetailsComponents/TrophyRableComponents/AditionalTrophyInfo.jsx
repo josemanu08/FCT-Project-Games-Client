@@ -2,17 +2,26 @@
 import React from 'react'
 import { TrophySubItem } from './TrophySubitem'
 import { getRarestTrophies, getFirstTrophy, getLatestTrophy } from '../../../scripts/helpers'
+import { useModal } from '../../../hooks/useModal'
+import { TrophyModal } from './Modal'
 
 export const AditionalTrophyInfo = ({ trophyInfo }) => {
+  const { modalData, setModalData } = useModal()
   return (
       <ul className='trophy-detail-aditional-info'>
         <li className='first-trophy'>
           <p>Primer Trofeo</p>
-          <TrophySubItem trophyInfo={getFirstTrophy(trophyInfo)} isAditionalInfo={true}></TrophySubItem>
+          <TrophySubItem
+          setModalData={setModalData}
+          trophyInfo={getFirstTrophy(trophyInfo)}
+          isAditionalInfo={true}/>
         </li>
         <li className='latest-trophy'>
           <p>Último Trofeo</p>
-          <TrophySubItem trophyInfo={getLatestTrophy(trophyInfo)} isAditionalInfo={true}></TrophySubItem>
+          <TrophySubItem
+          setModalData={setModalData}
+          trophyInfo={getLatestTrophy(trophyInfo)}
+          isAditionalInfo={true}/>
         </li>
         <ul className="rarest-trophies">
           <p>Trofeos mas raros</p>
@@ -20,11 +29,19 @@ export const AditionalTrophyInfo = ({ trophyInfo }) => {
             getRarestTrophies(trophyInfo)
               .map(tr => (
                 <li key={tr.tId}>
-                  <TrophySubItem trophyInfo={tr} isAditionalInfo={true}></TrophySubItem>
+                  <TrophySubItem
+                  setModalData={setModalData}
+                  trophyInfo={tr}
+                  isAditionalInfo={true}/>
                 </li>
               ))
           }
         </ul>
+        {
+          modalData &&
+          <TrophyModal setModalData={setModalData}
+          trophyInfo={modalData}/>
+        }
       </ul>
   )
 }

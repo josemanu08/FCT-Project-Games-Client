@@ -34,6 +34,7 @@ export const FormXbox = () => {
       }
     })
   }
+
   return (
       <form onSubmit={(event) => HandleSubmit(event)} action="" className='xboxConfigContent'>
         <section className='xboxParameterInfo'>

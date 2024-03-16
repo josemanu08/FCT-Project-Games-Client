@@ -2,11 +2,11 @@
 import React from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-export const TrophySubItem = ({ trophyInfo, isAditionalInfo }) => {
+export const TrophySubItem = ({ trophyInfo, isAditionalInfo, setModalData }) => {
   return (
       <>
         <div className="main-trophy-info">
-            <LazyLoadImage
+            <LazyLoadImage onClick={() => setModalData(trophyInfo)}
             style={{ objectFit: 'cover' }}
             src={`${trophyInfo?.icon}`} height='60' width='60'>
            </LazyLoadImage>
