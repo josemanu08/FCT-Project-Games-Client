@@ -9,7 +9,7 @@ export const TitleImages = ({ info }) => {
   useEffect(() => {
     // const img = imgRef.current.children[index]
     const img = document.querySelectorAll('.img')[index]
-    img.scrollIntoView({ block: 'nearest', inline: 'start' })
+    img.scrollIntoView({ block: 'nearest', inline: 'start', behavior: 'smooth' })
   }, [index])
 
   const changeImage = (step) => {

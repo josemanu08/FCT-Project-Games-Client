@@ -32,8 +32,19 @@ function App () {
   return (
     <BrowserRouter>
       <div className='container'>
-        { }<Roots profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)} profileInfo={mapPlayProfile(PSNProfile.profile)} xbox={mapXboxGames(gamesXbox)} play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}/>{ }
-        {/* }<Roots profileXbox={data.xbl?.xblProfile} profileInfo={data.psn?.psnProfile} xbox={data.xbl?.xblTitles} play={data.psn?.psnTitles}/>{ */}
+        {}<Roots
+        profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
+        profileInfo={mapPlayProfile(PSNProfile.profile)}
+        xbox={mapXboxGames(gamesXbox)}
+        play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}/>
+        {}
+        {/* }
+        <Roots
+        profileXbox={data.xbl?.xblProfile}
+        profileInfo={data.psn?.psnProfile}
+        xbox={data.xbl?.xblTitles}
+        play={data.psn?.psnTitles}/>
+  { */}
       </div>
     </BrowserRouter>
   )
