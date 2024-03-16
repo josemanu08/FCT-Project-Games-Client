@@ -129,3 +129,24 @@ export const getRarestTrophies = (trophies) => {
     .slice(0, 5)
   return rarestTrophies
 }
+
+export const mapXboxGameInfo = (gameInfo) => {
+  if (!gameInfo) return
+
+  return gameInfo.Products.map((productInfo) => ({
+    name: productInfo.LocalizedProperties[0].ProductTitle,
+    developerName: productInfo.LocalizedProperties[0].DeveloperName,
+    website: productInfo.LocalizedProperties[0].PublisherWebsiteUri,
+    price: productInfo.DisplaySkuAvailabilities[0].Availabilities[0].OrderManagementData.Price.MSRP,
+    search: productInfo.LocalizedProperties[0].SearchTitles,
+    imgs: [
+      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'BoxArt'),
+      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'SuperHeroArt'),
+      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'Screenshot')
+    ],
+    longDescription: productInfo.LocalizedProperties[0].ProductDescription,
+    shortDescription: productInfo.LocalizedProperties[0].ShortDescription,
+    releaseDate: productInfo.MarketProperties[0].OriginalReleaseDate,
+    categories: productInfo.Properties.Categories
+  }))
+}

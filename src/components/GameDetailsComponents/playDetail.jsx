@@ -1,7 +1,7 @@
 import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useTrophies, useXboxTrophies } from '../../hooks/detailHooks'
-import { mapPlayImages, mapTitleInfo, mapCategories } from '../../scripts/helpers'
+import { mapPlayImages, mapTitleInfo, mapCategories } from '../../helpers/helpers'
 
 import { TitleInfo } from './TitleInfo'
 import { TitleImages } from './TitleImages'

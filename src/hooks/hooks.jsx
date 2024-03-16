@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import { getPlayUserData, getXboxUserData } from '../scripts/USERDATA/userData'
+import { getPlayUserData, getXboxUserData } from '../services/fetch-api/userData'
 
 export const useUserData = ({ userData }) => {
   const [data, setData] = useState({

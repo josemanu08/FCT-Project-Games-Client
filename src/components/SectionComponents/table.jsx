@@ -1,7 +1,7 @@
 import { React, useContext, useState, useEffect } from 'react'
 import { PlayStationGameItem } from './playGameItem'
 import { XboxGameItem } from './xboxGameItem'
-import { applyFilters } from '../../scripts/helpers'
+import { applyFilters } from '../../helpers/helpers'
 import { filterContext } from '../../Context/contexts'
 // import { animate, stagger } from 'motion'
 

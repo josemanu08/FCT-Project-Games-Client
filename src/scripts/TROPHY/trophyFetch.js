@@ -1,4 +1,4 @@
-import { XBOX_API_KEY, GIANT_BOMB_API_KEY } from '../../consts'
+import { XBOX_API_KEY, GIANT_BOMB_API_KEY } from '../../consts/consts'
 
 // PLAY ------------------------------------------------
 export const fetchTrophies = async (userId, titleId) => {
@@ -11,7 +11,6 @@ export const fetchTrophies = async (userId, titleId) => {
 export const fetchAllTrophies = async (titleId) => {
   const response = await fetch(`/psn-api/allTrophies/${titleId}`)
   const allTrophies = await response.json()
-  console.log(allTrophies)
   return allTrophies
 }
 

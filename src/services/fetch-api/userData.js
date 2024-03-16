@@ -1,6 +1,6 @@
-import { getUserTitles, getUserProfile } from '../PLAY/playFunctions'
-import { getXuidFromUsername, getGamesFromXuid, getXboxUserProfile } from '../XBOX/xboxFunctions'
-import { mapPlayStationGames, mapPlayProfile, mapXboxGames, mapXboxProfile } from '../helpers'
+import { getUserTitles, getUserProfile } from '../psn-api/playFunctions'
+import { getXuidFromUsername, getGamesFromXuid, getXboxUserProfile } from '../openxbl-api/xboxFunctions'
+import { mapPlayStationGames, mapPlayProfile, mapXboxGames, mapXboxProfile } from '../../helpers/helpers'
 
 export const getPlayUserData = async (psnUsername) => {
   const res = {

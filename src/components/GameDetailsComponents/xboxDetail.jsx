@@ -16,7 +16,7 @@ export const XboxDetail = () => {
     <>
       {
         xboxTrophyData
-          ? <div className='detailBody'>
+          ? <div className='detailBody' style={{ backgroundImage: `url("${xboxTrophyData.ti.imgs[1].Uri}")` }}>
                 <Header>
                   <TitleImages info = {xboxTrophyData.ti.imgs}></TitleImages>
                   <TitleInfo info={xboxTrophyData.ti}></TitleInfo>

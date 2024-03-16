@@ -3,13 +3,13 @@
     top: .5rem;
     right: .5rem;
     padding: .7rem;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: .5s padding;
-    color: rgb(87, 191, 87)
+    color: rgb(87, 191, 87);
 }
 
 
@@ -19,6 +19,8 @@
     width: 100%;
     background-color: rgb(87, 191, 87);
     background-image: linear-gradient(rgb(87, 191, 87) 20%, rgb(59, 62, 68) 80%);
+    background-size: cover;
+    background-attachment: fixed;
     gap: .5rem;
     /*OJETE*/
 }
@@ -28,11 +30,12 @@
     display: flex;
     justify-content: space-around;
     height: min-content;
-    background-color: #18191a;
+    background-color: #18191ab0;
     padding: 2rem;
     box-sizing: border-box;
     width: 100%;
     gap: 1rem;
+    backdrop-filter: blur(10px);
 }
 
 /*img SLIDER*/

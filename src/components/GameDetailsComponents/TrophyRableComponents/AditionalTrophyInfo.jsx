@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { TrophySubItem } from './TrophySubitem'
-import { getRarestTrophies, getFirstTrophy, getLatestTrophy } from '../../../scripts/helpers'
+import { getRarestTrophies, getFirstTrophy, getLatestTrophy } from '../../../helpers/helpers'
 import { useModal } from '../../../hooks/useModal'
 import { TrophyModal } from './Modal'
 

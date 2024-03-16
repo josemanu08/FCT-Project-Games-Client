@@ -1,5 +1,5 @@
 import { json } from 'react-router-dom'
-import { XBOX_API_KEY } from '../../consts.js'
+import { XBOX_API_KEY } from '../../consts/consts.js'
 
 export const getXuidFromUsername = (name) => {
   return fetch(`/api/v2/search/${name}`, {

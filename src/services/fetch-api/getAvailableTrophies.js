@@ -1,4 +1,7 @@
-import { fetchTrophies, fetchAllTrophies, fetchXboxTrophies, fetchGameData, fetchAllGameInfo } from './trophyFetch'
+import { fetchTrophies, fetchAllTrophies } from '../psn-api/trophyFunctions'
+import { fetchAllGameInfo } from '../giantBomb-api/gameInfo'
+import { fetchXboxTrophies, fetchGameData } from '../openxbl-api/gameInfo'
+import { mapXboxGameInfo } from '../../helpers/helpers'
 
 // Modifico la información obtenida de dos endpoints para que sea más completa (para que tenga fotitos 😉)
 export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) => {
@@ -42,7 +45,6 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const result = {}
   result.ti = mixedTrophiesInfo
   result.gi = gameInfo
-  console.log(result)
   return result
 }
 
@@ -72,26 +74,6 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
 }
 
 // Mapeo toda la información que me da el endpoint del juego en el Marketplace
-export const mapXboxGameInfo = (gameInfo) => {
-  if (!gameInfo) return
-
-  return gameInfo.Products.map((productInfo) => ({
-    name: productInfo.LocalizedProperties[0].ProductTitle,
-    developerName: productInfo.LocalizedProperties[0].DeveloperName,
-    website: productInfo.LocalizedProperties[0].PublisherWebsiteUri,
-    price: productInfo.DisplaySkuAvailabilities[0].Availabilities[0].OrderManagementData.Price.MSRP,
-    search: productInfo.LocalizedProperties[0].SearchTitles,
-    imgs: [
-      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'BoxArt'),
-      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'SuperHeroArt'),
-      ...productInfo.LocalizedProperties[0].Images.filter(img => img.ImagePurpose === 'Screenshot')
-    ],
-    longDescription: productInfo.LocalizedProperties[0].ProductDescription,
-    shortDescription: productInfo.LocalizedProperties[0].ShortDescription,
-    releaseDate: productInfo.MarketProperties[0].OriginalReleaseDate,
-    categories: productInfo.Properties.Categories
-  }))
-}
 
 /*
 imgs:

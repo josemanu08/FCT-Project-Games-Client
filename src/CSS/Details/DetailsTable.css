@@ -150,8 +150,9 @@ td{
 
 .trophy-modal{
     position: absolute;
-    transform: translateY(-200%);
-    transition: .4s transform cubic-bezier(0.165, 0.84, 0.44, 1);
+    /*transform: translateY(-200%);*/
+    transform: scale(.5);
+    transition: .1s transform cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
 }
 
@@ -162,5 +163,6 @@ td{
 }
 
 .opened{
-    transform: translateY(0);
+    /*transform: translateY(0);*/
+    transform: scale(1);
 }
