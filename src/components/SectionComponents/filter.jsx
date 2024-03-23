@@ -1,4 +1,4 @@
-import { React, useRef, useContext, useEffect } from 'react'
+import { React, useRef, useContext } from 'react'
 import { filterContext } from '../../Context/contexts'
 
 const useFilter = ({ searchRef, platformRef }) => {

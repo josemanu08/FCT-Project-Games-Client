@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { Suspense, useState } from 'react'
+import React from 'react'
 import { UserInfo } from '../SectionComponents/userInfo'
 import { Filter } from '../SectionComponents/filter'
 import { Table } from '../SectionComponents/table'

@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 
 export const TrophyModal = ({ trophyInfo, setModalData }) => {
   const [modalState, setModalState] = useState(false)
-
-  console.log(trophyInfo)
 
   useEffect(() => {
     setModalState(true)
@@ -17,11 +15,18 @@ export const TrophyModal = ({ trophyInfo, setModalData }) => {
     }, 100)
   }
 
+  console.log(trophyInfo)
+
   return (
     <div className="overlay">
       <section className={`trophy-modal ${(modalState) ? 'opened' : ''}`}>
-        <button className='close-modal' style={{ cursor: 'pointer' }} onClick={() => close()}>&times;</button>
-        <img src={trophyInfo.icon} alt="" style={{ width: '500px' }} />
+        <button className='close-modal' style={{ cursor: 'pointer' }} onClick={() => close()}>
+          <i className='bx bx-plus-medical'></i>
+        </button>
+        <img src={trophyInfo.icon} alt="" style={{ width: '200px' }} />
+        <div className="trophy-description">
+
+        </div>
       </section>
     </div>
   )

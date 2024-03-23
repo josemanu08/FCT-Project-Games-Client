@@ -8,7 +8,7 @@ export const Aside = () => {
           <NavLink className='nav-item' to= "/userOptions" ><i className='bx bx-sm bxs-info-circle'></i></NavLink>
           <NavLink className='nav-item' to= "/" ><i className='bx bx-sm bx-table'></i></NavLink>
       </nav>
-    <Outlet></Outlet>
+      <Outlet></Outlet>
     </>
   )
 }

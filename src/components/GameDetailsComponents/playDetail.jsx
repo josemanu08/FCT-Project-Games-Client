@@ -13,10 +13,11 @@ export const PlayDetail = () => {
   const params = useParams()
   const { trophyData } = useTrophies(params)
   return (
+    // style={{backgroundImage: `url("${}")`}}
     <>
     {
     trophyData
-      ? <div className='detailBody bodyPlayStation'>
+      ? <div className='detailBody bodyPlayStation' style={{ backgroundImage: `url("${trophyData.gi.results.image.medium_url}")` }}>
           <Header>
             <TitleImages info={mapPlayImages(trophyData.gi.results.image, trophyData.gi.results.images)}></TitleImages>
             <TitleInfo info={mapTitleInfo(trophyData.gi.results)}></TitleInfo>

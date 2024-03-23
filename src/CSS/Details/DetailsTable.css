@@ -154,12 +154,45 @@ td{
     transform: scale(.5);
     transition: .1s transform cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
+    padding: .5rem;
+    background-color: #0f0f0f;
 }
 
 .close-modal{
     position: absolute;
     top: .5rem;
     right: .5rem;
+    padding: .3rem;
+    border: none;
+    background-color: #222;
+    overflow: hidden;
+}
+
+.close-modal::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: -100%;
+    left: 0px;
+    transition: .5s top;
+    z-index: 0;
+}
+
+.bx-plus-medical{
+    transform: rotate(45deg);
+    color: white;
+    z-index: 5;
+}
+
+.close-modal:hover::before{
+    top: 0px;
+    z-index: 0;
+}
+
+.close-modal:hover .bx-plus-medical{
+    color: black;
 }
 
 .opened{
