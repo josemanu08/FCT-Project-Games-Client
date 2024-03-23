@@ -15,8 +15,8 @@ export const useTrophies = ({ userId, gameId, gameName }) => {
   useEffect(() => {
     const fetchData = async () => {
       // const trophies = await fetchTrophies(userId, gameId)
-      const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
-      setTrophyData(trophies)
+      // const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
+      setTrophyData(AllPlayInfo)
     }
     fetchData()
   }, [])
@@ -27,8 +27,8 @@ export const useXboxTrophies = ({ userId, gameId }) => {
   const [xboxTrophyData, setXboxTrophyData] = useState(null)
   useEffect(() => {
     const fetchData = async () => {
-      const trophies = await getXboxAvailableTrophies(userId, gameId)
-      setXboxTrophyData(trophies)
+      // const trophies = await getXboxAvailableTrophies(userId, gameId)
+      setXboxTrophyData(AllxboxInfo2)
     }
     fetchData()
   }, [])

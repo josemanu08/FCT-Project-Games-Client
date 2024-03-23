@@ -12,7 +12,7 @@ export const TrophySubItem = ({ trophyInfo, isAditionalInfo, setModalData }) => 
            </LazyLoadImage>
             <section className='trophy-desc-name'>
               <p className='trophy-name'>{trophyInfo?.name}</p>
-              <p className='trophy-description'>{trophyInfo?.detail}</p>
+              {}<p className='trophy-description'>{trophyInfo?.detail}</p>{}
             </section>
           </div>
           <div className='date-trophy-info'>

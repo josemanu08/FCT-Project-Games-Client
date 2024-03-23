@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react'
 export const TrophyModal = ({ trophyInfo, setModalData }) => {
   const [modalState, setModalState] = useState(false)
 
+  console.log(trophyInfo)
+
   useEffect(() => {
     setModalState(true)
   }, [])
