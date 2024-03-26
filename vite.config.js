@@ -8,6 +8,7 @@ export default defineConfig({
     proxy: {
       '/api/v2': 'https://xbl.io',
       '/psn-api': 'http://localhost:4000',
+      '/api/games': 'https://api.rawg.io',
       '/api': 'https://www.giantbomb.com'
     }
   }

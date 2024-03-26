@@ -13,7 +13,6 @@ export const PlayDetail = () => {
   const params = useParams()
   const { trophyData } = useTrophies(params)
   return (
-    // style={{backgroundImage: `url("${}")`}}
     <>
     {
     trophyData

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
+import React, { useContext } from 'react'
 import { TrophySubItem } from './TrophySubitem'
 import { TrophyModal } from './Modal'
 import { useModal } from '../../../hooks/useModal'

@@ -12,6 +12,7 @@ import { TrophyTable } from './TrophyRableComponents/TrophyTable'
 export const XboxDetail = () => {
   const params = useParams()
   const { xboxTrophyData } = useXboxTrophies(params)
+  console.log(xboxTrophyData)
   return (
     <>
       {

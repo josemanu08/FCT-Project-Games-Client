@@ -2,12 +2,14 @@ import { fetchTrophies, fetchAllTrophies } from '../psn-api/trophyFunctions'
 import { fetchAllGameInfo } from '../giantBomb-api/gameInfo'
 import { fetchXboxTrophies, fetchGameData } from '../openxbl-api/gameInfo'
 import { mapXboxGameInfo } from '../../helpers/helpers'
+import { fetchAllGameInfo as fetchi } from '../rawg/rawg-game-info'
 
 // Modifico la información obtenida de dos endpoints para que sea más completa (para que tenga fotitos 😉)
 export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) => {
   const myTrophies = await fetchTrophies(userId, titleId)
   const allGameTrophies = await fetchAllTrophies(titleId)
   const gameInfo = await fetchAllGameInfo(gameName)
+  const a = await fetchi(gameName)
 
   // Información de Los Trofeos ganados que necesito
   const myMappedTrophies = myTrophies.tDetails.trophies
@@ -18,13 +20,13 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
       earnedRate: t.trophyEarnedRate
     }))
 
-  const myRarestTrophies = [myTrophies.tDetails.rarestTrophies]
+  // const myRarestTrophies = [myTrophies.tDetails.rarestTrophies]
 
   // Ids de los trofeos ganados
   const earnedIds = myTrophies.tDetails.trophies.filter(t => t.earned).map(t => (t.trophyId))
 
   // Trofeos con información adicional ganados
-  const myMappedAllGameTrophies = allGameTrophies.trophies.filter(t => earnedIds.includes(t.trophyId))
+  // const myMappedAllGameTrophies = allGameTrophies.trophies.filter(t => earnedIds.includes(t.trophyId))
 
   // Unión de información entre los trofeos
   const mixedTrophiesInfo = allGameTrophies.trophies
@@ -38,7 +40,8 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
         date: myMappedTrophies[index]?.date,
         earnedRate: myMappedTrophies[index]?.earnedRate,
         icon: t.trophyIconUrl,
-        detail: t.trophyDetail
+        detail: t.trophyDetail,
+        platform: 'playstation'
       }
     ))// .concat(myRarestTrophies)
 
@@ -65,7 +68,8 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
       date: tr.progression.timeUnlocked,
       earnedRate: tr.rarity.currentPercentage,
       icon: tr.mediaAssets[0].url,
-      detail: tr.description
+      detail: tr.description,
+      platform: 'xbox'
     }))
 
   response.tr = mappedTrophies

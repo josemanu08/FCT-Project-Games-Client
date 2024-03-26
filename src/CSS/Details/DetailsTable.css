@@ -154,18 +154,24 @@ td{
     transform: scale(.5);
     transition: .1s transform cubic-bezier(0.165, 0.84, 0.44, 1);
     position: relative;
-    padding: .5rem;
+    padding: 1rem;
     background-color: #0f0f0f;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .close-modal{
     position: absolute;
     top: .5rem;
     right: .5rem;
-    padding: .3rem;
+    padding: .5rem;
     border: none;
     background-color: #222;
     overflow: hidden;
+    width: 2rem;
 }
 
 .close-modal::before{
@@ -198,4 +204,10 @@ td{
 .opened{
     /*transform: translateY(0);*/
     transform: scale(1);
+}
+
+.trophy-description{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
