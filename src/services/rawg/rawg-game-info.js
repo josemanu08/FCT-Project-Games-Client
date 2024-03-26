@@ -5,7 +5,7 @@ export const fetchAllGameInfo = async (name) => {
   const firstResponse = await fetch(`/api/games?key=${RAWG_API_KEY}&search=${name}`)
   const screenImageInfo = await firstResponse.json()
 
-  result.screen_shots = { ...screenImageInfo.results[0].short_screenshots }
+  result.screen_shots = [...screenImageInfo.results[0].short_screenshots]
   result.id = screenImageInfo.results[0].id
   result.genres = screenImageInfo.results[0].genres.map(genre => genre.name)
 
@@ -18,6 +18,7 @@ export const fetchAllGameInfo = async (name) => {
   result.background_image = descriptionInfo.background_image
   result.background_image_additional = descriptionInfo.background_image_additional
   result.clip = descriptionInfo?.clip
+  result.name = descriptionInfo.name
 
   return result
 }

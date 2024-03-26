@@ -1,9 +1,14 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
+import React, { useEffect } from 'react'
 
 export const TitleInfo = ({ info }) => {
   // const { descState, handleClick } = useDescription({ info })
   // name, developerNamem, releaseDate, shortDescription, website
+
+  useEffect(() => {
+    const gameInfo = document.querySelector('#titleDescription')
+    if (gameInfo.offsetHeight > 40) gameInfo.classList.toggle('scrollDesc')
+  }, [])
   return (
       <section style={{ position: 'relative' }} className='titleInfoContainer'>
        <h2 className='titleName'>{info.name}</h2>
@@ -30,7 +35,7 @@ export const TitleInfo = ({ info }) => {
             </ul>
           </li>
           <li className={'xboxTitleDescription '}>
-            <p className='infoName'>{info.shortDescription}</p>
+            <p id='titleDescription' className='infoName'>{info.shortDescription}</p>
               {/* }<button className='open-close-desc' onClick={}><i className='bx bx-sm bx-chevron-down'></i></button>{ */}
           </li>
         </ul>

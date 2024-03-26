@@ -37,11 +37,11 @@
 }
 
 .table-container::-webkit-scrollbar{
-    width: 10px;
+    width: 7px;
 }
 
 .table-container::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.401);
+    background-color: rgb(33, 33, 33);
 }
 
 .table-container::-webkit-scrollbar-thumb {
@@ -52,7 +52,6 @@
 
 .table-container::-webkit-scrollbar-thumb:hover {
     background-color: #eee5e5;
-    
 }
 
 /*-------------------------------------*/

@@ -73,18 +73,13 @@ export const applyFilters = (gamesObj, filters) => {
 }
 // DetailsSection
 
-export const mapPlayImages = (image, images) => {
-  const result = images
-    .filter((img) => {
-      return (img.tags.toLowerCase().includes('screenshots') ||
-      img.tags.toLowerCase().includes('box art'))
-    })
-    .reverse()
-    .map(img => ({
-      Uri: img.super_url,
-      tag: img.tags
+export const mapPlayImages = (backgroundImage, screenImages) => {
+  const result = [
+    ...screenImages.map(screenshot => ({
+      Uri: screenshot.image
     }))
-  result.unshift({ Uri: image.original_url })
+  ]
+  result.unshift({ Uri: backgroundImage })
   return result
 }
 
@@ -93,15 +88,15 @@ export const mapPlayImages = (image, images) => {
 export const mapTitleInfo = (results) => {
   return ({
     name: results.name,
-    shortDescription: results.deck,
-    releaseDate: results.original_release_date,
-    developerName: results.developers[0].name
+    shortDescription: results.description,
+    releaseDate: results.date,
+    developerName: results.developers.pop()
   })
 }
 
 export const mapCategories = (genres) => {
   return {
-    categories: genres.map(genre => genre.name)
+    categories: genres
   }
 }
 
