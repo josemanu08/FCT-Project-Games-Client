@@ -7,6 +7,7 @@ import { TitleImages } from './TitleImages'
 import { Header } from './Header'
 import { Categories } from './Categories'
 import { TrophyTable } from './TrophyRableComponents/TrophyTable'
+import { GameCharItemLoc } from './TrophyRableComponents/GameCharItemLoc'
 
 // import { useDescription } from '../../hooks/useDescription'
 export const XboxDetail = () => {
@@ -23,6 +24,7 @@ export const XboxDetail = () => {
                   <TitleInfo info={xboxTrophyData.ti}></TitleInfo>
                   <Categories info={xboxTrophyData.ti}></Categories>
                 </Header>
+                {/* <GameCharItemLoc/> */}
                 <TrophyTable info={xboxTrophyData.tr}></TrophyTable>
                 <NavLink className='goBack' to='/'>
                   <i className='bx bxs-left-arrow'></i>

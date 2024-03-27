@@ -1,0 +1,35 @@
+$colors : (
+    "dark":#222,
+    "white":rgb(220, 215, 215)
+);
+
+$fonts : (
+    "main-font": system-ui
+);
+
+@mixin general-root-style{
+    box-sizing: border-box;
+}
+
+@mixin general-body-style{
+    background-color: map-get($colors, "dark");
+    color: map-get($colors, "white" );
+    font-family: map-get($fonts, "main-font");    
+}
+
+@mixin deeply-style{
+    box-shadow: 1px 1px 10px black
+}
+
+html{
+    @include general-root-style();
+}
+
+body{
+    @include general-body-style();
+}
+
+.container{
+    padding: 1rem;
+    @include deeply-style();
+}

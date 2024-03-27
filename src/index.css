@@ -7,6 +7,7 @@
 @import url('./CSS/Details/headerDetail.css');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url('./CSS/Details/DetailsTable.css');
+@import url('./CSS/Details/characters-items-locatons.css');
 
 *{
     box-sizing: border-box;

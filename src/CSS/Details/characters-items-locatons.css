@@ -1,0 +1,20 @@
+.game-char-item-loc-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: .5rem;
+    position: fixed;
+    right: .5rem;
+    bottom: .5rem;
+    z-index: 1;
+}
+
+.game-char-item-loc-container li{
+    background-color: #222;
+    padding: .5rem;
+    cursor: pointer;
+    transition: .2s transform;
+    position: relative;
+    border-radius: 20px;
+}

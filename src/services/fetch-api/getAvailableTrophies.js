@@ -3,12 +3,13 @@ import { fetchTrophies, fetchAllTrophies } from '../psn-api/trophyFunctions'
 import { fetchXboxTrophies, fetchGameData } from '../openxbl-api/gameInfo'
 import { mapXboxGameInfo } from '../../helpers/helpers'
 import { fetchAllGameInfo } from '../rawg/rawg-game-info'
+import { fetchAdditionalInfo } from '../giantBomb-api/gameInfo'
 
 // Modifico la información obtenida de dos endpoints para que sea más completa (para que tenga fotitos 😉)
 export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) => {
   const myTrophies = await fetchTrophies(userId, titleId)
   const allGameTrophies = await fetchAllTrophies(titleId)
-  // const gameInfo = await fetchAllGameInfo(gameName)
+  const additionalnfo = await fetchAdditionalInfo(gameName)
   const gameInfo = await fetchAllGameInfo(gameName)
 
   // Información de Los Trofeos ganados que necesito
@@ -48,6 +49,7 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   const result = {}
   result.ti = mixedTrophiesInfo
   result.gi = gameInfo
+  result.additional = additionalnfo.results
   return result
 }
 

@@ -15,8 +15,8 @@ export const useTrophies = ({ userId, gameId, gameName }) => {
   useEffect(() => {
     const fetchData = async () => {
       // const trophies = await fetchTrophies(userId, gameId)
-      const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
-      setTrophyData(trophies)
+      // const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
+      setTrophyData(AllPlayInfo)
     }
     fetchData()
   }, [])

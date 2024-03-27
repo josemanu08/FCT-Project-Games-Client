@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: rgb(220, 215, 215);
+  font-family: system-ui;
+}
+
+.container {
+  padding: 1rem;
+  box-shadow: 1px 1px 10px black;
+}/*# sourceMappingURL=index.css.map */

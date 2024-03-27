@@ -39,7 +39,7 @@
             "gId": "default",
             "name": "Childhood's Beginning",
             "date": "2020-08-11T13:33:05Z",
-            "earnedRate": "15.7",
+            "earnedRate": "15.8",
             "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/B5D967D89CEE3369C5DA1FC9F99B2BBCAFC6612E.PNG",
             "detail": "You became an infant Great One,\nlifting humanity into its next childhood.",
             "platform": "playstation"
@@ -72,7 +72,7 @@
             "gId": "default",
             "name": "Hunter's Craft",
             "date": "2019-05-22T15:25:31Z",
-            "earnedRate": "11.8",
+            "earnedRate": "11.9",
             "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/F34AA9C1EFAA94609521282F706BC57F6B0F0E76.PNG",
             "detail": "Acquire all special hunter tools.",
             "platform": "playstation"
@@ -442,966 +442,1001 @@
         }
     ],
     "gi": {
-        "error": "OK",
-        "limit": 1,
-        "offset": 0,
-        "number_of_page_results": 1,
-        "number_of_total_results": 1,
-        "status_code": 1,
-        "results": {
-            "deck": "An action role playing game by FromSoftware, marking the studio's debut on the PlayStation 4. It shares creative roots, as well as gameplay elements, with the Souls series.",
-            "image": {
-                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/3699/2734931-bloodborne%20v5.jpg",
-                "medium_url": "https://www.giantbomb.com/a/uploads/scale_medium/0/3699/2734931-bloodborne%20v5.jpg",
-                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/3699/2734931-bloodborne%20v5.jpg",
-                "screen_large_url": "https://www.giantbomb.com/a/uploads/screen_kubrick/0/3699/2734931-bloodborne%20v5.jpg",
-                "small_url": "https://www.giantbomb.com/a/uploads/scale_small/0/3699/2734931-bloodborne%20v5.jpg",
-                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/0/3699/2734931-bloodborne%20v5.jpg",
-                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_avatar/0/3699/2734931-bloodborne%20v5.jpg",
-                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/0/3699/2734931-bloodborne%20v5.jpg",
-                "original_url": "https://www.giantbomb.com/a/uploads/original/0/3699/2734931-bloodborne%20v5.jpg",
-                "image_tags": "All Images"
+        "screen_shots": [
+            {
+                "id": -1,
+                "image": "https://media.rawg.io/media/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg"
             },
-            "name": "Bloodborne",
-            "original_release_date": "2015-03-24",
-            "platforms": [
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/platform/3045-146/",
-                    "id": 146,
-                    "name": "PlayStation 4",
-                    "site_detail_url": "https://www.giantbomb.com/playstation-4/3045-146/",
-                    "abbreviation": "PS4"
-                }
-            ],
-            "images": [
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.png",
-                    "tags": "All Images, PS4 Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
-                    "tags": "All Images, Screenshots"
-                },
-                {
-                    "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
-                    "tags": "All Images, Screenshots"
-                }
-            ],
-            "characters": [
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31623/",
-                    "id": 31623,
-                    "name": "Father Gascoigne",
-                    "site_detail_url": "https://www.giantbomb.com/father-gascoigne/3005-31623/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31627/",
-                    "id": 31627,
-                    "name": "Henryk",
-                    "site_detail_url": "https://www.giantbomb.com/henryk/3005-31627/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31628/",
-                    "id": 31628,
-                    "name": "Eileen the Crow",
-                    "site_detail_url": "https://www.giantbomb.com/eileen-the-crow/3005-31628/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31629/",
-                    "id": 31629,
-                    "name": "Queen Annalise",
-                    "site_detail_url": "https://www.giantbomb.com/queen-annalise/3005-31629/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31630/",
-                    "id": 31630,
-                    "name": "The Doll",
-                    "site_detail_url": "https://www.giantbomb.com/the-doll/3005-31630/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31641/",
-                    "id": 31641,
-                    "name": "Gehrman",
-                    "site_detail_url": "https://www.giantbomb.com/gehrman/3005-31641/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31649/",
-                    "id": 31649,
-                    "name": "Djura",
-                    "site_detail_url": "https://www.giantbomb.com/djura/3005-31649/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31650/",
-                    "id": 31650,
-                    "name": "Gilbert",
-                    "site_detail_url": "https://www.giantbomb.com/gilbert/3005-31650/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31651/",
-                    "id": 31651,
-                    "name": "Iosefka",
-                    "site_detail_url": "https://www.giantbomb.com/iosefka/3005-31651/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31666/",
-                    "id": 31666,
-                    "name": "Arianna",
-                    "site_detail_url": "https://www.giantbomb.com/arianna/3005-31666/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-31667/",
-                    "id": 31667,
-                    "name": "Alfred",
-                    "site_detail_url": "https://www.giantbomb.com/alfred/3005-31667/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-32563/",
-                    "id": 32563,
-                    "name": "Lady Maria of the Astral Clocktower",
-                    "site_detail_url": "https://www.giantbomb.com/lady-maria-of-the-astral-clocktower/3005-32563/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-32579/",
-                    "id": 32579,
-                    "name": "Orphan of Kos",
-                    "site_detail_url": "https://www.giantbomb.com/orphan-of-kos/3005-32579/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-32580/",
-                    "id": 32580,
-                    "name": "Ludwig, the Accursed",
-                    "site_detail_url": "https://www.giantbomb.com/ludwig-the-accursed/3005-32580/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33047/",
-                    "id": 33047,
-                    "name": "Micolash, Host of the Nightmare",
-                    "site_detail_url": "https://www.giantbomb.com/micolash-host-of-the-nightmare/3005-33047/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33048/",
-                    "id": 33048,
-                    "name": "Martyr Logarius",
-                    "site_detail_url": "https://www.giantbomb.com/martyr-logarius/3005-33048/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33049/",
-                    "id": 33049,
-                    "name": "Vicar Amelia",
-                    "site_detail_url": "https://www.giantbomb.com/vicar-amelia/3005-33049/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33050/",
-                    "id": 33050,
-                    "name": "Shadow of Yharnam",
-                    "site_detail_url": "https://www.giantbomb.com/shadow-of-yharnam/3005-33050/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33051/",
-                    "id": 33051,
-                    "name": "Ebrietas, Daughter of the Cosmos",
-                    "site_detail_url": "https://www.giantbomb.com/ebrietas-daughter-of-the-cosmos/3005-33051/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33052/",
-                    "id": 33052,
-                    "name": "Mergo's Wet Nurse",
-                    "site_detail_url": "https://www.giantbomb.com/mergos-wet-nurse/3005-33052/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33053/",
-                    "id": 33053,
-                    "name": "Yharnam, Pthumerian Queen",
-                    "site_detail_url": "https://www.giantbomb.com/yharnam-pthumerian-queen/3005-33053/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33054/",
-                    "id": 33054,
-                    "name": "Rom, the Vacuous Spider",
-                    "site_detail_url": "https://www.giantbomb.com/rom-the-vacuous-spider/3005-33054/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33055/",
-                    "id": 33055,
-                    "name": "Blood-Starved Beast",
-                    "site_detail_url": "https://www.giantbomb.com/blood-starved-beast/3005-33055/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33056/",
-                    "id": 33056,
-                    "name": "The One Reborn",
-                    "site_detail_url": "https://www.giantbomb.com/the-one-reborn/3005-33056/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33057/",
-                    "id": 33057,
-                    "name": "Moon Presence",
-                    "site_detail_url": "https://www.giantbomb.com/moon-presence/3005-33057/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33058/",
-                    "id": 33058,
-                    "name": "Amygdala",
-                    "site_detail_url": "https://www.giantbomb.com/amygdala/3005-33058/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33059/",
-                    "id": 33059,
-                    "name": "Witch of Hemwick",
-                    "site_detail_url": "https://www.giantbomb.com/witch-of-hemwick/3005-33059/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33060/",
-                    "id": 33060,
-                    "name": "Cleric Beast",
-                    "site_detail_url": "https://www.giantbomb.com/cleric-beast/3005-33060/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33061/",
-                    "id": 33061,
-                    "name": "Darkbeast Paarl",
-                    "site_detail_url": "https://www.giantbomb.com/darkbeast-paarl/3005-33061/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33062/",
-                    "id": 33062,
-                    "name": "Celestial Emissary",
-                    "site_detail_url": "https://www.giantbomb.com/celestial-emissary/3005-33062/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33063/",
-                    "id": 33063,
-                    "name": "Living Failures",
-                    "site_detail_url": "https://www.giantbomb.com/living-failures/3005-33063/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33097/",
-                    "id": 33097,
-                    "name": "Adella, Nun of the Healing Church",
-                    "site_detail_url": "https://www.giantbomb.com/adella-nun-of-the-healing-church/3005-33097/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33098/",
-                    "id": 33098,
-                    "name": "Afflicted Beggar",
-                    "site_detail_url": "https://www.giantbomb.com/afflicted-beggar/3005-33098/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33099/",
-                    "id": 33099,
-                    "name": "Chapel Samaritan",
-                    "site_detail_url": "https://www.giantbomb.com/chapel-samaritan/3005-33099/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33100/",
-                    "id": 33100,
-                    "name": "Lonely Old Woman",
-                    "site_detail_url": "https://www.giantbomb.com/lonely-old-woman/3005-33100/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33101/",
-                    "id": 33101,
-                    "name": "Narrow Minded Man",
-                    "site_detail_url": "https://www.giantbomb.com/narrow-minded-man/3005-33101/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33102/",
-                    "id": 33102,
-                    "name": "Patches the Spider",
-                    "site_detail_url": "https://www.giantbomb.com/patches-the-spider/3005-33102/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33103/",
-                    "id": 33103,
-                    "name": "Valtr",
-                    "site_detail_url": "https://www.giantbomb.com/valtr/3005-33103/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33115/",
-                    "id": 33115,
-                    "name": "The Hunter",
-                    "site_detail_url": "https://www.giantbomb.com/the-hunter/3005-33115/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33116/",
-                    "id": 33116,
-                    "name": "Simon the Harrowed",
-                    "site_detail_url": "https://www.giantbomb.com/simon-the-harrowed/3005-33116/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33117/",
-                    "id": 33117,
-                    "name": "Brador",
-                    "site_detail_url": "https://www.giantbomb.com/brador/3005-33117/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33118/",
-                    "id": 33118,
-                    "name": "Saint Adeline",
-                    "site_detail_url": "https://www.giantbomb.com/saint-adeline/3005-33118/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33119/",
-                    "id": 33119,
-                    "name": "Provost Willem",
-                    "site_detail_url": "https://www.giantbomb.com/provost-willem/3005-33119/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33120/",
-                    "id": 33120,
-                    "name": "Undead Giant",
-                    "site_detail_url": "https://www.giantbomb.com/undead-giant/3005-33120/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33121/",
-                    "id": 33121,
-                    "name": "Merciless Watcher",
-                    "site_detail_url": "https://www.giantbomb.com/merciless-watcher/3005-33121/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33122/",
-                    "id": 33122,
-                    "name": "Merciless Chieftain",
-                    "site_detail_url": "https://www.giantbomb.com/merciless-chieftain/3005-33122/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33123/",
-                    "id": 33123,
-                    "name": "Watch Dog of the Old Lords",
-                    "site_detail_url": "https://www.giantbomb.com/watch-dog-of-the-old-lords/3005-33123/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33124/",
-                    "id": 33124,
-                    "name": "Beast-Possessed Soul",
-                    "site_detail_url": "https://www.giantbomb.com/beastpossessed-soul/3005-33124/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33125/",
-                    "id": 33125,
-                    "name": "Keeper of the Old Lords",
-                    "site_detail_url": "https://www.giantbomb.com/keeper-of-the-old-lords/3005-33125/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33126/",
-                    "id": 33126,
-                    "name": "Pthumerian Descendant",
-                    "site_detail_url": "https://www.giantbomb.com/pthumerian-descendant/3005-33126/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33127/",
-                    "id": 33127,
-                    "name": "Maneater Boar",
-                    "site_detail_url": "https://www.giantbomb.com/maneater-boar/3005-33127/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33128/",
-                    "id": 33128,
-                    "name": "Bloodletting Beast",
-                    "site_detail_url": "https://www.giantbomb.com/bloodletting-beast/3005-33128/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33129/",
-                    "id": 33129,
-                    "name": "Brainsucker",
-                    "site_detail_url": "https://www.giantbomb.com/brainsucker/3005-33129/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33130/",
-                    "id": 33130,
-                    "name": "Forgotten Madman",
-                    "site_detail_url": "https://www.giantbomb.com/forgotten-madman/3005-33130/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33131/",
-                    "id": 33131,
-                    "name": "Pthumerian Elder",
-                    "site_detail_url": "https://www.giantbomb.com/pthumerian-elder/3005-33131/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33132/",
-                    "id": 33132,
-                    "name": "Abhorrent Beast",
-                    "site_detail_url": "https://www.giantbomb.com/abhorrent-beast/3005-33132/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33133/",
-                    "id": 33133,
-                    "name": "Loran Silverbeast",
-                    "site_detail_url": "https://www.giantbomb.com/loran-silverbeast/3005-33133/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33134/",
-                    "id": 33134,
-                    "name": "Loran Darkbeast",
-                    "site_detail_url": "https://www.giantbomb.com/loran-darkbeast/3005-33134/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-33210/",
-                    "id": 33210,
-                    "name": "Laurence, the First Vicar",
-                    "site_detail_url": "https://www.giantbomb.com/laurence-the-first-vicar/3005-33210/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38521/",
-                    "id": 38521,
-                    "name": "Beastclaw Jozef",
-                    "site_detail_url": "https://www.giantbomb.com/beastclaw-jozef/3005-38521/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38522/",
-                    "id": 38522,
-                    "name": "Blood Minister",
-                    "site_detail_url": "https://www.giantbomb.com/blood-minister/3005-38522/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38523/",
-                    "id": 38523,
-                    "name": "Choir Intelligencer Edgar",
-                    "site_detail_url": "https://www.giantbomb.com/choir-intelligencer-edgar/3005-38523/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38524/",
-                    "id": 38524,
-                    "name": "Bloody Crow of Cainhurst",
-                    "site_detail_url": "https://www.giantbomb.com/bloody-crow-of-cainhurst/3005-38524/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38525/",
-                    "id": 38525,
-                    "name": "Henriett",
-                    "site_detail_url": "https://www.giantbomb.com/henriett/3005-38525/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38526/",
-                    "id": 38526,
-                    "name": "Madman Wallar",
-                    "site_detail_url": "https://www.giantbomb.com/madman-wallar/3005-38526/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38527/",
-                    "id": 38527,
-                    "name": "Mensis Scholar Damian",
-                    "site_detail_url": "https://www.giantbomb.com/mensis-scholar-damian/3005-38527/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38528/",
-                    "id": 38528,
-                    "name": "Queen Killer",
-                    "site_detail_url": "https://www.giantbomb.com/queen-killer/3005-38528/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38529/",
-                    "id": 38529,
-                    "name": "Tomb Prospector Gremia",
-                    "site_detail_url": "https://www.giantbomb.com/tomb-prospector-gremia/3005-38529/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38530/",
-                    "id": 38530,
-                    "name": "Tomb Prospector Olek",
-                    "site_detail_url": "https://www.giantbomb.com/tomb-prospector-olek/3005-38530/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38531/",
-                    "id": 38531,
-                    "name": "Vitus",
-                    "site_detail_url": "https://www.giantbomb.com/vitus/3005-38531/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38532/",
-                    "id": 38532,
-                    "name": "Yamamura the Wanderer",
-                    "site_detail_url": "https://www.giantbomb.com/yamamura-the-wanderer/3005-38532/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38533/",
-                    "id": 38533,
-                    "name": "Younger Madaras Twin",
-                    "site_detail_url": "https://www.giantbomb.com/younger-madaras-twin/3005-38533/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/character/3005-38534/",
-                    "id": 38534,
-                    "name": "Yurie, the Last Scholar",
-                    "site_detail_url": "https://www.giantbomb.com/yurie-the-last-scholar/3005-38534/"
-                }
-            ],
-            "developers": [
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/company/3010-760/",
-                    "id": 760,
-                    "name": "FromSoftware, Inc.",
-                    "site_detail_url": "https://www.giantbomb.com/fromsoftware-inc/3010-760/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/company/3010-2472/",
-                    "id": 2472,
-                    "name": "SIE Japan Studio",
-                    "site_detail_url": "https://www.giantbomb.com/sie-japan-studio/3010-2472/"
-                }
-            ],
-            "genres": [
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/genre/3060-5/",
-                    "id": 5,
-                    "name": "Role-Playing",
-                    "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=role-playing&wikiTypeId=3060&wikiId=5&genre=5"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/genre/3060-43/",
-                    "id": 43,
-                    "name": "Action-Adventure",
-                    "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=action-adventure&wikiTypeId=3060&wikiId=43&genre=43"
-                }
-            ],
-            "locations": [
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-2086/",
-                    "id": 2086,
-                    "name": "Swamp",
-                    "site_detail_url": "https://www.giantbomb.com/swamp/3035-2086/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4973/",
-                    "id": 4973,
-                    "name": "Yharnam",
-                    "site_detail_url": "https://www.giantbomb.com/yharnam/3035-4973/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-4982/",
-                    "id": 4982,
-                    "name": "The Hunter's Dream",
-                    "site_detail_url": "https://www.giantbomb.com/the-hunters-dream/3035-4982/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5023/",
-                    "id": 5023,
-                    "name": "Iosefka's Clinic",
-                    "site_detail_url": "https://www.giantbomb.com/iosefkas-clinic/3035-5023/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5024/",
-                    "id": 5024,
-                    "name": "Central Yharnam",
-                    "site_detail_url": "https://www.giantbomb.com/central-yharnam/3035-5024/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5025/",
-                    "id": 5025,
-                    "name": "Cathedral Ward",
-                    "site_detail_url": "https://www.giantbomb.com/cathedral-ward/3035-5025/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5026/",
-                    "id": 5026,
-                    "name": "Old Yharnam",
-                    "site_detail_url": "https://www.giantbomb.com/old-yharnam/3035-5026/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5027/",
-                    "id": 5027,
-                    "name": "Healing Church Workshop",
-                    "site_detail_url": "https://www.giantbomb.com/healing-church-workshop/3035-5027/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5028/",
-                    "id": 5028,
-                    "name": "Upper Cathedral Ward",
-                    "site_detail_url": "https://www.giantbomb.com/upper-cathedral-ward/3035-5028/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5029/",
-                    "id": 5029,
-                    "name": "Forbidden Woods",
-                    "site_detail_url": "https://www.giantbomb.com/forbidden-woods/3035-5029/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5030/",
-                    "id": 5030,
-                    "name": "Hemwick Charnel Lane",
-                    "site_detail_url": "https://www.giantbomb.com/hemwick-charnel-lane/3035-5030/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5031/",
-                    "id": 5031,
-                    "name": "Byrgenwerth",
-                    "site_detail_url": "https://www.giantbomb.com/byrgenwerth/3035-5031/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5032/",
-                    "id": 5032,
-                    "name": "Yahar'gul, Unseen Village",
-                    "site_detail_url": "https://www.giantbomb.com/yahargul-unseen-village/3035-5032/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5033/",
-                    "id": 5033,
-                    "name": "Forsaken Castle Cainhurst",
-                    "site_detail_url": "https://www.giantbomb.com/forsaken-castle-cainhurst/3035-5033/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5034/",
-                    "id": 5034,
-                    "name": "Abandoned Old Workshop",
-                    "site_detail_url": "https://www.giantbomb.com/abandoned-old-workshop/3035-5034/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5035/",
-                    "id": 5035,
-                    "name": "Nightmare Frontier",
-                    "site_detail_url": "https://www.giantbomb.com/nightmare-frontier/3035-5035/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5036/",
-                    "id": 5036,
-                    "name": "Lecture Building",
-                    "site_detail_url": "https://www.giantbomb.com/lecture-building/3035-5036/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5037/",
-                    "id": 5037,
-                    "name": "Nightmare of Mensis",
-                    "site_detail_url": "https://www.giantbomb.com/nightmare-of-mensis/3035-5037/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5038/",
-                    "id": 5038,
-                    "name": "Hunter's Nightmare",
-                    "site_detail_url": "https://www.giantbomb.com/hunters-nightmare/3035-5038/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5039/",
-                    "id": 5039,
-                    "name": "Research Hall",
-                    "site_detail_url": "https://www.giantbomb.com/research-hall/3035-5039/"
-                },
-                {
-                    "api_detail_url": "https://www.giantbomb.com/api/location/3035-5040/",
-                    "id": 5040,
-                    "name": "Fishing Hamlet",
-                    "site_detail_url": "https://www.giantbomb.com/fishing-hamlet/3035-5040/"
-                }
-            ]
+            {
+                "id": 30777,
+                "image": "https://media.rawg.io/media/screenshots/75a/75a67f69575ebfc412a70cdde7fb8923.jpg"
+            },
+            {
+                "id": 30778,
+                "image": "https://media.rawg.io/media/screenshots/280/280b0e8492a247b718a3c14c41052a16.jpg"
+            },
+            {
+                "id": 30779,
+                "image": "https://media.rawg.io/media/screenshots/d8e/d8e17e4899561a0a25e0728541b1cac9.jpg"
+            },
+            {
+                "id": 30780,
+                "image": "https://media.rawg.io/media/screenshots/48c/48cfa5b44c1a6787971889bc7646ca47.jpg"
+            },
+            {
+                "id": 30781,
+                "image": "https://media.rawg.io/media/screenshots/472/472f9b7dfb71ac5d6880e94dd1c1a77c.jpg"
+            },
+            {
+                "id": 30782,
+                "image": "https://media.rawg.io/media/screenshots/c6d/c6de8c602de1cf1798353aa83a830948.jpg"
+            }
+        ],
+        "id": 3387,
+        "genres": [
+            "Action",
+            "RPG"
+        ],
+        "developers": [],
+        "description": "Bloodborne is an action-RPG and another member of souls-like title series. The game has no predecessors or successors, making it the only entry with one add-on: “The Old Hunters.” The Bloodborne universe, however, also includes a comics and a board game.\n\nGenerally resembling the Dark Souls series, Bloodborne, however, has some different mechanics and the pace of combat is increased thanks to the risk-rewarding battle system. Another difference is multiplayer, which comes in two kinds: you can summon other players into your game and fight bosses side by side or you can fight impostors, who are other players invading your playthrough.\n\nThroughout the game, you are forced to explore an enormous open world of Yharnam, which looks like alternate universe Lovecraft-inspired Victorian-era England, as The Hunter. You meet horrific bosses, explore vast areas, houses and open spaces while continually dodging, attacking and trying not to get killed by a massive number of hostile NPCs.",
+        "date": "2015-03-24",
+        "background_image": "https://media.rawg.io/media/games/214/214b29aeff13a0ae6a70fc4426e85991.jpg",
+        "background_image_additional": "https://media.rawg.io/media/screenshots/7aa/7aa5578d8296b5bb496542c8384dec65.jpg",
+        "clip": null,
+        "name": "Bloodborne"
+    },
+    "additional": {
+        "deck": "An action role playing game by FromSoftware, marking the studio's debut on the PlayStation 4. It shares creative roots, as well as gameplay elements, with the Souls series.",
+        "image": {
+            "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/0/3699/2734931-bloodborne%20v5.jpg",
+            "medium_url": "https://www.giantbomb.com/a/uploads/scale_medium/0/3699/2734931-bloodborne%20v5.jpg",
+            "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/0/3699/2734931-bloodborne%20v5.jpg",
+            "screen_large_url": "https://www.giantbomb.com/a/uploads/screen_kubrick/0/3699/2734931-bloodborne%20v5.jpg",
+            "small_url": "https://www.giantbomb.com/a/uploads/scale_small/0/3699/2734931-bloodborne%20v5.jpg",
+            "super_url": "https://www.giantbomb.com/a/uploads/scale_large/0/3699/2734931-bloodborne%20v5.jpg",
+            "thumb_url": "https://www.giantbomb.com/a/uploads/scale_avatar/0/3699/2734931-bloodborne%20v5.jpg",
+            "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/0/3699/2734931-bloodborne%20v5.jpg",
+            "original_url": "https://www.giantbomb.com/a/uploads/original/0/3699/2734931-bloodborne%20v5.jpg",
+            "image_tags": "All Images"
         },
-        "version": "1.0"
+        "name": "Bloodborne",
+        "original_release_date": "2015-03-24",
+        "platforms": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/platform/3045-146/",
+                "id": 146,
+                "name": "PlayStation 4",
+                "site_detail_url": "https://www.giantbomb.com/playstation-4/3045-146/",
+                "abbreviation": "PS4"
+            }
+        ],
+        "images": [
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844411-bloodborne%E2%84%A2_20160407154225.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844410-bloodborne%E2%84%A2_20160406205221.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844409-bloodborne%E2%84%A2_20160406204940.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844408-bloodborne%E2%84%A2_20160406204921.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844407-bloodborne%E2%84%A2_20160406202257.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844406-bloodborne%E2%84%A2_20160406194004.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844405-bloodborne%E2%84%A2_20160406193333.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844404-bloodborne%E2%84%A2_20160406193238.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844403-bloodborne%E2%84%A2_20160406193220.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844402-bloodborne%E2%84%A2_20160406191031.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844401-bloodborne%E2%84%A2_20160406190842.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844400-bloodborne%E2%84%A2_20160406180448.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844399-bloodborne%E2%84%A2_20160403180129.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844398-bloodborne%E2%84%A2_20160403174114.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844397-bloodborne%E2%84%A2_20160402163906.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844396-bloodborne%E2%84%A2_20160402163439.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844395-bloodborne%E2%84%A2_20160402161902.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844394-bloodborne%E2%84%A2_20160402161409.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844393-bloodborne%E2%84%A2_20160326173730.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2844392-bloodborne%E2%84%A2_20151122104349.png",
+                "tags": "All Images, PS4 Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755823-bloodborne%E2%84%A2_20150330203413.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755822-bloodborne%E2%84%A2_20150330201902.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755821-bloodborne%E2%84%A2_20150330184538.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755820-bloodborne%E2%84%A2_20150329163544.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755819-bloodborne%E2%84%A2_20150328121556.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755818-bloodborne%E2%84%A2_20150328104611.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755817-bloodborne%E2%84%A2_20150328104552.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755816-bloodborne%E2%84%A2_20150328094245.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755815-bloodborne%E2%84%A2_20150327182924.jpg",
+                "tags": "All Images, Screenshots"
+            },
+            {
+                "icon_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "medium_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "screen_url": "https://www.giantbomb.com/a/uploads/screen_medium/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "small_url": "https://www.giantbomb.com/a/uploads/square_avatar/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "super_url": "https://www.giantbomb.com/a/uploads/scale_large/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "thumb_url": "https://www.giantbomb.com/a/uploads/scale_small/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "tiny_url": "https://www.giantbomb.com/a/uploads/square_mini/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "original": "https://www.giantbomb.com/a/uploads/original/8/85316/2755814-bloodborne%E2%84%A2_20150326193846.jpg",
+                "tags": "All Images, Screenshots"
+            }
+        ],
+        "characters": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31623/",
+                "id": 31623,
+                "name": "Father Gascoigne",
+                "site_detail_url": "https://www.giantbomb.com/father-gascoigne/3005-31623/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31627/",
+                "id": 31627,
+                "name": "Henryk",
+                "site_detail_url": "https://www.giantbomb.com/henryk/3005-31627/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31628/",
+                "id": 31628,
+                "name": "Eileen the Crow",
+                "site_detail_url": "https://www.giantbomb.com/eileen-the-crow/3005-31628/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31629/",
+                "id": 31629,
+                "name": "Queen Annalise",
+                "site_detail_url": "https://www.giantbomb.com/queen-annalise/3005-31629/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31630/",
+                "id": 31630,
+                "name": "The Doll",
+                "site_detail_url": "https://www.giantbomb.com/the-doll/3005-31630/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31641/",
+                "id": 31641,
+                "name": "Gehrman",
+                "site_detail_url": "https://www.giantbomb.com/gehrman/3005-31641/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31649/",
+                "id": 31649,
+                "name": "Djura",
+                "site_detail_url": "https://www.giantbomb.com/djura/3005-31649/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31650/",
+                "id": 31650,
+                "name": "Gilbert",
+                "site_detail_url": "https://www.giantbomb.com/gilbert/3005-31650/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31651/",
+                "id": 31651,
+                "name": "Iosefka",
+                "site_detail_url": "https://www.giantbomb.com/iosefka/3005-31651/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31666/",
+                "id": 31666,
+                "name": "Arianna",
+                "site_detail_url": "https://www.giantbomb.com/arianna/3005-31666/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-31667/",
+                "id": 31667,
+                "name": "Alfred",
+                "site_detail_url": "https://www.giantbomb.com/alfred/3005-31667/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-32563/",
+                "id": 32563,
+                "name": "Lady Maria of the Astral Clocktower",
+                "site_detail_url": "https://www.giantbomb.com/lady-maria-of-the-astral-clocktower/3005-32563/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-32579/",
+                "id": 32579,
+                "name": "Orphan of Kos",
+                "site_detail_url": "https://www.giantbomb.com/orphan-of-kos/3005-32579/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-32580/",
+                "id": 32580,
+                "name": "Ludwig, the Accursed",
+                "site_detail_url": "https://www.giantbomb.com/ludwig-the-accursed/3005-32580/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33047/",
+                "id": 33047,
+                "name": "Micolash, Host of the Nightmare",
+                "site_detail_url": "https://www.giantbomb.com/micolash-host-of-the-nightmare/3005-33047/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33048/",
+                "id": 33048,
+                "name": "Martyr Logarius",
+                "site_detail_url": "https://www.giantbomb.com/martyr-logarius/3005-33048/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33049/",
+                "id": 33049,
+                "name": "Vicar Amelia",
+                "site_detail_url": "https://www.giantbomb.com/vicar-amelia/3005-33049/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33050/",
+                "id": 33050,
+                "name": "Shadow of Yharnam",
+                "site_detail_url": "https://www.giantbomb.com/shadow-of-yharnam/3005-33050/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33051/",
+                "id": 33051,
+                "name": "Ebrietas, Daughter of the Cosmos",
+                "site_detail_url": "https://www.giantbomb.com/ebrietas-daughter-of-the-cosmos/3005-33051/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33052/",
+                "id": 33052,
+                "name": "Mergo's Wet Nurse",
+                "site_detail_url": "https://www.giantbomb.com/mergos-wet-nurse/3005-33052/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33053/",
+                "id": 33053,
+                "name": "Yharnam, Pthumerian Queen",
+                "site_detail_url": "https://www.giantbomb.com/yharnam-pthumerian-queen/3005-33053/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33054/",
+                "id": 33054,
+                "name": "Rom, the Vacuous Spider",
+                "site_detail_url": "https://www.giantbomb.com/rom-the-vacuous-spider/3005-33054/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33055/",
+                "id": 33055,
+                "name": "Blood-Starved Beast",
+                "site_detail_url": "https://www.giantbomb.com/blood-starved-beast/3005-33055/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33056/",
+                "id": 33056,
+                "name": "The One Reborn",
+                "site_detail_url": "https://www.giantbomb.com/the-one-reborn/3005-33056/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33057/",
+                "id": 33057,
+                "name": "Moon Presence",
+                "site_detail_url": "https://www.giantbomb.com/moon-presence/3005-33057/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33058/",
+                "id": 33058,
+                "name": "Amygdala",
+                "site_detail_url": "https://www.giantbomb.com/amygdala/3005-33058/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33059/",
+                "id": 33059,
+                "name": "Witch of Hemwick",
+                "site_detail_url": "https://www.giantbomb.com/witch-of-hemwick/3005-33059/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33060/",
+                "id": 33060,
+                "name": "Cleric Beast",
+                "site_detail_url": "https://www.giantbomb.com/cleric-beast/3005-33060/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33061/",
+                "id": 33061,
+                "name": "Darkbeast Paarl",
+                "site_detail_url": "https://www.giantbomb.com/darkbeast-paarl/3005-33061/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33062/",
+                "id": 33062,
+                "name": "Celestial Emissary",
+                "site_detail_url": "https://www.giantbomb.com/celestial-emissary/3005-33062/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33063/",
+                "id": 33063,
+                "name": "Living Failures",
+                "site_detail_url": "https://www.giantbomb.com/living-failures/3005-33063/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33097/",
+                "id": 33097,
+                "name": "Adella, Nun of the Healing Church",
+                "site_detail_url": "https://www.giantbomb.com/adella-nun-of-the-healing-church/3005-33097/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33098/",
+                "id": 33098,
+                "name": "Afflicted Beggar",
+                "site_detail_url": "https://www.giantbomb.com/afflicted-beggar/3005-33098/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33099/",
+                "id": 33099,
+                "name": "Chapel Samaritan",
+                "site_detail_url": "https://www.giantbomb.com/chapel-samaritan/3005-33099/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33100/",
+                "id": 33100,
+                "name": "Lonely Old Woman",
+                "site_detail_url": "https://www.giantbomb.com/lonely-old-woman/3005-33100/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33101/",
+                "id": 33101,
+                "name": "Narrow Minded Man",
+                "site_detail_url": "https://www.giantbomb.com/narrow-minded-man/3005-33101/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33102/",
+                "id": 33102,
+                "name": "Patches the Spider",
+                "site_detail_url": "https://www.giantbomb.com/patches-the-spider/3005-33102/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33103/",
+                "id": 33103,
+                "name": "Valtr",
+                "site_detail_url": "https://www.giantbomb.com/valtr/3005-33103/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33115/",
+                "id": 33115,
+                "name": "The Hunter",
+                "site_detail_url": "https://www.giantbomb.com/the-hunter/3005-33115/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33116/",
+                "id": 33116,
+                "name": "Simon the Harrowed",
+                "site_detail_url": "https://www.giantbomb.com/simon-the-harrowed/3005-33116/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33117/",
+                "id": 33117,
+                "name": "Brador",
+                "site_detail_url": "https://www.giantbomb.com/brador/3005-33117/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33118/",
+                "id": 33118,
+                "name": "Saint Adeline",
+                "site_detail_url": "https://www.giantbomb.com/saint-adeline/3005-33118/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33119/",
+                "id": 33119,
+                "name": "Provost Willem",
+                "site_detail_url": "https://www.giantbomb.com/provost-willem/3005-33119/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33120/",
+                "id": 33120,
+                "name": "Undead Giant",
+                "site_detail_url": "https://www.giantbomb.com/undead-giant/3005-33120/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33121/",
+                "id": 33121,
+                "name": "Merciless Watcher",
+                "site_detail_url": "https://www.giantbomb.com/merciless-watcher/3005-33121/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33122/",
+                "id": 33122,
+                "name": "Merciless Chieftain",
+                "site_detail_url": "https://www.giantbomb.com/merciless-chieftain/3005-33122/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33123/",
+                "id": 33123,
+                "name": "Watch Dog of the Old Lords",
+                "site_detail_url": "https://www.giantbomb.com/watch-dog-of-the-old-lords/3005-33123/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33124/",
+                "id": 33124,
+                "name": "Beast-Possessed Soul",
+                "site_detail_url": "https://www.giantbomb.com/beastpossessed-soul/3005-33124/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33125/",
+                "id": 33125,
+                "name": "Keeper of the Old Lords",
+                "site_detail_url": "https://www.giantbomb.com/keeper-of-the-old-lords/3005-33125/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33126/",
+                "id": 33126,
+                "name": "Pthumerian Descendant",
+                "site_detail_url": "https://www.giantbomb.com/pthumerian-descendant/3005-33126/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33127/",
+                "id": 33127,
+                "name": "Maneater Boar",
+                "site_detail_url": "https://www.giantbomb.com/maneater-boar/3005-33127/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33128/",
+                "id": 33128,
+                "name": "Bloodletting Beast",
+                "site_detail_url": "https://www.giantbomb.com/bloodletting-beast/3005-33128/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33129/",
+                "id": 33129,
+                "name": "Brainsucker",
+                "site_detail_url": "https://www.giantbomb.com/brainsucker/3005-33129/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33130/",
+                "id": 33130,
+                "name": "Forgotten Madman",
+                "site_detail_url": "https://www.giantbomb.com/forgotten-madman/3005-33130/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33131/",
+                "id": 33131,
+                "name": "Pthumerian Elder",
+                "site_detail_url": "https://www.giantbomb.com/pthumerian-elder/3005-33131/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33132/",
+                "id": 33132,
+                "name": "Abhorrent Beast",
+                "site_detail_url": "https://www.giantbomb.com/abhorrent-beast/3005-33132/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33133/",
+                "id": 33133,
+                "name": "Loran Silverbeast",
+                "site_detail_url": "https://www.giantbomb.com/loran-silverbeast/3005-33133/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33134/",
+                "id": 33134,
+                "name": "Loran Darkbeast",
+                "site_detail_url": "https://www.giantbomb.com/loran-darkbeast/3005-33134/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-33210/",
+                "id": 33210,
+                "name": "Laurence, the First Vicar",
+                "site_detail_url": "https://www.giantbomb.com/laurence-the-first-vicar/3005-33210/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38521/",
+                "id": 38521,
+                "name": "Beastclaw Jozef",
+                "site_detail_url": "https://www.giantbomb.com/beastclaw-jozef/3005-38521/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38522/",
+                "id": 38522,
+                "name": "Blood Minister",
+                "site_detail_url": "https://www.giantbomb.com/blood-minister/3005-38522/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38523/",
+                "id": 38523,
+                "name": "Choir Intelligencer Edgar",
+                "site_detail_url": "https://www.giantbomb.com/choir-intelligencer-edgar/3005-38523/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38524/",
+                "id": 38524,
+                "name": "Bloody Crow of Cainhurst",
+                "site_detail_url": "https://www.giantbomb.com/bloody-crow-of-cainhurst/3005-38524/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38525/",
+                "id": 38525,
+                "name": "Henriett",
+                "site_detail_url": "https://www.giantbomb.com/henriett/3005-38525/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38526/",
+                "id": 38526,
+                "name": "Madman Wallar",
+                "site_detail_url": "https://www.giantbomb.com/madman-wallar/3005-38526/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38527/",
+                "id": 38527,
+                "name": "Mensis Scholar Damian",
+                "site_detail_url": "https://www.giantbomb.com/mensis-scholar-damian/3005-38527/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38528/",
+                "id": 38528,
+                "name": "Queen Killer",
+                "site_detail_url": "https://www.giantbomb.com/queen-killer/3005-38528/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38529/",
+                "id": 38529,
+                "name": "Tomb Prospector Gremia",
+                "site_detail_url": "https://www.giantbomb.com/tomb-prospector-gremia/3005-38529/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38530/",
+                "id": 38530,
+                "name": "Tomb Prospector Olek",
+                "site_detail_url": "https://www.giantbomb.com/tomb-prospector-olek/3005-38530/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38531/",
+                "id": 38531,
+                "name": "Vitus",
+                "site_detail_url": "https://www.giantbomb.com/vitus/3005-38531/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38532/",
+                "id": 38532,
+                "name": "Yamamura the Wanderer",
+                "site_detail_url": "https://www.giantbomb.com/yamamura-the-wanderer/3005-38532/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38533/",
+                "id": 38533,
+                "name": "Younger Madaras Twin",
+                "site_detail_url": "https://www.giantbomb.com/younger-madaras-twin/3005-38533/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/character/3005-38534/",
+                "id": 38534,
+                "name": "Yurie, the Last Scholar",
+                "site_detail_url": "https://www.giantbomb.com/yurie-the-last-scholar/3005-38534/"
+            }
+        ],
+        "developers": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-760/",
+                "id": 760,
+                "name": "FromSoftware, Inc.",
+                "site_detail_url": "https://www.giantbomb.com/fromsoftware-inc/3010-760/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/company/3010-2472/",
+                "id": 2472,
+                "name": "SIE Japan Studio",
+                "site_detail_url": "https://www.giantbomb.com/sie-japan-studio/3010-2472/"
+            }
+        ],
+        "genres": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/genre/3060-5/",
+                "id": 5,
+                "name": "Role-Playing",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=role-playing&wikiTypeId=3060&wikiId=5&genre=5"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/genre/3060-43/",
+                "id": 43,
+                "name": "Action-Adventure",
+                "site_detail_url": "https://www.giantbomb.com/games/?wikiSlug=action-adventure&wikiTypeId=3060&wikiId=43&genre=43"
+            }
+        ],
+        "locations": [
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-2086/",
+                "id": 2086,
+                "name": "Swamp",
+                "site_detail_url": "https://www.giantbomb.com/swamp/3035-2086/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-4973/",
+                "id": 4973,
+                "name": "Yharnam",
+                "site_detail_url": "https://www.giantbomb.com/yharnam/3035-4973/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-4982/",
+                "id": 4982,
+                "name": "The Hunter's Dream",
+                "site_detail_url": "https://www.giantbomb.com/the-hunters-dream/3035-4982/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5023/",
+                "id": 5023,
+                "name": "Iosefka's Clinic",
+                "site_detail_url": "https://www.giantbomb.com/iosefkas-clinic/3035-5023/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5024/",
+                "id": 5024,
+                "name": "Central Yharnam",
+                "site_detail_url": "https://www.giantbomb.com/central-yharnam/3035-5024/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5025/",
+                "id": 5025,
+                "name": "Cathedral Ward",
+                "site_detail_url": "https://www.giantbomb.com/cathedral-ward/3035-5025/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5026/",
+                "id": 5026,
+                "name": "Old Yharnam",
+                "site_detail_url": "https://www.giantbomb.com/old-yharnam/3035-5026/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5027/",
+                "id": 5027,
+                "name": "Healing Church Workshop",
+                "site_detail_url": "https://www.giantbomb.com/healing-church-workshop/3035-5027/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5028/",
+                "id": 5028,
+                "name": "Upper Cathedral Ward",
+                "site_detail_url": "https://www.giantbomb.com/upper-cathedral-ward/3035-5028/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5029/",
+                "id": 5029,
+                "name": "Forbidden Woods",
+                "site_detail_url": "https://www.giantbomb.com/forbidden-woods/3035-5029/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5030/",
+                "id": 5030,
+                "name": "Hemwick Charnel Lane",
+                "site_detail_url": "https://www.giantbomb.com/hemwick-charnel-lane/3035-5030/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5031/",
+                "id": 5031,
+                "name": "Byrgenwerth",
+                "site_detail_url": "https://www.giantbomb.com/byrgenwerth/3035-5031/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5032/",
+                "id": 5032,
+                "name": "Yahar'gul, Unseen Village",
+                "site_detail_url": "https://www.giantbomb.com/yahargul-unseen-village/3035-5032/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5033/",
+                "id": 5033,
+                "name": "Forsaken Castle Cainhurst",
+                "site_detail_url": "https://www.giantbomb.com/forsaken-castle-cainhurst/3035-5033/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5034/",
+                "id": 5034,
+                "name": "Abandoned Old Workshop",
+                "site_detail_url": "https://www.giantbomb.com/abandoned-old-workshop/3035-5034/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5035/",
+                "id": 5035,
+                "name": "Nightmare Frontier",
+                "site_detail_url": "https://www.giantbomb.com/nightmare-frontier/3035-5035/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5036/",
+                "id": 5036,
+                "name": "Lecture Building",
+                "site_detail_url": "https://www.giantbomb.com/lecture-building/3035-5036/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5037/",
+                "id": 5037,
+                "name": "Nightmare of Mensis",
+                "site_detail_url": "https://www.giantbomb.com/nightmare-of-mensis/3035-5037/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5038/",
+                "id": 5038,
+                "name": "Hunter's Nightmare",
+                "site_detail_url": "https://www.giantbomb.com/hunters-nightmare/3035-5038/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5039/",
+                "id": 5039,
+                "name": "Research Hall",
+                "site_detail_url": "https://www.giantbomb.com/research-hall/3035-5039/"
+            },
+            {
+                "api_detail_url": "https://www.giantbomb.com/api/location/3035-5040/",
+                "id": 5040,
+                "name": "Fishing Hamlet",
+                "site_detail_url": "https://www.giantbomb.com/fishing-hamlet/3035-5040/"
+            }
+        ]
     }
 }

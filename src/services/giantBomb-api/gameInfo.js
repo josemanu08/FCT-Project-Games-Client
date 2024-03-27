@@ -1,6 +1,6 @@
 import { GIANT_BOMB_API_KEY } from '../../consts/consts'
 
-export const fetchAllGameInfo = async (gameName) => {
+export const fetchAdditionalInfo = async (gameName) => {
   // Obtengo el guid
   const reponseGuid = await fetch(`/api/search/?api_key=${GIANT_BOMB_API_KEY}&format=json&query=${gameName}&resources=game&limit=1&field_list=guid`)
   const idSearchInfo = await reponseGuid.json()
