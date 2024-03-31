@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { UserSite } from './userSite'
-import { UserOption } from './userOptions'
-import { Aside } from './aside'
-import { PlayDetail } from '../GameDetailsComponents/playDetail'
-import { XboxDetail } from '../GameDetailsComponents/xboxDetail'
+import { UserSite } from '../pages/userSite'
+import { UserOption } from '../pages/userOptions'
+import { Aside } from '../components/MainComponents/aside'
+import { PlayDetail } from '../components/GameDetailsComponents/playDetail'
+import { XboxDetail } from '../components/GameDetailsComponents/xboxDetail'
 export const Roots = ({ xbox, play, profileInfo, profileXbox }) => {
   return (
           <Routes>

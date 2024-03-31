@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { dataSubject } from '../../../../services/subject-implementation'
+import { dataSubject } from '../services/subject-implementation'
 
 export const AdditionalModal = ({ cosa }) => {
   const [data, setData] = useState(null)

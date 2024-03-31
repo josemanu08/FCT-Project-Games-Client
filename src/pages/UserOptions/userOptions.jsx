@@ -1,8 +1,8 @@
 import React from 'react'
-import { ConfigPlaystation } from '../SectionComponents/configPlaystation'
-import { FormPlayStation } from '../SectionComponents/formPlaystation'
-import { ConfigXbox } from '../SectionComponents/configXbox'
-import { FormXbox } from '../SectionComponents/formXbox'
+import { ConfigPlaystation } from './components/configPlaystation'
+import { FormPlayStation } from './components/formPlaystation'
+import { ConfigXbox } from './components/configXbox'
+import { FormXbox } from './components/formXbox'
 
 export const UserOption = () => {
   return (

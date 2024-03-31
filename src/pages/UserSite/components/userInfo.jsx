@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { PlayUserInfo } from '../UserInfoComponents/playUserInfo'
-import { XboxUserInfo } from '../UserInfoComponents/xboxUserInfo'
+import { PlayUserInfo } from '../../../components/UserInfoComponents/playUserInfo'
+import { XboxUserInfo } from '../../../components/UserInfoComponents/xboxUserInfo'
 
 export const UserInfo = ({ profileInfo, profileXbox }) => {
   return (

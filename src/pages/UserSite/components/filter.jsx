@@ -1,5 +1,5 @@
 import { React, useRef, useContext } from 'react'
-import { filterContext } from '../../Context/contexts'
+import { filterContext } from '../../../Context/contexts'
 
 const useFilter = ({ searchRef, platformRef }) => {
   const { setFilterState, filterState } = useContext(filterContext)

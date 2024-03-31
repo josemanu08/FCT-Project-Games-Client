@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { TrophyItem } from './TrophyItem'
-import { AditionalTrophyInfo } from './AditionalTrophyInfo'
+import { TrophyItem } from './sub-components/TrophyItem'
+import { AditionalTrophyInfo } from './sub-components/AditionalTrophyInfo'
 import { LazyLoadComponent } from 'react-lazy-load-image-component'
 
 export const TrophyTable = ({ info }) => {

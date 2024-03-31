@@ -3,12 +3,12 @@ import { useParams, NavLink } from 'react-router-dom'
 import { useTrophies, useXboxTrophies } from '../../hooks/detailHooks'
 import { mapPlayImages, mapTitleInfo, mapCategories } from '../../helpers/helpers'
 
-import { TitleInfo } from './TitleInfo'
-import { TitleImages } from './TitleImages'
-import { Header } from './Header'
-import { Categories } from './Categories'
-import { TrophyTable } from './TrophyRableComponents/TrophyTable'
-import { GameCharItemLoc } from './TrophyRableComponents/GameCharItemLoc'
+import { TitleInfo } from './components/TitleInfo'
+import { TitleImages } from './components/TitleImages'
+import { Header } from './components/Header'
+import { Categories } from './components/Categories'
+import { TrophyTable } from './components/TrophyTable'
+import { GameCharItemLoc } from './components/GameCharItemLoc'
 
 export const PlayDetail = () => {
   const params = useParams()

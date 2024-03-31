@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect, useContext } from 'react'
-import { userDataContext } from '../../../Context/contexts'
+import { userDataContext } from '../Context/contexts'
 
 export const TrophyModal = ({ trophyInfo, setModalData }) => {
   const [modalState, setModalState] = useState(false)

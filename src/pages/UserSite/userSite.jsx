@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { UserInfo } from '../SectionComponents/userInfo'
-import { Filter } from '../SectionComponents/filter'
-import { Table } from '../SectionComponents/table'
+import { UserInfo } from './components/userInfo'
+import { Filter } from './components/filter'
+import { Table } from './components/table'
 
 export const UserSite = ({ xbox, play, profileInfo, profileXbox }) => {
   return (

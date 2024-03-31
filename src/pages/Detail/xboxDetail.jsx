@@ -2,12 +2,12 @@
 import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
 import { useXboxTrophies } from '../../hooks/detailHooks'
-import { TitleInfo } from './TitleInfo'
-import { TitleImages } from './TitleImages'
-import { Header } from './Header'
-import { Categories } from './Categories'
-import { TrophyTable } from './TrophyRableComponents/TrophyTable'
-import { GameCharItemLoc } from './TrophyRableComponents/GameCharItemLoc'
+import { TitleInfo } from './components/TitleInfo'
+import { TitleImages } from './components/TitleImages'
+import { Header } from './components/Header'
+import { Categories } from './components/Categories'
+import { TrophyTable } from './components/TrophyTable'
+import { GameCharItemLoc } from './components/GameCharItemLoc'
 
 // import { useDescription } from '../../hooks/useDescription'
 export const XboxDetail = () => {

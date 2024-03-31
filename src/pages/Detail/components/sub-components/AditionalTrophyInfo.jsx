@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { TrophySubItem } from './TrophySubitem'
-import { getRarestTrophies, getFirstTrophy, getLatestTrophy } from '../../../helpers/helpers'
-import { useModal } from '../../../hooks/useModal'
-import { TrophyModal } from './Modal'
+import { getRarestTrophies, getFirstTrophy, getLatestTrophy } from '../../../../helpers/helpers'
+import { useModal } from '../../../../hooks/useModal'
+import { TrophyModal } from '../../../../components/Modal'
 
 export const AditionalTrophyInfo = ({ trophyInfo }) => {
   const { modalData, setModalData } = useModal()

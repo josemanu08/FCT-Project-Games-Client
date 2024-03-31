@@ -1,8 +1,8 @@
 import { React, useContext, useState, useEffect } from 'react'
-import { PlayStationGameItem } from './playGameItem'
-import { XboxGameItem } from './xboxGameItem'
-import { applyFilters } from '../../helpers/helpers'
-import { filterContext } from '../../Context/contexts'
+import { PlayStationGameItem } from '../../../components/SectionComponents/playGameItem'
+import { XboxGameItem } from '../../../components/SectionComponents/xboxGameItem'
+import { applyFilters } from '../../../helpers/helpers'
+import { filterContext } from '../../../Context/contexts'
 // import { animate, stagger } from 'motion'
 
 // eslint-disable-next-line react/prop-types
