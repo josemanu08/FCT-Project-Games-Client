@@ -1,6 +1,6 @@
 import { React, useContext } from 'react'
 // import { Aside, Roots } from './components/mainComponents'
-import { Roots } from './components/MainComponents/routes'
+import { Roots } from './routes/routes'
 import { BrowserRouter } from 'react-router-dom'
 import { userDataContext } from './Context/contexts'
 // ---Mock---
@@ -45,7 +45,7 @@ function App () {
         profileInfo={data.psn?.psnProfile}
         xbox={data.xbl?.xblTitles}
         play={data.psn?.psnTitles}/>
-{ */}
+        { */}
       </div>
     </BrowserRouter>
   )
