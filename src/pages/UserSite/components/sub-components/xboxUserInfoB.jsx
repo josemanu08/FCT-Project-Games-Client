@@ -1,18 +1,17 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-
-export const XboxUserInfo = ({ xboxProfileInfo }) => {
+export const XboxUserInfoB = ({ xboxProfileInfo }) => {
   return (
-          <>
-              {
-                  !xboxProfileInfo
-                    ? ''
-                    : <ul className='XboxUserInfo'>
-                  <li>
-                      <img src={xboxProfileInfo.icon} alt="" />
-                      {xboxProfileInfo.username}
-                  </li>
-                  <ul>
+    <div className='user-info-container'>
+        <div className='user-img'>
+            <img src={xboxProfileInfo.icon} />
+        </div>
+        <div className='user-trophy-name-info'>
+            <div className='username-info'>
+                <p>{xboxProfileInfo.username}</p>
+            </div>
+            <div className='user-trophy-info'>
+                <ul className='trophies'>
                     <li>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/1024px-Xbox_one_logo.svg.png" alt="" />
                         <p style={{ color: 'green' }}>{xboxProfileInfo.gamerScore}</p>
@@ -25,9 +24,9 @@ export const XboxUserInfo = ({ xboxProfileInfo }) => {
                         <i className='bx bx-md bxs-trophy'></i>
                         {xboxProfileInfo.total}
                     </li>
-                  </ul>
-              </ul>
-              }
-          </>
+                </ul>
+            </div>
+        </div>
+    </div>
   )
 }
