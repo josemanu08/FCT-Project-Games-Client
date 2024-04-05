@@ -1,15 +1,12 @@
 .userInfo{
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: left;
     align-self: center;
     width: 90%;
     transition: blue 1s;
 }
 
-.userInfo:hover{
-    
-}
 
 .userInfo ul{
     list-style: none;
@@ -17,6 +14,7 @@
 
 .user-img img{
     width: 10rem;
+    border-radius: 200px;
 }
 
 .user-info-container{

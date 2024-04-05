@@ -25,6 +25,27 @@ const useFilter = ({ searchRef, platformRef }) => {
   return { searchHandler, platformHandler, filterState }
 }
 
+const usePlatformSelect = ({ platformRef }) => {
+  const { setFilterState, filterState } = useContext(filterContext)
+}
+
+const useSearchBar = ({ searchRef }) => {
+  const { setFilterState } = useContext(filterContext)
+  const searchHandler = () => {
+    setFilterState((previous) => {
+      return ({
+        ...previous,
+        search: searchRef.current.value
+      })
+    })
+  }
+  return { searchHandler }
+}
+
+export const SearchBar = () => {
+
+}
+
 export const Filter = () => {
   // const { setFilterState, filterState } = useContext(filterContext)
   const searchRef = useRef(null)

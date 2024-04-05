@@ -20,7 +20,7 @@ export const UserInfo = ({ profileInfo, profileXbox }) => {
                 : <section
                   className='userInfo'
                   style={{
-                    backgroundImage: `linear-gradient(to right, #151515 , ${toggleState === 'play' ? 'blue' : '#005E0D'}, #151515)`,
+                    // backgroundImage: `linear-gradient(to right, #151515 , ${toggleState === 'play' ? 'blue' : '#005E0D'}, #151515)`,
                     position: 'relative'
                   }}>
                     {

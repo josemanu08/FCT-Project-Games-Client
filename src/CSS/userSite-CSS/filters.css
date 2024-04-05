@@ -5,8 +5,7 @@
     gap: 1rem;
     display: flex;
     justify-content: space-between;
-    background-color: #24252b;
-    width: 90%;
+    width: 62rem;
     align-self: center;
     flex-direction: row-reverse;
 }
