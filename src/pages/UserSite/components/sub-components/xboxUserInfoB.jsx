@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+
 export const XboxUserInfoB = ({ xboxProfileInfo }) => {
   return (
     <div className='user-info-container'>

@@ -1,5 +1,8 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useContext } from 'react'
 import { getPlayUserData, getXboxUserData } from '../services/fetch-api/userData'
+import { userDataContext } from '../Context/contexts'
+
+import { useGameStore } from '../store/GamesStore'
 
 export const useUserData = ({ userData }) => {
   const [data, setData] = useState({
@@ -35,4 +38,27 @@ export const useUserData = ({ userData }) => {
   return {
     data
   }
+}
+
+export const useXboxUserData = () => {
+  const { userData } = useContext(userDataContext)
+  const xblUsernameRef = useRef(null)
+
+  const { xboxData, setXboxData } = useGameStore()
+  useEffect(() => {
+    const fetchData = async () => {
+      let xboxUserData = null
+      if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
+        xboxUserData = await getXboxUserData(userData.xboxUsername)
+      }
+      if (!userData.xboxUsername && xboxData) {
+        setXboxData(null)
+      }
+      setXboxData(xboxUserData)
+      xblUsernameRef.current = userData.xboxUsername
+    }
+    fetchData()
+  }, [userData])
+
+  return { xboxData }
 }

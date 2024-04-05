@@ -1,20 +1,14 @@
 import { create } from 'zustand'
 
 export const useGameStore = create((set) => ({
-  xboxProfile: 'null',
-  playStationProfile: null,
-  xboxGames: null,
-  playStationGames: null,
-  setXboxProfile: (newProfile) => {
-    set(() => ({ xboxProfile: newProfile }))
+  xboxData: null,
+  playStationData: null,
+  setXboxData: (newData) => {
+    set(() => ({ xboxData: newData }))
   },
-  updateXboxProfile: () => {},
-  setPlaystationProfile: () => {},
-  updatePlaystationProfile: () => {},
-  setxboxGames: () => {},
-  setplayStationGames: () => {},
-  updatexboxGames: () => {},
-  updateplayStationGames: () => {}
+  setPlaystationData: (newData) => {
+    set(() => ({ playStationData: newData }))
+  }
 })
 )
 // export const useGameStore = create((set) => ({
