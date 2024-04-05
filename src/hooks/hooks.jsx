@@ -20,7 +20,7 @@ export const useUserData = ({ userData }) => {
         newData.psn = null
       }
       if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
-        // newData.xbl = await getXboxUserData(userData.xboxUsername)
+        newData.xbl = await getXboxUserData(userData.xboxUsername)
       }
       if (!userData.xboxUsername && data.xbl) {
         newData.xbl = null

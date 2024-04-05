@@ -12,6 +12,7 @@ import { mapPlayProfile, mapPlayStationGames, mapXboxProfile, mapXboxGames } fro
 // ---Mock---
 import { useUserData } from './hooks/hooks'
 import { Header } from './pages/UserSite/components/Header'
+import { useGameStore } from './store/GamesStore'
 // import { getAvailableTrophies } from './scripts/TROPHY/trophyFetch'
 // import { getXboxAvailableTrophies } from './scripts/TROPHY/getAvailableTrophies'
 
@@ -36,9 +37,11 @@ function App () {
         <Header></Header>
         <div className="flex-container" style={{ display: 'flex', width: '100%' }}>
           <Roots
-            profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
+            // profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
+            profileXbox={data.xbl?.xblProfile}
             profileInfo={mapPlayProfile(PSNProfile.profile)}
-            xbox={mapXboxGames(gamesXbox)}
+            // xbox={mapXboxGames(gamesXbox)}
+            xbox={data.xbl?.xblTitles}
             play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}
           />
         </div>
