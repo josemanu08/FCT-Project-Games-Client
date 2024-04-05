@@ -11,6 +11,7 @@ import userXbox from './mocks/userXbox.json'
 import { mapPlayProfile, mapPlayStationGames, mapXboxProfile, mapXboxGames } from './helpers/helpers'
 // ---Mock---
 import { useUserData } from './hooks/hooks'
+import { Header } from './pages/UserSite/components/Header'
 // import { getAvailableTrophies } from './scripts/TROPHY/trophyFetch'
 // import { getXboxAvailableTrophies } from './scripts/TROPHY/getAvailableTrophies'
 
@@ -32,13 +33,15 @@ function App () {
   return (
     <BrowserRouter>
       <div className='container'>
-        { }
-        <Roots
-        profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
-        profileInfo={mapPlayProfile(PSNProfile.profile)}
-        xbox={mapXboxGames(gamesXbox)}
-        play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}/>
-  { }
+        <Header></Header>
+        <div className="flex-container" style={{ display: 'flex', width: '100%' }}>
+          <Roots
+            profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
+            profileInfo={mapPlayProfile(PSNProfile.profile)}
+            xbox={mapXboxGames(gamesXbox)}
+            play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}
+          />
+        </div>
         {/* }
         <Roots
         profileXbox={data.xbl?.xblProfile}

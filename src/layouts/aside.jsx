@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
+import { Header } from '../pages/UserSite/components/Header'
 
 export const Aside = () => {
   useEffect(() => {
@@ -18,9 +19,10 @@ export const Aside = () => {
   return (
     <>
       <nav className='web-aside'>
-        <div className='content-wrapper'>
+        <div className='content-wrapper' style={{ height: 'fit-content' }}>
+          {/* NAV-USER-INFO TIENE QUE SER OTRO COMPONENTE */}
           <div className='nav-user-info'>
-            <p>JM</p>
+            <p className='user-icon'>JM</p>
           </div>
           <NavLink className='nav-item' to= "/userOptions" >
             <p>Accounts</p>

@@ -4,7 +4,7 @@
     color: white;
     gap: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     width: 62rem;
     align-self: center;
     flex-direction: row-reverse;
@@ -14,14 +14,6 @@
     .filters{
         width: 100%;
     }
-}
-
-.selectTitle{
-    width: 50%;
-    background-color: #3d3f47;
-    color: white;
-    border: none;
-    border-radius: 10px;
 }
 
 .selectRarity{
@@ -38,36 +30,4 @@
 .sub-filters{
     display: flex;
     gap: .5rem;
-}
-
-/*-------------------------*/
-
-.sub-filters label{
-    cursor: pointer;
-    position: relative;
-}
-
-.both-label::after,
-.play-label::after,
-.xbox-label::after{
-    content: "";
-    height: .1rem;
-    width: 0px;
-    position: absolute;
-    background-color: aliceblue;
-    bottom: -.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: .5s width;
-}
-
-#both-radio.ey ~ .both-label::after, 
-#play-radio.ey ~ .play-label::after,
-#xbox-radio.ey ~ .xbox-label::after{
-    width: 100%;
-}
-#both-radio:checked ~ .both-label::after,
-#play-radio:checked ~ .play-label::after,
-#xbox-radio:checked ~ .xbox-label::after{
-
 }

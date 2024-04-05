@@ -7,7 +7,6 @@
     transition: blue 1s;
 }
 
-
 .userInfo ul{
     list-style: none;
 }
@@ -36,7 +35,7 @@
     align-items: center;
     justify-content: left;
     padding: 2rem;
-    font-size: xx-large;
+    font-size: 75px;
     color: white;
 }
 

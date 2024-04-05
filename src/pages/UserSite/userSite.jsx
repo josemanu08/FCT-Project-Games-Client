@@ -3,6 +3,7 @@ import React from 'react'
 import { UserInfo } from './components/userInfo'
 import { Filter } from './components/filter'
 import { Table } from './components/table'
+import { Header } from './components/Header'
 
 export const UserSite = ({ xbox, play, profileInfo, profileXbox }) => {
   return (
