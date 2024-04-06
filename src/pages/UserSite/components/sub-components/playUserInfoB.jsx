@@ -1,30 +1,34 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-export const PlayUserInfoB = ({ profileInfo }) => {
+import { useGameStore } from '../../../../store/GamesStore'
+export const PlayUserInfoB = () => {
+  const { playStationData } = useGameStore()
   return (
-    <div className='user-info-container'>
-        <div className='user-img'>
-            <img src={profileInfo.icon} />
-        </div>
-        <div className='user-trophy-name-info'>
-            <div className='username-info'>
-                <p>{profileInfo.username}</p>
+    !playStationData
+      ? 'Wating...'
+      : <div className='user-info-container'>
+            <div className='user-img'>
+                <img src={playStationData.psnProfile.icon} />
             </div>
-            <div className='user-trophy-info'>
-                <ul className='trophies'>
-                    {
+            <div className='user-trophy-name-info'>
+                <div className='username-info'>
+                    <p>{playStationData.psnProfile.username}</p>
+                </div>
+                <div className='user-trophy-info'>
+                    <ul className='trophies'>
+                        {
                         Object
-                          .entries(profileInfo.TrohySummary)
+                          .entries(playStationData.psnProfile.TrohySummary)
                           .map(trophy => {
                             return (<li key={crypto.randomUUID}>
                                 <img src={`https://psnprofiles.com/lib/img/icons/40-${trophy[0]}.png`} />
                                 {trophy[1]}
                             </li>)
                           })
-                    }
-                </ul>
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
   )
 }

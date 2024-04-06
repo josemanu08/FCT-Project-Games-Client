@@ -23,6 +23,11 @@
     width: 100%;
     padding: 1rem;
     height: 2.5rem;
+    transition: .5s background-color;
+}
+
+.searchBar:focus, .searchBar:hover{
+    background-color: white;
 }
 
 .proyect-title{

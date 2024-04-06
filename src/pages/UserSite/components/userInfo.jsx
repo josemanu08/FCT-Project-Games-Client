@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { PlayUserInfoB } from './sub-components/playUserInfoB'
 import { XboxUserInfoB } from './sub-components/xboxUserInfoB'
 
-export const UserInfo = ({ profileInfo }) => {
+export const UserInfo = () => {
   const [toggleState, setToggleState] = useState('play')
 
   const handleToggle = () => {
@@ -14,10 +14,7 @@ export const UserInfo = ({ profileInfo }) => {
 
   return (
           <>
-            {
-              !profileInfo
-                ? 'LOADING'
-                : <section
+            { <section
                   className='userInfo'
                   style={{
                     // backgroundImage: `linear-gradient(to right, #151515 , ${toggleState === 'play' ? 'blue' : '#005E0D'}, #151515)`,
@@ -25,7 +22,7 @@ export const UserInfo = ({ profileInfo }) => {
                   }}>
                     {
                       toggleState === 'play'
-                        ? <PlayUserInfoB profileInfo={profileInfo}></PlayUserInfoB>
+                        ? <PlayUserInfoB></PlayUserInfoB>
                         : <XboxUserInfoB></XboxUserInfoB>
                     }
                     <button style={{

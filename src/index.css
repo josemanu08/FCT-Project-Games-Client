@@ -9,6 +9,7 @@
 @import url('./CSS/Details/DetailsTable.css');
 @import url('./CSS/Details/characters-items-locatons.css');
 @import url('./CSS/userSite-CSS/header.css');
+@import url('./CSS/userSite-CSS/search.css');
 
 *{
     box-sizing: border-box;

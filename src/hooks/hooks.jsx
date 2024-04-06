@@ -40,6 +40,30 @@ export const useUserData = ({ userData }) => {
   }
 }
 
+export const usePlayStationUserData = () => {
+  const { userData } = useContext(userDataContext)
+  const psnUsernameRef = useRef(null)
+
+  const { playStationData, setPlaystationData } = useGameStore()
+  useEffect(() => {
+    const fetchData = async () => {
+      let playUserData = null
+      if (userData.playStationUsername && (userData.playStationUsername !== psnUsernameRef.current)) {
+        console.log('calling play...')
+        playUserData = await getPlayUserData(userData.playStationUsername)
+      }
+      if (!userData.playStationUsername && playStationData) {
+        setPlaystationData(null)
+      }
+      setPlaystationData(playUserData)
+      psnUsernameRef.current = userData.playStationUsername
+    }
+    fetchData()
+  }, [userData])
+
+  return { playStationData }
+}
+
 export const useXboxUserData = () => {
   const { userData } = useContext(userDataContext)
   const xblUsernameRef = useRef(null)

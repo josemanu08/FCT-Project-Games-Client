@@ -10,7 +10,7 @@ export const Roots = ({ play, profileInfo }) => {
   return (
           <Routes>
             <Route end path='/' element= {<Aside></Aside>}>
-              <Route path='/' element={<UserSite profileInfo={profileInfo} play={play}/>} ></Route>
+              <Route path='/' element={<UserSite/>} ></Route>
               <Route path='/userOptions' element={<UserOption/>}></Route>
             </Route>
               <Route path='/xbl/:gameId/:userId'element={<XboxDetail/>} ></Route>

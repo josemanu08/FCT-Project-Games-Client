@@ -4,12 +4,12 @@ import { UserInfo } from './components/userInfo'
 import { Filter } from './components/filter'
 import { Table } from './components/table'
 
-export const UserSite = ({ play, profileInfo }) => {
+export const UserSite = () => {
   return (
     <section className='userSite'>
-      <UserInfo profileInfo={profileInfo}></UserInfo>
+      <UserInfo></UserInfo>
       <Filter></Filter>
-      <Table play={play}></Table>
+      <Table></Table>
     </section>
   )
 }
