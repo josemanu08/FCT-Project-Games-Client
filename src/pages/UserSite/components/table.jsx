@@ -4,17 +4,18 @@ import { XboxGameItem } from './sub-components/xboxGameItem'
 import { applyFilters } from '../../../helpers/helpers'
 import { filterContext } from '../../../Context/contexts'
 // import { animate, stagger } from 'motion'
-
+import { useGameStore } from '../../../store/GamesStore'
 // eslint-disable-next-line react/prop-types
-export const Table = ({ xbox, play }) => {
+export const Table = ({ play }) => {
   const { filterState } = useContext(filterContext)
   const [bodyState, setBodyState] = useState([])
+  const { xboxData } = useGameStore()
 
   useEffect(() => {
-    const xboxTableData = xbox ?? []
+    const xboxTableData = xboxData?.xblTitles ?? []
     const playTableData = play ?? []
     setBodyState([...xboxTableData, ...playTableData])
-  }, [xbox, play])
+  }, [xboxData, play])
 
   /* useEffect(() => {
     const tr = document.querySelectorAll('tr')

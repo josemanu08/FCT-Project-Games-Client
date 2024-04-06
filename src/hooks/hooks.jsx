@@ -49,6 +49,7 @@ export const useXboxUserData = () => {
     const fetchData = async () => {
       let xboxUserData = null
       if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
+        console.log('calling...')
         xboxUserData = await getXboxUserData(userData.xboxUsername)
       }
       if (!userData.xboxUsername && xboxData) {

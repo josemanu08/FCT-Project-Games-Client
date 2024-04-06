@@ -25,13 +25,7 @@ import { useGameStore } from './store/GamesStore'
 })() */
 
 function App () {
-  // const { userData } = useContext(userDataContext)
-  // const { data } = useUserData({ userData })
   const { xboxData } = useXboxUserData()
-  // data.psn?.psnProfile
-  // data.psn?.psnTitles
-  // data.xbl?.xblProfile
-  // data.xbl?.xblTitles
   return (
     <BrowserRouter>
       <div className='container'>
@@ -39,10 +33,10 @@ function App () {
         <div className="flex-container" style={{ display: 'flex', width: '100%' }}>
           <Roots
             // profileXbox={mapXboxProfile(userXbox.people, gamesXbox.titles)}
-            profileXbox={xboxData?.xblProfile}
+           // profileXbox={xboxData?.xblProfile}
             profileInfo={mapPlayProfile(PSNProfile.profile)}
             // xbox={mapXboxGames(gamesXbox)}
-            xbox={xboxData?.xblTitles}
+           // xbox={xboxData?.xblTitles}
             play={mapPlayStationGames(myGames.trophyTitles, PSNProfile.profile)}
           />
         </div>

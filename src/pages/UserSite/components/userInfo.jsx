@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { PlayUserInfoB } from './sub-components/playUserInfoB'
 import { XboxUserInfoB } from './sub-components/xboxUserInfoB'
 
-export const UserInfo = ({ profileInfo, profileXbox }) => {
+export const UserInfo = ({ profileInfo }) => {
   const [toggleState, setToggleState] = useState('play')
 
   const handleToggle = () => {
@@ -15,7 +15,7 @@ export const UserInfo = ({ profileInfo, profileXbox }) => {
   return (
           <>
             {
-              !profileInfo || !profileXbox
+              !profileInfo
                 ? 'LOADING'
                 : <section
                   className='userInfo'
@@ -26,7 +26,7 @@ export const UserInfo = ({ profileInfo, profileXbox }) => {
                     {
                       toggleState === 'play'
                         ? <PlayUserInfoB profileInfo={profileInfo}></PlayUserInfoB>
-                        : <XboxUserInfoB xboxProfileInfo={profileXbox}></XboxUserInfoB>
+                        : <XboxUserInfoB></XboxUserInfoB>
                     }
                     <button style={{
                       position: 'absolute',

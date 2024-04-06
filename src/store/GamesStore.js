@@ -11,10 +11,3 @@ export const useGameStore = create((set) => ({
   }
 })
 )
-// export const useGameStore = create((set) => ({
-//   a: null,
-//   b: null,
-//   setA: (something) => {
-//     set((state) => ({ a: something }))
-//   }
-// }))
