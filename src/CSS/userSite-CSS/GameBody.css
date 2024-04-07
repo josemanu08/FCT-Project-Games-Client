@@ -9,11 +9,11 @@
     display: grid;
     grid-template-columns: repeat(
         auto-fill,
-        minmax(200px, 350px)
+        minmax(300px, 1fr)
     );
     justify-content: center;
     grid-auto-flow: dense;
-    gap: 10px;
+    gap: 1rem;
 }
 
 /* .games-body{
@@ -30,10 +30,12 @@
 .games-body li {
     background-color: rgb(44, 45, 45);
     border: 1px solid black;
-    width: 20rem;
     border-radius: 10px;
+    min-height: 15rem;
 }
 
 .games-body img{
     width: 100%;
+    height: 10rem;
+    object-fit: cover;
 }
