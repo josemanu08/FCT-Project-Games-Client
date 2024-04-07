@@ -20,6 +20,7 @@ export const Table = () => {
   }, [filterState]) */
 
   const filteredTableBody = applyFilters(bodyState, filterState)
+
   return (
           <div className='table-container'>
             <table className='gamesTable'>
@@ -27,12 +28,11 @@ export const Table = () => {
                 {
                   (!bodyState.length)
                     ? 'Waiting for your games... 😘'
-                    : filteredTableBody.sort((a, b) => a.name.localeCompare(b.name))
-                      .map((title, index) => {
-                        return (title.platform === 'playStation')
-                          ? <PlayStationGameItem key={index} gameData={title} />
-                          : <XboxGameItem key={index} gameData={title}/>
-                      })
+                    : filteredTableBody.map((title, index) => {
+                      return (title.platform === 'playStation')
+                        ? <PlayStationGameItem key={index} gameData={title} />
+                        : <XboxGameItem key={index} gameData={title}/>
+                    })
                 }
               </tbody>
             </table>

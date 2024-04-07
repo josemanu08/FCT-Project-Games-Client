@@ -7,7 +7,9 @@ export const userDataContext = createContext()
 export const Filter = ({ children }) => {
   const [filterState, setFilterState] = useState({
     search: '',
-    platform: 'both'
+    platform: 'both',
+    order: 'name',
+    display: 'mult-column'
   })
 
   return (

@@ -65,12 +65,29 @@ export const calcTotalTrophiesXbox = (xboxState) => {
   return xboxState.reduce((acc, obj) => { return acc + obj.achievement.currentAchievements }, 0)
 }
 
+// USO FUNCIONES 🐱
 export const applyFilters = (gamesObj, filters) => {
-  return gamesObj.filter((game) => {
-    return ((game.name.toLowerCase().includes(filters.search) || !filters.search) &&
-   (game.platform === filters.platform || filters.platform === 'both'))
-  })
+  const order = {
+    name: OrderByName,
+    'name-descendent': OrderByNameDesc,
+    percentaje: OrderByPercentaje,
+    'percentaje-desc': OrderByPercentajeDesc
+  }
+
+  return (gamesObj
+    .filter((game) => {
+      return ((game.name.toLowerCase().includes(filters.search) || !filters.search) &&
+              (game.platform === filters.platform || filters.platform === 'both'))
+    })
+    .sort(order[filters.order]))
 }
+
+// FUNCIONES 🐱
+const OrderByName = (a, b) => (a.name.localeCompare(b.name))
+const OrderByNameDesc = (a, b) => (b.name.localeCompare(a.name))
+const OrderByPercentaje = (a, b) => (a.percentaje - b.percentaje)
+const OrderByPercentajeDesc = (a, b) => (b.percentaje - a.percentaje)
+
 // DetailsSection
 
 export const mapPlayImages = (backgroundImage, screenImages) => {
