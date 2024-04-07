@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useContext } from 'react'
+import React, { useContext, useRef } from 'react'
 import { filterContext } from '../../../../Context/contexts'
 import { useBodyState } from '../../hooks/useBodyState'
 import { SearchItem } from '../SearchItem'
@@ -7,15 +7,27 @@ import { SearchItem } from '../SearchItem'
 export const SearchResult = ({ width, focus }) => {
   const { filterState: { search } } = useContext(filterContext)
   const { bodyState } = useBodyState()
+  const resultsRef = useRef(null)
 
   const applySearch = (body) => {
     return body.filter((game) => game.name.toLowerCase().includes(search.toLowerCase()))
   }
   const filteredBody = applySearch(bodyState)
 
+  const setOverFlow = () => {
+    return (
+      resultsRef.current?.clientHeight > 400
+        ? 'scroll'
+        : 'unset'
+    )
+  }
+
   return (
         <div >
-            <ul className={`results ${focus && 'show-result'}`} style={{ width }}>
+            <ul
+            ref={resultsRef}
+            className={`results ${focus && 'show-result'}`}
+            style={{ width, overflow: setOverFlow(), maxHeight: '500px' }}>
               <p className='total-games-search'>Games <span style={{ color: 'grey' }}>{filteredBody.length}</span></p>
                 {
                   filteredBody

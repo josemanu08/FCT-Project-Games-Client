@@ -13,7 +13,6 @@ import { GameCharItemLoc } from './components/GameCharItemLoc'
 export const XboxDetail = () => {
   const params = useParams()
   const { xboxTrophyData } = useXboxTrophies(params)
-  console.log(xboxTrophyData)
   return (
     <>
       {

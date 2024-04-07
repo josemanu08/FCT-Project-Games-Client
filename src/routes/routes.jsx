@@ -9,7 +9,7 @@ import { XboxDetail } from '../pages/Detail/xboxDetail'
 export const Roots = ({ play, profileInfo }) => {
   return (
           <Routes>
-            <Route end path='/' element= {<Aside></Aside>}>
+            <Route exact path='/' element= {<Aside></Aside>}>
               <Route path='/' element={<UserSite/>} ></Route>
               <Route path='/userOptions' element={<UserOption/>}></Route>
             </Route>

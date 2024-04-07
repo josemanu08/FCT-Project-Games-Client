@@ -17,7 +17,8 @@ export const PlayDetail = () => {
     <>
     {
     trophyData
-      ? <div className='detailBody bodyPlayStation' style={{ backgroundImage: `url("${trophyData.gi.background_image_additional}")` }}>
+      ? <div className='detailBody bodyPlayStation'
+      style={{ backgroundImage: `url("${trophyData.gi.background_image_additional}")` }}>
           <Header>
             <TitleImages
             info={
@@ -29,7 +30,7 @@ export const PlayDetail = () => {
             info={mapCategories(trophyData.gi.genres)}
             />
           </Header>
-          <GameCharItemLoc info={trophyData.additional}/>
+          {/* <GameCharItemLoc info={trophyData.additional}/> */}
           <TrophyTable info={trophyData.ti}></TrophyTable>
           <NavLink className='goBack goBackPlayStation' to='/'>
             <i className='bx bxs-left-arrow'/>
