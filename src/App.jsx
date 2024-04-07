@@ -9,7 +9,7 @@ function App () {
   usePlayStationUserData()
   return (
     <BrowserRouter>
-      <div className='container'>
+      <div className='container' style={{ width: '100%' }}>
         <Header></Header>
         <div className="flex-container"style={{ display: 'flex', width: '100%' }}>
           <Roots/>

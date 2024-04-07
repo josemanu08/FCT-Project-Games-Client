@@ -1,0 +1,39 @@
+/* .games-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+} */
+
+.games-body{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(200px, 350px)
+    );
+    justify-content: center;
+    grid-auto-flow: dense;
+    gap: 10px;
+}
+
+/* .games-body{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(200px, 350px)
+    );
+    justify-content: center;
+    grid-auto-flow: dense;
+    gap: 10px;
+} */
+
+.games-body li {
+    background-color: rgb(44, 45, 45);
+    border: 1px solid black;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.games-body img{
+    width: 100%;
+}
