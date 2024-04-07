@@ -12,27 +12,32 @@ import AllPlayInfo from '../mocks/INFO/ALLplaystationINFO.json'
 
 export const useTrophies = ({ userId, gameId, gameName }) => {
   const [trophyData, setTrophyData] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
   useEffect(() => {
     const fetchData = async () => {
+      setIsLoading(true)
       // const trophies = await fetchTrophies(userId, gameId)
       const trophies = await getAvailableTrophiesGameInfo(userId, gameId, gameName)
+      setIsLoading(false)
       setTrophyData(trophies)
-      console.log('getting trophies')
     }
     fetchData()
-  }, [])
-  return { trophyData }
+  }, [userId, gameId, gameName])
+  return { trophyData, isLoading }
 }
 
 export const useXboxTrophies = ({ userId, gameId }) => {
   const [xboxTrophyData, setXboxTrophyData] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
   useEffect(() => {
     const fetchData = async () => {
+      setIsLoading(true)
       const trophies = await getXboxAvailableTrophies(userId, gameId)
+      setIsLoading(false)
       setXboxTrophyData(trophies)
     }
     fetchData()
-  }, [])
+  }, [userId, gameId])
 
-  return { xboxTrophyData }
+  return { xboxTrophyData, isLoading }
 }

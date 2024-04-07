@@ -6,6 +6,7 @@ import { UserOption } from '../pages/UserOptions/userOptions'
 import { Aside } from '../layouts/aside'
 import { PlayDetail } from '../pages/Detail/playDetail'
 import { XboxDetail } from '../pages/Detail/xboxDetail'
+import { Header } from '../pages/UserSite/components/Header'
 export const Roots = ({ play, profileInfo }) => {
   return (
           <Routes>

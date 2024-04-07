@@ -12,11 +12,11 @@ import { GameCharItemLoc } from './components/GameCharItemLoc'
 // import { useDescription } from '../../hooks/useDescription'
 export const XboxDetail = () => {
   const params = useParams()
-  const { xboxTrophyData } = useXboxTrophies(params)
+  const { xboxTrophyData, isLoading } = useXboxTrophies(params)
   return (
     <>
       {
-        xboxTrophyData
+        xboxTrophyData && !isLoading
           ? <div className='detailBody' style={{ backgroundImage: `url("${xboxTrophyData.ti.imgs[1].Uri}")` }}>
                 <Header>
                   <TitleImages info = {xboxTrophyData.ti.imgs}></TitleImages>

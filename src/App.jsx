@@ -11,7 +11,7 @@ function App () {
     <BrowserRouter>
       <div className='container'>
         <Header></Header>
-        <div className="flex-container" style={{ display: 'flex', width: '100%' }}>
+        <div className="flex-container"style={{ display: 'flex', width: '100%' }}>
           <Roots/>
         </div>
       </div>

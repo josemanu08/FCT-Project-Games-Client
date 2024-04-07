@@ -1,11 +1,11 @@
 .filters{
-    padding: .8rem;
+    padding: .5rem 0 1rem 0;
     display: flex;
     color: white;
     gap: 1rem;
     display: flex;
     justify-content: left;
-    width: 62rem;
+    width: 100%;
     align-self: center;
     flex-direction: row-reverse;
 }

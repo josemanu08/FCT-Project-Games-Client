@@ -10,6 +10,7 @@
 @import url('./CSS/Details/characters-items-locatons.css');
 @import url('./CSS/userSite-CSS/header.css');
 @import url('./CSS/userSite-CSS/search.css');
+@import url('./CSS/Spinners/PlayStationSpinner.css');
 
 *{
     box-sizing: border-box;

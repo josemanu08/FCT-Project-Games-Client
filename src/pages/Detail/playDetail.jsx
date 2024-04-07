@@ -12,11 +12,11 @@ import { GameCharItemLoc } from './components/GameCharItemLoc'
 
 export const PlayDetail = () => {
   const params = useParams()
-  const { trophyData } = useTrophies(params)
+  const { trophyData, isLoading } = useTrophies(params)
   return (
     <>
     {
-    trophyData
+    trophyData && !isLoading
       ? <div className='detailBody bodyPlayStation'
       style={{ backgroundImage: `url("${trophyData.gi.background_image_additional}")` }}>
           <Header>
@@ -36,7 +36,7 @@ export const PlayDetail = () => {
             <i className='bx bxs-left-arrow'/>
           </NavLink>
         </div>
-      : 'Loading...'
+      : 'Loading...'// (<div className="lds-ripple"><div></div></div>)
       }
     </>
   )

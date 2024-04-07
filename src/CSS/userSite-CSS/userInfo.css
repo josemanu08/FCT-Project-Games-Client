@@ -11,8 +11,13 @@
     list-style: none;
 }
 
+.user-img {
+    display: flex;
+    align-items: center;
+}
+
 .user-img img{
-    width: 10rem;
+    width: 7rem;
     border-radius: 200px;
 }
 
@@ -21,6 +26,7 @@
     flex-grow: .5;
     padding: 1rem;
     gap: 1rem;
+    width: 100%;
 }
 
 .user-trophy-name-info{
