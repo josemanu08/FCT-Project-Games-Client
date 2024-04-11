@@ -49,7 +49,6 @@ export const usePlayStationUserData = () => {
     const fetchData = async () => {
       let playUserData = null
       if (userData.playStationUsername && (userData.playStationUsername !== psnUsernameRef.current)) {
-        console.log('calling play...')
         playUserData = await getPlayUserData(userData.playStationUsername)
       }
       if (!userData.playStationUsername && playStationData) {
@@ -73,7 +72,6 @@ export const useXboxUserData = () => {
     const fetchData = async () => {
       let xboxUserData = null
       if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
-        console.log('calling...')
         xboxUserData = await getXboxUserData(userData.xboxUsername)
       }
       if (!userData.xboxUsername && xboxData) {

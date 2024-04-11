@@ -42,3 +42,8 @@
     color: #151515;
     border-radius: 3px;
 }
+
+.results{
+    
+    z-index: 100;
+}

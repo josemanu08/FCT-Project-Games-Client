@@ -1,6 +1,6 @@
 import { React } from 'react'
 import { useParams, NavLink } from 'react-router-dom'
-import { useTrophies, useXboxTrophies } from '../../hooks/detailHooks'
+import { useTrophies } from '../../hooks/detailHooks'
 import { mapPlayImages, mapTitleInfo, mapCategories } from '../../helpers/helpers'
 
 import { TitleInfo } from './components/TitleInfo'
@@ -8,7 +8,6 @@ import { TitleImages } from './components/TitleImages'
 import { Header } from './components/Header'
 import { Categories } from './components/Categories'
 import { TrophyTable } from './components/TrophyTable'
-import { GameCharItemLoc } from './components/GameCharItemLoc'
 
 export const PlayDetail = () => {
   const params = useParams()
