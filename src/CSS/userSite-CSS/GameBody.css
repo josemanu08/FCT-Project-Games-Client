@@ -90,11 +90,22 @@
     left: 0;
     width: 100%;
     background-color: #202020;
-    font-size: x-small;
+    font-size: small;
+    padding: .5rem;
 }
 
-.game-details-hover-list li {
-    padding: .5rem;
+.game-details-hover-list span{
+    color: rgb(128, 128, 128);
+}
+
+.game-details-hover-list p {
+    border-bottom: .3px solid rgb(72, 68, 68);
+    padding: .3rem;
+}
+
+.more-details-hiver-list a{
+    display: flex;
+    justify-content: center;
 }
 
 .game-body-item:hover .game-details-hover-list{

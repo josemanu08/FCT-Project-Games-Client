@@ -64,9 +64,13 @@ export default function GameBodyItem ({ gameInfo }) {
               </div>
           }
           <ul className='game-details-hover-list'>
-              <li>Last Updated: <span></span></li>
-              <li>Progress: <span></span></li>
-              <li><NavLink></NavLink></li>
+              <li><p><span>Last Updated: </span></p></li>
+              <li><p><span>Progress: </span></p></li>
+              <li className='more-details-hiver-list'>
+                <div>
+                  <NavLink>More Details</NavLink>
+                </div>
+              </li>
           </ul>
     </li>
   )
