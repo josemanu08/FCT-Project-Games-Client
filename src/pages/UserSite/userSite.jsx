@@ -11,7 +11,7 @@ export const UserSite = () => {
       <UserInfo></UserInfo>
       <Filter></Filter>
       <GamesBody></GamesBody>
-      <Table></Table>
+      {/* <Table></Table> */}
     </section>
   )
 }

@@ -34,6 +34,14 @@ const DispatchPlatform = (platform) => {
   )
 }
 
+const handleHoverInfo = (gameInfo) => {
+  return (
+    gameInfo.platform === 'xbox'
+      ? `${gameInfo.currentGamerscore} / ${gameInfo.totalGamerscore}`
+      : `${gameInfo.earnedTrophies} / ${gameInfo.definedTrophies}`
+  )
+}
+
 export default function GameBodyItem ({ gameInfo }) {
   return (
     <li className='game-body-item'>
@@ -65,10 +73,13 @@ export default function GameBodyItem ({ gameInfo }) {
           }
           <ul className='game-details-hover-list'>
               <li><p><span>Last Updated: </span></p></li>
-              <li><p><span>Progress: </span></p></li>
-              <li className='more-details-hiver-list'>
+              <li ><p style={{ display: 'flex', justifyContent: 'space-between' }}><span>Progress:</span> {handleHoverInfo(gameInfo)}</p></li>
+              <li className='more-details-hover-list'>
                 <div>
-                  <NavLink>More Details</NavLink>
+                  <NavLink>
+                    More Details
+                    <i className='bx bx-sm bxs-chevron-right'></i>
+                  </NavLink>
                 </div>
               </li>
           </ul>
