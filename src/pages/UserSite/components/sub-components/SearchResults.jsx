@@ -15,6 +15,7 @@ export const SearchResult = ({ width, focus }) => {
   const filteredBody = applySearch(bodyState)
 
   const setOverFlow = () => {
+    // resultsRef.current?
     return (
       resultsRef.current?.clientHeight > 400
         ? 'scroll'
@@ -27,7 +28,7 @@ export const SearchResult = ({ width, focus }) => {
             <ul
             ref={resultsRef}
             className={`results ${focus && 'show-result'}`}
-            style={{ width, overflow: setOverFlow(), maxHeight: '500px' }}>
+            style={{ width, overflowY: setOverFlow(), maxHeight: '500px' }}>
               <p className='total-games-search'>Games <span style={{ color: 'grey' }}>{filteredBody.length}</span></p>
                 {
                   filteredBody

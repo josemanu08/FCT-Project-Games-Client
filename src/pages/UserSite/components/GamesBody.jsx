@@ -8,6 +8,14 @@ export const GamesBody = () => {
   const { filterState } = useContext(filterContext)
   const { bodyState } = useBodyState()
 
+  // useEffect(() => {
+  //   const box = document.querySelector('.games-body')
+  //   const msn = new Masonry(box, {
+  //     itemSelector: '.game-body-item',
+  //     columnWidth: 80
+
+  //   })
+  // })
   /* useEffect(() => {
     const tr = document.querySelectorAll('tr')
     animate(
@@ -20,13 +28,13 @@ export const GamesBody = () => {
   const filteredTableBody = applyFilters(bodyState, filterState)
 
   return (
-        <ul className="games-body">
-            {
-                filteredTableBody
-                  .map((game, index) => (
-                    <GameBodyItem key={index} gameInfo={game}></GameBodyItem>
-                  ))
-            }
-        </ul>
+    <ul className="games-body">
+        {
+          filteredTableBody
+            .map((game, index) => (
+              <GameBodyItem key={index} gameInfo={game}></GameBodyItem>
+            ))
+        }
+      </ul>
   )
 }

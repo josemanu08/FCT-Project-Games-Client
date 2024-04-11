@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useSearchBar } from '../../hooks/useSearchBar'
 import { SearchResult } from './SearchResults'
 
-const useBarWidth = (searchBar) => {
+const useBarWidth = () => {
   const [barWidth, setBarWidth] = useState(null)
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const useBarWidth = (searchBar) => {
 export const SearchBar = () => {
   const searchRef = useRef(null)
   const { filterState, searchHandler } = useSearchBar({ searchRef })
-  const { barWidth } = useBarWidth(searchRef)
+  const { barWidth } = useBarWidth()
 
   const [focus, setFocus] = useState(false)
 
