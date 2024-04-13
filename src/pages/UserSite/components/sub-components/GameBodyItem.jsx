@@ -26,7 +26,7 @@ const XboxIcon = () => {
 //   )
 // }
 
-const DispatchPlatform = (platform) => {
+export const DispatchPlatform = (platform) => {
   return (
     platform.toLowerCase() === 'xbox'
       ? <XboxIcon></XboxIcon>
@@ -39,6 +39,14 @@ const handleHoverInfo = (gameInfo) => {
     gameInfo.platform === 'xbox'
       ? `${gameInfo.currentGamerscore} / ${gameInfo.totalGamerscore}`
       : `${gameInfo.earnedTrophies} / ${gameInfo.definedTrophies}`
+  )
+}
+
+const handleLink = (gameInfo) => {
+  return (
+    gameInfo.platform === 'xbox'
+      ? `/xbl/${gameInfo.id}/${gameInfo.userId}`
+      : `/psn/${gameInfo.id}/${gameInfo.accId}/${gameInfo.name}`
   )
 }
 
@@ -72,11 +80,13 @@ export default function GameBodyItem ({ gameInfo }) {
               </div>
           }
           <ul className='game-details-hover-list'>
-              <li><p><span>Last Updated: </span></p></li>
+              <li><p style={{ display: 'flex', justifyContent: 'space-between' }} ><span>Last Updated: </span> {
+                new Date(gameInfo.lastUpdated).toLocaleDateString()
+              }</p></li>
               <li ><p style={{ display: 'flex', justifyContent: 'space-between' }}><span>Progress:</span> {handleHoverInfo(gameInfo)}</p></li>
               <li className='more-details-hover-list'>
                 <div>
-                  <NavLink>
+                  <NavLink to={handleLink(gameInfo)}>
                     More Details
                     <i className='bx bx-sm bxs-chevron-right'></i>
                   </NavLink>

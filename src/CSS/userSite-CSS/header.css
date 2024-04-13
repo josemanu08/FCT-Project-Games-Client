@@ -28,6 +28,7 @@
 
 .searchBar:focus, .searchBar:hover{
     background-color: white;
+    z-index: 100
 }
 
 .proyect-title{
@@ -44,6 +45,5 @@
 }
 
 .results{
-    
     z-index: 100;
 }

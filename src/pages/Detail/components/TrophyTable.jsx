@@ -5,9 +5,12 @@ import { AditionalTrophyInfo } from './sub-components/AditionalTrophyInfo'
 import { LazyLoadComponent } from 'react-lazy-load-image-component'
 
 export const TrophyTable = ({ info }) => {
+  console.log(info)
   return (
       <section className='trophy-detail-container'>
-        <AditionalTrophyInfo trophyInfo={info}/>
+        {
+          info.length === 0 || <AditionalTrophyInfo trophyInfo={info}/>
+        }
         <table className='trophy-detail-table'>
           <tbody>
               {

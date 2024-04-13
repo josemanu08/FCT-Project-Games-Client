@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { filterContext } from '../../../Context/contexts'
 import { useBodyState } from '../hooks/useBodyState'
-import { applyFilters } from '../../../helpers/helpers'
+import { applyBodyFilters } from '../../../helpers/helpers'
 import GameBodyItem from './sub-components/GameBodyItem'
 
 export const GamesBody = () => {
@@ -25,7 +25,7 @@ export const GamesBody = () => {
     )
   }, [filterState]) */
 
-  const filteredTableBody = applyFilters(bodyState, filterState)
+  const filteredTableBody = applyBodyFilters(bodyState, filterState)
 
   return (
     <ul className="games-body">

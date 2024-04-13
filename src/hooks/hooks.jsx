@@ -58,7 +58,7 @@ export const usePlayStationUserData = () => {
       psnUsernameRef.current = userData.playStationUsername
     }
     fetchData()
-  }, [userData])
+  }, [userData.playStationUsername])
 
   return { playStationData }
 }
@@ -81,7 +81,7 @@ export const useXboxUserData = () => {
       xblUsernameRef.current = userData.xboxUsername
     }
     fetchData()
-  }, [userData])
+  }, [userData.xboxUsername])
 
   return { xboxData }
 }

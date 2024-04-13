@@ -2,6 +2,7 @@
 // import profileXBOX from '../mocks/userXbox.json' assert {type:'json'}
 
 export const mapXboxGames = (gamesObj) => {
+  console.log(gamesObj)
   const games = gamesObj.titles
   return games.map((title) => {
     return ({
@@ -15,7 +16,8 @@ export const mapXboxGames = (gamesObj) => {
       earnedTrophies: title.achievement.currentAchievements,
       currentGamerscore: title.achievement.currentGamerscore,
       totalGamerscore: title.achievement.totalGamerscore,
-      titlePlatforms: title.devices
+      titlePlatforms: title.devices,
+      lastUpdated: title.titleHistory.lastTimePlayed
     })
   })
 }
@@ -32,7 +34,8 @@ export const mapPlayStationGames = (gamesObj, playProfile) => {
       icon: title.trophyTitleIconUrl,
       definedTrophies: Object.values(title.definedTrophies).reduce((acc, value) => acc + value),
       earnedTrophies: Object.values(title.earnedTrophies).reduce((acc, value) => acc + value),
-      titlePlatforms: title.trophyTitlePlatform
+      titlePlatforms: title.trophyTitlePlatform,
+      lastUpdated: title.lastUpdatedDateTime
     })
   })
 }
@@ -80,6 +83,20 @@ export const applyFilters = (gamesObj, filters) => {
               (game.platform === filters.platform || filters.platform === 'both'))
     })
     .sort(order[filters.order]))
+}
+
+export const applyBodyFilters = (gamesObj, filters) => {
+  const order = {
+    name: OrderByName,
+    'name-descendent': OrderByNameDesc,
+    percentaje: OrderByPercentaje,
+    'percentaje-desc': OrderByPercentajeDesc
+  }
+  return (
+    gamesObj
+      .filter(game => game.platform === filters.platform || filters.platform === 'both')
+      .sort(order[filters.order])
+  )
 }
 
 // FUNCIONES 🐱
