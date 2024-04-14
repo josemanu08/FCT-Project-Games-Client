@@ -75,7 +75,6 @@
     transition: .3s transform;
     position: relative;
     overflow: hidden;
-    flex-grow: 1;
     border-radius: 10px;
 }
 

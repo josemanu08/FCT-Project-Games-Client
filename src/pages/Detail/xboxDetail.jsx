@@ -8,6 +8,8 @@ import { Header } from './components/Header'
 import { Categories } from './components/Categories'
 import { TrophyTable } from './components/TrophyTable'
 import { GameCharItemLoc } from './components/GameCharItemLoc'
+import { TitleImagesB } from './componentsB/TitleImagesB'
+import { TitleImagesModal } from './componentsB/TitleImagesModal'
 
 // import { useDescription } from '../../hooks/useDescription'
 export const XboxDetail = () => {
@@ -19,7 +21,8 @@ export const XboxDetail = () => {
         xboxTrophyData && !isLoading
           ? <div className='detailBody' style={{ backgroundImage: `url("${xboxTrophyData.ti.imgs[1].Uri}")` }}>
                 <Header>
-                  <TitleImages info = {xboxTrophyData.ti.imgs}></TitleImages>
+                  <TitleImagesB images={xboxTrophyData.ti.imgs}></TitleImagesB>
+                  {/* <TitleImages info = {xboxTrophyData.ti.imgs}></TitleImages> */}
                   <TitleInfo info={xboxTrophyData.ti}></TitleInfo>
                   <Categories info={xboxTrophyData.ti}></Categories>
                 </Header>
@@ -31,6 +34,7 @@ export const XboxDetail = () => {
             </div>
           : 'Waiting'
       }
+      <TitleImagesModal/>
     </>
   )
 }

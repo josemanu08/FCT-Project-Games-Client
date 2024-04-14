@@ -1,0 +1,78 @@
+.title-images-container{
+    width: 300px;
+}
+
+.title-images-container img{
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: .2s transform;
+}
+
+.title-images-container img:hover{
+    transform: scale(.98);
+}
+
+.main-title-image{
+    width: 100%;
+}
+
+.secondary-title-image{
+    width: 50%;
+}
+
+/* MODAL DE IMÁGENES */
+
+.images-modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.935);
+    transform: translateY(-100%);
+    transition: .5s transform;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.show-images-modal{
+    transform: translateY(0);
+}
+
+.main-modal-image-container img {
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.close-modal-button{
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    cursor: pointer;
+}
+
+.img-modal-slider{
+    height: 10rem;
+    display: flex;
+    width: 90%;
+    gap: 1rem;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.img-modal-slider img{
+    height: 5rem;
+    cursor: pointer;
+    transition: .2s transform;
+    border-radius: 10px;
+}
+
+.img-modal-slider img:hover{
+    transform: scale(.98);
+}
