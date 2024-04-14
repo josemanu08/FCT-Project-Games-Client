@@ -66,8 +66,8 @@
     border-radius: 10px;
 }
 
-.img-modal-slider img{
-    height: 5rem;
+.img-modal-slider .img{
+    height: 100%;
     cursor: pointer;
     transition: .2s transform;
     border-radius: 10px;
@@ -75,4 +75,23 @@
 
 .img-modal-slider img:hover{
     transform: scale(.98);
+}
+
+.slider-modal-dark-container{
+    position: relative;
+}
+
+.slider-modal-dark{
+    background-color: rgba(0, 0, 0, 0.727);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.active-slide + .slider-modal-dark {
+    background-color: rgba(0, 0, 0, 0);
 }

@@ -25,7 +25,7 @@ export const TitleImagesModal = () => {
                         <div className="main-modal-image-container">
                             <img src={data[index].Uri} alt="" />
                         </div>
-                        <TitleImagModalSlider changeIndex={changeIndex} images={data}/>
+                        <TitleImagModalSlider index={index} changeIndex={changeIndex} images={data}/>
                     </>
                  )
                }
