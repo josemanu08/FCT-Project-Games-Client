@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 // import { XboxUserInfo } from './sub-components/xboxUserInfo'
 import { PlayUserInfoB } from './sub-components/playUserInfoB'
 import { XboxUserInfoB } from './sub-components/xboxUserInfoB'
+import { GamerRange } from './GamerRange'
 
 export const UserInfo = () => {
   const [toggleState, setToggleState] = useState('play')
@@ -31,6 +32,7 @@ export const UserInfo = () => {
                       right: '.5rem',
                       cursor: 'pointer'
                     }} onClick={() => handleToggle()}>🥥</button>
+                    {/* <GamerRange></GamerRange> */}
                   </section>
             }
           </>

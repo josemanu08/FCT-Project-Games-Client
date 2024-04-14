@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import { Header } from '../pages/UserSite/components/Header'
 
 export const Aside = () => {
   useEffect(() => {
     const stickyScroll = () => {
       const wrapper = document.querySelector('.content-wrapper')
-      if (window.scrollY < window.outerHeight) {
+      if (window.scrollY < wrapper.clientHeight) {
         wrapper.style.position = ''
         return
       }

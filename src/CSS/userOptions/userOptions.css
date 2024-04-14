@@ -201,6 +201,7 @@
     color: white;
     align-items: center;
     position: relative;
+    justify-content: center;
 }
 
 .options-container{
@@ -208,7 +209,6 @@
     flex-direction: column;
     gap: 2rem; 
     max-width: 60%;
-    margin-top: 5rem;
 }
 
 .settings-title{
@@ -247,7 +247,12 @@
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    width: 100%;
+}
 
+.settings-connect-button:hover{
+    background-color: #151515;
+    color: white;
 }
 
 .connected{
@@ -261,28 +266,39 @@
     gap: 2rem;
     position: relative;
     padding: 1rem;
-    margin-top: 5rem;
 }
 
 .settings-form{
     display: flex;
+    gap: 1rem;
 }
 
 .settings-form input{
-    padding: .5rem;
+    padding: 1rem;
     background-color: #232323;
     border: none;
     color: white;
-    width: 20rem;
+    width: 20rem
 }
 
 .settings-form button{
     padding: .5rem 3rem .5rem 3rem;
     border: none;
+    cursor: pointer;
+}
+
+.settings-form button:hover{
+    background-color: #2222;
+    color: white;
 }
 
 .return-to-settings{
     position: absolute;
     top: .5rem;
     right: .5rem;
+    color: white;
+}
+
+.return-to-settings:hover{
+    color: gray;
 }

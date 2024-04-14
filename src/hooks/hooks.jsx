@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef, useContext } from 'react'
 import { getPlayUserData, getXboxUserData } from '../services/fetch-api/userData'
 import { userDataContext } from '../Context/contexts'
+import { toast } from 'react-toastify'
 
 import { useGameStore } from '../store/GamesStore'
 
@@ -50,6 +51,9 @@ export const usePlayStationUserData = () => {
       let playUserData = null
       if (userData.playStationUsername && (userData.playStationUsername !== psnUsernameRef.current)) {
         playUserData = await getPlayUserData(userData.playStationUsername)
+        toast.success('info reached', {
+          theme: 'dark'
+        })
       }
       if (!userData.playStationUsername && playStationData) {
         setPlaystationData(null)
@@ -73,6 +77,9 @@ export const useXboxUserData = () => {
       let xboxUserData = null
       if (userData.xboxUsername && (userData.xboxUsername !== xblUsernameRef.current)) {
         xboxUserData = await getXboxUserData(userData.xboxUsername)
+        toast.success('info reached', {
+          theme: 'dark'
+        })
       }
       if (!userData.xboxUsername && xboxData) {
         setXboxData(null)

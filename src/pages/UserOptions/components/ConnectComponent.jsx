@@ -22,9 +22,9 @@ export const ConnectComponent = ({ platform }) => {
             </div>
             <p className='settings-platform'>{platform.toUpperCase()}</p>
         </div>
-        <button className='settings-connect-button'>
-            <NavLink to={`/connectForm/${platform}`}>Connect</NavLink>
-        </button>
+          <NavLink to={`/connectForm/${platform}`}>
+            <button className='settings-connect-button'>Connect</button>
+          </NavLink>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { Roots } from './routes/routes'
 import { BrowserRouter } from 'react-router-dom'
 import { Header } from './pages/UserSite/components/Header'
 import { usePlayStationUserData, useXboxUserData } from './hooks/hooks'
+import { ToastContainer } from 'react-toastify'
 
 function App () {
   useXboxUserData()
@@ -15,6 +16,7 @@ function App () {
           <Roots/>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </BrowserRouter>
   )
 }

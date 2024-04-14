@@ -1,5 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import Papyrus from './undertale_text_box (1).gif'
+import Cris from './undertale_text_box (2).gif'
+
 export const SettingsTutorial = () => {
   const { platform } = useParams()
   return (
@@ -21,11 +24,12 @@ export const PlayTutorial = () => {
             className="tutorial-description"
             style={{
               display: 'flex',
-              flexDirection: 'column',
+              flexDirection: 'column-reverse',
               alignItems: 'center',
               justifyContent: 'space-between'
             }}>
-                <p style={{ fontSize: 'small' }}>Your Profile Name is on : main menu &gt; profile, but make shure your profile is public, otherwhise I cant acces to your account</p>
+                {/* <p style={{ fontSize: 'small' }}>Your Profile Name is on : main menu &gt; profile, but make shure your profile is public, otherwhise I cant acces to your account</p> */}
+                <img src={Cris} alt="" />
                 <img style={{
                   width: '150px'
                 }} src="https://media.tenor.com/24iuReE89ooAAAAi/sans-mood.gif" alt="" />
@@ -43,11 +47,12 @@ export const XboxTutorial = () => {
               className="tutorial-description"
               style={{
                 display: 'flex',
-                flexDirection: 'column',
+                flexDirection: 'column-reverse',
                 alignItems: 'center',
                 justifyContent: 'space-between'
               }}>
-                  <p style={{ fontSize: 'small' }}>Your Profile Name is on Game Pass Main Menu, but make shure your profile is public, otherwhise I cant acces to your account</p>
+                  {/* <p style={{ fontSize: 'small' }}>Your Profile Name is on Game Pass Main Menu, but make shure your profile is public, otherwhise I cant acces to your account</p> */}
+                  <img src={Papyrus} alt="" />
                   <img style={{
                     width: '150px'
                   }} src="https://media.tenor.com/xb1-WC1x7G0AAAAi/pixel-foot-stomping.gif" alt="" />
