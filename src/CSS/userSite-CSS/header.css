@@ -5,6 +5,7 @@
     gap: 2rem;
     align-items: center;
     width: 100%;
+    transition: .5s padding, .5s background-color, .5s color;
 }
 
 .header > p {
@@ -46,4 +47,15 @@
 
 .results{
     z-index: 100;
+}
+
+/* Scroll Action */
+
+.scrolling{
+    position: sticky;
+    top: 0px;
+    padding: 1.4rem 4rem 1.4rem 2rem;
+    background-color: rgb(213, 230, 241);
+    color: black;
+    z-index: 10;
 }

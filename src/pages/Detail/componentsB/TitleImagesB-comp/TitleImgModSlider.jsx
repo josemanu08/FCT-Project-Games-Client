@@ -3,18 +3,14 @@ import React, { useEffect } from 'react'
 
 export const TitleImagModalSlider = ({ images, changeIndex, index }) => {
   useEffect(() => {
-
-  }, [index])
-  const handleClick = (index) => {
     // Cambio de índice
-    changeIndex(index)
     const img = document.querySelectorAll('.img-modal-slider img')[index]
     img.scrollIntoView({ block: 'nearest', inline: 'start', behavior: 'smooth' })
 
     // Manejo de color
     handleActiveModals()
     img.classList.toggle('active-slide')
-  }
+  }, [index])
 
   const handleActiveModals = () => {
     document
@@ -24,14 +20,24 @@ export const TitleImagModalSlider = ({ images, changeIndex, index }) => {
 
   return (
         <div className="img-modal-slider">
+            {/* <button
+            style={{
+              position: 'absolute',
+              left: '-10px'
+            }}>prev</button> */}
             {
                 images.map((img, index) => (
                     <div className='slider-modal-dark-container' key={index}>
-                        <img className='img' onClick={() => handleClick(index)} src={img.Uri} alt="" />
+                        <img className='img' onClick={() => changeIndex(index)} src={img.Uri} alt="" />
                         <div className="slider-modal-dark"></div>
                     </div>
                 ))
             }
+            {/* <button
+            style={{
+              position: 'absolute',
+              right: '-10px'
+            }}>prev</button> */}
         </div>
   )
 }

@@ -64,6 +64,7 @@
     overflow: hidden;
     justify-content: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .img-modal-slider .img{

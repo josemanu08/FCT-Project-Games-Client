@@ -4,10 +4,11 @@ import { useTrophies } from '../../hooks/detailHooks'
 import { mapPlayImages, mapTitleInfo, mapCategories } from '../../helpers/helpers'
 
 import { TitleInfo } from './components/TitleInfo'
-import { TitleImages } from './components/TitleImages'
 import { Header } from './components/Header'
 import { Categories } from './components/Categories'
 import { TrophyTable } from './components/TrophyTable'
+import { TitleImagesB } from './componentsB/TitleImagesB'
+import { TitleImagesModal } from './componentsB/TitleImagesModal'
 
 export const PlayDetail = () => {
   const params = useParams()
@@ -18,9 +19,10 @@ export const PlayDetail = () => {
     trophyData && !isLoading
       ? <div className='detailBody bodyPlayStation'
       style={{ backgroundImage: `url("${trophyData.gi.background_image_additional}")` }}>
+        {console.log(mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots))}
           <Header>
-            <TitleImages
-            info={
+            <TitleImagesB
+            images={
               mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)}
             />
             <TitleInfo info={mapTitleInfo(trophyData.gi)}></TitleInfo>
@@ -37,6 +39,7 @@ export const PlayDetail = () => {
         </div>
       : 'Loading...'// (<div className="lds-ripple"><div></div></div>)
       }
+      <TitleImagesModal/>
     </>
   )
 }
