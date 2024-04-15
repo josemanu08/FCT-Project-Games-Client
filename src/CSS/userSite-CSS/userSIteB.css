@@ -51,9 +51,17 @@
 
 .close-modal-button{
     position: absolute;
-    right: .5rem;
-    top: .5rem;
+    right: 1rem;
+    top: 1rem;
     cursor: pointer;
+    color: black;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-modal-slider{

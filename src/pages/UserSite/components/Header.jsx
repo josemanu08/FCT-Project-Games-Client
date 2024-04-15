@@ -5,7 +5,7 @@ export const Header = () => {
   useEffect(() => {
     const header = document.querySelector('.header')
     window.addEventListener('scroll', () => {
-      if (window.scrollY > header.clientHeight) {
+      if (window.scrollY >= header.clientHeight - 20) {
         header.classList.add('scrolling')
       } else {
         header.classList.remove('scrolling')

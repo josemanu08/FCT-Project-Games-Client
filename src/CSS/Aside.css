@@ -20,6 +20,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: right;
+    padding-top: 2rem;
 }
 
 .content-wrapper  div, .content-wrapper a {
