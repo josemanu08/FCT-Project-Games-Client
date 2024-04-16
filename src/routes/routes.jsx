@@ -2,13 +2,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { UserSite } from '../pages/UserSite/userSite'
-import { UserOption } from '../pages/UserOptions/userOptions'
 import { Aside } from '../layouts/aside'
 import { PlayDetail } from '../pages/Detail/playDetail'
 import { XboxDetail } from '../pages/Detail/xboxDetail'
-import { Header } from '../pages/UserSite/components/Header'
 import { UserOptionsB } from '../pages/UserOptions/userOptionsB'
 import { ConnectForm } from '../pages/UserOptions/components/ConnectForm'
+import { DetailsB } from '../pages/Detail/detailB'
+
 export const Roots = ({ play, profileInfo }) => {
   return (
           <Routes>
@@ -17,8 +17,8 @@ export const Roots = ({ play, profileInfo }) => {
               <Route path='/userOptions' element={<UserOptionsB/>}></Route>
               <Route path='/connectForm/:platform' element={<ConnectForm></ConnectForm>}></Route>
             </Route>
-              <Route path='/xbl/:gameId/:userId'element={<XboxDetail/>} ></Route>
-              <Route path='/psn/:gameId/:userId/:gameName' element={<PlayDetail/>}></Route>
+              <Route path='/xbl/:gameId/:userId/:gameName'element={<XboxDetail/>} ></Route>
+              <Route path='/psn/:gameId/:userId/:gameName' element={<DetailsB/>}></Route>
          </Routes>
   )
 }

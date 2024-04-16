@@ -23,7 +23,8 @@ export const PlayDetail = () => {
           <Header>
             <TitleImagesB
             images={
-              mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)}
+              mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)
+              }
             />
             <TitleInfo info={mapTitleInfo(trophyData.gi)}></TitleInfo>
             <Categories

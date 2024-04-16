@@ -45,7 +45,7 @@ const handleHoverInfo = (gameInfo) => {
 const handleLink = (gameInfo) => {
   return (
     gameInfo.platform === 'xbox'
-      ? `/xbl/${gameInfo.id}/${gameInfo.userId}`
+      ? `/xbl/${gameInfo.id}/${gameInfo.userId}/${gameInfo.name}`
       : `/psn/${gameInfo.id}/${gameInfo.accId}/${gameInfo.name}`
   )
 }

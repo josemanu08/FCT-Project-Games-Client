@@ -50,13 +50,15 @@ export const getAvailableTrophiesGameInfo = async (userId, titleId, gameName) =>
   result.ti = mixedTrophiesInfo
   result.gi = gameInfo
   result.additional = additionalnfo.results
+
   return result
 }
 
-export const getXboxAvailableTrophies = async (userId, titleId) => {
+export const getXboxAvailableTrophies = async (userId, titleId, gameName) => {
   const response = {}
   const trophies = await fetchXboxTrophies(userId, titleId)
   const gameData = await fetchGameData(titleId)
+  const gameInfo = await fetchAllGameInfo(gameName)
   // const GameInfo = await
   // response.push({ TrophieInfo: trophies.achievements.filter(a => a.progressState === 'Achieved') })
 
@@ -76,6 +78,7 @@ export const getXboxAvailableTrophies = async (userId, titleId) => {
 
   response.tr = mappedTrophies
   response.ti = mapXboxGameInfo(gameData)[0]
+  response.gi = gameInfo
   return response
 }
 

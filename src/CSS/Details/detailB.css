@@ -1,0 +1,14 @@
+.detail-view-container{
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.linear-gradient-details-section{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* height: 100%;
+    width: 100%; */
+}

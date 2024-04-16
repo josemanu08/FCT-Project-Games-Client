@@ -13,6 +13,7 @@
 @import url('./CSS/Spinners/PlayStationSpinner.css');
 @import url('./CSS/userSite-CSS/GameBody.css');
 @import url('./CSS/userSite-CSS/userSIteB.css');
+@import url('./CSS/Details/detailB.css');
 
 *{
     box-sizing: border-box;

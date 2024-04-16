@@ -19,6 +19,9 @@ export const fetchAllGameInfo = async (name) => {
   result.background_image_additional = descriptionInfo.background_image_additional
   result.clip = descriptionInfo?.clip
   result.name = descriptionInfo.name
+  result.metacritic = descriptionInfo.metacritic
+  result.ratings = descriptionInfo.ratings
+  result.rating_top = descriptionInfo.rating_top
 
   return result
 }

@@ -3,9 +3,9 @@ import { getAvailableTrophiesGameInfo, getXboxAvailableTrophies } from '../servi
 
 // Mocks
 // import xboxTrophies from '../mocks/TROPHIES/tDetailXbox.json'
-// import allPstrophiesInfo from '../mocks/TROPHIES/allPlayStationTrophyInfo.json'
-import ALLxboxINFO from '../mocks/INFO/ALLxboxINFO.json'
-import AllPlayInfo from '../mocks/INFO/ALLplaystationINFO.json'
+// // import allPstrophiesInfo from '../mocks/TROPHIES/allPlayStationTrophyInfo.json'
+// import ALLxboxINFO from '../mocks/INFO/ALLxboxINFO.json'
+// import AllPlayInfo from '../mocks/INFO/ALLplaystationINFO.json'
 // import AllxboxInfo2 from '../mocks/INFO/ALLxboxINFO2.json'
 // import LisOfP from '../mocks/INFO/liesOfP.json'
 // import cocoon from '../mocks/INFO/cocoon.json'
@@ -24,6 +24,26 @@ export const useTrophies = ({ userId, gameId, gameName }) => {
     fetchData()
   }, [userId, gameId, gameName])
   return { trophyData, isLoading }
+}
+
+export const useTrophyData = (gameInfo, path) => {
+  const [trophyData, setTrophyData] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
+
+  useEffect(() => {
+    const fetchTrophyData = async () => {
+      const { userId, gameId, gameName } = gameInfo
+      setIsLoading(true)
+      const trophies = path.includes('psn')
+        ? await getAvailableTrophiesGameInfo(userId, gameId, gameName)
+        : await getXboxAvailableTrophies(userId, gameId, gameName)
+      setIsLoading(false)
+      setTrophyData(trophies)
+    }
+    fetchTrophyData()
+  }, [gameInfo])
+
+  return { isLoading, trophyData }
 }
 
 export const useXboxTrophies = ({ userId, gameId }) => {

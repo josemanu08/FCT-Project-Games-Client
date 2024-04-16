@@ -2,7 +2,6 @@
 // import profileXBOX from '../mocks/userXbox.json' assert {type:'json'}
 
 export const mapXboxGames = (gamesObj) => {
-  console.log(gamesObj)
   const games = gamesObj.titles
   return games.map((title) => {
     return ({

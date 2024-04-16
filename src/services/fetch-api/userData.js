@@ -1,7 +1,7 @@
 import { getUserTitles, getUserProfile } from '../psn-api/playFunctions'
 import { getXuidFromUsername, getGamesFromXuid, getXboxUserProfile } from '../openxbl-api/xboxFunctions'
 import { mapPlayStationGames, mapPlayProfile, mapXboxGames, mapXboxProfile } from '../../helpers/helpers'
-import { fetchAllGameInfo } from '../rawg/rawg-game-info'
+// import { fetchAllGameInfo } from '../rawg/rawg-game-info'
 
 export const getPlayUserData = async (psnUsername) => {
   const res = {
@@ -30,7 +30,5 @@ export const getXboxUserData = async (xblUsername) => {
   const xblProfile = await getXboxUserProfile(xblUsername)
   res.xblTitles = mapXboxGames(xblTitles)
   res.xblProfile = mapXboxProfile(xblProfile.people, xblTitles.titles)
-
-  console.log(res)
   return res
 }
