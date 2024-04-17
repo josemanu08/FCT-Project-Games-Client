@@ -1,15 +1,22 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
-import { skipPartiallyEmittedExpressions } from 'typescript'
 
 export const HeaderDetails = ({ gameInfo }) => {
-  console.log(gameInfo)
   const ratings = {
-    exceptional: 'Exceptional ⭐',
-    recommended: 'Recommended 😚',
-    meh: 'meh 😴',
-    skip: 'skip 😫'
+    exceptional: 'Exceptional 🌟',
+    recommended: 'Recommended ✅',
+    meh: 'meh 💨',
+    skip: 'skip 💥'
   }
+
+  const ratingIcons = {
+    exceptional: '🌟',
+    recommended: '✅',
+    meh: '💨',
+    skip: '💥'
+  }
+
+  console.log(gameInfo)
 
   const calcBestRating = (arr) => {
     return arr.filter(rating => {
@@ -28,15 +35,18 @@ export const HeaderDetails = ({ gameInfo }) => {
             <div className="header-details-container">
 
                 <div className="header-mini-ramdom-info">
-                    <p>{new Date(gameInfo.gi.date).toLocaleDateString()}</p>
+                    <p className='date-mini-random-info'>{new Date(gameInfo.gi.date).toDateString()}</p>
+                    <p className='avg-time-random-info'>Average Time Playing: 15 hours</p>
                 </div>
 
-                <div className="game-title-container">
-                    <h1 className='game-title'>{gameInfo.gi.name}</h1>
+                <div className="game-title-container" >
+                    <h1 className='game-title-detail'>{gameInfo.gi.name}</h1>
                 </div>
 
                 <div className="store-options">
-                    <button className="add-to-favourite">Add to 💓</button>
+                    <button className="add-to-favourite">
+                    <i className='bx bxs-heart'></i>
+                    </button>
                 </div>
 
                 <div className="rating-info">
@@ -44,16 +54,16 @@ export const HeaderDetails = ({ gameInfo }) => {
                         <p className="type-of-rating">
                             {ratings[calcBestRating(gameInfo.gi.ratings).title]}
                         </p>
-                        <span className='total-ratings-mini'>
+                        <span className='total-ratings-mini detail-mini'>
                             {calcRating(gameInfo.gi.ratings)} Ratings
                         </span>
                     </div>
                     <div className="top-game-info">
                         <p className="top">#{gameInfo.gi.rating_top}</p>
-                        <span className='top-year-mini'>TOP {new Date(gameInfo.gi.date).getFullYear()}</span>
+                        <span className='top-year-mini detail-mini'>TOP {new Date(gameInfo.gi.date).getFullYear()}</span>
                     </div>
                     <div className="metacritic-score-container">
-                        <p className="metacritic-score">{gameInfo.gi.metacritic}%</p>
+                        <p className="metacritic-score">{gameInfo.gi.metacritic}</p>
                     </div>
                 </div>
 
@@ -61,7 +71,7 @@ export const HeaderDetails = ({ gameInfo }) => {
                     <div className="rating-label-coloritos">
                         {
                             gameInfo.gi.ratings.map((rating, index) => (
-                                <section key={index} className={`visual slice ${rating.title}`}>{ratings[rating.title]}</section>
+                                <section style={{ width: `${rating.percent}%` }} key={index} className={`visual-slice ${rating.title}`}/>
                             ))
                         }
                     </div>

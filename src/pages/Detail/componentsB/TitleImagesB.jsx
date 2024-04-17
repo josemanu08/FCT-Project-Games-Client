@@ -9,7 +9,7 @@ export const TitleImagesB = ({ images }) => {
   return (
         <div className="title-images-container">
             {
-                images.slice(0, 5).map((img, index) => (
+                images?.slice(0, 5)?.map((img, index) => (
                   !index
                     ? <img onClick={() => setModalData()} key={index} className='main-title-image' src={img.Uri} alt="" />
                     : (

@@ -17,7 +17,7 @@ export const Roots = ({ play, profileInfo }) => {
               <Route path='/userOptions' element={<UserOptionsB/>}></Route>
               <Route path='/connectForm/:platform' element={<ConnectForm></ConnectForm>}></Route>
             </Route>
-              <Route path='/xbl/:gameId/:userId/:gameName'element={<XboxDetail/>} ></Route>
+              <Route path='/xbl/:gameId/:userId/:gameName'element={<DetailsB/>} ></Route>
               <Route path='/psn/:gameId/:userId/:gameName' element={<DetailsB/>}></Route>
          </Routes>
   )

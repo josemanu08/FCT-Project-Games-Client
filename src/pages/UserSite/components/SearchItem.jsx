@@ -28,7 +28,7 @@ export const SearchItem = ({ gameInfo }) => {
                         <NavLink className='search-item-link' onClick={cleanInput}
                             to={
                                 gameInfo.platform === 'xbox'
-                                  ? `/xbl/${gameInfo.id}/${gameInfo.userId}`
+                                  ? `/xbl/${gameInfo.id}/${gameInfo.userId}/${gameInfo.name}`
                                   : `/psn/${gameInfo.id}/${gameInfo.accId}/${gameInfo.name}`
                             }
                         >

@@ -10,7 +10,7 @@
     background-color: black;
     transition: .5s opacity;
     overflow: hidden;
-    transform: translateY(-120%);
+    transform: translateY(-200%);
 }
 
 .show-result{
