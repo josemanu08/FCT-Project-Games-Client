@@ -163,6 +163,18 @@
     background-color: rgb(120, 14, 14);
 }
 
+.rating-indexes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.rating-indexes div{
+    text-align: center;
+    font-weight: 100;
+    flex-grow: 1;
+}
+
 @media screen and (max-width:700px) {
  
 }

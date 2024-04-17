@@ -76,7 +76,10 @@ export const HeaderDetails = ({ gameInfo }) => {
                         }
                     </div>
                     <div className="rating-indexes">
-
+                        <div className="index">Exceptional 🟢</div>
+                        <div className="index">Recommended 🔵</div>
+                        <div className="index">Meh 🟡</div>
+                        <div className="index">Skip 🔴</div>
                     </div>
                 </div>
             </div>
