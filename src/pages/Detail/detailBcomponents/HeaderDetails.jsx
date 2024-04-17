@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import { Description } from './headerDetailComponents/Description'
+import { TitleInfo } from '../components/TitleInfo'
 
 export const HeaderDetails = ({ gameInfo }) => {
   const ratings = {
@@ -9,18 +11,18 @@ export const HeaderDetails = ({ gameInfo }) => {
     skip: 'skip 💥'
   }
 
-  const ratingIcons = {
-    exceptional: '🌟',
-    recommended: '✅',
-    meh: '💨',
-    skip: '💥'
-  }
+  //   const ratingIcons = {
+  //     exceptional: '🌟',
+  //     recommended: '✅',
+  //     meh: '💨',
+  //     skip: '💥'
+  //   }
 
   console.log(gameInfo)
 
   const calcBestRating = (arr) => {
     return arr.filter(rating => {
-      return rating.count === Math.max(
+      return rating?.count === Math.max(
         ...arr.map(rate => rate.count)
       )
     }).pop()
@@ -52,7 +54,7 @@ export const HeaderDetails = ({ gameInfo }) => {
                 <div className="rating-info">
                     <div className="ratings">
                         <p className="type-of-rating">
-                            {ratings[calcBestRating(gameInfo.gi.ratings).title]}
+                            {ratings[calcBestRating(gameInfo?.gi?.ratings)?.title]}
                         </p>
                         <span className='total-ratings-mini detail-mini'>
                             {calcRating(gameInfo.gi.ratings)} Ratings
@@ -82,6 +84,7 @@ export const HeaderDetails = ({ gameInfo }) => {
                         <div className="index">Skip 🔴</div>
                     </div>
                 </div>
+                    <Description gameInfo={gameInfo}/>
             </div>
         </>
   )

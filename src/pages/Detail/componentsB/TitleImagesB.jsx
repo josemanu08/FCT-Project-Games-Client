@@ -9,14 +9,16 @@ export const TitleImagesB = ({ images }) => {
   return (
         <div className="title-images-container">
             {
-                images?.slice(0, 5)?.map((img, index) => (
-                  !index
-                    ? <img onClick={() => setModalData()} key={index} className='main-title-image' src={img.Uri} alt="" />
-                    : (
-                        <img onClick={() => setModalData()} key={index} className='secondary-title-image' src={img.Uri} alt="" />
-                      )
-                ))
-            }
+                  images?.slice(0, 5)?.map((img, index) => (
+                    !index
+                      ? (
+                          <img key={index} onClick={() => setModalData()} className='main-title-image' src={img.Uri} alt="" />
+                        )
+                      : (
+                          <img onClick={() => setModalData()} key={index} className='secondary-title-image' src={img.Uri} alt="" />
+                        )
+                  ))
+              }
         </div>
   )
 }

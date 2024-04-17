@@ -13,7 +13,7 @@ export const fetchAllGameInfo = async (name) => {
   const descriptionInfo = await secondResponse.json()
 
   result.developers = descriptionInfo.developers.map(dev => dev.name)
-  result.description = descriptionInfo.description_raw
+  result.description = descriptionInfo.description
   result.date = descriptionInfo.released
   result.background_image = descriptionInfo.background_image
   result.background_image_additional = descriptionInfo.background_image_additional
@@ -22,6 +22,8 @@ export const fetchAllGameInfo = async (name) => {
   result.metacritic = descriptionInfo.metacritic
   result.ratings = descriptionInfo.ratings
   result.rating_top = descriptionInfo.rating_top
+  result.tags = descriptionInfo.tags
+  result.platforms = descriptionInfo.platforms
 
   return result
 }

@@ -5,7 +5,7 @@ import { HeaderDetails } from './detailBcomponents/HeaderDetails'
 import { useLocation, useParams } from 'react-router-dom'
 import { useTrophyData } from '../../hooks/detailHooks'
 import { mapPlayImages } from '../../helpers/helpers'
-import { Header } from '../UserSite/components/Header'
+import { HeaderDetailsVersion } from '../UserSite/components/Header'
 
 export const DetailsB = () => {
   const location = useLocation()
@@ -18,7 +18,7 @@ export const DetailsB = () => {
       : (
         <>
         <div className="detail-view-container">
-          <Header></Header>
+          <HeaderDetailsVersion/>
            <div className="general-detail-view-container">
             <div style={{ color: 'white' }} className="detail-header-section">
                   <section className="first-details-header-section">
