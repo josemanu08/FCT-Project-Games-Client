@@ -216,6 +216,16 @@
     gap: 1rem;
 }
 
+.desc-text{
+    max-height: 10rem;
+    overflow: hidden;
+}
+
+.desc-check:checked ~ .desc-text {
+    max-height: unset;
+}
+
+
 @media screen and (max-width:700px) {
  
 }

@@ -62,7 +62,9 @@ export const Description = ({ gameInfo }) => {
             </div>
             <div className="title-description">
                 <span className='data-rain-span'>Description</span>
-                <p dangerouslySetInnerHTML={{ __html: description }}></p>
+                <input type="checkbox" id="desc-check" className='desc-check' hidden/>
+                <p className='desc-text' dangerouslySetInnerHTML={{ __html: description }}></p>
+                <label style={{ backgroundColor: 'white', color: 'black', width: 'min-content', textWrap: 'nowrap', padding: '.5rem', cursor: 'pointer' }} className='desc-check-label' htmlFor="desc-check">Show More</label>
             </div>
         </div>
   )

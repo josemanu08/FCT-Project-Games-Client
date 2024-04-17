@@ -25,7 +25,7 @@ export const DetailsB = () => {
                       <TitleImagesB images={
                           platform === 'psn'
                             ? mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)
-                            : trophyData.ti.imgs
+                            : trophyData?.ti?.imgs
                       }/>
                       <HeaderDetails gameInfo={trophyData}/>
                   </section>
