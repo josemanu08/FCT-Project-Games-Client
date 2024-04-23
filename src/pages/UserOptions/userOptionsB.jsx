@@ -15,8 +15,8 @@ export const UserOptionsB = () => {
                 <div className="connect-platforms">
                     <ConnectComponent platform={'xbox'}></ConnectComponent>
                     <ConnectComponent platform={'playstation'}></ConnectComponent>
-                    <ConnectComponent platform={'xbox'}></ConnectComponent>
-                    <ConnectComponent platform={'playstation'}></ConnectComponent>
+                    {/* <ConnectComponent platform={'xbox'}></ConnectComponent>
+                    <ConnectComponent platform={'playstation'}></ConnectComponent> */}
                 </div>
             </div>
         </div>

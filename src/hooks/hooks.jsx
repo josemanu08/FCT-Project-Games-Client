@@ -72,6 +72,7 @@ export const useXboxUserData = () => {
   const xblUsernameRef = useRef(null)
 
   const { xboxData, setXboxData } = useGameStore()
+
   useEffect(() => {
     const fetchData = async () => {
       let xboxUserData = null

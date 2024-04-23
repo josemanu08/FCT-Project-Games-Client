@@ -54,7 +54,7 @@ export const Description = ({ gameInfo }) => {
                             {
                                 tags.map((tag) => (
                                   tag.name
-                                )).slice(0, 11).join(' , ')
+                                )).slice(0, 11).join(' - ')
                             }
                         </p>
                     </li>
