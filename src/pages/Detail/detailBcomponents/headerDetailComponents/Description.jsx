@@ -64,7 +64,15 @@ export const Description = ({ gameInfo }) => {
                 <span className='data-rain-span'>Description</span>
                 <input type="checkbox" id="desc-check" className='desc-check' hidden/>
                 <p className='desc-text' dangerouslySetInnerHTML={{ __html: description }}></p>
-                <label style={{ backgroundColor: 'white', color: 'black', width: 'min-content', textWrap: 'nowrap', padding: '.5rem', cursor: 'pointer' }} className='desc-check-label' htmlFor="desc-check">Show More</label>
+                <label style={{
+                  backgroundColor: 'white',
+                  color: 'black',
+                  width: 'min-content',
+                  textWrap: 'nowrap',
+                  padding: '.1rem',
+                  cursor: 'pointer',
+                  borderRadius: '10px'
+                }} className='desc-check-label' htmlFor="desc-check">Show More</label>
             </div>
         </div>
   )

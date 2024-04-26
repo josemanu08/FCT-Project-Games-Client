@@ -26,10 +26,10 @@ export const TitleImagModalSlider = ({ images, changeIndex, index }) => {
               left: '-10px'
             }}>prev</button> */}
             {
-                images.map((img, index) => (
-                    <div className='slider-modal-dark-container' key={index}>
-                        <img className='img' onClick={() => changeIndex(index)} src={img.Uri} alt="" />
-                        <div className="slider-modal-dark"></div>
+                images.map((img, i) => (
+                    <div className='slider-modal-dark-container' key={i}>
+                        <img loading='lazy' className='img' onClick={() => changeIndex(i)} src={img.Uri} alt="" />
+                        <div className={`slider-modal-${index === i ? 'light' : 'dark'}`}></div>
                     </div>
                 ))
             }

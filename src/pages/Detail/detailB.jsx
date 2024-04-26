@@ -36,10 +36,15 @@ export const DetailsB = () => {
                   </section>
               </div>
               {/* CONTENIDO VA AQUÍ 😻😻😻 */}
-              <Trophies trophieList={trophyData.tr ?? trophyData.ti}/>
+              <Trophies trophieList={trophyData.tr ?? trophyData.ti} name={trophyData?.gi?.name}/>
            </div>
         </div>
-        <div className="linear-gradient-details-section" style={{ backgroundImage: `url("${trophyData.gi.background_image}")`, minHeight: '100vh' }}>
+        <div className="linear-gradient-details-section"
+        style={{
+          backgroundImage: `url("${trophyData.gi.background_image}")`,
+          minHeight: '100vh',
+          position: 'fixed'
+        }}>
 
         </div>
           <TitleImagesModal/>
