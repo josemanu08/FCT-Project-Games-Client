@@ -6,12 +6,14 @@ import { useLocation, useParams } from 'react-router-dom'
 import { useTrophyData } from '../../hooks/detailHooks'
 import { mapPlayImages } from '../../helpers/helpers'
 import { HeaderDetailsVersion } from '../UserSite/components/Header'
+import { Trophies } from './componentsB/Trophies'
 
 export const DetailsB = () => {
   const location = useLocation()
   const platform = location.pathname.split('/')[1]
   const params = useParams()
   const { isLoading, trophyData } = useTrophyData(params, location.pathname)
+
   return (
     !trophyData || isLoading
       ? '🐱'
@@ -34,6 +36,7 @@ export const DetailsB = () => {
                   </section>
               </div>
               {/* CONTENIDO VA AQUÍ 😻😻😻 */}
+              <Trophies trophieList={trophyData.tr ?? trophyData.ti}/>
            </div>
         </div>
         <div className="linear-gradient-details-section" style={{ backgroundImage: `url("${trophyData.gi.background_image}")`, minHeight: '100vh' }}>

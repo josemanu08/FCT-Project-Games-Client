@@ -18,8 +18,6 @@ export const HeaderDetails = ({ gameInfo }) => {
   //     skip: '💥'
   //   }
 
-  console.log(gameInfo)
-
   const calcBestRating = (arr) => {
     return arr.filter(rating => {
       return rating?.count === Math.max(
