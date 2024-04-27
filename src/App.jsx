@@ -5,8 +5,8 @@ import { usePlayStationUserData, useXboxUserData } from './hooks/hooks'
 import { ToastContainer } from 'react-toastify'
 
 function App () {
-  useXboxUserData()
-  usePlayStationUserData()
+  // useXboxUserData()
+  // usePlayStationUserData()
   return (
     <BrowserRouter>
       <Roots/>

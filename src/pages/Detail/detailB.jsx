@@ -8,13 +8,13 @@ import { mapPlayImages } from '../../helpers/helpers'
 import { HeaderDetailsVersion } from '../UserSite/components/Header'
 import { Trophies } from './componentsB/Trophies'
 import { ModalStickyTop } from './componentsB/ModalStickyTop'
+import { SeriesGames } from './detailBcomponents/SeriesGames'
 
 export const DetailsB = () => {
   const location = useLocation()
   const platform = location.pathname.split('/')[1]
   const params = useParams()
   const { isLoading, trophyData } = useTrophyData(params, location.pathname)
-
   return (
     !trophyData || isLoading
       ? '🐱'
@@ -25,15 +25,15 @@ export const DetailsB = () => {
            <div className="general-detail-view-container">
             <div style={{ color: 'white' }} className="detail-header-section">
                   <section className="first-details-header-section">
-                      <TitleImagesB images={
-                          platform === 'psn'
-                            ? mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)
-                            : trophyData?.ti?.imgs
-                      }/>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+                        <TitleImagesB images={
+                            platform === 'psn'
+                              ? mapPlayImages(trophyData.gi.background_image, trophyData.gi.screen_shots)
+                              : trophyData?.ti?.imgs
+                        }/>
+                        <SeriesGames/>
+                      </div>
                       <HeaderDetails gameInfo={trophyData}/>
-                  </section>
-                  <section className="last-details-header-section">
-
                   </section>
               </div>
               {/* CONTENIDO VA AQUÍ 😻😻😻 */}

@@ -1,0 +1,768 @@
+
+{
+    "xblTitles": [
+        {
+            "userId": "2535430809538288",
+            "id": "2071061510",
+            "name": "Lies of P",
+            "currentAchievements": 8,
+            "percentaje": 12,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.58819.14167207133116460.47e9afed-5648-49f3-aa78-034a762fbc26.613fed17-69cd-4ca8-bec7-7b0bd2218d78",
+            "earnedTrophies": 8,
+            "currentGamerscore": 120,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-10-29T16:34:38.2161642Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1610974574",
+            "name": "Cocoon",
+            "currentAchievements": 4,
+            "percentaje": 18,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.30735.13933554322251706.0a9bd242-c253-4ad3-882f-a5699d708be5.259c1ea8-80a0-455a-98eb-ba1219b63577",
+            "earnedTrophies": 4,
+            "currentGamerscore": 180,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-10-21T12:13:23.51081Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2008811924",
+            "name": "Wolfenstein II: The New Colossus",
+            "currentAchievements": 1,
+            "percentaje": 1,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.58313.13962055139666078.986125ff-0b8d-449b-b456-2db23128a1e6.0f6a9a4f-97c4-427f-af42-9e88e86a8817",
+            "earnedTrophies": 1,
+            "currentGamerscore": 10,
+            "totalGamerscore": 1540,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2023-09-18T21:39:03.2302883Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "964706972",
+            "name": "No Man's Sky",
+            "currentAchievements": 6,
+            "percentaje": 18,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.63871.68818099466568894.6b028de3-f3ab-4b84-be2b-561cec03a5e4.4e8c2348-336b-44d9-8aa2-8129cc7e098e",
+            "earnedTrophies": 6,
+            "currentGamerscore": 176,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-09-18T21:13:16.0982389Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1756491555",
+            "name": "Dishonored 2",
+            "currentAchievements": 2,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.10911.13846412966040921.9e60d32b-6c69-44a3-9f94-dcaf3d33e79c.45af2576-b58c-40e4-85d1-8efd66230aa0",
+            "earnedTrophies": 2,
+            "currentGamerscore": 25,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2023-09-16T15:44:52.3143799Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1613348546",
+            "name": "Sea of Stars",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.21103.13704965593711325.c8ed22ec-c56d-4ecd-bbbf-e9f6934161c4.7af47ffa-9b22-44e3-a65e-3fa2aaf99fe1",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-09-16T15:03:09.5306764Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1931947471",
+            "name": "Persona 5 Royal",
+            "currentAchievements": 13,
+            "percentaje": 22,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.31915.14482474285447263.b2785fbb-9099-42c3-b705-629a79ac7e4a.4470d5d0-9edf-43fe-8b90-eb09ff0eb7cf",
+            "earnedTrophies": 13,
+            "currentGamerscore": 220,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-09-14T21:45:01.958518Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2080211397",
+            "name": "Stardew Valley",
+            "currentAchievements": 9,
+            "percentaje": 11,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.60729.13838479673159593.08fca22c-85fe-467d-8f34-cca2715208c0.851da9d8-785c-41b3-914a-3b0888956c97",
+            "earnedTrophies": 9,
+            "currentGamerscore": 110,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2023-09-13T20:49:05.4558257Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2059211995",
+            "name": "Hollow Knight: Edición Corazón Vacío",
+            "currentAchievements": 30,
+            "percentaje": 26,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.45475.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.6bfdce99-7440-4f6a-9bfb-2c89da4e90f6",
+            "earnedTrophies": 30,
+            "currentGamerscore": 255,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-09-13T15:15:13.3706839Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1628688048",
+            "name": "Atomic Heart",
+            "currentAchievements": 1,
+            "percentaje": 1,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.24332.13535329055099418.082ed7bb-5194-4ea8-9fa9-c54f61a9ec1d.9d860267-4459-424b-912a-2b6b4b08e807",
+            "earnedTrophies": 1,
+            "currentGamerscore": 15,
+            "totalGamerscore": 1150,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2023-02-22T20:19:39.4171151Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2103789015",
+            "name": "Monster Hunter Rise",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.20430.13964127228191263.1e380cc1-7db3-433f-a0fb-1cfb65b83ff5.656026c4-5178-4926-ba85-728dd0bb5500",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 2000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2023-01-24T22:18:14.8816165Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2146285435",
+            "name": "Stranded Deep",
+            "currentAchievements": 2,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.24111.14373090659659838.55645f8c-9c97-409d-a96b-0370db399d87.bda5a065-e531-46d1-aeed-6825091a2fe3",
+            "earnedTrophies": 2,
+            "currentGamerscore": 20,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2023-01-09T22:17:39.6563488Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "629270283",
+            "name": "Gang Beasts",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.2195.68150164172276526.ddc374d7-ef5e-43b9-940a-bbc04440bb33.864a4f4c-c733-4795-99b0-feeb5c430a7d",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-12-13T21:52:27.5702153Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1622132960",
+            "name": "Dead Cells",
+            "currentAchievements": 7,
+            "percentaje": 3,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.28912.13719691835186674.79361d33-7a18-4554-8a50-66b60d3712e6.c6a6a941-82c2-43b3-ba3e-c53428df00a6",
+            "earnedTrophies": 7,
+            "currentGamerscore": 80,
+            "totalGamerscore": 2430,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-10-03T16:39:47.1675974Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1794566092",
+            "name": "Minecraft Launcher",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.1815.14247769038588514.a7fa20d7-bc1c-464b-bf78-16dfcd742fe5.20b70e8c-ab2e-45b9-b8c3-2390ebb38f59",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 0,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-09-27T16:01:39.5886869Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2102465429",
+            "name": "Coffee Talk",
+            "currentAchievements": 2,
+            "percentaje": 4,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.39999.13910765112993759.52362bf2-618d-426a-a739-5972299c2d98.b450b32b-9e5a-4c16-90c6-b189cb11f7de",
+            "earnedTrophies": 2,
+            "currentGamerscore": 40,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-09-18T15:30:48.3132084Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1624264477",
+            "name": "Taiko no Tatsujin: The Drum Master!",
+            "currentAchievements": 6,
+            "percentaje": 3,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.58852.13980019201559875.aec73d0a-f04a-40ef-9225-cb76c934a463.1089e196-a96d-488c-aadb-1c1dd0a3c244",
+            "earnedTrophies": 6,
+            "currentGamerscore": 30,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-09-11T13:55:57.0655613Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2098787950",
+            "name": "Age of Empires IV: Edición Aniversario",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.39795.13544212316148791.0ab819ba-bbe9-4cd3-a296-1f2cb4ece49d.84bb4d06-ab0c-4b47-ad25-579eeb185c6e",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1580,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-09-05T13:07:40.0539434Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1718545023",
+            "name": "Sunset Overdrive",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.55299.13736301732248840.1e2d854a-e5e9-4c32-b8a1-2630937d19b9.03244896-e61b-4b5b-b089-cb85018ff10a",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1745,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-09-04T14:23:27.6247959Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "896928775",
+            "name": "Minecraft for Windows",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.42935.13510798885735219.8eacc7d3-814e-4494-a5c5-1ab4cc07e271.f4290b87-32f3-4292-be44-13b45485fce5",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 2870,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-09-02T00:31:22.6823577Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "885488152",
+            "name": "INSIDE",
+            "currentAchievements": 1,
+            "percentaje": 7,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.26010.65290118777571754.27f1da0f-d581-4307-9bec-41016a2e5567.7b9d8bfe-920c-447d-a3f0-fa336b8d077f",
+            "earnedTrophies": 1,
+            "currentGamerscore": 70,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-08-28T22:06:59.496406Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1642907564",
+            "name": "Death Stranding",
+            "currentAchievements": 5,
+            "percentaje": 5,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.39647.13663829610144979.e276021e-d4cd-43ae-bc1d-db22240213c6.4c4b0d7b-baf2-4fcd-98e5-908aec34e3d2",
+            "earnedTrophies": 5,
+            "currentGamerscore": 50,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-08-24T12:10:18.6529622Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1790216132",
+            "name": "Hades",
+            "currentAchievements": 2,
+            "percentaje": 5,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.21604.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.341dc6a4-6800-400a-9ceb-ac8440332943",
+            "earnedTrophies": 2,
+            "currentGamerscore": 50,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-08-19T11:40:36.4209508Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1848088335",
+            "name": "Subnautica: Below Zero",
+            "currentAchievements": 2,
+            "percentaje": 10,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.32329.13546341381523259.8f30b71b-aac8-4816-a999-212ef85f8876.bc28be85-690a-4078-8fc9-6812d33fb980",
+            "earnedTrophies": 2,
+            "currentGamerscore": 100,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-08-17T17:02:12.3900421Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "625948041",
+            "name": "Slime Rancher",
+            "currentAchievements": 5,
+            "percentaje": 6,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.31719.65571960709588388.6e3322f5-d49a-48f6-ac1e-c5450bd5b3e2.114ce25e-4e9b-4a53-bfc9-5eb77a194e2a",
+            "earnedTrophies": 5,
+            "currentGamerscore": 55,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-08-14T22:29:04.9181357Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1727613823",
+            "name": "Overcooked! 2",
+            "currentAchievements": 3,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.17977.14184096619580431.16c3e5f6-74be-48c7-9949-1a76b080c9d9.be69e859-f4d8-470e-8518-ecea1f8c9bb9",
+            "earnedTrophies": 3,
+            "currentGamerscore": 60,
+            "totalGamerscore": 3000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-08-12T12:33:37.7429351Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1884076770",
+            "name": "Visage",
+            "currentAchievements": 5,
+            "percentaje": 11,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.56472.14131226080888824.022eb486-21db-4eed-bb40-6811df081911.996858b5-531c-4825-bf69-b096762e4a19",
+            "earnedTrophies": 5,
+            "currentGamerscore": 110,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-08-11T15:40:47.2851839Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "836165876",
+            "name": "The Ascent",
+            "currentAchievements": 1,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.43846.65332188737297236.e956bc32-e423-4920-b547-86181e7ed68d.5374793f-edc7-46b6-8a4f-6270a1154bb4",
+            "earnedTrophies": 1,
+            "currentGamerscore": 5,
+            "totalGamerscore": 1425,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-27T14:17:30.6838522Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1950602651",
+            "name": "Surgeon Simulator 2",
+            "currentAchievements": 9,
+            "percentaje": 22,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.20687.14497342353110502.f4b22cdd-425b-4b45-afde-2f6d3f3ecad4.f1d8571b-c9bb-4d1c-bf26-f531ab7efb2a",
+            "earnedTrophies": 9,
+            "currentGamerscore": 220,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-07-23T16:45:55.4143847Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1696012554",
+            "name": "Goat Simulator Windows 10",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.421.13882037073203566.da1afb62-bb11-43df-b6aa-9b0deb8f35d9.34fdb2d0-0110-4220-8ea0-2ececb013862",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 2375,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-07-23T16:36:07.6682884Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1778148060",
+            "name": "Little Witch in the Woods (Game Preview)",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.2960.14301619139286382.fe333953-9667-4a52-a6da-789301fea3ca.5aa04ac9-1d35-4f2b-bd14-b536034f06ea",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 0,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-23T12:12:46.1586468Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "415619002",
+            "name": "Watch Dogs®2",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.15364.69997608528322872.06dc9610-5c4e-484e-b028-58ad215e637a.ab2ff32b-6ec5-40b7-9492-471c12708bf0",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1260,
+            "titlePlatforms": [
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-22T10:48:56.1921757Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1718697574",
+            "name": "OCTOPATH TRAVELER",
+            "currentAchievements": 4,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.18141.13539010844025035.cd25451c-c47c-45c8-b378-724488a9e769.8071ec1d-5580-4953-94a4-08c603c7e808",
+            "earnedTrophies": 4,
+            "currentGamerscore": 20,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-22T00:34:06.2360201Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1819798709",
+            "name": "Tetris® Effect: Connected",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.62047.14331659527374482.009c90f5-1029-4e90-879f-365d3684bc53.2b3c7222-0106-4a9f-9be3-d3796edfcdb9",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-20T22:23:48.7020244Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2037558339",
+            "name": "Mi Amiga, Peppa Pig",
+            "currentAchievements": 1,
+            "percentaje": 8,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.45211.13613420443671332.a6ea2e8e-4acd-4934-b589-2d8cfaba7189.1d75657e-f5d4-47cb-9cec-ac9c391bf3a0",
+            "earnedTrophies": 1,
+            "currentGamerscore": 80,
+            "totalGamerscore": 1000,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-20T21:56:31.0588093Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1688839217",
+            "name": "The Elder Scrolls V: Skyrim Special Edition (PC)",
+            "currentAchievements": 2,
+            "percentaje": 1,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.4794.14468615562328340.fdd2a6d3-ed01-4e8e-805a-630a8e7dcd61.86ec042a-e701-477f-a9a3-3b041045512b",
+            "earnedTrophies": 2,
+            "currentGamerscore": 20,
+            "totalGamerscore": 1550,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-07-16T11:24:28.6505016Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1679589975",
+            "name": "Mortal Shell: Enhanced Edition",
+            "currentAchievements": 1,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.13922.14112185653659482.b5e15e3a-13c2-47bd-9e60-7709b165611f.e76bb7ff-4c36-43fa-bf17-510994277fd2",
+            "earnedTrophies": 1,
+            "currentGamerscore": 25,
+            "totalGamerscore": 1300,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-07-07T11:58:31.9838623Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1855217179",
+            "name": "Golf With Your Friends (Windows Version)",
+            "currentAchievements": 4,
+            "percentaje": 3,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.11186.13862246495458326.a7005640-1d45-4dba-a6e1-d326964693f6.e4e5f966-a084-46c0-9ac7-f313940a6179",
+            "earnedTrophies": 4,
+            "currentGamerscore": 50,
+            "totalGamerscore": 1585,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-07-01T17:43:54.0690508Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2013511408",
+            "name": "DOOM Eternal (BATTLEMODE - PC)",
+            "currentAchievements": 4,
+            "percentaje": 9,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.447.14607483449828807.1bf8995c-7221-490e-a6d4-8718054337ce.45c5c13d-7a5c-4a3d-8b78-8db811dad69d",
+            "earnedTrophies": 4,
+            "currentGamerscore": 140,
+            "totalGamerscore": 1545,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-07-01T12:34:13.1951244Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1992453063",
+            "name": "Among Us",
+            "currentAchievements": 10,
+            "percentaje": 25,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.16094.13589262686196899.16e3418a-cbf2-4748-9724-1c9dc9b7a0b9.476dcb12-abc8-433a-ac3c-858a44939d8f",
+            "earnedTrophies": 10,
+            "currentGamerscore": 295,
+            "totalGamerscore": 1180,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-06-21T14:33:24.0740784Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "568182861",
+            "name": "ASTRONEER",
+            "currentAchievements": 15,
+            "percentaje": 20,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.50495.13510798887933723.c3a2d497-e717-463e-a426-2c119e62b161.15485972-0917-4d1e-86e8-111fb4c8cce1",
+            "earnedTrophies": 15,
+            "currentGamerscore": 210,
+            "totalGamerscore": 1075,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-06-20T17:13:46.7252116Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "2146688994",
+            "name": "Fallout 4 (PC)",
+            "currentAchievements": 4,
+            "percentaje": 2,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.39982.14613388726525330.ccebbfd9-01aa-43e4-b204-dee87aaf3bf7.40fd0f9a-f75c-47fa-9d13-9b349254781f",
+            "earnedTrophies": 4,
+            "currentGamerscore": 40,
+            "totalGamerscore": 1600,
+            "titlePlatforms": [
+                "PC"
+            ],
+            "lastUpdated": "2022-06-13T14:41:57.4654682Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "162448742",
+            "name": "Outer Wilds",
+            "currentAchievements": 0,
+            "percentaje": 0,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.38686.67120997535715720.38c3e502-0019-4560-826e-634bbaf5cb4b.26a27298-66b5-489a-83dc-b1741a12905f",
+            "earnedTrophies": 0,
+            "currentGamerscore": 0,
+            "totalGamerscore": 1870,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-05-08T16:33:50.7508908Z"
+        },
+        {
+            "userId": "2535430809538288",
+            "id": "1717113201",
+            "name": "Sea of Thieves: 2024 Edition",
+            "currentAchievements": 14,
+            "percentaje": 3,
+            "platform": "xbox",
+            "icon": "http://store-images.s-microsoft.com/image/apps.56766.14554784103656548.1bd22c11-ff12-4b02-9b49-1355a5fc9de6.39a78b6a-b180-4000-92eb-149e78325cb5",
+            "earnedTrophies": 14,
+            "currentGamerscore": 140,
+            "totalGamerscore": 5210,
+            "titlePlatforms": [
+                "PC",
+                "XboxOne",
+                "XboxSeries"
+            ],
+            "lastUpdated": "2022-05-07T13:38:48.785715Z"
+        }
+    ],
+    "xblProfile": {
+        "username": "LyricPepper7852",
+        "icon": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JQTCzxmbjUmjf26I9iWDnY.LUElEpm2wN7Xlmymxprvl&format=png",
+        "gamerScore": "3021",
+        "tier": "Silver",
+        "total": 183
+    },
+    "xboxGameImage": null
+}

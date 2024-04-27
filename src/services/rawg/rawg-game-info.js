@@ -25,6 +25,14 @@ export const fetchAllGameInfo = async (name) => {
   })
   const descriptionInfo = await secondResponse.json()
 
+  const seriesRes = await fetch(`/api/games/${result.id}/game-series?key=${RAWG_API_KEY}`)
+  const series = await seriesRes.json()
+
+  const dlcsRes = await fetch(`/api/games/${result.id}/additions?key=${RAWG_API_KEY}`)
+  const dlcs = await dlcsRes.json()
+
+  result.series = series.results
+  result.dlcs = dlcs.results
   result.developers = descriptionInfo.developers.map(dev => dev.name)
   result.description = descriptionInfo.description
   result.date = descriptionInfo.released

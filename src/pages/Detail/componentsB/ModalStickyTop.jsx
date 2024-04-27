@@ -46,7 +46,7 @@ export const ModalStickyTop = () => {
                         <p className='modal-sticky-date'>{gameDetail?.gi?.date}</p>
                     </li>
                     <li>
-                        <p className='modal-sticky-metacritic'>{gameDetail?.gi?.metacritic}</p>
+                        <p className='modal-sticky-metacritic metacritic-small'>{gameDetail?.gi?.metacritic}</p>
                     </li>
                 </ul>
             </div>

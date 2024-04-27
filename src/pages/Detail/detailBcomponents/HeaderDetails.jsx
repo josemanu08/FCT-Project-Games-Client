@@ -66,13 +66,14 @@ export const HeaderDetails = ({ gameInfo }) => {
                         <p className="metacritic-score">{gameInfo.gi.metacritic}</p>
                     </div>
                 </div>
-
                 <div className="ratings-visual-info">
                     <div className="rating-label-coloritos">
                         {
-                            gameInfo.gi.ratings.map((rating, index) => (
+                            gameInfo.gi.ratings
+                              .sort((a, b) => b.id - a.id)
+                              .map((rating, index) => (
                                 <section style={{ width: `${rating.percent}%` }} key={index} className={`visual-slice ${rating.title}`}/>
-                            ))
+                              ))
                         }
                     </div>
                     <div className="rating-indexes">

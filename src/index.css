@@ -16,7 +16,8 @@
 @import url('./CSS/Details/detailB.css');
 @import url('./CSS/Details/trophies.css');
 @import url('./CSS/Details/modal-sticky-top.css');
-
+@import url('./CSS/Details/series-games.css');
+@import url('./CSS/Details/show-more.css');
 *{
     box-sizing: border-box;
     margin: 0%;

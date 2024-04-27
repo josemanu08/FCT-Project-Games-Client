@@ -1,0 +1,1240 @@
+{
+    "psnTitles": [
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11234_00",
+            "name": "ABZÛ",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 5,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11234_00_00CBB876963299D0183BE0D1EB680CEAE2E59002FE/027A538FA28DB176BAD0EE4DF64F39E6C86B24FF.PNG",
+            "definedTrophies": 12,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2022-12-03T21:46:00Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11594_00",
+            "name": "Darkest Dungeon",
+            "currentAchievements": {
+                "bronze": 20,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 20,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11594_00_002956A58F38BBF315A433C12A2D97098963A82D35/F8D70845A18AFC6005443A7F493A72D54BBF1F66.PNG",
+            "definedTrophies": 63,
+            "earnedTrophies": 20,
+            "titlePlatforms": "PSVITA,PS4",
+            "lastUpdated": "2021-12-29T16:38:54Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR04270_00",
+            "name": "Terraria",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR04270_00_0022396415F240178A00F09426BFC3D467DB3A10DE/728F695A98AD44DA1238DAF81C849033E966B0C1.PNG",
+            "definedTrophies": 48,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS3,PSVITA,PS4",
+            "lastUpdated": "2021-12-24T15:47:14Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR20195_00",
+            "name": "FIFA 21",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR20195_00_005B84D81537A0B8DBD65D3F13CB99304EC013E276/F0E8BFFF595D3FEA875FF7C9B0054443FF5CB2E9.PNG",
+            "definedTrophies": 37,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-11-05T19:02:37Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11536_00",
+            "name": "The Witcher 3: Wild Hunt – Game of the Year Edition",
+            "currentAchievements": {
+                "bronze": 17,
+                "silver": 1,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 26,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11536_00_00F5F39957CE84E93F3080AAEF4E3821EDEC8487CE/BA92D0E72B2CB43740F146C908FA0923C0B7F690.PNG",
+            "definedTrophies": 79,
+            "earnedTrophies": 19,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-09-26T10:11:01Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16297_00",
+            "name": "Hollow Knight",
+            "currentAchievements": {
+                "bronze": 12,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 20,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16297_00_00480B1D9C4B2C263C4EEC8DDB80CEF12063AE2D6C/41BE283891111B51D79B70448673F99CFEF48238.PNG",
+            "definedTrophies": 35,
+            "earnedTrophies": 13,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-09-16T14:27:16Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR07897_00",
+            "name": "DARK SOULS III",
+            "currentAchievements": {
+                "bronze": 26,
+                "silver": 9,
+                "gold": 3,
+                "platinum": 0
+            },
+            "percentaje": 88,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR07897_00_00B1B88693A993473272413EDB83CC197E895B34D1/3F49215DC1A348E47575B58B205808F148F3D3A8.PNG",
+            "definedTrophies": 43,
+            "earnedTrophies": 38,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-09-10T14:47:33Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR18273_00",
+            "name": "Blasphemous",
+            "currentAchievements": {
+                "bronze": 19,
+                "silver": 5,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 41,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR18273_00_0001D2C533C56B26024EA5A523E8682E6224F9D893/56FF1C79D5C81E6C2D134C36F7CFA2E5FDB0CDC8.PNG",
+            "definedTrophies": 46,
+            "earnedTrophies": 24,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-09-06T15:21:17Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR05706_00",
+            "name": "Minecraft: PlayStation®4 Edition",
+            "currentAchievements": {
+                "bronze": 36,
+                "silver": 6,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 22,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR05706_00_003C44BDCCF6EB21301F194F8CEF00BD1F4DC538D0/82D9739A2BD62B99475DD8B0E1ABE8C33C7A58D1.PNG",
+            "definedTrophies": 127,
+            "earnedTrophies": 42,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-09-02T15:07:22Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR20567_00",
+            "name": "Minecraft: PlayStation®4 Edition Set 2",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR20567_00_00EB1693CD75B00EF3CAD0D20B219CB4B01629F9EE/EDE580566744E9734D576CBF7E47FAD7E8EC1CBE.PNG",
+            "definedTrophies": 14,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-08-22T18:12:55Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR24322_00",
+            "name": "Hades",
+            "currentAchievements": {
+                "bronze": 15,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 25,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR24322_00_0021C797EF79A00DA0D072E5CFA10EE9875962377E/54D909D024B7AFF845421D717D571B85CB833B22.PNG",
+            "definedTrophies": 50,
+            "earnedTrophies": 16,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-08-22T12:36:31Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR21233_00",
+            "name": "Genshin Impact",
+            "currentAchievements": {
+                "bronze": 23,
+                "silver": 9,
+                "gold": 2,
+                "platinum": 0
+            },
+            "percentaje": 32,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR21233_00_0073A8E47CEEA74176FE1AF93F111B4719D96D9319/CE6602CCD55D657FC48F1C078CB5AC38298AFA7F.PNG",
+            "definedTrophies": 93,
+            "earnedTrophies": 34,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-08-12T13:34:52Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR18921_00",
+            "name": "STAR WARS Jedi: Fallen Order",
+            "currentAchievements": {
+                "bronze": 2,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 3,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR18921_00_007F35A3124F896460E9067DB88203B9F90D5D610E/73EB07D4EEBE8EEDFEF84DB7C30DB43941B75ED6.PNG",
+            "definedTrophies": 40,
+            "earnedTrophies": 2,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-08-06T09:31:22Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR19904_00",
+            "name": "Resident Evil Village",
+            "currentAchievements": {
+                "bronze": 27,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 34,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR19904_00_00500ADADD2AA388911E637EE6A1B66B6F259FA3CA/608E2951C65C8140F5C709D6471D8B8820FE6C29.PNG",
+            "definedTrophies": 57,
+            "earnedTrophies": 28,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-07-18T10:26:44Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR05424_00",
+            "name": "Battlefield 4™ Trophies",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 2,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR05424_00_0079D3A7D09DC0290E8C4768B457E1E74B3187007B/1A675DE737EB2AAF7B5B0ACA34F48651F855A203.PNG",
+            "definedTrophies": 68,
+            "earnedTrophies": 2,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-07-02T13:06:26Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11556_00",
+            "name": "Horizon Zero Dawn",
+            "currentAchievements": {
+                "bronze": 13,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 13,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11556_00_005122C6D8E4545DAC325B8E748CBE7180ED11F3E7/F24674E946809EB0A2E214DB490149851BCEC0EC.PNG",
+            "definedTrophies": 79,
+            "earnedTrophies": 13,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-05-19T19:13:13Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08041_00",
+            "name": "The Binding of Isaac: Rebirth",
+            "currentAchievements": {
+                "bronze": 25,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 22,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08041_00_00F2C8472E8988D36B6C3803E3C616A3F2FB5A1B75/4A1D846AC30CDEA9CED066E4E3216AD1CB3A0522.PNG",
+            "definedTrophies": 80,
+            "earnedTrophies": 25,
+            "titlePlatforms": "PSVITA,PS4",
+            "lastUpdated": "2021-05-08T18:46:31Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16456_00",
+            "name": "Subnautica",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 3,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 10,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16456_00_00D83DF983279D9E293C2E57AFE1D673C00B6CFA6F/4C33FA08A30F3C9E928BAA5DFE958F9BBA6C2308.PNG",
+            "definedTrophies": 18,
+            "earnedTrophies": 4,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-04-04T12:14:36Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR09167_00",
+            "name": "Marvel's Spider-Man",
+            "currentAchievements": {
+                "bronze": 5,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 4,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR09167_00_007280BC379B5701D2D862A6574F73488DA1CDFBBA/871AF040ECAA2A94B7EB5534E062AEAF13D72C35.PNG",
+            "definedTrophies": 74,
+            "earnedTrophies": 5,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-03-05T16:44:37Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08899_00",
+            "name": "Battlefield™ 1",
+            "currentAchievements": {
+                "bronze": 7,
+                "silver": 1,
+                "gold": 3,
+                "platinum": 0
+            },
+            "percentaje": 24,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08899_00_001891ED8293FFF90576760D044E5454B54BB0D954/96892FCC6A36A90EF0FBA3EA18BDD505EC8EFFA8.PNG",
+            "definedTrophies": 51,
+            "earnedTrophies": 11,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-01-29T12:44:55Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR05818_00",
+            "name": "Bloodborne",
+            "currentAchievements": {
+                "bronze": 24,
+                "silver": 8,
+                "gold": 7,
+                "platinum": 1
+            },
+            "percentaje": 100,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR05818_00_00347A646D41E9660F4153AD7A0274E2BC597C5A27/AE3477BA91121142BEB82AB2B7E2F8BAB9B3C17A.PNG",
+            "definedTrophies": 40,
+            "earnedTrophies": 40,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2021-01-03T17:04:21Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR07466_00",
+            "name": "Rocket League®",
+            "currentAchievements": {
+                "bronze": 16,
+                "silver": 3,
+                "gold": 2,
+                "platinum": 0
+            },
+            "percentaje": 19,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR07466_00_002B372EA023E6E03E3194E148C0B2BF285AD8CE49/7E97D451B278DACDDD0CA8D59AFF7BF62E1A6560.PNG",
+            "definedTrophies": 88,
+            "earnedTrophies": 21,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-11-22T12:19:44Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR15848_00",
+            "name": "Apex Legends Trophies",
+            "currentAchievements": {
+                "bronze": 6,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 42,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR15848_00_008BC9A05BFCFBD29B41A5754F800C13CEFABEF9A6/23AF0541103856EFD84691686E19081C4F3A20DE.PNG",
+            "definedTrophies": 12,
+            "earnedTrophies": 7,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-09-12T14:52:31Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13281_00",
+            "name": "DARK SOULS™: REMASTERED",
+            "currentAchievements": {
+                "bronze": 10,
+                "silver": 15,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 65,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13281_00_00A03E8F7ED2727FADE2548E45F2781D32F5D048F6/B26EE8644603C33DBEB01C4E172FB4972D069B2E.PNG",
+            "definedTrophies": 41,
+            "earnedTrophies": 26,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-08-31T11:52:28Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR19418_00",
+            "name": "Fall Guys",
+            "currentAchievements": {
+                "bronze": 14,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 23,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR19418_00_00DD64BDB8FDDEC62DE6E561F32D6232100339A04A/4E1DE7EDED859551704FF395BA37CADEB296E48D.PNG",
+            "definedTrophies": 35,
+            "earnedTrophies": 15,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-08-22T14:56:30Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR15120_00",
+            "name": "Ghost of Tsushima",
+            "currentAchievements": {
+                "bronze": 40,
+                "silver": 9,
+                "gold": 2,
+                "platinum": 1
+            },
+            "percentaje": 64,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR15120_00_00736F40BFE5A427C57A238478A141FABB81ABA3C7/F7780A7B9141F2A1D0B68E578787D962D7F69C31.PNG",
+            "definedTrophies": 77,
+            "earnedTrophies": 52,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-08-09T09:55:39Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11453_00",
+            "name": "Rise of the Tomb Raider",
+            "currentAchievements": {
+                "bronze": 6,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 4,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11453_00_00094E790F4EFEFE2495B522E982D20528432FF99A/149075FB4FB57A1F3BA94F2B1DF479347405AC40.PNG",
+            "definedTrophies": 125,
+            "earnedTrophies": 6,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-07-21T14:55:38Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13830_00",
+            "name": "Undertale",
+            "currentAchievements": {
+                "bronze": 11,
+                "silver": 6,
+                "gold": 2,
+                "platinum": 0
+            },
+            "percentaje": 54,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13830_00_007F59675B4A098391DE71D49D125882FCC6A81D35/7C414F13F9EF22F6D2834BCD897C1596B7FAC709.PNG",
+            "definedTrophies": 30,
+            "earnedTrophies": 19,
+            "titlePlatforms": "PSVITA,PS4",
+            "lastUpdated": "2020-07-20T13:45:17Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13348_00",
+            "name": "The Last of Us™ Part II",
+            "currentAchievements": {
+                "bronze": 10,
+                "silver": 8,
+                "gold": 6,
+                "platinum": 0
+            },
+            "percentaje": 87,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13348_00_00B23E79CB15709D3B459815B6DE97B0885530CFC3/4F0195E8FBCEF12F5410716F3E4C409DB6A098CF.PNG",
+            "definedTrophies": 28,
+            "earnedTrophies": 24,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-07-06T18:47:09Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR12518_00",
+            "name": "God of War",
+            "currentAchievements": {
+                "bronze": 22,
+                "silver": 5,
+                "gold": 5,
+                "platinum": 0
+            },
+            "percentaje": 88,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR12518_00_009C1232E900005FE409857E926767DFE9CAC7F371/CCDC60CADE4B3970C348FEFDE0094BA95C0A802F.PNG",
+            "definedTrophies": 37,
+            "earnedTrophies": 32,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-06-06T14:01:56Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11595_00",
+            "name": "Call of Duty®: WWII",
+            "currentAchievements": {
+                "bronze": 17,
+                "silver": 6,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 28,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11595_00_00F101528D668EF21B72E363608FEB3858F77AD165/31356DA924E250168437704E9D2978C6B9AEF54F.PNG",
+            "definedTrophies": 91,
+            "earnedTrophies": 24,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-05-30T17:38:30Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08516_00",
+            "name": "Overwatch 2",
+            "currentAchievements": {
+                "bronze": 13,
+                "silver": 4,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 26,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08516_00_001AE9FF0FAAF27A158B0F4BFB3278F58708E28EE7/0F7A155F3C419377AD2EF1FB4947B6A43617900E.PNG",
+            "definedTrophies": 92,
+            "earnedTrophies": 18,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-05-25T15:52:59Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08801_00",
+            "name": "Call of Duty®: Black Ops III",
+            "currentAchievements": {
+                "bronze": 9,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 8,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08801_00_00164BF2B729BCF4C3F5083E55A49F3BCD6E4A0F91/CFA5D56C27423A504D7F63AEB01033BED6EB50D1.PNG",
+            "definedTrophies": 99,
+            "earnedTrophies": 10,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-05-15T10:50:08Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16225_00",
+            "name": "DEATH STRANDING",
+            "currentAchievements": {
+                "bronze": 44,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 66,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16225_00_006906B876F2390DAAF9A6AA80D6761A6F43F4F2E5/EB42A2C5A822DFD386DB457123C7EF1D08E5455A.PNG",
+            "definedTrophies": 63,
+            "earnedTrophies": 45,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-04-30T17:26:07Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR09798_00",
+            "name": "Uncharted: Drake’s Fortune™ Remastered",
+            "currentAchievements": {
+                "bronze": 6,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 9,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR09798_00_0004C451BA0D520B43DBB2C20D0EB0B47AEEB9FEAF/B4203E044C57963E48475359B3DF9E0C5E3885FC.PNG",
+            "definedTrophies": 54,
+            "earnedTrophies": 7,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-04-22T10:46:23Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR06221_00",
+            "name": "Grand Theft Auto V",
+            "currentAchievements": {
+                "bronze": 15,
+                "silver": 4,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 21,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR06221_00_00943B71B23B3A5D98EB6CA419684E0F0A07FA8707/A3E52C438318CCEC6346EB2A31DBF31164A95A25.PNG",
+            "definedTrophies": 78,
+            "earnedTrophies": 19,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-04-11T17:40:09Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR09412_00",
+            "name": "Red Dead Redemption 2",
+            "currentAchievements": {
+                "bronze": 26,
+                "silver": 1,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 48,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR09412_00_005BE1C07B44C5D5137CFF609DF9C1BD125CE56787/E1C7515ADB58B892CCC0BB0D0F94512963E11203.PNG",
+            "definedTrophies": 52,
+            "earnedTrophies": 28,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-04-02T18:13:05Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13463_00",
+            "name": "Call of Duty® Modern Warfare®",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13463_00_006ABB71B1E32457171EDC8FABBA39213164972DE2/BF8D1D967A7560E420CB73F41D1F845E6399F287.PNG",
+            "definedTrophies": 28,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-03-16T08:34:27Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13822_00",
+            "name": "Assassin's Creed® Odyssey",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13822_00_00E63FD8AB71E35431D284C875D26290C020A6ED1A/DEE0D4E5A10A52EA06309E73E38FDA92B759C1DC.PNG",
+            "definedTrophies": 94,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-03-11T15:46:50Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR15179_00",
+            "name": "RESIDENT EVIL 2",
+            "currentAchievements": {
+                "bronze": 28,
+                "silver": 8,
+                "gold": 4,
+                "platinum": 0
+            },
+            "percentaje": 91,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR15179_00_004E1F39C12A2C6264BA2A0546D9234F56889DCC5F/BAFEDE2151A73E1FAFE59B8575EC1CF99F6A75F6.PNG",
+            "definedTrophies": 45,
+            "earnedTrophies": 40,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-03-05T16:11:38Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR06418_00",
+            "name": "The Last of Us™ Remastered",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR06418_00_00152378687F66194A957179F8D1FA81A759297BDC/70A10BD8B6A5C767F2E6973E0DACB11D93B7C06D.PNG",
+            "definedTrophies": 50,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-02-28T13:21:46Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR12128_00",
+            "name": "Ark: Survival Evolved",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR12128_00_0012880DBC94ADC820F12FC201F1A5879223A25EE0/3BFB3D7DB4D527B26388D13B567B950C95E4A0D0.PNG",
+            "definedTrophies": 33,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-02-12T16:26:24Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11056_00",
+            "name": "Destiny 2",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 2,
+                "gold": 3,
+                "platinum": 0
+            },
+            "percentaje": 26,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11056_00_00E38014C97B1CE8D744D1F0D2914F156FD5E7C8C6/33A7DE6FACF18E6C4844EC6F639CDA05035869B1.PNG",
+            "definedTrophies": 24,
+            "earnedTrophies": 5,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-02-07T18:06:46Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11465_00",
+            "name": "STAR WARS™ Battlefront™ II Trophies",
+            "currentAchievements": {
+                "bronze": 4,
+                "silver": 3,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 14,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11465_00_00AB3D87382BEB1FBE407D2F43ED586838AAE7295C/D9EFB1844E98400D1E4753B1673910260ADB5C7B.PNG",
+            "definedTrophies": 44,
+            "earnedTrophies": 7,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2020-01-13T19:02:58Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08306_00",
+            "name": "Tom Clancy’s Rainbow Six® Siege",
+            "currentAchievements": {
+                "bronze": 33,
+                "silver": 12,
+                "gold": 2,
+                "platinum": 0
+            },
+            "percentaje": 98,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08306_00_00409A8E5600C6C1C8E023931C4DE6809D305498D9/4BF4C12FB5DE77A8947E7676D2D09AA7F54DA662.PNG",
+            "definedTrophies": 49,
+            "earnedTrophies": 47,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-12-25T15:05:53Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08243_00",
+            "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+            "currentAchievements": {
+                "bronze": 19,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 32,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08243_00_0046C39336C207670ABA698A3DC265C52DE035962A/380C67C458A13260A9499D8F711064C0E642248B.PNG",
+            "definedTrophies": 43,
+            "earnedTrophies": 20,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-12-02T17:01:26Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR15587_00",
+            "name": "Sekiro™: Shadows Die Twice",
+            "currentAchievements": {
+                "bronze": 18,
+                "silver": 11,
+                "gold": 4,
+                "platinum": 1
+            },
+            "percentaje": 100,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR15587_00_00B683E5453204A612C38DC218AEF0317CD5E8E9CC/85B017F39EA939B035F2C5A6B7198E87DAC9B610.PNG",
+            "definedTrophies": 34,
+            "earnedTrophies": 34,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-10-16T18:49:20Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11885_00",
+            "name": "TERA",
+            "currentAchievements": {
+                "bronze": 2,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 2,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11885_00_00F7BCDE3C2F9CED641E337B44238FB4B871AFE2F8/4C1601B3EE154A3204599A10EA9EA9BB268C7BE6.PNG",
+            "definedTrophies": 26,
+            "earnedTrophies": 2,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-08-30T11:12:48Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16409_00",
+            "name": "Call of Duty®: Black Ops 4",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16409_00_009BD3030E36B7A8CAF3B943FDB144D2C88F2E34C4/B2BF3A9058DCF51454C6B84157C405043408F496.PNG",
+            "definedTrophies": 103,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-08-05T16:35:15Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR12350_00",
+            "name": "Gang Beasts",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR12350_00_001C6CF6BB2E04A34E59C15D745B6A2A9B502BE739/7B9D5238F5D0E4354555FEE830D8F059DAEFBD82.PNG",
+            "definedTrophies": 19,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-06-16T16:05:21Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11068_00",
+            "name": "Call of Duty®: Modern Warfare® Remastered",
+            "currentAchievements": {
+                "bronze": 10,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 14,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11068_00_009522590D242EABC274F61D603D4FE237555F7E32/5C491DD8F8C8A54375D017279EDA1D9443E38247.PNG",
+            "definedTrophies": 51,
+            "earnedTrophies": 10,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-06-11T20:14:58Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR17865_00",
+            "name": "Dauntless",
+            "currentAchievements": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 4,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR17865_00_000C88E39FCF2B8F761D874D8456594E3B19197234/BF60B587DC8C59C44F1CB0937A5EE3F90817D92E.PNG",
+            "definedTrophies": 45,
+            "earnedTrophies": 3,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-05-31T19:19:57Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR10689_00",
+            "name": "Trove",
+            "currentAchievements": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 3,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR10689_00_006E4426993490D78095C3419D724EA391AEBA81AD/25B36BB16F8253496F9DC1D8A1EA2215DFAE126B.PNG",
+            "definedTrophies": 34,
+            "earnedTrophies": 3,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-04-21T16:50:37Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08501_00",
+            "name": "EA SPORTS™ UFC® 2",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08501_00_00E9B118022FF6389B778A5845EFA6A1A6BD8BBD35/F5BEA2E02DE0DFF4F84A568AE6D8FA6AB5F9660B.PNG",
+            "definedTrophies": 34,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-03-16T18:27:23Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16175_00",
+            "name": "Realm Royale",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 10,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16175_00_0063525B2C6918282E89322C18BE494F463EF388B1/9D7FF646C852F2E34E3343FC858F8F7DAADD06F9.PNG",
+            "definedTrophies": 21,
+            "earnedTrophies": 2,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-02-04T18:47:24Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR07964_00",
+            "name": "Just Cause 3",
+            "currentAchievements": {
+                "bronze": 2,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR07964_00_00131DD4D585ABC9D26813AFD52FFE731176D434A3/A0BC289B1F6B0AAE7C202912E536CE73E6607E10.PNG",
+            "definedTrophies": 67,
+            "earnedTrophies": 2,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-01-27T13:16:18Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR16339_00",
+            "name": "HITMAN™ 2",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR16339_00_0059AD2F4989F991A5932B943B2363B88B5441E639/EF26D4C4451EBE7E74F7970A33B62FDE785CCA1A.PNG",
+            "definedTrophies": 125,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2019-01-27T13:14:14Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08268_00",
+            "name": "God of War III Remastered",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08268_00_007C6460B26BBD12317E647A8F311FBF91DD928D4A/8E57416AFC918847A599DD0F7097FE4F64D1A552.PNG",
+            "definedTrophies": 35,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2018-09-08T11:05:20Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR15364_00",
+            "name": "H1Z1",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR15364_00_00F6E913C80D84D626BD3A68A744B28B20F4FA140B/78554203E3C91249821798CE2DDE5E3E1E58FC92.PNG",
+            "definedTrophies": 12,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2018-08-09T10:23:59Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR11424_00",
+            "name": "Assassin's Creed® Origins",
+            "currentAchievements": {
+                "bronze": 18,
+                "silver": 9,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 42,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR11424_00_00B0C1B25B2BC046B57977D1690CE5A22AFC430A01/FD3786571EEA68F65321230E711DCAE92BC53794.PNG",
+            "definedTrophies": 68,
+            "earnedTrophies": 28,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2018-05-15T08:11:55Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR10879_00",
+            "name": "Paladins",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 2,
+                "platinum": 0
+            },
+            "percentaje": 19,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR10879_00_002E86A4C6ECE0EF9F60B99333B668C1BD56BAEF8A/D3FCA4DE289BD0C2FF88CA7FDAA099F236B5C8A9.PNG",
+            "definedTrophies": 21,
+            "earnedTrophies": 3,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2018-04-05T14:39:24Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR07731_00",
+            "name": "Tom Clancy's The Division™",
+            "currentAchievements": {
+                "bronze": 14,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 14,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR07731_00_0005CB40540B74C7C1D25734106ADC4DD7D8EE46A2/E4398EED8ECF86D2C830A6B22B778BD5288BA589.PNG",
+            "definedTrophies": 66,
+            "earnedTrophies": 14,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-12-10T10:24:21Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR07028_00",
+            "name": "Uncharted 4: A Thief’s End™",
+            "currentAchievements": {
+                "bronze": 36,
+                "silver": 0,
+                "gold": 1,
+                "platinum": 0
+            },
+            "percentaje": 51,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR07028_00_00328912165EFFF45B65627D1975AB169F7A096025/0CAA52366C0F14C85A71FACB36BDD29122DF85D6.PNG",
+            "definedTrophies": 68,
+            "earnedTrophies": 37,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-11-25T10:28:47Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR10505_00",
+            "name": "Neverwinter",
+            "currentAchievements": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 1,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR10505_00_0091CB3CEAC0CBC6554709B3E2E5727037FF25973B/18B05253310460182215BFDC8A7DD0ADC4DF7546.PNG",
+            "definedTrophies": 110,
+            "earnedTrophies": 1,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-10-21T08:25:21Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR13412_00",
+            "name": "Fortnite",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR13412_00_00F44396DE25C844554B3DF29F7D2DBFC1E52E5BE6/EAAB8F4C53A84D2A478CC0F2771D6B5E5F8372C3.PNG",
+            "definedTrophies": 46,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-10-11T13:35:23Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR09395_00",
+            "name": "Tom Clancy’s Ghost Recon® Wildlands",
+            "currentAchievements": {
+                "bronze": 17,
+                "silver": 1,
+                "gold": 3,
+                "platinum": 0
+            },
+            "percentaje": 40,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR09395_00_00295539F071D1213181651287E5EB5BDFD034B090/FCBB713945AE2615D022E25B665D52A51B88F520.PNG",
+            "definedTrophies": 58,
+            "earnedTrophies": 21,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-09-23T11:29:14Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR08864_00",
+            "name": "HITMAN™",
+            "currentAchievements": {
+                "bronze": 8,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 7,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR08864_00_00DA00E88057CEC122A65CD3F26877193A4ACF2CDF/6AB03DA6802CBDC0AFBEC9ABEC4F693138DDDBB6.PNG",
+            "definedTrophies": 69,
+            "earnedTrophies": 8,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-09-16T14:03:59Z"
+        },
+        {
+            "accId": "7397312102069087760",
+            "id": "NPWR04914_00",
+            "name": "THE PLAYROOM",
+            "currentAchievements": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            },
+            "percentaje": 0,
+            "platform": "playStation",
+            "icon": "https://image.api.playstation.com/trophy/np/NPWR04914_00_001D0CE7578DC8E90303E24F162B9C8AD3632C9F0F/82EC059112FCA6B1A86F80C300D8BD201F9ADFE2.PNG",
+            "definedTrophies": 24,
+            "earnedTrophies": 0,
+            "titlePlatforms": "PS4",
+            "lastUpdated": "2017-06-29T09:31:38Z"
+        }
+    ],
+    "psnProfile": {
+        "id": "7397312102069087760",
+        "username": "josemadrake",
+        "icon": "http://static-resource.np.community.playstation.net/avatar/WWS_J/J2086_l.png",
+        "TrohySummary": {
+            "platinum": 3,
+            "gold": 58,
+            "silver": 159,
+            "bronze": 761
+        }
+    },
+    "psnGameImages": null
+}

@@ -73,8 +73,6 @@ export const useXboxUserData = () => {
 
   const { xboxData, setXboxData } = useGameStore()
 
-  // arreglando re-rendering a mi manera ☢
-
   useEffect(() => {
     const fetchData = async () => {
       let xboxUserData = null
