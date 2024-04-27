@@ -1,0 +1,56 @@
+{
+    "profile": {
+        "onlineId": "josemadrake",
+        "accountId": "7397312102069087760",
+        "npId": "am9zZW1hZHJha2VAYTcuZXM=",
+        "avatarUrls": [
+            {
+                "size": "l",
+                "avatarUrl": "http://static-resource.np.community.playstation.net/avatar/WWS_J/J2086_l.png"
+            }
+        ],
+        "plus": 0,
+        "aboutMe": "",
+        "languagesUsed": [
+            "es"
+        ],
+        "trophySummary": {
+            "level": 216,
+            "progress": 36,
+            "earnedTrophies": {
+                "platinum": 3,
+                "gold": 58,
+                "silver": 159,
+                "bronze": 761
+            }
+        },
+        "isOfficiallyVerified": false,
+        "personalDetail": {
+            "firstName": "Jose Manuel",
+            "lastName": "Sanchez Vega",
+            "profilePictureUrls": [
+                {
+                    "size": "xl",
+                    "profilePictureUrl": "https://image.api.np.km.playstation.net/images/?format=png&w=440&h=440&image=https%3A%2F%2Fkfscdn.api.np.km.playstation.net%2F7397312102069087760%2F1597157769140.png&sign=cfe66366cc8e1880b93ecfe58bf3df8acafcc317"
+                }
+            ]
+        },
+        "personalDetailSharing": "no",
+        "personalDetailSharingRequestMessageFlag": false,
+        "primaryOnlineStatus": "offline",
+        "presences": [
+            {
+                "onlineStatus": "offline",
+                "hasBroadcastData": false,
+                "lastOnlineDate": "2022-04-12T22:42:46Z"
+            }
+        ],
+        "friendRelation": "no",
+        "requestMessageFlag": false,
+        "blocking": false,
+        "following": false,
+        "consoleAvailability": {
+            "availabilityStatus": "offline"
+        }
+    }
+}

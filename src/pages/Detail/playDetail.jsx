@@ -10,7 +10,7 @@ import { TrophyTable } from './components/TrophyTable'
 import { TitleImagesB } from './componentsB/TitleImagesB'
 import { TitleImagesModal } from './componentsB/TitleImagesModal'
 
-export const PlayDetail = () => {
+const PlayDetail = () => {
   const params = useParams()
   const { trophyData, isLoading } = useTrophies(params)
   return (

@@ -14,7 +14,7 @@ import { TitleImagesModal } from './componentsB/TitleImagesModal'
 import { HeaderDetails } from './detailBcomponents/HeaderDetails'
 
 // import { useDescription } from '../../hooks/useDescription'
-export const XboxDetail = () => {
+const XboxDetail = () => {
   const location = useLocation()
   const params = useParams()
   const { trophyData, isLoading } = useTrophyData(params, location.pathname)

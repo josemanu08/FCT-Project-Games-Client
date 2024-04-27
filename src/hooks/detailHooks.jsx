@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { getAvailableTrophiesGameInfo, getXboxAvailableTrophies } from '../services/fetch-api/getAvailableTrophies'
+import { useGameDetailsStore } from '../store/GameDetailsStore'
 
 // Mocks
 // import xboxTrophies from '../mocks/TROPHIES/tDetailXbox.json'
@@ -29,6 +30,7 @@ export const useTrophies = ({ userId, gameId, gameName }) => {
 export const useTrophyData = (gameInfo, path) => {
   const [trophyData, setTrophyData] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
+  const { setGameDetail } = useGameDetailsStore()
 
   useEffect(() => {
     const fetchTrophyData = async () => {
@@ -39,6 +41,7 @@ export const useTrophyData = (gameInfo, path) => {
         : await getXboxAvailableTrophies(userId, gameId, gameName)
       setIsLoading(false)
       setTrophyData(trophies)
+      setGameDetail(trophies)
     }
     fetchTrophyData()
   }, [gameInfo])

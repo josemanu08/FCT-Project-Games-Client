@@ -1,0 +1,3473 @@
+{
+    "achievements": [
+      {
+        "id": "1",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Afortunado",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-17T10:28:27.2470000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "178da4cf-0909-4f2a-8d50-45f7c261c784",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd26BC2b8f0omZZn0LrEVuriz_DDhd2LAXEMGkW5wBCOQmilDv4DyJDn42ioqC_dlknz35MdOiuYJ.uvulEKPuHmsyjxFbQWnjK53wbFxO627"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere tu primer amuleto",
+        "lockedDescription": "Adquiere tu primer amuleto",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 32.71
+        }
+      },
+      {
+        "id": "2",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Encantado",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-12T21:28:03.6000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "fa58492e-7bc1-4c94-a8a9-64a2ee53e5c1",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz59tklyfM4FozsEqjYukkuD.aYKgCGYW304aK5REoUWdManmc9OAiXnYWcGMwX7xNlMLHZIVdoFivGyDqNjqhZAMC08ECU6MC7wEejZoun9"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere la mitad de los amuletos de Hallownest",
+        "lockedDescription": "Adquiere la mitad de los amuletos de Hallownest",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 9.26
+        }
+      },
+      {
+        "id": "3",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Bendecido",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "440759e9-3048-44f2-858b-53b29594b89e",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd08CXpognPuypRe5imwdpQ2DDdBiOaq2I4XF4BvKCABqGFDaKVtd3_j.eKblL02xTXqx1jZUPOeXE7ndPZtf5YdwfXZuqSFYz.iLMm7kMWDI"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere todos los amuletos y recibe la bendición de Salubra",
+        "lockedDescription": "Adquiere todos los amuletos y recibe la bendición de Salubra",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.57
+        }
+      },
+      {
+        "id": "4",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Protegido",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-27T19:45:05.9230000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "1ca2d27a-b96a-4b0d-82b8-ea42c8eac246",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxxjgzxilFdQ4tLC1Qe1x58n88RxzbmAJZlQSG_a9ixTX39OAp1p48glRf.Nw0dc0pAha6P1mgvUgsW9_VqJ1ylObLTohW9RxCC4dcaX101v"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere 4 fragmentos de máscara",
+        "lockedDescription": "Adquiere 4 fragmentos de máscara",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 12.48
+        }
+      },
+      {
+        "id": "5",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Enmascarado",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "36992b06-bfae-4b92-8f69-5686767ad8e4",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd41I8jP9Q1vGzACve5bwkqYsfC1oGvoYEkCSgt24Uy1Ubi16HpwT7YO2QGhi95KvNzs3R1jo_S.GuFypHVIpugaiKLoneEejU0wYT.Opfxm8"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere todos los fragmentos de máscara",
+        "lockedDescription": "Adquiere todos los fragmentos de máscara",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.36
+        }
+      },
+      {
+        "id": "6",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Animoso",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-05T00:11:03.4700000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "bced1916-b8a7-4024-92b9-ecad4c4e8d71",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4qFa3rIyIqRlzQ8R7cS1BbnL1vC0SRIahGNqQlqn3Z8XuZ2R5dVKBFYxRwSaTR370THKBHnlUOWd8qxjCrC8DIItQ4JX8K7uWBvzZJnzZro"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere 3 fragmentos de vasija",
+        "lockedDescription": "Adquiere 3 fragmentos de vasija",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.57
+        }
+      },
+      {
+        "id": "7",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Anima mundi",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "69c81116-4a77-4c7c-9224-645bd4ede83e",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1IUc6ag7320LIOT_lNMOCs_dVylqU3WQ8rclSlGKJpnk23plaugMjnTCTt6it2XcbRJ4h4qEhOzeaAiuhXvR954L1BfAz7fPKZ3zakUAPxm"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere todos los fragmentos de vasija",
+        "lockedDescription": "Adquiere todos los fragmentos de vasija",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.55
+        }
+      },
+      {
+        "id": "8",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Falsedad",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-17T15:27:48.6630000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "fafeb103-74b1-44ef-9a8b-0924fe9db658",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy2xP0h1BrORPBUoQ6rApYMhmWh_W_KEGFHXM0yPRcmjcpXPVrSluVbWkngQDIR7KXiRoHBxVE6Jext_TdtSXmJ_T_Y7IE52e9BmNjv9hsOi"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota al Falso Caballero",
+        "lockedDescription": "Derrota al Falso Caballero",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 28.39
+        }
+      },
+      {
+        "id": "9",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Fortaleza",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-14T22:25:48.1770000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "d27840e3-782f-4002-b3f9-f8221395da43",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.d9yoW2F58bGuf1pcsYC9Cl4iGe1xWU6E2zCJ3oHbwFNBbQdJwwpvbPOrRHuwJCUcIrQZy8CZ0YeLJXil2WBa_Tbhk5fFJ_QoQ1DPEj3zig"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Campeón Fracasado",
+        "lockedDescription": "Derrota al Campeón Fracasado",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.85
+        }
+      },
+      {
+        "id": "10",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Examen de determinación",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-18T17:57:04.6570000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b6a2c208-3696-4669-b08c-1105df9501c3",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1TnPDXBQVdn0NRy7xOoPz6M7N3tDM_PzSQXnpDf0j1r6i75hnpi4MP_78ud1zdXJgQfHo5kaQl9FwkxfYCFRiHXM6sHh4NMtHizK1KM6FPz"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota a Hornet en Sendero Verde",
+        "lockedDescription": "Derrota a Hornet en Sendero Verde",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 20.39
+        }
+      },
+      {
+        "id": "11",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Prueba de determinación",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-08T12:52:48.5800000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "69bae2cf-fffe-464b-870e-ea97386dace6",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3TinteI1K7_vuCnAtLNU4yRayv.a2zyPoTp5f.m40wcD0CcnuL123UhFKOaqgvfRMOGHa6RlZlTNzG4fIU7ww83yJQakG81MWHaf4jD6gcd"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota a Hornet en Límite del Reino",
+        "lockedDescription": "Derrota a Hornet en Límite del Reino",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.84
+        }
+      },
+      {
+        "id": "12",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Iluminación",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-26T21:35:19.3200000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "480c08f0-60e8-4703-b732-07b5b494bc68",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1IUN3iZcW96ohuAIPaRsOrNmQqYBJgOT464HuVwkycLRLxJr9oynKWs3154fV1WG6VL4ZObPXW2oEhnDG4YR2CVqZVZNWJnVEbnqGZkrcJl"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota al Maestro de Almas",
+        "lockedDescription": "Derrota al Maestro de Almas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 12.16
+        }
+      },
+      {
+        "id": "13",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Mortalidad",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "1a19abbd-c929-44a6-906c-2344b2d2cffd",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy_t4ERdXhPqv2Kn2jgHf3mDooDy55p.V9a4cGp.C9pZayw587zhKeynDxinLVF0keaHZUo7CAC0nkadaat25jZODGbDOHZ7JCkVQjh7f20r"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Tirano de Almas",
+        "lockedDescription": "Derrota al Tirano de Almas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.12
+        }
+      },
+      {
+        "id": "14",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Liberar",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-05T11:39:04.6170000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "403a82e2-a968-4c83-9d42-a0a4e896ce96",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4sv0pdXrLNhKBNhqtbmHX0nQnw55rG226FFBJ.99YegNpGu8ziFU5f5Dd9t3s47XD9BU9vpX413OAL.9bpFxB7sSNumeCuJDuQz5ydQmoNi"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota al Receptáculo Roto",
+        "lockedDescription": "Derrota al Receptáculo Roto",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.07
+        }
+      },
+      {
+        "id": "15",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Paz",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "e2e577c8-592f-4b06-b336-da3b94bbf883",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0vDaXrJHRQsOPlAl08xOCeLqpfNQLaPUANGleO47Zj6ATItBVgBUzFHmpWidHpCyHJAPHY0_eHzgRrDZsies0yXzmRq6hWlObG7JHz3OD8K"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Familiar Perdido",
+        "lockedDescription": "Derrota al Familiar Perdido",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.94
+        }
+      },
+      {
+        "id": "16",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Honor",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-07T20:48:11.4970000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "cb60fc23-39d0-44e0-ba83-c647bba0e32d",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0nJk.BHA5zVK.3Y8Y6NKf3AhExZ7RbWBfbVYrYx5CPIIEAjjbqHAO4DbSFcMgRmiJwzTWTw.3BXPx5AYQQujjNCF8h7zmGusjs_o8gs2PE1"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota al Defensor del Estiércol",
+        "lockedDescription": "Derrota al Defensor del Estiércol",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 10.45
+        }
+      },
+      {
+        "id": "17",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Respeto",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-01T23:33:45.7100000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "c4589a1b-584a-4d0a-9fd3-4d2bb39ab1f3",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4sfh1Z37kziE8U3u5dncWku6MDufwLAc8WDZx4c88nESvSXEwcmE6JGHbyU9J3ac1DOiK_aO82RdPBC6VyeOvTE2uY2mfbbrD1itY4xhud5"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota a los Señores mantis",
+        "lockedDescription": "Derrota a los Señores mantis",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 11.47
+        }
+      },
+      {
+        "id": "18",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Obsesión",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-12T12:15:23.8430000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "a32d3079-5bc6-4b79-a5a4-8602129edcde",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd57esYSvwfL4HD5qHUD6zNZ3UIptwTiGWw2nAfycm7RMROV4WFYnh7obliCZ_bbAjWROW9pMNqCLwVKHFGQYS9q.MSO.E0RRUrOr9BxTD5CL"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Coleccionista",
+        "lockedDescription": "Derrota al Coleccionista",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 6.57
+        }
+      },
+      {
+        "id": "19",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Rivalidad",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "d1668778-70fa-4f7b-8d0f-e2d8bfeb642a",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdw5UF9E4MbRRj0d57VZnqvczZQ7YY2cY0G1wNs9_2KBY3cvudFdSeGlF1zNHEqttfSYDy2bC2sQEz8gNy5mAISq2gm968FwDsKsIywfQFTLy"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota a Zote en el Coliseo de los Insensatos",
+        "lockedDescription": "Derrota a Zote en el Coliseo de los Insensatos",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 6.31
+        }
+      },
+      {
+        "id": "20",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Ajuste",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-06T20:42:38.2170000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b81a6103-554e-42cd-92da-38716d837532",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_OjfR0aJhc1vH.mEsDHQ.bqW6jXXzCDPdOD4edTy.Yo9CH7w8CPEPioMQxCAdB4TeJu0954eTFZ_jhLL4yE34UR8ANbQOC07cDBCnSGe_r."
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Reúne 600 de Esencia",
+        "lockedDescription": "Reúne 600 de Esencia",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.48
+        }
+      },
+      {
+        "id": "21",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Despertar",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-14T22:29:12.3670000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "f4e2166f-7116-40df-9bda-f2b3b0ae05a3",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_w53LDxr4DGoq6S4PevNmMuiFdqmUL.ly_Mf3Dl_7dfQlfHj6Ypfa1tuPr_RHrLDadznxJ0_.uHWj9HKfn8KKahhfffWEfCVJruyjkaSkfl"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Reúne 1800 de Esencia y despierta el Aguijón Onírico",
+        "lockedDescription": "Reúne 1800 de Esencia y despierta el Aguijón Onírico",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.96
+        }
+      },
+      {
+        "id": "22",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Ascensión",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "9c5c9d4b-5ed6-4cb4-a910-5e8ecd074dc1",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxy1aWkEsIZGewhnRdTbfqKF91.nq5dy9G4EOWhNYemGFYCHYCDAjebmNBkxtad4Pyroka0dcmSjLBlWlPTH15lSV0EeyaoSICLEbq419QTA"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Reúne 2400 Esencia y escucha las últimas palabras de la Vidente",
+        "lockedDescription": "Reúne 2400 Esencia y escucha las últimas palabras de la Vidente",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.27
+        }
+      },
+      {
+        "id": "23",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Amigo de las larvas",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-07T17:24:13.0230000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "eb72c043-98c0-4500-960a-619f66e2bd80",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwVD9G2NN52OoeaR6cDYnuh7_hytynaL5t6Ufn5KO0nYKw0ukcS2gJYywUAxfAHRUWjlbir5P97CKliDEtYmVbeLOYFWBppoDjWMzDAX1VEc"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Rescata a la mitad de las larvas cautivas",
+        "lockedDescription": "Rescata a la mitad de las larvas cautivas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.84
+        }
+      },
+      {
+        "id": "24",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Metamorfosis",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "9d673e74-5c8d-4558-a31f-63af0db2cfd4",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0.Kr.3pueYixD3OhSDaagX0g3p5I.Aob4vAvD3fIrjPOPBhh8KlNJl5X1qkEh2K_rErwg3t8RdG8SLWheFh01dZczf5g8h3PB4sVXjBHUB0"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Rescata a todas las larvas cautivas",
+        "lockedDescription": "Rescata a todas las larvas cautivas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.12
+        }
+      },
+      {
+        "id": "25",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Abandono",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "deaf3777-59de-4a22-850a-247cf0fcad28",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6yPicaec09H1xS2v66HvoQFz3HATSTUCicEJG79AFy9Qb6ml4SH9T9jYcLr1U4KXXbRhuUArfolP3TAWZQJezqHktw2qkScYbGGrsWx6fPm"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Deja que Zote muera.",
+        "lockedDescription": "Deja que Zote muera.",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.09
+        }
+      },
+      {
+        "id": "26",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Pureza",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-12T14:38:07.3500000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "c691c9a5-cd2c-4d42-b6d6-99d3e916a3af",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0Y1pkU20UPsQ7dyjZu1GFLFGbPXklom5.t01.ifu.7anaIW81M..swIvD2Ke7uPr1bGDb_sjzIPgVTsZDqfX3Y4YYo0QPfhtacH2wzkIrRL"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Vence al Forjaguijones con el Aguijón puro",
+        "lockedDescription": "Vence al Forjaguijones con el Aguijón puro",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.23
+        }
+      },
+      {
+        "id": "27",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Parejita feliz",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "c57bdf33-131a-462b-af88-68b6d825fe0b",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyHmTWmMCbDKhdMEoDy6MZaIgoqgD9pN7PuFNuuHs.QVabih29yqsbxOZVId5dZwbGFiUa_OylV6mexlCsPCN3cdVrTn7XNCGd1qlXyZd5_B"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Permite que el Forjaguijones encuentre una nueva vocación",
+        "lockedDescription": "Permite que el Forjaguijones encuentre una nueva vocación",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.77
+        }
+      },
+      {
+        "id": "28",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Testigo",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "0b988532-dd64-49b5-adf6-e5c7494f203f",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwnzXy7LSJfC5Dj._Vjku2YuFtZOPn0VxeACQfXuJFWSHBXGb1n.dNcWAhWMINeYPebIUNlSshPMYHLRGtT1SEzst2sIy.3EbvlY9UYz21I."
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Pasa un último momento con Quirrel",
+        "lockedDescription": "Pasa un último momento con Quirrel",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.51
+        }
+      },
+      {
+        "id": "29",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Consuelo",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "76bd03be-08c9-4376-9050-d409081ccb13",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdydyz27i.1OLvsUaBAeJMCrCic6h49CNypY6dt3GinJx57pY99LiGFYS9in45hFmyn4FNDXFzDadrF16ndaYrPUZ2OJgT2xowDmg3ZYGLruw"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Lleva la paz a la Doliente Gris",
+        "lockedDescription": "Lleva la paz a la Doliente Gris",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.7
+        }
+      },
+      {
+        "id": "30",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Ejecución",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-11T18:09:35.6000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b3936573-1b0d-475b-9a65-a80d56364779",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9oqq1X202aEJ1tyBMHr08fr.lVgkR9gx1gkwfEB0FNHmU28CSYE1me5zdWc0YSVZ0RpTA670hL6SLv0EuPkfpUqrMSzDnOSpbN.VkNyfYrX"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Derrota al Señor Desleal",
+        "lockedDescription": "Derrota al Señor Desleal",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 6.92
+        }
+      },
+      {
+        "id": "31",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Conexión",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-06-26T22:22:35.1500000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ede24e63-4286-4e02-abce-60ab7bb5edf0",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyHmTWmMCbDKhdMEoDy6MZZIaOS8hPGMDF1uoyYKlWOd2ew9EkwnNdlJQtyAEAJa4WnTTLlnmbrjnUKn5tMC0i_q_XCkHElt1iCElZnMlvjT"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Abre la mitad de las estaciones de ciervos de Hallownest",
+        "lockedDescription": "Abre la mitad de las estaciones de ciervos de Hallownest",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Common",
+          "currentPercentage": 13.05
+        }
+      },
+      {
+        "id": "32",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Esperanza",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-12T14:28:18.7030000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "441ed155-598f-4c4c-91bd-175467c0e610",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwBljg1JDVerdWOUOEsYVPWEapqt1cjJ9.oHgu8nJS26Cs.1vB0jHdQox3DdmNESXnng2iEP0fO4VyqOdHq0N2B0Vl7HdB.H2ilTioLGO8S."
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Abre todas las estaciones de ciervos de Hallownest y descubre el Nido de Ciervos",
+        "lockedDescription": "Abre todas las estaciones de ciervos de Hallownest y descubre el Nido de Ciervos",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 7.27
+        }
+      },
+      {
+        "id": "33",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Maestra",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-10T09:49:13.3070000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "9bbef8d2-e661-47cb-b1be-91f8a06752c1",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd51c4dWRFP7o7yXjCLDst0pi7kNRLt_J3z2BRhKcLebJNzrt2Y9kfY8Je9lZd_Bq3EDEKq0luQl8QW58fTImb5PMp.gDb0cCU2hyOkcLVkCa"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Destruye a Monomon, la Maestra",
+        "lockedDescription": "Destruye a Monomon, la Maestra",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.55
+        }
+      },
+      {
+        "id": "34",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Vigilante",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-11T10:49:12.8830000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "bce215b2-96d4-4609-b4a3-6c7bcbe9b2dc",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz.uVVOTh0HxNWDBun27i6R7Ti4b8uML4FxU_tuRZIpjvGC68VB_1DZGcFlbao0KtKyjQhVwHeI7yu310nXL_yZJVGQze3Qs5iVA.JTS_Yoc"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Destruye a Lurien, el Vigilante",
+        "lockedDescription": "Destruye a Lurien, el Vigilante",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.33
+        }
+      },
+      {
+        "id": "35",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Bestia",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-06T20:32:16.6900000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5a02d79b-5fe5-4c30-8dcf-62a0833c1057",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0M4WA_0Bv7N12942zOgBWUXOoKgZxvdHSvNXEuO36urgNhqf6YaOF9QKrcAMwSbhPmd1I81UIC1yKiAZ_Txw8LqTfJUFgoAQL_33ZTJv2Wh"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Destruye a Herrah, la Bestia",
+        "lockedDescription": "Destruye a Herrah, la Bestia",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.96
+        }
+      },
+      {
+        "id": "36",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Cartógrafo",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-09T22:57:13.6730000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "96d0e190-7ad1-4950-a1ae-a382545210fa",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy25tHxuFw8U5s_.ZZ4BvR3RIHtGQKuDMmRil8.iLRPJH.z.BB9pbelEVwPuScDeQeduYQhs9ta12FJx7k3B4GeaBSDXnqiVDtuRl53lnF0N"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Adquiere un mapa de cada zona",
+        "lockedDescription": "Adquiere un mapa de cada zona",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.17
+        }
+      },
+      {
+        "id": "37",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Guerrero",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-05T22:20:29.1000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ad4ecc18-5728-478d-9996-1f28b6f3d3c3",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5BkhHzR9.dEgGtDPuQJOIfgQiAiLwvr_ZsJWIjTBwylJgaIR3No9ABjIKFmb470zdMY4O2UzTM7L_P5Jqz42cgA3x0fcMVjYjKEdX2lcmMV"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Completa la Prueba del Guerrero",
+        "lockedDescription": "Completa la Prueba del Guerrero",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "5",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 8.61
+        }
+      },
+      {
+        "id": "38",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Conquistador",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-12T11:52:48.8170000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "ecb4ca3d-0dbe-4c84-9f22-dbd27b21e922",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8YBc75m4erWWUPQc_PcozSK2EWbI8M1_8eq7kQRJxoG2bSTDRDERQ0f6DhgovFGEErQOt0nP1EHKuC45cs_aDB_6zbfb0tzbU9tdjZNnavy"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Completa la Prueba del Conquistador",
+        "lockedDescription": "Completa la Prueba del Conquistador",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 7.47
+        }
+      },
+      {
+        "id": "39",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Insensato",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "8efde053-6bc6-404d-9c7c-f98513d3b5bf",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_JftWb1V5vntff2IZ.CVVySNewfTqsM8yYbncIgU0tgSrHIR_PiwcYmBM3Dh9UzEu4WD5pNmecvddaT1C55Gr3vUa9x0pwBYRHZ.nXPm3ZV"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Completa la Prueba de los Insensatos",
+        "lockedDescription": "Completa la Prueba de los Insensatos",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "20",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.05
+        }
+      },
+      {
+        "id": "40",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": " Hollow Knight",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-17T00:16:09.6000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "7f5aff6c-7d5e-4ab1-9852-e9e506efed05",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyMHomrOvm2PCbD4UYgVXJQ3LecXxbiylFDe3zKLNigHbcgMj7gl9MLbajQ0tAjq3Cajl3UgzMhPgOoq0kYi8RziEd8EpJxUj4xEgz_YqFcK"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Hollow Knight y conviértete en el Receptáculo",
+        "lockedDescription": "Derrota al Hollow Knight y conviértete en el Receptáculo",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.05
+        }
+      },
+      {
+        "id": "41",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Hermanos sellados",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "21c67e78-fdd3-45f0-aa8d-2512b4cf1c7f",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyJnHj5FwYvmbBeUbcIs.G7nKD1131UlTyysYaO.X14aqM5ioZOvpoxYWUZYERk4xfe6pzu7WQPH.JcAU1TJ1jSJnhaIUhruFHlMJ_laHWnR"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Hollow Knight con Hornet a tu lado",
+        "lockedDescription": "Derrota al Hollow Knight con Hornet a tu lado",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "30",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.26
+        }
+      },
+      {
+        "id": "42",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "No más sueños",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "843d48db-1e14-4774-87af-28e9ebf8abfb",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.Ukdo5FWN.K5nkrRQnkiPmd8PFDc_EX9NcRJRthMy5fv7z5jwXrlKjM1v_orWRFbIoUuFvsCVfe2nlIJIMZ5cjiiGhOF0WD7UIyfsMuSnqm"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota a Destello y consume la luz",
+        "lockedDescription": "Derrota a Destello y consume la luz",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.18
+        }
+      },
+      {
+        "id": "43",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Vacío",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5c619b59-d799-411d-a6b9-0d1f1efdcf3d",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwSTWHJ31abGFoyn.N0vQ9HFGxWh.721hIzXLqUDMb_IkfVocvyfCyLFQmk.XiHsHYzkmV9SMV9XmIWYYgMBapdKBxLPwEVPtWB_jsL_GLDI"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Recuerda el pasado y une al Abismo",
+        "lockedDescription": "Recuerda el pasado y une al Abismo",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "20",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.01
+        }
+      },
+      {
+        "id": "44",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Speedrun 1",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "98498410-8f4b-41c9-944e-afc63e16a00e",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_Apz4grkKO_5QuxgZab1AUSQCzWrAJ1K8VJnMiCR3lRmYTnkoMi22zyceIn46ptQhlMY0OimC194j62uiGmMxpOz"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Completa el juego en menos de 10 horas",
+        "lockedDescription": "Completa el juego en menos de 10 horas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "20",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.61
+        }
+      },
+      {
+        "id": "45",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Speedrun 2",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "d8489fa4-ff9d-46fb-896c-b68afd14ba8f",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxk8viWCc6EcDqQV5eUVb.6vTRJuTUgcnjxOAUgTLagJ6Rwy22pkuy4WUAWP2OYIUR4iaRf6YnG4NHX4Gmzrx3opgBpGQOB9A_FuGrJsITq1"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Completa el juego en menos de 5 horas",
+        "lockedDescription": "Completa el juego en menos de 5 horas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.4
+        }
+      },
+      {
+        "id": "46",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Finalización",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "943b61c4-e2db-41bd-9956-c9f7bc86b641",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwBojwnYh20yDsWP7HaONa0xY9.HvLkf3nInOhzd2oVWXCb2kp5zQeMdWjSErERdzVdBB.AYaQwmRmAMuGh9GkOYxiuOE49tl2d4I8vzkuzW"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue un porcentaje de finalización del 100 % y termina el juego",
+        "lockedDescription": "Consigue un porcentaje de finalización del 100 % y termina el juego",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.14
+        }
+      },
+      {
+        "id": "47",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Finalización rápida",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "da4e2442-1d4e-45ad-ba48-4d3958d9af41",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz2kcRwwxb.UpekfMq0ERYybCPDxln0grofEIhTcB9.5bWYzx4Rx3OJp5wfeE.3fhkDGifavEDSXQdaFnnRILgPmD.wIA5PzVy0mV.cGH.I0"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue un porcentaje de finalización del 100 % y termina el juego en menos de 20 horas",
+        "lockedDescription": "Consigue un porcentaje de finalización del 100 % y termina el juego en menos de 20 horas",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.45
+        }
+      },
+      {
+        "id": "48",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Alma de Acero",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "def43d82-900a-480e-bc45-30361037bfc2",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3vOlGhhqse0w5hPDbpJgIE8N2kHWsIuxLiEpli9.jhTcAwEclX7dfVGd2UM0KcnOpRU2kFrwQBNDB2gMEYZFTqJNdn7CiqBEr57oRPhiuOh"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Termina el juego en el modo Alma de Acero",
+        "lockedDescription": "Termina el juego en el modo Alma de Acero",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.42
+        }
+      },
+      {
+        "id": "49",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Corazón de Acero",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "5b017fdc-4860-474f-90d7-fef43b5de520",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3.1qbNMwFTHBRUDAR_dZNwH7tgNwnX_gWXmGCni_walD5QUkD8G1LX8rUycwSu8tvOFTmdeXBR87ZwcpYAzDbymDHEjfVpdzA3_tI17Gqe8"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Consigue un porcentaje de finalización del 100 % y termina el juego en el modo Alma de acero",
+        "lockedDescription": "Consigue un porcentaje de finalización del 100 % y termina el juego en el modo Alma de acero",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.3
+        }
+      },
+      {
+        "id": "50",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Cazador entusiasta",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "80a080b6-8107-40dc-9e14-fa56c29e28ce",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4rrzUYmxAgZHJ8hMb3kFhArAvJGPmKMhJYoHX5Me1jeIfrp_wt87iSHq8JrAWA_wlj_8azIiUSFZm3DmhthRxpH9PyE0FNtTzNkJn7LiUt9"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Registra todas las criaturas de Hallownest en el Diario del Cazador",
+        "lockedDescription": "Registra todas las criaturas de Hallownest en el Diario del Cazador",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.02
+        }
+      },
+      {
+        "id": "51",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Cazador auténtico",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "493adba9-fbdc-403d-904d-52ed1e804217",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwf3MBknhAx76H010_YgmBMBHNeZhhpHZwRG3uG0HSkKN02z6p.YrSzL581BiYRg_Nu_n5CXImzeYDh45GNv_H8vRYIPWtO2gEoF3WsGmN5L"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Recibe la Marca de cazador",
+        "lockedDescription": "Recibe la Marca de cazador",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.88
+        }
+      },
+      {
+        "id": "52",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Cambio de era",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "7bd29e42-cd37-488f-bb91-e4c3afff403d",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7gR3OiroVBZ06DD3DATNl5yVH380LXaNvYB.2m2HnCxH4CrIFCIgl9KvF0l4IG9z9Iaa9C4eOv2VDSbjv9ifSxg2J46MFYEx4x8.46IBdqA.sJCw.64tANacA.hOWHuDQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Ayuda al Heraldo a pasar página",
+        "lockedDescription": "Ayuda al Heraldo a pasar página",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "15",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.78
+        }
+      },
+      {
+        "id": "53",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Memoria",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "111281fa-f2eb-4652-aec2-7e5551956609",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyUetRxzdRehBNtE0C5XSG7Vj_.hyutDI5ilF2BAEjX31mStn70uVA0m9b4Mw1dQsK7_Vw9lvaHZHCzu0q10_jMXQ6ihZ4VVoyDGK81SXnAD"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Defensor Blanco",
+        "lockedDescription": "Derrota al Defensor Blanco",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.33
+        }
+      },
+      {
+        "id": "54",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Romance Oscuro",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "c683d268-0812-4087-b3f7-3d3cae477725",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.MNIfiZt2rZD0VwgRv2KqYDzU7NWc_zaZqCqZ8wKqegIWNakyboEYIyvjeE6PjoTm6Nj8veU59atlklOezCeOex5pNjq0yNr5mVdG5DBFzi"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Príncipe Gris Zote",
+        "lockedDescription": "Derrota al Príncipe Gris Zote",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 4.02
+        }
+      },
+      {
+        "id": "55",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Gran Actuación",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "Achieved",
+        "progression": {
+          "requirements": [],
+          "timeUnlocked": "2022-07-13T11:48:54.2930000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "aeb33a57-8be6-4d83-a817-48d9a9b89b77",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6K.gmGPV3u2mHCHzqFBW3BLA83bVWQhV_dHb5Btm2POkb1Gcn_XGeHubYKtvRe.C8JkYG6hUrJns3pvDJM1p.Bilowusdt9aud3RkrzZXMn7zeCqwA01JeW97DGsqeDmQ--"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Líder de la Compañía: Grimm",
+        "lockedDescription": "Derrota al Líder de la Compañía: Grimm",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 5.47
+        }
+      },
+      {
+        "id": "56",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Ritual",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "506eee4a-0779-4b36-825c-d07ced13c12a",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0W70QW8EcDZP7AxuLja0gjGQ8d1dx5QtUnMKQVAN8A7QYbG0x159.oI_zcyFEqFaMw6Y.N59.HzzKlunJBV6zQY5znbVHMPb5MSIVdKM_Hn"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Derrota al Rey Pesadilla y completa el Ritual",
+        "lockedDescription": "Derrota al Rey Pesadilla y completa el Ritual",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 2.3
+        }
+      },
+      {
+        "id": "57",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Destierro",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "082b171e-862a-4baa-b095-7f3507f923a4",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz92DadR3wxnOUTJI1lXnfeVZ8LIx0PzyW6mmVImbQGDyxzIIypzl1aQIBHH7pwhtj9CUK3tp1g_hQOKBgF2O1XLl8BBW99WlpkY9lEo.ZVH"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Destierra a la compañía de Grimm de Hallownest",
+        "lockedDescription": "Destierra a la compañía de Grimm de Hallownest",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.4
+        }
+      },
+      {
+        "id": "58",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Hermandad",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "0d434724-215b-41a9-8d8f-5a23ba75b102",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wirTDEGTsyf.ZwPu5zcSb5BreDMEz7A26ErH1PiRAN9JOeWYj3jB52SJsdyIeSUhSzyVf6eI1CYzNL4ZTSTqVPfKOzWc.ultMSRSGCOfU2"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Completa el panteón del Maestro",
+        "lockedDescription": "Completa el panteón del Maestro",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 3.07
+        }
+      },
+      {
+        "id": "59",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Inspiración",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "b3b25569-3ad9-4e54-8240-1874bf220844",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8fwW6xRbf9tM.5OROI7cEoaajFVcCTXmHtlJdyHh6ZxjgTMHUYXcXFigNVkJeMTmXljzyXFmNw5uiQfPD4Eo9_ZfWq74aVhf4qGPFxdc1V2"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Completa el panteón del Artista",
+        "lockedDescription": "Completa el panteón del Artista",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 2.82
+        }
+      },
+      {
+        "id": "60",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Concentración",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "0e023889-cea3-405b-a145-03e2f9ecaaad",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5XrL8tQY.MwWYIrfIlaoTZBET7EGHBqzX2HH8iMZ0D.qrsflrCtTmF2qNuf7DyQ_Nb5zaXuS.RsScXOS6yuBc3afshKZXEsgpYyCze9F.gt"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Completa el Panteón del Sabio",
+        "lockedDescription": "Completa el Panteón del Sabio",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.7
+        }
+      },
+      {
+        "id": "61",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Alma y Sombra",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "8f3a3140-a853-4c3d-a0e2-e8b86454c634",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzDiq2TQI4wsZQYafGm_4sno5w79aBUTiQvugmPNyX2_9CLA.BnWs4JGkHxVsBk.32wzZjJ6KPnhxcx3SQyBF9WnXmBeFWZmXElY4_3cdWEj"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Completa el Panteón del Caballero",
+        "lockedDescription": "Completa el Panteón del Caballero",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "10",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 1.2
+        }
+      },
+      {
+        "id": "62",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Acepta el Vacío",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "e2c99a00-160f-4500-b8e7-1dfd91211abc",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.Zojz2lOA95NDvkkaWFVDWjPgNxfQyutGMkou3AYxJFGVuhfyWMBHuf98kd4_EhHSDgfy377qV3E4E8oaGhWYMSCF5VLDdRG0PplylzvKZU"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": true,
+        "description": "Asciende al Panteón de Hallownest y toma tu lugar en la cima",
+        "lockedDescription": "Asciende al Panteón de Hallownest y toma tu lugar en la cima",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "50",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.48
+        }
+      },
+      {
+        "id": "63",
+        "serviceConfigId": "00000000-0000-0000-0000-00007abd14db",
+        "name": "Conclusión Pura",
+        "titleAssociations": [
+          {
+            "name": "Hollow Knight",
+            "id": 2059211995
+          }
+        ],
+        "progressState": "NotStarted",
+        "progression": {
+          "requirements": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "current": "0",
+              "target": "100",
+              "operationType": "Sum",
+              "valueType": "Integer",
+              "ruleParticipationType": "Individual"
+            }
+          ],
+          "timeUnlocked": "0001-01-01T00:00:00.0000000Z"
+        },
+        "mediaAssets": [
+          {
+            "name": "2cff1089-203e-48af-819a-dace3c453bb3",
+            "type": "Icon",
+            "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2MTXJv0tT0MEKUuZq_8x_UNd4z_xF0HlVLH9iphbaTGm.iY66W4lSszYBm_GQEJ.Y2CFMRF9x_UZUGpm9Gh55BQrVud4bGyGQ1zPR0fMtnc"
+          }
+        ],
+        "platforms": [
+          "XboxOne"
+        ],
+        "isSecret": false,
+        "description": "Alcanza el 112% de finalización y termina el juego",
+        "lockedDescription": "Alcanza el 112% de finalización y termina el juego",
+        "productId": "00000000-0000-0000-0000-00007abd14db",
+        "achievementType": "Persistent",
+        "participationType": "Individual",
+        "timeWindow": null,
+        "rewards": [
+          {
+            "name": null,
+            "description": null,
+            "value": "70",
+            "type": "Gamerscore",
+            "mediaAsset": null,
+            "valueType": "Int"
+          }
+        ],
+        "estimatedTime": "00:00:00",
+        "deeplink": "",
+        "isRevoked": false,
+        "rarity": {
+          "currentCategory": "Rare",
+          "currentPercentage": 0.66
+        }
+      }
+    ],
+    "pagingInfo": {
+      "continuationToken": null,
+      "totalRecords": 63
+    }
+  }

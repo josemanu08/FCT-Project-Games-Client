@@ -1,0 +1,525 @@
+{
+    "tr": [
+        {
+            "achieved": true,
+            "tId": "1",
+            "name": "Afortunado",
+            "gameName": "Hollow Knight",
+            "date": "2022-04-23T16:16:17.8270000Z",
+            "earnedRate": 32.71,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd26BC2b8f0omZZn0LrEVuriz_DDhd2LAXEMGkW5wBCOQmilDv4DyJDn42ioqC_dlknz35MdOiuYJ.uvulEKPuHmsyjxFbQWnjK53wbFxO627",
+            "detail": "Adquiere tu primer amuleto",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "2",
+            "name": "Encantado",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-10T10:08:04.9470000Z",
+            "earnedRate": 9.27,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz59tklyfM4FozsEqjYukkuD.aYKgCGYW304aK5REoUWdManmc9OAiXnYWcGMwX7xNlMLHZIVdoFivGyDqNjqhZAMC08ECU6MC7wEejZoun9",
+            "detail": "Adquiere la mitad de los amuletos de Hallownest",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "4",
+            "name": "Protegido",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-19T11:04:23.2500000Z",
+            "earnedRate": 12.49,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxxjgzxilFdQ4tLC1Qe1x58n88RxzbmAJZlQSG_a9ixTX39OAp1p48glRf.Nw0dc0pAha6P1mgvUgsW9_VqJ1ylObLTohW9RxCC4dcaX101v",
+            "detail": "Adquiere 4 fragmentos de máscara",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "6",
+            "name": "Animoso",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-10T10:17:43.0030000Z",
+            "earnedRate": 10.58,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4qFa3rIyIqRlzQ8R7cS1BbnL1vC0SRIahGNqQlqn3Z8XuZ2R5dVKBFYxRwSaTR370THKBHnlUOWd8qxjCrC8DIItQ4JX8K7uWBvzZJnzZro",
+            "detail": "Adquiere 3 fragmentos de vasija",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "7",
+            "name": "Anima mundi",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-13T11:56:52.6430000Z",
+            "earnedRate": 4.57,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1IUc6ag7320LIOT_lNMOCs_dVylqU3WQ8rclSlGKJpnk23plaugMjnTCTt6it2XcbRJ4h4qEhOzeaAiuhXvR954L1BfAz7fPKZ3zakUAPxm",
+            "detail": "Adquiere todos los fragmentos de vasija",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "8",
+            "name": "Falsedad",
+            "gameName": "Hollow Knight",
+            "date": "2022-04-23T22:21:32.7830000Z",
+            "earnedRate": 28.4,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy2xP0h1BrORPBUoQ6rApYMhmWh_W_KEGFHXM0yPRcmjcpXPVrSluVbWkngQDIR7KXiRoHBxVE6Jext_TdtSXmJ_T_Y7IE52e9BmNjv9hsOi",
+            "detail": "Derrota al Falso Caballero",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "9",
+            "name": "Fortaleza",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-13T13:12:19.9570000Z",
+            "earnedRate": 4.86,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.d9yoW2F58bGuf1pcsYC9Cl4iGe1xWU6E2zCJ3oHbwFNBbQdJwwpvbPOrRHuwJCUcIrQZy8CZ0YeLJXil2WBa_Tbhk5fFJ_QoQ1DPEj3zig",
+            "detail": "Derrota al Campeón Fracasado",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "10",
+            "name": "Examen de determinación",
+            "gameName": "Hollow Knight",
+            "date": "2022-05-22T16:00:21.1900000Z",
+            "earnedRate": 20.41,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1TnPDXBQVdn0NRy7xOoPz6M7N3tDM_PzSQXnpDf0j1r6i75hnpi4MP_78ud1zdXJgQfHo5kaQl9FwkxfYCFRiHXM6sHh4NMtHizK1KM6FPz",
+            "detail": "Derrota a Hornet en Sendero Verde",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "11",
+            "name": "Prueba de determinación",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-05T17:30:17.0330000Z",
+            "earnedRate": 8.86,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3TinteI1K7_vuCnAtLNU4yRayv.a2zyPoTp5f.m40wcD0CcnuL123UhFKOaqgvfRMOGHa6RlZlTNzG4fIU7ww83yJQakG81MWHaf4jD6gcd",
+            "detail": "Derrota a Hornet en Límite del Reino",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "12",
+            "name": "Iluminación",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-18T18:04:02.6430000Z",
+            "earnedRate": 12.17,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1IUN3iZcW96ohuAIPaRsOrNmQqYBJgOT464HuVwkycLRLxJr9oynKWs3154fV1WG6VL4ZObPXW2oEhnDG4YR2CVqZVZNWJnVEbnqGZkrcJl",
+            "detail": "Derrota al Maestro de Almas",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "14",
+            "name": "Liberar",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-29T13:33:01.8670000Z",
+            "earnedRate": 10.09,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4sv0pdXrLNhKBNhqtbmHX0nQnw55rG226FFBJ.99YegNpGu8ziFU5f5Dd9t3s47XD9BU9vpX413OAL.9bpFxB7sSNumeCuJDuQz5ydQmoNi",
+            "detail": "Derrota al Receptáculo Roto",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "15",
+            "name": "Paz",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-13T13:24:37.1170000Z",
+            "earnedRate": 5.95,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0vDaXrJHRQsOPlAl08xOCeLqpfNQLaPUANGleO47Zj6ATItBVgBUzFHmpWidHpCyHJAPHY0_eHzgRrDZsies0yXzmRq6hWlObG7JHz3OD8K",
+            "detail": "Derrota al Familiar Perdido",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "16",
+            "name": "Honor",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-01T13:14:22.1930000Z",
+            "earnedRate": 10.46,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0nJk.BHA5zVK.3Y8Y6NKf3AhExZ7RbWBfbVYrYx5CPIIEAjjbqHAO4DbSFcMgRmiJwzTWTw.3BXPx5AYQQujjNCF8h7zmGusjs_o8gs2PE1",
+            "detail": "Derrota al Defensor del Estiércol",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "17",
+            "name": "Respeto",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-17T10:58:34.6600000Z",
+            "earnedRate": 11.49,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4sfh1Z37kziE8U3u5dncWku6MDufwLAc8WDZx4c88nESvSXEwcmE6JGHbyU9J3ac1DOiK_aO82RdPBC6VyeOvTE2uY2mfbbrD1itY4xhud5",
+            "detail": "Derrota a los Señores mantis",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "18",
+            "name": "Obsesión",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-11T19:03:19.0900000Z",
+            "earnedRate": 6.59,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd57esYSvwfL4HD5qHUD6zNZ3UIptwTiGWw2nAfycm7RMROV4WFYnh7obliCZ_bbAjWROW9pMNqCLwVKHFGQYS9q.MSO.E0RRUrOr9BxTD5CL",
+            "detail": "Derrota al Coleccionista",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "20",
+            "name": "Ajuste",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-10T10:31:40.7770000Z",
+            "earnedRate": 8.5,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_OjfR0aJhc1vH.mEsDHQ.bqW6jXXzCDPdOD4edTy.Yo9CH7w8CPEPioMQxCAdB4TeJu0954eTFZ_jhLL4yE34UR8ANbQOC07cDBCnSGe_r.",
+            "detail": "Reúne 600 de Esencia",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "21",
+            "name": "Despertar",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-13T13:28:47.6030000Z",
+            "earnedRate": 5.98,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_w53LDxr4DGoq6S4PevNmMuiFdqmUL.ly_Mf3Dl_7dfQlfHj6Ypfa1tuPr_RHrLDadznxJ0_.uHWj9HKfn8KKahhfffWEfCVJruyjkaSkfl",
+            "detail": "Reúne 1800 de Esencia y despierta el Aguijón Onírico",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "23",
+            "name": "Amigo de las larvas",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-11T19:03:24.3900000Z",
+            "earnedRate": 8.85,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwVD9G2NN52OoeaR6cDYnuh7_hytynaL5t6Ufn5KO0nYKw0ukcS2gJYywUAxfAHRUWjlbir5P97CKliDEtYmVbeLOYFWBppoDjWMzDAX1VEc",
+            "detail": "Rescata a la mitad de las larvas cautivas",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "25",
+            "name": "Abandono",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-18T17:20:16.8070000Z",
+            "earnedRate": 1.09,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6yPicaec09H1xS2v66HvoQFz3HATSTUCicEJG79AFy9Qb6ml4SH9T9jYcLr1U4KXXbRhuUArfolP3TAWZQJezqHktw2qkScYbGGrsWx6fPm",
+            "detail": "Deja que Zote muera.",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "30",
+            "name": "Ejecución",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-14T00:28:18.8600000Z",
+            "earnedRate": 6.94,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9oqq1X202aEJ1tyBMHr08fr.lVgkR9gx1gkwfEB0FNHmU28CSYE1me5zdWc0YSVZ0RpTA670hL6SLv0EuPkfpUqrMSzDnOSpbN.VkNyfYrX",
+            "detail": "Derrota al Señor Desleal",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "31",
+            "name": "Conexión",
+            "gameName": "Hollow Knight",
+            "date": "2022-06-18T10:05:07.3800000Z",
+            "earnedRate": 13.06,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyHmTWmMCbDKhdMEoDy6MZZIaOS8hPGMDF1uoyYKlWOd2ew9EkwnNdlJQtyAEAJa4WnTTLlnmbrjnUKn5tMC0i_q_XCkHElt1iCElZnMlvjT",
+            "detail": "Abre la mitad de las estaciones de ciervos de Hallownest",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "32",
+            "name": "Esperanza",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-10T10:32:50.6400000Z",
+            "earnedRate": 7.28,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwBljg1JDVerdWOUOEsYVPWEapqt1cjJ9.oHgu8nJS26Cs.1vB0jHdQox3DdmNESXnng2iEP0fO4VyqOdHq0N2B0Vl7HdB.H2ilTioLGO8S.",
+            "detail": "Abre todas las estaciones de ciervos de Hallownest y descubre el Nido de Ciervos",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "33",
+            "name": "Maestra",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-08T23:09:24.1830000Z",
+            "earnedRate": 8.56,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd51c4dWRFP7o7yXjCLDst0pi7kNRLt_J3z2BRhKcLebJNzrt2Y9kfY8Je9lZd_Bq3EDEKq0luQl8QW58fTImb5PMp.gDb0cCU2hyOkcLVkCa",
+            "detail": "Destruye a Monomon, la Maestra",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "34",
+            "name": "Vigilante",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-08T16:59:45.8930000Z",
+            "earnedRate": 8.35,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz.uVVOTh0HxNWDBun27i6R7Ti4b8uML4FxU_tuRZIpjvGC68VB_1DZGcFlbao0KtKyjQhVwHeI7yu310nXL_yZJVGQze3Qs5iVA.JTS_Yoc",
+            "detail": "Destruye a Lurien, el Vigilante",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "35",
+            "name": "Bestia",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-09T11:16:06.6500000Z",
+            "earnedRate": 8.98,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0M4WA_0Bv7N12942zOgBWUXOoKgZxvdHSvNXEuO36urgNhqf6YaOF9QKrcAMwSbhPmd1I81UIC1yKiAZ_Txw8LqTfJUFgoAQL_33ZTJv2Wh",
+            "detail": "Destruye a Herrah, la Bestia",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "36",
+            "name": "Cartógrafo",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-09T11:34:24.2670000Z",
+            "earnedRate": 8.18,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy25tHxuFw8U5s_.ZZ4BvR3RIHtGQKuDMmRil8.iLRPJH.z.BB9pbelEVwPuScDeQeduYQhs9ta12FJx7k3B4GeaBSDXnqiVDtuRl53lnF0N",
+            "detail": "Adquiere un mapa de cada zona",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "37",
+            "name": "Guerrero",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-11T18:22:33.5370000Z",
+            "earnedRate": 8.62,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5BkhHzR9.dEgGtDPuQJOIfgQiAiLwvr_ZsJWIjTBwylJgaIR3No9ABjIKFmb470zdMY4O2UzTM7L_P5Jqz42cgA3x0fcMVjYjKEdX2lcmMV",
+            "detail": "Completa la Prueba del Guerrero",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "38",
+            "name": "Conquistador",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-11T18:33:07.8230000Z",
+            "earnedRate": 7.48,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8YBc75m4erWWUPQc_PcozSK2EWbI8M1_8eq7kQRJxoG2bSTDRDERQ0f6DhgovFGEErQOt0nP1EHKuC45cs_aDB_6zbfb0tzbU9tdjZNnavy",
+            "detail": "Completa la Prueba del Conquistador",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "40",
+            "name": " Hollow Knight",
+            "gameName": "Hollow Knight",
+            "date": "2022-08-06T16:36:34.8500000Z",
+            "earnedRate": 5.07,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyMHomrOvm2PCbD4UYgVXJQ3LecXxbiylFDe3zKLNigHbcgMj7gl9MLbajQ0tAjq3Cajl3UgzMhPgOoq0kYi8RziEd8EpJxUj4xEgz_YqFcK",
+            "detail": "Derrota al Hollow Knight y conviértete en el Receptáculo",
+            "platform": "xbox"
+        },
+        {
+            "achieved": true,
+            "tId": "55",
+            "name": "Gran Actuación",
+            "gameName": "Hollow Knight",
+            "date": "2022-07-13T19:45:27.2770000Z",
+            "earnedRate": 5.48,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6K.gmGPV3u2mHCHzqFBW3BLA83bVWQhV_dHb5Btm2POkb1Gcn_XGeHubYKtvRe.C8JkYG6hUrJns3pvDJM1p.Bilowusdt9aud3RkrzZXMn7zeCqwA01JeW97DGsqeDmQ--",
+            "detail": "Derrota al Líder de la Compañía: Grimm",
+            "platform": "xbox"
+        }
+    ],
+    "ti": {
+        "name": "Hollow Knight: Voidheart Edition",
+        "developerName": "Team Cherry",
+        "website": "https://www.teamcherry.com.au/",
+        "price": 14.99,
+        "search": [
+            {
+                "SearchTitleString": "Hollow Knight",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Gothic",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Platformer",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Metroidvania",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Voidheart",
+                "SearchTitleType": "SearchHint"
+            }
+        ],
+        "imgs": [
+            {
+                "FileId": "2000000000016291466",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 1162903,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "BoxArt",
+                "UnscaledImageSHA256Hash": "T7qL8WfWJ6CMvzOiW458dHBV145Nab8gBN57ASkeJ0s=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.47695.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.090b8af1-1963-48b3-8c6d-1255f335fceb",
+                "Width": 1080
+            },
+            {
+                "FileId": "2000000000016291600",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2073862,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "SuperHeroArt",
+                "UnscaledImageSHA256Hash": "zl6pRwGIWwCQFfk93dQPnVQaWlycMl0Uw9GnM99KrmE=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.24270.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.d96146d7-d00a-4db9-ad68-197b2f962a17",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016290663",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2576152,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/1",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "x7W6xjU4qFitzhB9e8DrLZqIEsYdYx3hSDaS8J67DOU=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.46535.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.ecb76317-830c-4394-b156-dc86990b48db",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016290665",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2258901,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/2",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "RLr+FgpbnZGz/IndLJe6ckIkoWl39wjzN2xO9F5BxA0=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.47684.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.ac5a198f-72dc-4b62-aa7c-74e82a00192f",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016290845",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2038223,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/3",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "O18dARnSe4ajvZB73Et+ugy7qCVipPrvQgA9sEzPx0Y=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.24379.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.9d80e66c-a064-4e6b-b294-a664cab0c438",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016291044",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 1867101,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/4",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "3zhtVrcJSjt3s3FTntE8C16ql0+nMdUMyRwLrjW8D4I=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.14559.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.942d1111-cd87-4d7d-9738-2a77057bcb40",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016291209",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 1733063,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/5",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "2DQe9TY1pFIdTm4EDPsQ7LZNGXVxX3ylx6RqNsSaku8=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.13528.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.e3dd08fe-88eb-4131-99a1-a14ff4ba52a5",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016291330",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2128336,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/6",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "vSejJZXQx46aqP8Yqz9JTVGw7n9ZOb2uSRYIhNlmmHI=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.10173.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.5a48750c-86e0-45bb-9f27-8ce5360bba45",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016290730",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2274717,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/7",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "Bskx7XKThBGSIgJcvsvrjuWGIE+VJqsYw2cvmsOKUR0=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.51462.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.a5a5847a-1ea4-4949-9568-7558d019a867",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016291333",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2060550,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/8",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "fbhR7jtF8DSkKQazy80ooopQu2dcPf16TuNdyK5Oh9A=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.47229.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.f2ab1eba-deaa-4063-963f-434bc220440d",
+                "Width": 1920
+            },
+            {
+                "FileId": "2000000000016290803",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 2021262,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "Xbox/9",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "/b/Bt8C0XpuKRe4mNaEVUITvheI8ktlZ2Iu1Nb9ZqoY=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.49149.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.61d76646-0837-4a80-bb32-8bbd83366be9",
+                "Width": 1920
+            }
+        ],
+        "longDescription": "Descend into the world of Hollow Knight! The award winning action adventure of insects and heroes. Explore twisting caverns, ancient cities and deadly wastes. Battle tainted creatures and befriend bizarre bugs. Uncover ancient history and solve the mysteries buried at the kingdom's heart.\r\n\r\nHollow Knight Voidheart Edition includes:\r\n\r\n• The original, award winning, action adventure.\r\n• 4 giant Content Packs, built in at launch, expanding the game with all new quests, terrifying boss fights and striking new abilities.\r\n\r\nGame Features\r\n• Classic side-scrolling action, with all the modern trimmings.\r\n• Forge your own path! The world of Hallownest is expansive and open. Choose which paths you take, which enemies you face and find your own way forward.\r\n• Evolve with powerful new skills and abilities! Gain spells, strength and speed. Leap to new heights on ethereal wings. Dash forward in a blazing flash. Blast foes with fiery Soul!\r\n• Equip Charms! Ancient relics that offer bizarre new powers and abilities. Choose your favourites and make your journey unique!\r\n• An enormous cast of cute and creepy characters all brought to life with traditional 2D frame-by-frame animation.\r\n• Over 150 enemies with 40 epic bosses! Face ferocious beasts and vanquish ancient knights on your quest through the kingdom.\r\n• Chart your journey with extensive mapping tools. Buy compasses, quills, maps and pins to enhance your understanding of Hollow Knight’s many twisting landscapes.\r\n• An epic orchestral score, with over 40 tracks, composed by Christopher Larkin.\r\n\r\nContent Pack Details\r\n• Hidden Dreams: Mighty new foes emerge! New Boss fights. New Upgrades. New Music.\r\n• The Grimm Troupe: Light the Nightmare Lantern. Summon the Troupe. New Major Quest. New Boss Fights. New Charms. New Enemies. New Friends.\r\n• Lifeblood: New mapping tools. New Boss fight. Upgraded Bosses. New Music. Hidden Extras!\r\n• Godmaster: Take your place amongst the Gods. New Bosses. New Quest. New Game Mode.",
+        "shortDescription": "Descend into the world of Hollow Knight! The award winning action adventure of insects and heroes. Explore twisting caverns, ancient cities and deadly wastes. Battle tainted creatures and befriend bizarre bugs. Uncover ancient history and solve the mysteries buried at the kingdom's heart.",
+        "releaseDate": "2018-09-25T17:00:00.0000000Z",
+        "categories": [
+            "Action & adventure",
+            "Platformer"
+        ]
+    }
+}

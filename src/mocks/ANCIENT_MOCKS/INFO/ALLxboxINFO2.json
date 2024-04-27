@@ -1,0 +1,815 @@
+{
+    "tr": [
+        {
+            "achieved": true,
+            "tId": "1",
+            "name": "Huida del Tártaro",
+            "gameName": "Hades",
+            "date": "2022-08-19T11:46:11.9830000Z",
+            "earnedRate": 39.72,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6lQRLHFQ6oeic9yDPXriSK3525wCalVjkD2.6TaLUi1S5tvBfGh6uF2bUtx3i3dfrUNPi8T6PJslZxuPQ0j.WM2AOFMN.OeG_3I_4erptt7JGYnmrJdO.cjlLnyRiC7AQ--",
+            "detail": "Supera el Tártaro"
+        },
+        {
+            "achieved": true,
+            "tId": "2",
+            "name": "Huida de los Asfódelos",
+            "gameName": "Hades",
+            "date": "2022-08-19T11:59:12.2230000Z",
+            "earnedRate": 32.01,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9Dl_NpMoSxqElVwPAch6PyDIYnuglOLGbZvHqEWCSASPT7OIr7Ho9KvGAyrHV0jn65GPosAlIOxYECwMoO7Ena6isvQBBNNlant4EeRCwrfF9kiKQkvBrjNDWs0PGlYHQ--",
+            "detail": "Supera los Asfódelos"
+        },
+        {
+            "achieved": false,
+            "tId": "3",
+            "name": "Huida del Elíseo",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 24.25,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd09EiImYjxj9xs2k9JzCXc6Ul07ZmQJPlKU3wCofyIKheNcniHdCSfd44XaqAwlkDJrf.tU69mDPEmoEpqiCblVb937OPwCLsybU2rM3wSd3k1JvjTD_jNW0RGiwsnkCpw--",
+            "detail": "Supera el Elíseo"
+        },
+        {
+            "achieved": false,
+            "tId": "4",
+            "name": "Campeón del Elíseo",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 4.11,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0q5p06Zsv.9CBtb7n3zYvpS_V9fzi_S3W11EwxcquXY1QZuewX9tixeOTdA3XkoIzZ7vuQzv7D8O60I_7IaJC_B1ZlQReWjJt00_ftja8DlpNT.8TjJCKp0NjF0LeYm7A--",
+            "detail": "Supera el Elíseo con la condición «Medidas extremas»"
+        },
+        {
+            "achieved": false,
+            "tId": "5",
+            "name": "Sin cebolla, por favor",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 5.33,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5b11GMdFLJANAAqVzZEPJeiOM_omYc8S0wYGvnei7Xs9TlatM7AqZdj13rAZVKLmwbvWb_e_irrEHy.lSA1VHnsjQDQkcycdQRzygyzK7wSUrJm._Z2mw.TGfIXQsDxgQ--",
+            "detail": "Supera una Puerta del Érebo sin tomar daño"
+        },
+        {
+            "achieved": false,
+            "tId": "6",
+            "name": "¿No hay escapatoria?",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 17.76,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4Pi2EpqrpbQvoHERsIm8It9W4S5aDs3Asa26iSzHifWBxoVxF6.R3dw68R2tkn7tjdhbVYCO_g0Kclz7yAN7I8FNdJIqMath5RMHI5fMbu2",
+            "detail": "Supera una tentativa de huida"
+        },
+        {
+            "achieved": false,
+            "tId": "7",
+            "name": "Arma del destino",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 5.98,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd87Fq_N9jTjlPt_3eAwviuJceSYZx8sMpBTCismBG1Z5SXh.MG_VLewpD.y1mUt1UfMfZNSyiZtPe0oD7LI6VjEWXkTFvowYWEKiSIJ9CzubP0XavdZ4fPLKYaZnFUpOhg--",
+            "detail": "Supera una tentativa de huida con un aspecto de arma oculto"
+        },
+        {
+            "achieved": false,
+            "tId": "8",
+            "name": "A Caronte lo que es de Caronte",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 7.4,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy_t4ERdXhPqv2Kn2jgHf3m2aAzy02oIcd005RkYFbF6Aomle8CdBRtoV9izlr6kjX0KhrACQQdjkYS189yQyvjyfHDorR3CnDoyUtdbMJ3P",
+            "detail": "Consigue una carta de lealtad"
+        },
+        {
+            "achieved": false,
+            "tId": "9",
+            "name": "La fruslería inútil",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 4.05,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyrXsnyyBnXM7qsFj6iMmr.ve2dc0HwOK2PDi5pbJ1_sEWSEX6B_1u6MhwVQtFVJjgufP6muy_0bDIJCx6XvDbPqjuWbEteWM.Pb3TH4OrsRKFLisUPD97Zof_pDTpeUIw--",
+            "detail": "Gana el primero de los premios de Huesos"
+        },
+        {
+            "achieved": false,
+            "tId": "10",
+            "name": "Últimas lamentaciones de Huesos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 1.92,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5rA_0aCgyoovmgzHNo6T1B1ccMuC528iv6fQ_eu1ootX_G3.cY6VhlbGDLqniSrz75NkS0m9XOS4WbednueLDzeJkqxsMXNzCWbT1HSjEAXLb8dYzb9RT6345G.2QrpUw--",
+            "detail": "Gana el segundo de los premios de Huesos"
+        },
+        {
+            "achieved": false,
+            "tId": "11",
+            "name": "Un poco de todos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 5.67,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4OHsyINVU5D2yjNfrpZWt3vLr_qpU0TsinlqZGY1gq5zKSA7BkjDAzA9eN7O3oc.Ehoi6DxHk4CRh6jijbbdBbu_vvtOk_Mg0YiMdViilHWYv1AVx48eziiLpmetyxKYg--",
+            "detail": "Desbloquea todos los recuerdos estándar"
+        },
+        {
+            "achieved": false,
+            "tId": "12",
+            "name": "Amigos para siempre",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 1.43,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd09EiImYjxj9xs2k9JzCXc6uYWvrTrUGaeVOd6rFImLDDOPgi7aGdqbWL46Rgq52.afe25EtqGZE6f8yVlqJRzOwGGZmfidTGv837ocku_iYhgH399Fgr68nppGk70BtFg--",
+            "detail": "Consigue el nivel máximo de todos los recuerdos estándar"
+        },
+        {
+            "achieved": false,
+            "tId": "13",
+            "name": "Coleccionable insólito",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 6.66,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4HW6I1G5CTY.rB9Adsiyrt3px0JgCBFR9g_A6W9xDUKFBHHBE2v79Uqd8mJQwKBo2_08dVjQjsk0DuH32ElWeamtN9DawIqAxe1PPWe_LcP",
+            "detail": "Equipa un compañero ctónico"
+        },
+        {
+            "achieved": false,
+            "tId": "14",
+            "name": "Colección completa",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 1.89,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1zx5kJK2xumxo_Hg6y4VIaiEC2wzlpdxRm7E4mKq.QBB0m9VeCauaUJuxYToxVVptGzKM5vmuxhv4QcsUsyl_JEnD_5bUkvDsR4IUX8FXazgyz5eD._RbzjZGhcEfSi0g--",
+            "detail": "Consigue todos los compañeros ctónicos"
+        },
+        {
+            "achieved": false,
+            "tId": "15",
+            "name": "Lazos de sangre",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 10.63,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwg9n9TSfKHA1_jCs7f4ShAPLCx286Y4QOBkbHeKKbcWRmlGU_NAXitNjJZLbdv99Chu60G6kYJrHYiFTVY4KvpowKXTiGnEQHe2aTizE1dHBitb0wm1Zytat9VZju1mpQ--",
+            "detail": "Consigue el nivel máximo de cualquier aspecto de arma"
+        },
+        {
+            "achieved": false,
+            "tId": "16",
+            "name": "Armas infernales",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.65,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzFE2UouE0PBVnXmPj8VTGehtov81s.LndkD2EHHsZmnlqBV3twGZac_ABqx277vwtHdnrW7fv3okcIog5T4Mi_e4.YaO.jm01GQaDntQ1z3uURsZnTtFOd4P9K4XFK_9w--",
+            "detail": "Desbloquea todos los aspectos de arma"
+        },
+        {
+            "achieved": false,
+            "tId": "17",
+            "name": "Bendecido por los Dioses",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 11.89,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd188j5opmeJE33j81tuKvAqOWO.wU.YZMn3QJyjnRy.bScF9x1eCUUW89XsHmBuN5utl6u2xkjpdvGN4nu.QwWroQG0L77Rlr7YLF7eNPsRncgaF00nJAhDbOJ232E6UhQ--",
+            "detail": "Elige 100 efectos de bendiciones de dioses olímpicos diferentes"
+        },
+        {
+            "achieved": false,
+            "tId": "18",
+            "name": "Gracias por nada",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 3.46,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0VKppVLPvdTkOGHY9Ykrg5Yg2Wj9KTui4XMcxB_0eh.Oom1sfEFaT_lHIpuNUIxP2Yzotv_jLDZ9U5Z3IGtktO1g8sGqmddsWB4gZHv_5PQZq9G1TdTw8UXJ6OLdwbARw--",
+            "detail": "Purga una bendición legendaria"
+        },
+        {
+            "achieved": false,
+            "tId": "19",
+            "name": "Herramientas del arquitecto",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 7.06,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9djFvqvqF.ZZW_75SjhTAQbnvqBkFK.Z7fRCBuMM06z3VOywWSs4nZkywIDfwCrAUlM3ffDWqEiwZ3ucgU_Oynw0uHXnM_pkY15_LKdhQ3UhtRhMmOZvaRC7AB9K8BIVQ--",
+            "detail": "Elige 50 encantamientos del Martillo de Dédalo diferentes"
+        },
+        {
+            "achieved": false,
+            "tId": "20",
+            "name": "Coleccionista de armas",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 27.48,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1cVq2Rfvg3nPDa9HK_Viof.Y6QZ2ury.8ab7fGaG_JB2PERLJv_5zKKjc4ElFTt.jduKd1eboqzBCXI3uOpxmQqptcI4v9uMUKzEAlAOps8bSO4iQVt89awm5VAhKxM1g--",
+            "detail": "Desbloquea todas las armas infernales"
+        },
+        {
+            "achieved": false,
+            "tId": "21",
+            "name": "Fraternidad",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 9.23,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7aluK3eRsH4mQ3fhnLjft1K1Es3KDJDHSrQk.nPlZklHkBruWQdaLOWUD0TcNzRhhQVgGQhh0eq22OC5n.BYVh_wdWquz5qUZncZhRfC6rk",
+            "detail": "Forja un vínculo con cualquier personaje"
+        },
+        {
+            "achieved": false,
+            "tId": "22",
+            "name": "Docto",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 5.29,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7yGBkGvpPl_FTf62wlf1iubg5bBXdNHV2100YwaAW4EA1OAbcx_ISE4f4edYKp_eNTDc9nXTRZ1gWgtlr.SApoeMGaHn7FVRcSsd9h7ygk3nHiKLd4yjW80iBOUDI5P_Q--",
+            "detail": "Desbloquea por completo las entradas del Códice de los dioses del Olimpo"
+        },
+        {
+            "achieved": false,
+            "tId": "23",
+            "name": "Comerciante a tiempo completo",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 14.44,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd20onq.a6RlSrPILfpIfgG6wDkrl16Y.ySCGTPfPxn1HKEBG57pL1rh5KimlvM.SKojYa9YERc3p0g74USnzHsYgwGeZAlh2hAiz.ZhkSk.YOubDRbEOHkaIKdbT1gVkqA--",
+            "detail": "Comercia 20 veces con el Cambista miserable"
+        },
+        {
+            "achieved": false,
+            "tId": "24",
+            "name": "Reforma del hogar",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 7.53,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwIFt3golSW5E4y5i3keAuM6vnHOwPtEF1f.copeRml4PG4vYHgrvr0Z5IOAxoHenLdVjWj64gAxyqCiHF5XgzdL.gMZYsTrWGirR6GlbSRzvi2rD4699lJZ.xPCYcz2OQ--",
+            "detail": "Paga 50 trabajos del Contratista de la morada"
+        },
+        {
+            "achieved": false,
+            "tId": "25",
+            "name": "Tenía que pasar",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 7.46,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxcPyrLjoM9kikrb6t9m4QxVUUwoefzRHtgGy8RmS1zpSeGk7QuJcn5KsTOKANHyvTjgGoSp8F0CDgvneSYpVQ54Wz8fu9TiEyH9t3WNjT2f",
+            "detail": "Cumple 15 profecías"
+        },
+        {
+            "achieved": false,
+            "tId": "26",
+            "name": "Moradores del río",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 8.9,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2.ad0Tdbkl8I9wCNzhAg9JVSd8D4egTIowaM6N015wtLycph0YNfCNAecourb.6pZ0amCoBgCAu8E_xBe_ACIppL_mue9m06T3pKr395Wn9xeVbcOE5wlyge68Z57MkHw--",
+            "detail": "Pesca un pez de cada región"
+        },
+        {
+            "achieved": false,
+            "tId": "27",
+            "name": "Música para mis oídos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 11.79,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3cd1W7fI0mmvbmDBneowmp9d7tRaWDLq0FgKctg2.8K9dOepaPN0HaOE0fjHv0X9H91Pzj12XdqK02f77YteaI7qX.R.nkrs9IpefhHw5g59s6x4cvMSrZ5CF03prQ7sA--",
+            "detail": "Consigue que Orfeo cante de nuevo"
+        },
+        {
+            "achieved": false,
+            "tId": "28",
+            "name": "Espejo de Nicte",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.84,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyYRDE3kqgD0_JxWqThrwACGJe33BGoKb3Q1B15wPhZ_2y4krEKDk0H_EO1lVoYOFGNR1fNzK0Iu92qeG4MBkWCa_xEKMGU630GeKVu.izo_fkCSvsIPXdljcjDg9rvjsQ--",
+            "detail": "Consigue al menos un nivel en todos los talentos del Espejo de la Noche"
+        },
+        {
+            "achieved": false,
+            "tId": "29",
+            "name": "Noche y oscuridad",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 3.23,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_9IXx.qGhnIF3VJ5U3hfnmcDpg0hW9enEK9emBXZih1yodOIscQ6jlbm15qo1aVR75zGgw91nTx_3Phe1PGEYS1GTnH7tGpf0..LtY2o7nu2ugcoUik2EU_0ESgYSRSjQ--",
+            "detail": "Cumple la profecía «Noche y oscuridad»"
+        },
+        {
+            "achieved": false,
+            "tId": "30",
+            "name": "Compañeros ctónicos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 23.62,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0xSQY6B_NAYv6V6LrHG6rNGqUMdJMUfmMaus8_guE9iXZgdpwYAy9vJq.nrCQEZDoNgUOQcaDBRAfHKTWjK6GU.mYBrux_C7kiLtzpGUW_zkiW13WDjUOgQuJkY6K33SQ--",
+            "detail": "Cumple la profecía «Compañeros ctónicos»"
+        },
+        {
+            "achieved": false,
+            "tId": "31",
+            "name": "Sed de sangre del Dios de la Guerra",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 5,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5b11GMdFLJANAAqVzZEPJfdhwati5yb1d.fIw3spJ6QbnvcUqBJswyAEeHFZQ5oDgnokAaf6QOW6h_yfP5p.hRPx7U1PYEz.Dn8gHTJqkGt",
+            "detail": "Cumple la profecía «Sed de sangre del Dios de la Guerra»"
+        },
+        {
+            "achieved": false,
+            "tId": "32",
+            "name": "Fin del tormento",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.99,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd5fDwaQ3H67.EWvkQmJM9k7sLbYGAQALM08bajbASP.WOZhswn65sCv_p5DjNVM.tpUiNuGzRXIXadbhhhz09iPsNZuWDdyd9q_7hKsjXiqTyi6Y79jWc12XvhoSdxhnmw--",
+            "detail": "Cumple la profecía «Fin del tormento»"
+        },
+        {
+            "achieved": false,
+            "tId": "33",
+            "name": "El músico y la musa",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 4.33,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4v.NlydAZr74Y7FJq2GZzRGRPG8wSKCuvOm2QdUsI5rdKSEcB9nzXmglkdZX4HSwXXf_JMgkEqKm7VEYxDCaN2kX0AD0WAaSHE5sEpZkQLAi5nb1Kyaa03T4Rv_5lSRQA--",
+            "detail": "Cumple la profecía «El músico y la musa»"
+        },
+        {
+            "achieved": false,
+            "tId": "34",
+            "name": "Separados por la muerte",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.63,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0M4WA_0Bv7N12942zOgBWVi6rJi.d_QuqkbWMkn_RihScooPVRiTg0OvhF1IfYeLjQS7kjsV8aujMr1A2XJ.SA_rzYYbAzGTm2zWGnnztRWnyetDRcFxag5uzLeGgG..Q--",
+            "detail": "Cumple la profecía «Separados por la muerte»"
+        },
+        {
+            "achieved": false,
+            "tId": "35",
+            "name": "Reflejos oscuros",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.52,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd75eOQJrRlqs.f29BFGYoPsMZ180P0y7DebtGtBikY0YxFThq5uRSPpYShZ.5sYUGuAjmC246A4eeO2_1f6PlBDJenwWiuR7zHPWSf_CpAUi_4lfXRFmMhVSFiuhKMRhTg--",
+            "detail": "Cumple la profecía «Reflejos oscuros»"
+        },
+        {
+            "achieved": false,
+            "tId": "36",
+            "name": "Condiciones infrahumanas",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.01,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd40_OMHFIpFuQmHkIO6t6x8xrJPfVZtwaQlbBwxim.Gv6T7RNDiUJaPHzGyPFoel5BHHE2UbWRZG5cgzAGH.9xFoKudaYEf0x5uUMjcLnwHvsUarPAblkcAMXXdVgga9Cg--",
+            "detail": "Cumple la profecía «Condiciones infrahumanas»"
+        },
+        {
+            "achieved": false,
+            "tId": "37",
+            "name": "Maestro de armas",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 6.33,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwf3MBknhAx76H010_YgmBOs_.KeqInZAevYMJ3oPX3g6gDDT3TaamFBVsSPfJsMrEduh8F4IgGa8CVJn_Q9ioHbd4LaKLMwuhuNZqoZailRO3LcDKd.AyREZnyvGg.N8w--",
+            "detail": "Cumple la profecía «Maestro de armas»"
+        },
+        {
+            "achieved": false,
+            "tId": "38",
+            "name": "Ventajas recortadas",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 3.57,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwGoulMeuXNKl3wjSt9V_BajXB9ewSQqT2g29h0JOccPyW076sCQPd9MxRYH.BkuMXbf6PCOWs9dejGSqkTPHYj28YRPDFX004QTTZot6dITx0mzpr3FQwyERTU8zvq8YA--",
+            "detail": "Cumple la profecía «Ventajas recortadas»"
+        },
+        {
+            "achieved": false,
+            "tId": "39",
+            "name": "Vuelta al trabajo",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 13.15,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9JqwUuiy0Y.62JuB0BjPxxlAVt1sHfw_pOaWlrJIGfzCK_TuX6i8LRVeFWPhZP_EojLh5Gfx0aG6e.vUP0yq.dWZeSeFOnF1Xqh7lHbyv6ZmUxBU36XUqBakN7nxPSU1A--",
+            "detail": "Consigue acceso y entra a la Cámara administrativa"
+        },
+        {
+            "achieved": false,
+            "tId": "40",
+            "name": "El secreto familiar",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 7.94,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9hQ.AXAs7bcxnSh02nVX_UjymwWU_.MEBT0Wtz5xaoXJsVW5.O29HlKIw.h9KbBoS1z4j2igxnLW9Z.qZanTkTSPldVAvY5TSjKcfteBHrOv482__wszLWRvfMxXaWd8A--",
+            "detail": "Completa la misión principal de la historia"
+        },
+        {
+            "achieved": false,
+            "tId": "41",
+            "name": "Para la posteridad",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 2.53,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd83wMIq1a9ojCTpny5eyEf.725f99k6sHfLaOc3vX9DS2Etp7fmbxOcaT0PC8nD1rXWfgB6iPP_YfFVdRAcD6HqC_lDHytgNnjxA2Prbqdu3QYOcFINdViJHUs4gTl2L6A--",
+            "detail": "Alcanza el epílogo de la historia"
+        },
+        {
+            "achieved": false,
+            "tId": "42",
+            "name": "Bien abastecido",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 15.36,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_8Smi1NJto2ndxpwsCQT_DfPW_CPWz3cfkWP.ZEJAH.TFkyH8PO4Ws.ZWmBZ8i2fpLmFV3v82fqQKujzWSinpESm13w4MHxljCggrxHEZJP1cJCX_SN4AjomekQpoYYnQ--",
+            "detail": "Compra 9 objetos del «Pozo de Caronte» en una tentativa de huida"
+        },
+        {
+            "achieved": false,
+            "tId": "43",
+            "name": "Espina de Tánatos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 1.71,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd18OcVyRMZuz3mi9bEbndSNNwj7lJBWMttUzTKP1o_Ws6mCe_JJ4hcoJQDuQ89W7V7.n._3UIyXxBSYflilsDmrX6p5eZzoOXYM8erJ3J9zTrW5_JEq2c3XB3tI93DXMyg--",
+            "detail": "Consigue una bonificación de daño del 30 % con la Mariposa Perforada"
+        },
+        {
+            "achieved": false,
+            "tId": "44",
+            "name": "Velocidad de Hermes",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 3.46,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwnxkFaNjg_V19kOJ9eGop.WpExGxCSGM9KpW4y.YbENQiZbEo4FG1_3HziKti5_tQv6Rn_S8TJMUyryRFqQsyxnVloTAZJ3KY_bik3CdqNi",
+            "detail": "Consigue un 20 % de probabilidad de esquivar con la Pluma Refulgente"
+        },
+        {
+            "achieved": false,
+            "tId": "45",
+            "name": "Mercader de la muerte",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 16.59,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.bV1fB8AWDw54G3xgmK8asyTe96muQiVSpGTFyjpRBstV.bTNWeGKDiLYVxdbVtXY.id7p9QkE63YhZYSCiwt.tlG9ZO3vE01ZWt7XtftEo8dTN3th9TOOBH3F8ssnWyQ--",
+            "detail": "Vence a Tánatos con 15 muertes o más"
+        },
+        {
+            "achieved": false,
+            "tId": "46",
+            "name": "Amigos en las altas esferas",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 26.69,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.jg9e9UqcLs4yUdPJQ2aeA19kkdP3XGlQFEVl2.ceARTbbj2LJI0KIoLjn14Vn2kKphhYgHtaq0gIArrpq.cc7A5aX4zlRX5v1PUCGPOcAa",
+            "detail": "Usa el Llamamiento Superior para invocar el favor de un dios del Olimpo"
+        },
+        {
+            "achieved": false,
+            "tId": "47",
+            "name": "Mala decisión",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 3.82,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzDNeD.FYuDXkCBXFmsse5gBBOx4wzMGGZhB.2ZGVg.h1gGy49UH400c4YIkh6atU1hTnYTxjTpWKnMZicrngoUbleIjOZ7.zE9Tra.snI1WN1RRL2EhNXXmw9mlwhdkrA--",
+            "detail": "Usa un Llamamiento Superior de un dios del Olimpo para usarlo en su contra en un Juicio"
+        },
+        {
+            "achieved": false,
+            "tId": "48",
+            "name": "Aniquilador de Huesos",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 15.66,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdysmTBFjk_QBw8ELq09tRqQjtyk6HiGTd5XDDMo0BQXDyz5eYoOOqbpLbNxBys8tkcqJk_sO9mug_bEbC0POdXXwO5vrCKRcSzY7Qkve0Rjk",
+            "detail": "Aniquila a Huesos 15 veces"
+        },
+        {
+            "achieved": false,
+            "tId": "49",
+            "name": "Cachorro tricéfalo",
+            "gameName": "Hades",
+            "date": "0001-01-01T00:00:00.0000000Z",
+            "earnedRate": 13.73,
+            "icon": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9Dl_NpMoSxqElVwPAch6PwwND8Xl.xdhEFPPF.AAKsJ.uNIlGQpj6i.P.78FLPTtYv5x0ae4ilTmvhwv7DmQsW0Xrb8uh6EMvMb_WkcJ_UTBoUGqXbw2h6VvfAE0jNpFA--",
+            "detail": "Acaricia a Cerbero 10 veces"
+        }
+    ],
+    "ti": {
+        "name": "Hades",
+        "developerName": "Supergiant Games",
+        "website": "https://store.supergiantgames.com/",
+        "price": 24.99,
+        "search": [
+            {
+                "SearchTitleString": "Hades",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Rogue Like",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Supergiant ",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Super Giant",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Action RPG",
+                "SearchTitleType": "SearchHint"
+            },
+            {
+                "SearchTitleString": "Greek",
+                "SearchTitleType": "SearchHint"
+            }
+        ],
+        "imgs": [
+            {
+                "FileId": "3005682531657361781",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 1162900,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "BoxArt",
+                "UnscaledImageSHA256Hash": "TVY1Dq/59DLv0OBVAfaqwoqmPuCcQ1nUNV/wimo7Wfw=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.22093.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.ac9d973d-36f6-4dfa-a73a-8db519fe3d88",
+                "Width": 1080
+            },
+            {
+                "FileId": "3023926672827890091",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 1152021,
+                "ForegroundColor": "",
+                "Height": 1080,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "BoxArt",
+                "UnscaledImageSHA256Hash": "TH3/GbCAs/ZbH4zHWOyfXbzjRHzCsHtlqvrddXSDUh0=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.32076.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.eebe9477-033d-4a0d-867f-2eac444da579",
+                "Width": 1080
+            },
+            {
+                "FileId": "3065525754823552851",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 3351115,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "BoxArt",
+                "UnscaledImageSHA256Hash": "30/Fff2Rl4P/0h5JYfC7kiOqmgjotkYGTYhydCCAMHo=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.20447.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.5c83fe96-5360-4c4b-a0f6-7dabd9a39c9e",
+                "Width": 2160
+            },
+            {
+                "FileId": "3017798572791218870",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": null,
+                "FileSizeInBytes": 6110781,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "",
+                "ImagePurpose": "SuperHeroArt",
+                "UnscaledImageSHA256Hash": "V1vfVkppU5XKiYM8bMIQQGy4FeR2vtw9SFjrrlWgvMc=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.23383.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.d4808fda-8607-464f-91cf-a9228cda620e",
+                "Width": 3840
+            },
+            {
+                "FileId": "3025269729747313801",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 11280319,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/1",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "GKaY/UFPjB9r67ULWht0ugoNvpGucGJL0dEa1CXlwBY=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.42520.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.c9743768-4398-448a-801f-e7212e6c2c43",
+                "Width": 3840
+            },
+            {
+                "FileId": "3050827395215209302",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 11280319,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/1",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "GKaY/UFPjB9r67ULWht0ugoNvpGucGJL0dEa1CXlwBY=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.42520.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.c9743768-4398-448a-801f-e7212e6c2c43",
+                "Width": 3840
+            },
+            {
+                "FileId": "3055856501090431355",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 8518187,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/2",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "4fH0c+A4GJ1hFlcfwu+KCIdhyyWQGRQAyGSYoa/9vCo=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.61921.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.ea6ec690-38fb-4af9-82b2-a4e6be44f3a3",
+                "Width": 3840
+            },
+            {
+                "FileId": "3066132948356155213",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 8518187,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/2",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "4fH0c+A4GJ1hFlcfwu+KCIdhyyWQGRQAyGSYoa/9vCo=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.61921.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.ea6ec690-38fb-4af9-82b2-a4e6be44f3a3",
+                "Width": 3840
+            },
+            {
+                "FileId": "3029997777861854478",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13032806,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/3",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "hwmKGdITOVeJnWRbz/AligcleHirdyrvTTTxpTLDJbE=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.2439.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.ce4a0468-8b95-4d1b-91fc-ed255d058f15",
+                "Width": 3840
+            },
+            {
+                "FileId": "3040735808376564445",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13032806,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/3",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "hwmKGdITOVeJnWRbz/AligcleHirdyrvTTTxpTLDJbE=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.2439.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.ce4a0468-8b95-4d1b-91fc-ed255d058f15",
+                "Width": 3840
+            },
+            {
+                "FileId": "3052049580292837070",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13755365,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/4",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "8DxtnoBsqcJZecHSivruD7I4Kn2rT4z1WsHl6DQKqug=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.15600.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.a6284da1-204e-451d-ba6c-c96a376e90ef",
+                "Width": 3840
+            },
+            {
+                "FileId": "3053750408157228564",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13755365,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/4",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "8DxtnoBsqcJZecHSivruD7I4Kn2rT4z1WsHl6DQKqug=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.15600.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.a6284da1-204e-451d-ba6c-c96a376e90ef",
+                "Width": 3840
+            },
+            {
+                "FileId": "3043439493264073055",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13882400,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/5",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "KclVSOJcUsauV4GNGOKdwSrDuznmdIJi4qVGzIqCNio=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.51497.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.1e571d87-e566-444f-827a-64fc868056d3",
+                "Width": 3840
+            },
+            {
+                "FileId": "3047227267150219653",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 13882400,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/5",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "KclVSOJcUsauV4GNGOKdwSrDuznmdIJi4qVGzIqCNio=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.51497.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.1e571d87-e566-444f-827a-64fc868056d3",
+                "Width": 3840
+            },
+            {
+                "FileId": "3053746826397482362",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 8318645,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/6",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "33i+dPy0h1aKiolbQryh6xM5LLwwMxMLRigowekTAu0=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.30943.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.78f76434-e8a4-4178-9aa5-3fbc5c666a29",
+                "Width": 3840
+            },
+            {
+                "FileId": "3014196405087116701",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 8318645,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/6",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "33i+dPy0h1aKiolbQryh6xM5LLwwMxMLRigowekTAu0=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.30943.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.78f76434-e8a4-4178-9aa5-3fbc5c666a29",
+                "Width": 3840
+            },
+            {
+                "FileId": "3020572163507808153",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 9148266,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/7",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "18WKp4zNxthgV7hxdzH2e1E2UjfADVGphFNKhYF/VP4=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.50647.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.3d609148-97c2-4e1a-b13a-05cb918e5e55",
+                "Width": 3840
+            },
+            {
+                "FileId": "3069712962213239369",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 9148266,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/7",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "18WKp4zNxthgV7hxdzH2e1E2UjfADVGphFNKhYF/VP4=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.50647.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.3d609148-97c2-4e1a-b13a-05cb918e5e55",
+                "Width": 3840
+            },
+            {
+                "FileId": "3056722474580363061",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 6655990,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Desktop/8",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "keFvts/Py8Ra+x06bU1X++p6sHCl4iybnd8IcHt+Pag=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.57745.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.99aec087-1a1e-4ffb-b236-2d81108177e4",
+                "Width": 3840
+            },
+            {
+                "FileId": "3067428153955352593",
+                "EISListingIdentifier": null,
+                "BackgroundColor": "",
+                "Caption": "",
+                "FileSizeInBytes": 6655990,
+                "ForegroundColor": "",
+                "Height": 2160,
+                "ImagePositionInfo": "Xbox/8",
+                "ImagePurpose": "Screenshot",
+                "UnscaledImageSHA256Hash": "keFvts/Py8Ra+x06bU1X++p6sHCl4iybnd8IcHt+Pag=",
+                "Uri": "//store-images.s-microsoft.com/image/apps.57745.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.99aec087-1a1e-4ffb-b236-2d81108177e4",
+                "Width": 3840
+            }
+        ],
+        "longDescription": "BATTLE OUT OF HELL: As the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\r\n\r\nUNLEASH THE FURY OF OLYMPUS: The Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.\r\n\r\nBEFRIEND GODS, GHOSTS, AND MONSTERS: A fully-voiced cast of colorful, larger-than-life characters is waiting to meet you! Grow your relationships with them, and experience thousands of unique story events as you learn about what's really at stake for this big, dysfunctional family.\r\n\r\nBUILT FOR REPLAYABILITY: New surprises await each time you delve into the ever-shifting Underworld, whose guardian bosses will remember you. Use the powerful Mirror of Night to grow permanently stronger, and give yourself a leg up the next time you run away from home.\r\n\r\nNOTHING IS IMPOSSIBLE: Permanent upgrades mean you don't have to be a god yourself to experience the exciting combat and gripping story. Though, if you happen to be one, crank up the challenge and get ready for some white-knuckle action that will put your well-practiced skills to the test.\r\n\r\nSIGNATURE SUPERGIANT STYLE: The rich, atmospheric presentation and unique melding of gameplay and narrative that's been core to Supergiant's games is here in full force: spectacular hand-painted environments and a blood-pumping original score bring the Underworld to life.",
+        "shortDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion. ",
+        "releaseDate": "2021-08-13T04:00:00.0000000Z",
+        "categories": [
+            "Action & adventure",
+            "Role playing"
+        ]
+    }
+}

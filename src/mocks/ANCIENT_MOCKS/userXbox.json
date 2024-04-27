@@ -1,0 +1,73 @@
+{
+"people": [
+    {
+      "xuid": "2535430809538288",
+      "isFavorite": false,
+      "isFollowingCaller": false,
+      "isFollowedByCaller": false,
+      "isIdentityShared": false,
+      "addedDateTimeUtc": null,
+      "displayName": null,
+      "realName": "José Manuel Sánchez Vega",
+      "displayPicRaw": "https://images-eds-ssl.xboxlive.com/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JQTCzxmbjUmjf26I9iWDnY.LUElEpm2wN7Xlmymxprvl&format=png",
+      "showUserAsAvatar": "2",
+      "gamertag": "LyricPepper7852",
+      "gamerScore": "3021",
+      "modernGamertag": "LyricPepper7852",
+      "modernGamertagSuffix": "",
+      "uniqueModernGamertag": "LyricPepper7852",
+      "xboxOneRep": "GoodPlayer",
+      "presenceState": null,
+      "presenceText": null,
+      "presenceDevices": null,
+      "isBroadcasting": false,
+      "isCloaked": null,
+      "isQuarantined": false,
+      "isXbox360Gamerpic": false,
+      "lastSeenDateTimeUtc": null,
+      "suggestion": null,
+      "recommendation": null,
+      "search": {
+        "Type": "None",
+        "Reasons": []
+      },
+      "titleHistory": null,
+      "multiplayerSummary": null,
+      "recentPlayer": null,
+      "follower": null,
+      "preferredColor": {
+        "primaryColor": "107c10",
+        "secondaryColor": "102b14",
+        "tertiaryColor": "155715"
+      },
+      "presenceDetails": null,
+      "titlePresence": null,
+      "titleSummaries": null,
+      "presenceTitleIds": null,
+      "detail": {
+        "accountTier": "Silver",
+        "bio": null,
+        "isVerified": false,
+        "location": null,
+        "tenure": null,
+        "watermarks": [],
+        "blocked": false,
+        "mute": false,
+        "followerCount": 4,
+        "followingCount": 4,
+        "hasGamePass": false
+      },
+      "communityManagerTitles": null,
+      "socialManager": null,
+      "broadcast": null,
+      "avatar": null,
+      "linkedAccounts": null,
+      "colorTheme": "gamerpicblur",
+      "preferredFlag": "",
+      "preferredPlatforms": []
+    }
+  ],
+  "recommendationSummary": null,
+  "friendFinderState": null,
+  "accountLinkDetails": null
+}

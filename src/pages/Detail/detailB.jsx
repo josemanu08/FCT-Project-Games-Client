@@ -7,6 +7,7 @@ import { useTrophyData } from '../../hooks/detailHooks'
 import { mapPlayImages } from '../../helpers/helpers'
 import { HeaderDetailsVersion } from '../UserSite/components/Header'
 import { Trophies } from './componentsB/Trophies'
+import { ModalStickyTop } from './componentsB/ModalStickyTop'
 
 export const DetailsB = () => {
   const location = useLocation()
@@ -47,6 +48,7 @@ export const DetailsB = () => {
         }}>
 
         </div>
+          <ModalStickyTop/>
           <TitleImagesModal/>
         </>
         )

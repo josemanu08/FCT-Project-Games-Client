@@ -15,6 +15,7 @@
 @import url('./CSS/userSite-CSS/userSIteB.css');
 @import url('./CSS/Details/detailB.css');
 @import url('./CSS/Details/trophies.css');
+@import url('./CSS/Details/modal-sticky-top.css');
 
 *{
     box-sizing: border-box;
